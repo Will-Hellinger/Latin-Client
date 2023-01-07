@@ -12,6 +12,11 @@ else:
     pip = 'pip3'
     clear = 'clear'
 
+def save_file(data, file):
+    file.seek(0)
+    json.dump(data, file, indent=4)
+    file.truncate()
+
 def run():
     try:
         if not os.path.exists('settings.json'):
@@ -32,9 +37,7 @@ def run():
             with open('settings.json', 'r+') as f:
                 data = json.load(f)
                 data['configuration']['browser-type'] = webbrowserType
-                f.seek(0)
-                json.dump(data, f, indent=4)
-                f.truncate()
+                save_file(data, f)
     
         if str(json.load(open('settings.json'))['schoology']['latin-link']) == "none":
             print('please enter the schoology link for the latin app')
@@ -47,9 +50,7 @@ def run():
             with open('settings.json', 'r+') as f:
                 data = json.load(f)
                 data['schoology']['latin-link'] = latinLink
-                f.seek(0)
-                json.dump(data, f, indent=4)
-                f.truncate()
+                save_file(data, f)
 
         if str(json.load(open('settings.json'))['schoology']['username']) == "none":
             username = str(input('please enter schoology username: '))
@@ -59,9 +60,7 @@ def run():
                 data = json.load(f)
                 data['schoology']['username'] = username
                 data['schoology']['password'] = password
-                f.seek(0)
-                json.dump(data, f, indent=4)
-                f.truncate()
+                save_file(data, f)
     except Exception as error:
         print(f'error: {error}')
         exit()
