@@ -47,7 +47,7 @@ def run():
             for name in filelist:
                 useFile = True
                 for a in range(len(exclude_list)):
-                    if name.endswith(exclude_list[a]) or '.git' in name:
+                    if name.endswith(exclude_list[a]) or '.git' in name: #dont want .git files to get tangled into/with mine
                         useFile = False
                 if useFile == True:
                     data[name.replace(subDirectory, "(sub)")] = hashlib.md5(open(name,'rb').read()).hexdigest()
