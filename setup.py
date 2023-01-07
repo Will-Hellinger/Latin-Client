@@ -1,5 +1,6 @@
-import json, validators
-from system_commands import *
+import json
+import validators
+import os
 import shutil
 
 if os.name == 'nt':
@@ -53,7 +54,7 @@ def run():
         if str(json.load(open('settings.json'))['schoology']['username']) == "none":
             username = str(input('please enter schoology username: '))
             password = str(input('please enter schoology password: '))
-            clear_console()
+            os.system(clear)
             with open('settings.json', 'r+') as f:
                 data = json.load(f)
                 data['schoology']['username'] = username
@@ -61,6 +62,6 @@ def run():
                 f.seek(0)
                 json.dump(data, f, indent=4)
                 f.truncate()
-    except:
-        print('error?')
+    except Exception as error:
+        print(f'error: {error}')
         exit()

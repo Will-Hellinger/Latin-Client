@@ -38,5 +38,18 @@ try:
     schoologyUser = str(json.load(open('settings.json'))['schoology']['username'])
     schoologyPass = str(json.load(open('settings.json'))['schoology']['password'])
     human_mode = json.load(open('settings.json'))['configuration']['fake-human']
+
+    check_modified = [latinLink, schoologyPass, schoologyUser, webbrowserType]
+    modified = True
+    for a in range(len(check_modified)):
+        if check_modified[a] == "none":
+            modified = False
+            setup.run()
+    
+    if modified == False:
+        webbrowserType = str(json.load(open('settings.json'))['configuration']['browser-type'])
+        latinLink = str(json.load(open('settings.json'))['schoology']['latin-link'])
+        schoologyUser = str(json.load(open('settings.json'))['schoology']['username'])
+        schoologyPass = str(json.load(open('settings.json'))['schoology']['password'])
 except:
     setup.run()
