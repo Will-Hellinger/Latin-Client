@@ -1,0 +1,10 @@
+{
+    "passive": true,
+    "nominative": true,
+    "positive": true,
+    "accusative": true,
+    "active": false,
+    "not deponent": true,
+    "infinitive": false,
+    "neuter": true
+}

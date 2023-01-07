@@ -1,0 +1,8 @@
+{
+    "nominative": true,
+    "singular": true,
+    "plural": false,
+    "positive": false,
+    "superlative": true,
+    "feminine": false
+}

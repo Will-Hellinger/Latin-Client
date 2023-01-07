@@ -1,0 +1,13 @@
+{
+    "passive": true,
+    "future": false,
+    "semi-deponent": false,
+    "deponent": true,
+    "active": false,
+    "present": true,
+    "not deponent": false,
+    "infinitive": true,
+    "perfect": false,
+    "gerund": false,
+    "participle": false
+}

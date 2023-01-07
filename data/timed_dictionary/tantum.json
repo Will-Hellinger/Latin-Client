@@ -1,0 +1,15 @@
+{
+    "masculine": true,
+    "dative": false,
+    "positive": true,
+    "comparative": false,
+    "singular": true,
+    "accusative": true,
+    "feminine": false,
+    "nominative": true,
+    "neuter": true,
+    "plural": false,
+    "genitive": false,
+    "ablative": false,
+    "superlative": false
+}

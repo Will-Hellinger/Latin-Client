@@ -1,0 +1,15 @@
+{
+    "ablative": false,
+    "3rd person": true,
+    "pronoun": true,
+    "demonstrative": false,
+    "1st person": false,
+    "adjective": false,
+    "dative": true,
+    "relative": false,
+    "genitive": false,
+    "accusative": false,
+    "adverb": false,
+    "reflexive": true,
+    "nominative": false
+}

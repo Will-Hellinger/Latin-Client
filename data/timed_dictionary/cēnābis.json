@@ -1,0 +1,9 @@
+{
+    "plural": false,
+    "not deponent": true,
+    "active": true,
+    "indicative": true,
+    "future": true,
+    "deponent": false,
+    "passive": false
+}

@@ -1,0 +1,8 @@
+{
+    "not deponent": true,
+    "deponent": false,
+    "1st person": false,
+    "future": false,
+    "present": true,
+    "2nd person": true
+}

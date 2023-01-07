@@ -1,0 +1,10 @@
+{
+    "positive": true,
+    "singular": true,
+    "plural": false,
+    "neuter": false,
+    "active": false,
+    "gerund": false,
+    "participle": true,
+    "imperfect": false
+}

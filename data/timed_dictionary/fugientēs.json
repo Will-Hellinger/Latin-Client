@@ -1,0 +1,12 @@
+{
+    "feminine": true,
+    "not deponent": true,
+    "accusative": true,
+    "passive": false,
+    "nominative": true,
+    "deponent": false,
+    "present": true,
+    "masculine": true,
+    "future": false,
+    "participle": true
+}

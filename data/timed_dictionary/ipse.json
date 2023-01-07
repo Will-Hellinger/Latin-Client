@@ -1,0 +1,16 @@
+{
+    "masculine": true,
+    "intensive": true,
+    "adjective": true,
+    "noun": false,
+    "nominative": true,
+    "pronoun": true,
+    "relative": false,
+    "reflexive": false,
+    "neuter": false,
+    "adverb": false,
+    "genitive": false,
+    "accusative": false,
+    "dative": false,
+    "ablative": false
+}

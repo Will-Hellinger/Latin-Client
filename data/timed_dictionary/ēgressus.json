@@ -1,0 +1,12 @@
+{
+    "positive": true,
+    "feminine": false,
+    "perfect": true,
+    "masculine": true,
+    "dative": false,
+    "participle": true,
+    "genitive": false,
+    "semi-deponent": false,
+    "infinitive": false,
+    "nominative": true
+}

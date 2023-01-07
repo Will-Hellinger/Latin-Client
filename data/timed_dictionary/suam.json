@@ -1,0 +1,10 @@
+{
+    "3rd person": true,
+    "singular": true,
+    "demonstrative": false,
+    "feminine": true,
+    "comparative": false,
+    "accusative": true,
+    "2nd person": false,
+    "plural": false
+}

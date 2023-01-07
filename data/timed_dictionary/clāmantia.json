@@ -1,0 +1,11 @@
+{
+    "positive": true,
+    "nominative": true,
+    "plural": true,
+    "participle": true,
+    "comparative": false,
+    "present": true,
+    "neuter": true,
+    "dative": false,
+    "active": true
+}

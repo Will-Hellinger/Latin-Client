@@ -1,0 +1,11 @@
+{
+    "gerund": false,
+    "active": true,
+    "participle": true,
+    "genitive": false,
+    "dative": false,
+    "deponent": false,
+    "accusative": true,
+    "passive": false,
+    "plural": false
+}

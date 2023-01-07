@@ -1,0 +1,10 @@
+{
+    "passive": true,
+    "singular": true,
+    "future": false,
+    "feminine": true,
+    "present": false,
+    "accusative": true,
+    "perfect": true,
+    "not deponent": true
+}

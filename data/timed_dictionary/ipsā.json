@@ -1,0 +1,11 @@
+{
+    "adverb": false,
+    "dative": false,
+    "adjective": true,
+    "pronoun": true,
+    "feminine": true,
+    "noun": false,
+    "plural": false,
+    "masculine": false,
+    "reflexive": false
+}

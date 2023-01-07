@@ -1,0 +1,11 @@
+{
+    "accusative": true,
+    "feminine": true,
+    "plural": true,
+    "comparative": false,
+    "positive": true,
+    "nominative": false,
+    "dative": false,
+    "superlative": false,
+    "singular": false
+}

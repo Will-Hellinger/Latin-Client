@@ -1,0 +1,10 @@
+{
+    "passive": true,
+    "ablative": true,
+    "dative": true,
+    "not deponent": true,
+    "deponent": false,
+    "participle": true,
+    "perfect": true,
+    "semi-deponent": false
+}

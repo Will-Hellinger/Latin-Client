@@ -1,0 +1,19 @@
+{
+    "genitive": true,
+    "demonstrative": true,
+    "singular": false,
+    "masculine": true,
+    "ablative": false,
+    "accusative": false,
+    "feminine": false,
+    "2nd person": false,
+    "relative": false,
+    "possessive": false,
+    "neuter": true,
+    "indefinite": false,
+    "3rd person": true,
+    "plural": true,
+    "dative": false,
+    "reflexive": false,
+    "nominative": false
+}

@@ -1,0 +1,10 @@
+{
+    "not deponent": true,
+    "passive": false,
+    "indicative": false,
+    "imperative": true,
+    "present": true,
+    "plural": false,
+    "semi-deponent": false,
+    "active": true
+}

@@ -1,0 +1,20 @@
+{
+    "passive": false,
+    "3rd person": true,
+    "active": true,
+    "future perfect": false,
+    "perfect": true,
+    "imperfect": false,
+    "not deponent": true,
+    "singular": true,
+    "semi-deponent": false,
+    "1st person": false,
+    "imperative": false,
+    "plural": false,
+    "pluperfect": false,
+    "indicative": true,
+    "2nd person": false,
+    "present": false,
+    "deponent": false,
+    "subjunctive": false
+}

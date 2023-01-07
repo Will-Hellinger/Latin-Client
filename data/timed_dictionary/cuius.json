@@ -1,0 +1,10 @@
+{
+    "singular": true,
+    "noun": false,
+    "pronoun": true,
+    "adjective": true,
+    "interrogative": true,
+    "accusative": false,
+    "reflexive": false,
+    "genitive": true
+}

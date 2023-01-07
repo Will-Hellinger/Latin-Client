@@ -1,0 +1,10 @@
+{
+    "deponent": true,
+    "active": true,
+    "semi-deponent": false,
+    "positive": true,
+    "future": false,
+    "singular": true,
+    "gerund": false,
+    "passive": false
+}

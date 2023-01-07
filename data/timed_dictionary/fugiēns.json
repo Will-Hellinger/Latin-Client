@@ -1,0 +1,11 @@
+{
+    "not deponent": true,
+    "passive": false,
+    "participle": true,
+    "singular": true,
+    "accusative": true,
+    "deponent": false,
+    "active": true,
+    "dative": false,
+    "positive": true
+}

@@ -1,0 +1,11 @@
+{
+    "passive": true,
+    "imperative": false,
+    "semi-deponent": false,
+    "not deponent": true,
+    "imperfect": true,
+    "plural": false,
+    "2nd person": false,
+    "3rd person": true,
+    "singular": true
+}

@@ -1,0 +1,10 @@
+{
+    "accusative": false,
+    "noun": false,
+    "ablative": false,
+    "nominative": true,
+    "dative": true,
+    "reflexive": false,
+    "intensive": true,
+    "adverb": false
+}

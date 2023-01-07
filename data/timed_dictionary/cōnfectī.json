@@ -1,0 +1,11 @@
+{
+    "semi-deponent": false,
+    "gerund": false,
+    "positive": true,
+    "genitive": true,
+    "perfect": true,
+    "comparative": false,
+    "future": false,
+    "passive": true,
+    "neuter": true
+}

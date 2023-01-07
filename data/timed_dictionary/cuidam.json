@@ -1,0 +1,8 @@
+{
+    "pronoun": true,
+    "plural": false,
+    "noun": false,
+    "genitive": false,
+    "adjective": true,
+    "dative": true
+}

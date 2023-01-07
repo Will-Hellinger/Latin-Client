@@ -1,0 +1,13 @@
+{
+    "semi-deponent": false,
+    "singular": true,
+    "1st person": false,
+    "2nd person": false,
+    "plural": false,
+    "not deponent": true,
+    "deponent": false,
+    "indicative": true,
+    "3rd person": true,
+    "future": false,
+    "present": true
+}

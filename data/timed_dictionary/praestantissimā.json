@@ -1,0 +1,12 @@
+{
+    "present": true,
+    "future": false,
+    "feminine": true,
+    "participle": true,
+    "gerund": false,
+    "superlative": true,
+    "passive": false,
+    "infinitive": false,
+    "singular": true,
+    "not deponent": true
+}

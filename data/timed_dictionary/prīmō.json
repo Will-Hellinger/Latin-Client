@@ -1,0 +1,12 @@
+{
+    "feminine": false,
+    "cardinal": false,
+    "dative": true,
+    "genitive": false,
+    "superlative": true,
+    "singular": true,
+    "nominative": false,
+    "positive": false,
+    "masculine": true,
+    "comparative": false
+}

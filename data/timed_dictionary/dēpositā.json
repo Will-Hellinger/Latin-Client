@@ -1,0 +1,11 @@
+{
+    "future": false,
+    "plural": false,
+    "semi-deponent": false,
+    "not deponent": true,
+    "accusative": false,
+    "participle": true,
+    "perfect": true,
+    "neuter": false,
+    "gerund": false
+}

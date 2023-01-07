@@ -1,0 +1,10 @@
+{
+    "semi-deponent": false,
+    "not deponent": true,
+    "participle": false,
+    "infinitive": true,
+    "singular": true,
+    "deponent": false,
+    "imperative": true,
+    "plural": false
+}

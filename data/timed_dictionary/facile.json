@@ -1,0 +1,10 @@
+{
+    "conjunction": false,
+    "pronoun": false,
+    "positive": true,
+    "dative": false,
+    "accusative": true,
+    "adjective": true,
+    "genitive": false,
+    "adverb": true
+}

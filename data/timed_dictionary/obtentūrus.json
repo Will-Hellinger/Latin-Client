@@ -1,0 +1,13 @@
+{
+    "nominative": true,
+    "passive": false,
+    "plural": false,
+    "gerund": false,
+    "positive": true,
+    "masculine": true,
+    "infinitive": false,
+    "neuter": false,
+    "superlative": false,
+    "future": true,
+    "singular": true
+}

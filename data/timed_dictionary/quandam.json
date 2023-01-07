@@ -1,0 +1,11 @@
+{
+    "pronoun": true,
+    "plural": false,
+    "indefinite": true,
+    "interrogative": false,
+    "neuter": false,
+    "singular": true,
+    "demonstrative": false,
+    "noun": false,
+    "accusative": true
+}

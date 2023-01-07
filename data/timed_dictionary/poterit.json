@@ -1,0 +1,8 @@
+{
+    "3rd person": true,
+    "1st person": false,
+    "singular": true,
+    "indicative": true,
+    "future": true,
+    "subjunctive": false
+}

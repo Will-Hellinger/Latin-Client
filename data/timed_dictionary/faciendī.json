@@ -1,0 +1,12 @@
+{
+    "feminine": false,
+    "gerund": true,
+    "future": true,
+    "deponent": false,
+    "semi-deponent": false,
+    "neuter": true,
+    "dative": false,
+    "participle": true,
+    "passive": true,
+    "masculine": true
+}

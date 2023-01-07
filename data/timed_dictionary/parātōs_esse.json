@@ -1,0 +1,12 @@
+{
+    "passive": true,
+    "deponent": false,
+    "feminine": false,
+    "future": false,
+    "gerund": false,
+    "participle": false,
+    "neuter": false,
+    "genitive": false,
+    "accusative": true,
+    "semi-deponent": false
+}

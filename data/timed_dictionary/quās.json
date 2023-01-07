@@ -1,0 +1,12 @@
+{
+    "reflexive": false,
+    "demonstrative": false,
+    "masculine": false,
+    "noun": false,
+    "interrogative": true,
+    "pronoun": true,
+    "neuter": false,
+    "feminine": true,
+    "singular": false,
+    "plural": true
+}

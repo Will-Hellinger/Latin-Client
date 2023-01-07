@@ -1,0 +1,11 @@
+{
+    "deponent": false,
+    "not deponent": true,
+    "3rd person": false,
+    "participle": false,
+    "infinitive": true,
+    "2nd person": true,
+    "perfect": false,
+    "present": true,
+    "future": false
+}

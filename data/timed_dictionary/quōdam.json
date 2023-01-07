@@ -1,0 +1,14 @@
+{
+    "singular": true,
+    "interrogative": false,
+    "feminine": false,
+    "noun": false,
+    "plural": false,
+    "relative": false,
+    "neuter": true,
+    "masculine": true,
+    "indefinite": true,
+    "adjective": true,
+    "pronoun": true,
+    "demonstrative": false
+}

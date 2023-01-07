@@ -1,0 +1,10 @@
+{
+    "singular": true,
+    "2nd person": false,
+    "active": true,
+    "present": false,
+    "plural": false,
+    "imperfect": false,
+    "3rd person": true,
+    "perfect": true
+}

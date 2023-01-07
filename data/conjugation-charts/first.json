@@ -1,0 +1,16 @@
+{
+    "INDICATIVES" : {
+        "ACTIVE" : {
+            "order" : "present,imperfect,future,perfect,pluperfect,future perfect",
+            "1st singular" : "ō,ābam,ābō,ī,eram,erō",
+            "2nd singular" : "ās,ābās,ābis,istī,erās,eris",
+            "3rd singular" : "at,ābat,ābit,it,erat,erit",
+            "1st plural" : "āmus,ābāmus,ābimus,imus,erāmus,erimus",
+            "2nd pluarl" : "ātis,ābātis,ābitis,istis,erātis,eritis",
+            "3rd pluarl" : "ant,ābant,ābunt,ērunt,erant,erint"
+        },
+        "PASSIVE" : {
+            "order" : "present,imperfect,future,perfect,pluperfect,future perfect"
+        }
+    }
+}

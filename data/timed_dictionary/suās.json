@@ -1,0 +1,12 @@
+{
+    "possessive": true,
+    "singular": false,
+    "3rd person": true,
+    "positive": true,
+    "reflexive": true,
+    "accusative": true,
+    "plural": true,
+    "2nd person": false,
+    "feminine": true,
+    "dative": false
+}
