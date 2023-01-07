@@ -1,12 +1,23 @@
 import requests
-from info import *
 import hashlib
 import os
 import json
+import sys
+
+build_mode = False
 
 #This is here to verify that this is not a github page lol
 checksumFilename = 'chksm.json'
 updateURL = 'https://will-hellinger.github.io/Latin-Client/'
+
+if os.name == 'nt':
+    subDirectory = '\\'
+    pip = 'pip'
+    clear = 'cls'
+else:
+    subDirectory = '/'
+    pip = 'pip3'
+    clear = 'clear'
 
 def run():
     global checksumFilename
@@ -26,7 +37,7 @@ def run():
             for file in files:
                 filelist.append(os.path.join(root,file))
 
-        exclude_list = ['.pyc', '.DS_Store', 'settings.json']
+        exclude_list = ['.pyc', '.DS_Store', 'settings.json', 'chksm.json', 'main.chksm']
 
         with open(checksumFilename, 'w') as temp_file:
             temp_file.write('{\n}')
@@ -36,7 +47,7 @@ def run():
             for name in filelist:
                 useFile = True
                 for a in range(len(exclude_list)):
-                    if name.endswith(exclude_list[a]):
+                    if name.endswith(exclude_list[a]) or '.git' in name:
                         useFile = False
                 if useFile == True:
                     data[name.replace(subDirectory, "(sub)")] = hashlib.md5(open(name,'rb').read()).hexdigest()
@@ -48,7 +59,10 @@ def run():
         chksm = hashlib.md5(str(open(checksumFilename, encoding='utf-8', mode='r').read()).encode('utf-8')).hexdigest()
         data = json.load(open(checksumFilename, encoding='utf-8', mode='r'))
 
-        if chksm != server_chksm:
+        with open('main.chksm', encoding='utf-8', mode='w') as file:
+            file.write(str(chksm))
+
+        if chksm != server_chksm and build_mode == False:
             print(f'[-] Not up to date...\nCurrent Checksum: {chksm}\nServer Checksum: {server_chksm}\nDynamically updating...')
             newest_chksms = json.loads(requests.get(f'{updateURL}chksm.json').content)
             for item in newest_chksms:
@@ -77,5 +91,12 @@ def run():
                         print('unable to download file, maybe its a server issue?')
 
         else:
-            print('[+] Up to date')
-run()
+            if build_mode == False:
+                print('[+] Up to date')
+            else:
+                print(f'[+] Building chksms: {server_chksm} -> {chksm}')
+
+if len(sys.argv) >= 2:
+    if str(sys.argv[1]) == 'build':
+        build_mode = True
+        run()
