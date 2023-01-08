@@ -7,5 +7,6 @@
     "participle": true,
     "neuter": true,
     "deponent": false,
-    "ablative": false
+    "ablative": false,
+    "active": false
 }

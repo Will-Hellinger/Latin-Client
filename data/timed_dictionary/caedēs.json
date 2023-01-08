@@ -2,5 +2,6 @@
     "nominative": true,
     "neuter": false,
     "dative": false,
-    "feminine": true
+    "feminine": true,
+    "masculine": false
 }

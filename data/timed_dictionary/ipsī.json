@@ -6,5 +6,6 @@
     "dative": true,
     "reflexive": false,
     "intensive": true,
-    "adverb": false
+    "adverb": false,
+    "pronoun": true
 }

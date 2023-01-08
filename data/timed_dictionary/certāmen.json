@@ -3,5 +3,6 @@
     "neuter": true,
     "dative": false,
     "genitive": false,
-    "ablative": false
+    "ablative": false,
+    "nominative": true
 }

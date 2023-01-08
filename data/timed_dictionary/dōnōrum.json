@@ -3,5 +3,6 @@
     "masculine": false,
     "dative": false,
     "plural": true,
-    "singular": false
+    "singular": false,
+    "ablative": false
 }

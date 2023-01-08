@@ -8,5 +8,6 @@
     "perfect": true,
     "present": false,
     "positive": true,
-    "neuter": false
+    "neuter": false,
+    "active": false
 }

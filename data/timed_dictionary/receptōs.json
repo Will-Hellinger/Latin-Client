@@ -9,5 +9,7 @@
     "genitive": false,
     "comparative": false,
     "future perfect": false,
-    "participle": true
+    "participle": true,
+    "not deponent": true,
+    "superlative": false
 }

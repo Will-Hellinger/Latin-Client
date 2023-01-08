@@ -8,5 +8,6 @@
     "genitive": false,
     "participle": true,
     "not deponent": false,
-    "superlative": false
+    "superlative": false,
+    "dative": true
 }

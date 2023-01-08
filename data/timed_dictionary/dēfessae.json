@@ -4,5 +4,7 @@
     "accusative": false,
     "nominative": true,
     "comparative": false,
-    "dative": true
+    "dative": true,
+    "feminine": true,
+    "superlative": false
 }

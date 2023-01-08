@@ -4,5 +4,6 @@
     "3rd person": true,
     "indicative": true,
     "masculine": false,
-    "active": false
+    "active": false,
+    "neuter": false
 }

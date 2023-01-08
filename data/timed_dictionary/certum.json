@@ -6,5 +6,7 @@
     "plural": false,
     "comparative": false,
     "ablative": false,
-    "neuter": true
+    "neuter": true,
+    "positive": true,
+    "accusative": true
 }

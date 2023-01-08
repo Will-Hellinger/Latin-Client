@@ -4,5 +4,7 @@
     "singular": true,
     "future": false,
     "pluperfect": true,
-    "not deponent": true
+    "not deponent": true,
+    "3rd person": true,
+    "plural": false
 }

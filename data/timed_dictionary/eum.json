@@ -15,5 +15,6 @@
     "singular": true,
     "possessive": false,
     "dative": false,
-    "genitive": false
+    "genitive": false,
+    "nominative": false
 }

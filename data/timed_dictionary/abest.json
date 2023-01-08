@@ -1,5 +1,6 @@
 {
     "present": true,
     "singular": true,
-    "indicative": true
+    "indicative": true,
+    "deponent": false
 }

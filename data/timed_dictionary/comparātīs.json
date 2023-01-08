@@ -4,5 +4,6 @@
     "comparative": false,
     "accusative": false,
     "perfect": true,
-    "passive": true
+    "passive": true,
+    "genitive": false
 }

@@ -2,5 +2,6 @@
     "3rd person": true,
     "passive": false,
     "semi-deponent": false,
-    "imperfect": false
+    "imperfect": false,
+    "plural": false
 }

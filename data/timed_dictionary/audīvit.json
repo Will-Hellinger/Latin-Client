@@ -6,5 +6,6 @@
     "semi-deponent": false,
     "imperative": false,
     "indicative": true,
-    "2nd person": false
+    "2nd person": false,
+    "pluperfect": false
 }

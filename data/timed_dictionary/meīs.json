@@ -4,5 +4,6 @@
     "comparative": false,
     "demonstrative": false,
     "positive": true,
-    "singular": false
+    "singular": false,
+    "3rd person": false
 }

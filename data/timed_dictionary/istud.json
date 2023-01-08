@@ -8,5 +8,6 @@
     "relative": false,
     "reflexive": false,
     "nominative": true,
-    "singular": true
+    "singular": true,
+    "ablative": false
 }

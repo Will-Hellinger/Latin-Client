@@ -7,5 +7,6 @@
     "plural": false,
     "positive": true,
     "genitive": false,
-    "singular": true
+    "singular": true,
+    "comparative": false
 }

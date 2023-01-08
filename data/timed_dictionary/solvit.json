@@ -7,5 +7,6 @@
     "passive": false,
     "not deponent": true,
     "1st person": false,
-    "3rd person": true
+    "3rd person": true,
+    "indicative": true
 }

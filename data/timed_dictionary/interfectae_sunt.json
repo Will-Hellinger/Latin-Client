@@ -6,5 +6,6 @@
     "indicative": true,
     "passive": true,
     "active": false,
-    "perfect": true
+    "perfect": true,
+    "plural": true
 }

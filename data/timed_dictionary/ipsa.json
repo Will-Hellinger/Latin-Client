@@ -3,5 +3,7 @@
     "neuter": true,
     "feminine": true,
     "dative": false,
-    "pronoun": true
+    "pronoun": true,
+    "masculine": false,
+    "intensive": true
 }

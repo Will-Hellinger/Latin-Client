@@ -4,5 +4,6 @@
     "plural": false,
     "positive": false,
     "superlative": true,
-    "feminine": false
+    "feminine": false,
+    "masculine": true
 }

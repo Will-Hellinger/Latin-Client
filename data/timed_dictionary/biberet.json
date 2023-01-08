@@ -7,5 +7,6 @@
     "not deponent": true,
     "deponent": false,
     "pluperfect": false,
-    "future": false
+    "future": false,
+    "passive": false
 }

@@ -3,5 +3,6 @@
     "future": false,
     "deponent": false,
     "1st person": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "singular": false
 }

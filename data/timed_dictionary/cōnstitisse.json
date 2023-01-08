@@ -5,5 +5,6 @@
     "active": true,
     "gerund": false,
     "semi-deponent": false,
-    "participle": false
+    "participle": false,
+    "infinitive": true
 }

@@ -6,5 +6,7 @@
     "neuter": true,
     "feminine": false,
     "participle": true,
-    "ablative": false
+    "ablative": false,
+    "gerund": false,
+    "dative": false
 }

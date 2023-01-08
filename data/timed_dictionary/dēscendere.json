@@ -7,5 +7,7 @@
     "infinitive": true,
     "not deponent": true,
     "subjunctive": false,
-    "gerund": false
+    "gerund": false,
+    "participle": false,
+    "indicative": false
 }

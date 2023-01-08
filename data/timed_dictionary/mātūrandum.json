@@ -3,5 +3,6 @@
     "neuter": true,
     "not deponent": true,
     "semi-deponent": false,
-    "infinitive": false
+    "infinitive": false,
+    "nominative": true
 }

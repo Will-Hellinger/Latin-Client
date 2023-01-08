@@ -6,5 +6,6 @@
     "deponent": false,
     "participle": true,
     "perfect": true,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "present": false
 }

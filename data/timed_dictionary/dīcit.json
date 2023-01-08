@@ -6,5 +6,7 @@
     "not deponent": true,
     "passive": false,
     "present": true,
-    "active": true
+    "active": true,
+    "semi-deponent": false,
+    "indicative": true
 }

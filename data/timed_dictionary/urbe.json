@@ -2,5 +2,6 @@
     "ablative": true,
     "genitive": false,
     "neuter": false,
-    "nominative": false
+    "nominative": false,
+    "singular": true
 }

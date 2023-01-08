@@ -7,5 +7,7 @@
     "feminine": false,
     "singular": true,
     "future": false,
-    "not deponent": true
+    "not deponent": true,
+    "indicative": true,
+    "perfect": true
 }

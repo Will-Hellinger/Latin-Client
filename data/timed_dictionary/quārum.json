@@ -8,5 +8,6 @@
     "singular": false,
     "pronoun": true,
     "plural": true,
-    "adjective": true
+    "adjective": true,
+    "noun": true
 }

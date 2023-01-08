@@ -9,5 +9,6 @@
     "pronoun": false,
     "adverb": true,
     "feminine": false,
-    "comparative": true
+    "comparative": true,
+    "ablative": false
 }

@@ -8,5 +8,6 @@
     "3rd person": true,
     "semi-deponent": false,
     "pluperfect": false,
-    "future": false
+    "future": false,
+    "singular": false
 }

@@ -5,5 +5,7 @@
     "genitive": false,
     "neuter": true,
     "plural": false,
-    "singular": true
+    "singular": true,
+    "not deponent": true,
+    "active": false
 }

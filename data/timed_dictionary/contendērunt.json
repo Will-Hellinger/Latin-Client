@@ -4,5 +4,6 @@
     "indicative": true,
     "2nd person": false,
     "deponent": false,
-    "perfect": true
+    "perfect": true,
+    "active": true
 }

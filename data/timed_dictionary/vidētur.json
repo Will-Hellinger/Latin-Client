@@ -4,5 +4,7 @@
     "semi-deponent": false,
     "3rd person": true,
     "present": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "not deponent": true,
+    "1st person": false
 }

@@ -5,5 +5,6 @@
     "3rd person": true,
     "perfect": true,
     "passive": false,
-    "pluperfect": false
+    "pluperfect": false,
+    "subjunctive": false
 }

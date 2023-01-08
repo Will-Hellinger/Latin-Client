@@ -1,4 +1,5 @@
 {
     "singular": true,
-    "masculine": true
+    "masculine": true,
+    "genitive": true
 }

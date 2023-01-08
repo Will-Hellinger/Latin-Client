@@ -6,5 +6,8 @@
     "pluperfect": false,
     "passive": false,
     "singular": false,
-    "active": true
+    "active": true,
+    "not deponent": true,
+    "indicative": true,
+    "plural": true
 }

@@ -16,5 +16,6 @@
     "neuter": false,
     "3rd person": true,
     "future perfect": false,
-    "future": false
+    "future": false,
+    "pluperfect": false
 }

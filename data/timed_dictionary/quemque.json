@@ -4,5 +4,6 @@
     "adverb": false,
     "adjective": true,
     "accusative": true,
-    "demonstrative": false
+    "demonstrative": false,
+    "nominative": false
 }

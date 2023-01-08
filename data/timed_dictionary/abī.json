@@ -4,5 +4,6 @@
     "3rd person": false,
     "2nd person": true,
     "plural": false,
-    "indicative": false
+    "indicative": false,
+    "active": true
 }

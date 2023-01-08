@@ -4,5 +4,7 @@
     "3rd person": true,
     "active": true,
     "imperative": false,
-    "singular": false
+    "singular": false,
+    "not deponent": true,
+    "future perfect": false
 }

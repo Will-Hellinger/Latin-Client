@@ -7,5 +7,7 @@
     "passive": false,
     "not deponent": true,
     "active": true,
-    "perfect": true
+    "perfect": true,
+    "semi-deponent": false,
+    "3rd person": true
 }

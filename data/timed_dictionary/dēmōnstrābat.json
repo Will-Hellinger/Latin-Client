@@ -6,5 +6,6 @@
     "pluperfect": false,
     "deponent": false,
     "active": true,
-    "future perfect": false
+    "future perfect": false,
+    "plural": false
 }

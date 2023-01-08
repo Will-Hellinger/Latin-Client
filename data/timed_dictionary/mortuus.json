@@ -11,5 +11,6 @@
     "infinitive": false,
     "singular": true,
     "feminine": false,
-    "perfect": true
+    "perfect": true,
+    "comparative": false
 }

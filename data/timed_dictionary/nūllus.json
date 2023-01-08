@@ -8,5 +8,7 @@
     "positive": true,
     "dative": false,
     "ablative": false,
-    "accusative": false
+    "accusative": false,
+    "plural": false,
+    "masculine": true
 }

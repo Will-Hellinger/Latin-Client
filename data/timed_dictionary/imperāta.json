@@ -11,5 +11,6 @@
     "gerund": false,
     "nominative": true,
     "passive": true,
-    "positive": true
+    "positive": true,
+    "neuter": true
 }

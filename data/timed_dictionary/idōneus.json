@@ -6,5 +6,6 @@
     "positive": true,
     "singular": true,
     "comparative": false,
-    "dative": false
+    "dative": false,
+    "feminine": false
 }

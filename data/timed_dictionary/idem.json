@@ -7,5 +7,6 @@
     "possessive": false,
     "2nd person": false,
     "nominative": true,
-    "accusative": true
+    "accusative": true,
+    "dative": false
 }

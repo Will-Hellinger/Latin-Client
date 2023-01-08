@@ -9,5 +9,6 @@
     "semi-deponent": false,
     "deponent": false,
     "not deponent": true,
-    "indicative": false
+    "indicative": false,
+    "perfect": false
 }

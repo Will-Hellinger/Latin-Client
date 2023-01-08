@@ -9,5 +9,6 @@
     "3rd person": true,
     "subjunctive": false,
     "masculine": false,
-    "feminine": true
+    "feminine": true,
+    "passive": true
 }

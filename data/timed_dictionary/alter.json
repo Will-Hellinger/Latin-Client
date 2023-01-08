@@ -4,5 +4,6 @@
     "masculine": true,
     "ablative": false,
     "singular": true,
-    "pronominal": true
+    "pronominal": true,
+    "superlative": false
 }

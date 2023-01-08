@@ -6,5 +6,6 @@
     "imperative": true,
     "gerund": false,
     "not deponent": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "singular": true
 }

@@ -5,5 +5,8 @@
     "ablative": true,
     "comparative": false,
     "participle": true,
-    "singular": false
+    "singular": false,
+    "positive": true,
+    "dative": true,
+    "infinitive": false
 }

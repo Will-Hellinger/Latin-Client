@@ -8,5 +8,6 @@
     "plural": true,
     "pluperfect": true,
     "neuter": false,
-    "future": false
+    "future": false,
+    "3rd person": true
 }

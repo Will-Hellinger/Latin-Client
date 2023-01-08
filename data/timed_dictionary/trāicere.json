@@ -6,5 +6,7 @@
     "infinitive": true,
     "future": false,
     "perfect": false,
-    "singular": true
+    "singular": true,
+    "subjunctive": false,
+    "not deponent": true
 }

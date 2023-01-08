@@ -3,5 +3,6 @@
     "accusative": true,
     "1st person": true,
     "3rd person": false,
-    "personal pronoun": true
+    "personal pronoun": true,
+    "2nd person": false
 }

@@ -6,5 +6,6 @@
     "present": false,
     "subjunctive": false,
     "not deponent": true,
-    "plural": false
+    "plural": false,
+    "deponent": false
 }

@@ -3,5 +3,6 @@
     "deponent": true,
     "future perfect": false,
     "infinitive": true,
-    "pluperfect": false
+    "pluperfect": false,
+    "present": true
 }

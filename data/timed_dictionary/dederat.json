@@ -3,5 +3,8 @@
     "active": true,
     "2nd person": false,
     "future": false,
-    "singular": true
+    "singular": true,
+    "not deponent": true,
+    "plural": false,
+    "imperative": false
 }

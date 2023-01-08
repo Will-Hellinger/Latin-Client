@@ -9,5 +9,6 @@
     "2nd person": false,
     "3rd person": true,
     "imperfect": false,
-    "active": true
+    "active": true,
+    "plural": true
 }

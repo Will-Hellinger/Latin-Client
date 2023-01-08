@@ -5,5 +5,6 @@
     "2nd person": false,
     "plural": false,
     "future perfect": false,
-    "singular": true
+    "singular": true,
+    "pluperfect": true
 }

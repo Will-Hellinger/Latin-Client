@@ -3,5 +3,7 @@
     "passive": false,
     "active": true,
     "subjunctive": false,
-    "not deponent": true
+    "not deponent": true,
+    "semi-deponent": false,
+    "singular": true
 }

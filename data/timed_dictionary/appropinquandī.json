@@ -4,5 +4,6 @@
     "not deponent": true,
     "present": false,
     "active": false,
-    "infinitive": false
+    "infinitive": false,
+    "feminine": false
 }

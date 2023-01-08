@@ -6,5 +6,6 @@
     "semi-deponent": false,
     "active": false,
     "perfect": true,
-    "feminine": false
+    "feminine": false,
+    "neuter": true
 }

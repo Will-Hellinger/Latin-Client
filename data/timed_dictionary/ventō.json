@@ -2,5 +2,6 @@
     "feminine": false,
     "gerund": false,
     "superlative": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "participle": true
 }

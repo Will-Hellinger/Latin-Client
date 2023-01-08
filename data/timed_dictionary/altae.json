@@ -4,5 +4,6 @@
     "feminine": true,
     "accusative": false,
     "neuter": false,
-    "positive": true
+    "positive": true,
+    "ablative": false
 }

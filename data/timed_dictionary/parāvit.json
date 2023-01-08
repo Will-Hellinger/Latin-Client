@@ -6,5 +6,8 @@
     "perfect": true,
     "singular": true,
     "deponent": false,
-    "present": false
+    "present": false,
+    "3rd person": true,
+    "passive": false,
+    "indicative": true
 }

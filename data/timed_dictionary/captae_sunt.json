@@ -5,5 +5,7 @@
     "neuter": false,
     "3rd person": true,
     "semi-deponent": false,
-    "2nd person": false
+    "2nd person": false,
+    "deponent": false,
+    "feminine": true
 }

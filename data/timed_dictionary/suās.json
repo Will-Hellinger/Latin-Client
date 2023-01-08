@@ -8,5 +8,7 @@
     "plural": true,
     "2nd person": false,
     "feminine": true,
-    "dative": false
+    "dative": false,
+    "comparative": false,
+    "demonstrative": false
 }

@@ -1,4 +1,5 @@
 {
     "conjunction": true,
-    "pronoun": false
+    "pronoun": false,
+    "adjective": false
 }

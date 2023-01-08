@@ -9,5 +9,6 @@
     "imperative": true,
     "participle": false,
     "perfect": false,
-    "present": true
+    "present": true,
+    "not deponent": true
 }

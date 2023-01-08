@@ -6,5 +6,6 @@
     "neuter": false,
     "plural": false,
     "accusative": false,
-    "genitive": true
+    "genitive": true,
+    "nominative": false
 }

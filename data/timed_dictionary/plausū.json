@@ -4,5 +4,6 @@
     "neuter": false,
     "masculine": true,
     "plural": false,
-    "singular": true
+    "singular": true,
+    "ablative": true
 }

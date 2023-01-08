@@ -5,5 +5,7 @@
     "ordinal": false,
     "neuter": false,
     "feminine": true,
-    "pronominal": true
+    "pronominal": true,
+    "superlative": false,
+    "demonstrative": false
 }

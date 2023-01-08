@@ -5,5 +5,7 @@
     "2nd person": false,
     "imperative": false,
     "plural": true,
-    "singular": false
+    "singular": false,
+    "subjunctive": false,
+    "present": false
 }

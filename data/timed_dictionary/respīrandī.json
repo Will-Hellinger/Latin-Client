@@ -2,5 +2,7 @@
     "dative": false,
     "nominative": true,
     "genitive": true,
-    "infinitive": false
+    "infinitive": false,
+    "comparative": false,
+    "ablative": false
 }

@@ -8,5 +8,6 @@
     "nominative": false,
     "positive": false,
     "masculine": true,
-    "comparative": false
+    "comparative": false,
+    "accusative": false
 }

@@ -1,4 +1,7 @@
 {
     "masculine": false,
-    "ablative": true
+    "ablative": true,
+    "positive": true,
+    "singular": true,
+    "genitive": false
 }

@@ -4,5 +4,7 @@
     "not deponent": true,
     "imperfect": true,
     "active": true,
-    "present": false
+    "present": false,
+    "deponent": false,
+    "subjunctive": true
 }

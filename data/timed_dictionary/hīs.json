@@ -8,5 +8,6 @@
     "nominative": false,
     "reflexive": false,
     "indefinite": false,
-    "relative": false
+    "relative": false,
+    "genitive": false
 }

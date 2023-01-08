@@ -3,5 +3,8 @@
     "imperative": false,
     "active": true,
     "semi-deponent": false,
-    "passive": false
+    "passive": false,
+    "3rd person": true,
+    "plural": true,
+    "indicative": true
 }

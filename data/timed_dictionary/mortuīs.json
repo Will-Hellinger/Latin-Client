@@ -7,5 +7,6 @@
     "gerund": false,
     "deponent": true,
     "perfect": true,
-    "participle": true
+    "participle": true,
+    "infinitive": false
 }

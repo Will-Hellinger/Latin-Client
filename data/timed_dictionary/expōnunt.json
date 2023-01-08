@@ -4,5 +4,7 @@
     "semi-deponent": false,
     "1st person": false,
     "active": true,
-    "imperative": false
+    "imperative": false,
+    "singular": false,
+    "subjunctive": false
 }

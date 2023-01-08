@@ -6,5 +6,6 @@
     "relative": false,
     "singular": true,
     "reflexive": false,
-    "genitive": false
+    "genitive": false,
+    "possessive": false
 }

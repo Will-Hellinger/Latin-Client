@@ -7,5 +7,6 @@
     "future": false,
     "semi-deponent": false,
     "deponent": false,
-    "subjunctive": true
+    "subjunctive": true,
+    "plural": true
 }

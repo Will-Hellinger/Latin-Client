@@ -4,5 +4,6 @@
     "plural": true,
     "nominative": false,
     "not deponent": true,
-    "superlative": true
+    "superlative": true,
+    "ablative": false
 }

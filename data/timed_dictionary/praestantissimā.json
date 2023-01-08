@@ -8,5 +8,7 @@
     "passive": false,
     "infinitive": false,
     "singular": true,
-    "not deponent": true
+    "not deponent": true,
+    "active": true,
+    "neuter": false
 }

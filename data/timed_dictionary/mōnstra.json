@@ -4,5 +4,6 @@
     "plural": true,
     "neuter": true,
     "ablative": false,
-    "genitive": false
+    "genitive": false,
+    "dative": false
 }

@@ -1,10 +1,11 @@
 {
     "present": true,
-    "deponent": true,
+    "deponent": false,
     "plural": true,
     "singular": false,
     "3rd person": true,
     "imperative": false,
     "future perfect": false,
-    "active": true
+    "active": true,
+    "not deponent": true
 }

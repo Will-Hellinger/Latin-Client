@@ -4,5 +4,6 @@
     "indicative": true,
     "subjunctive": false,
     "2nd person": false,
-    "deponent": false
+    "deponent": false,
+    "future": true
 }

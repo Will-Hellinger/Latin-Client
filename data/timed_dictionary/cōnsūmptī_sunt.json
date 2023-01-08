@@ -8,5 +8,6 @@
     "3rd person": true,
     "imperative": false,
     "future perfect": false,
-    "neuter": false
+    "neuter": false,
+    "indicative": true
 }

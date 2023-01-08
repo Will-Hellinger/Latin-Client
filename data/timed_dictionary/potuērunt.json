@@ -7,5 +7,6 @@
     "indicative": true,
     "singular": false,
     "imperative": false,
-    "pluperfect": false
+    "pluperfect": false,
+    "subjunctive": false
 }

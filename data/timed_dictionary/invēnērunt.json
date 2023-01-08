@@ -6,5 +6,6 @@
     "pluperfect": false,
     "plural": true,
     "imperative": false,
-    "future perfect": false
+    "future perfect": false,
+    "3rd person": true
 }

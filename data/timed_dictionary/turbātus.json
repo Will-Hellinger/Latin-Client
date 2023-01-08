@@ -7,5 +7,6 @@
     "participle": true,
     "singular": true,
     "gerund": false,
-    "plural": false
+    "plural": false,
+    "nominative": true
 }

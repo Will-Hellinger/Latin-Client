@@ -1,4 +1,7 @@
 {
     "participle": false,
-    "plural": false
+    "plural": false,
+    "imperative": true,
+    "not deponent": true,
+    "deponent": false
 }

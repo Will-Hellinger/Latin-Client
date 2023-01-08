@@ -4,5 +4,8 @@
     "singular": false,
     "positive": true,
     "2nd person": false,
-    "possessive": true
+    "possessive": true,
+    "genitive": false,
+    "nominative": false,
+    "ablative": true
 }

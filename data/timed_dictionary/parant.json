@@ -8,5 +8,6 @@
     "perfect": false,
     "2nd person": false,
     "passive": false,
-    "active": true
+    "active": true,
+    "future": false
 }

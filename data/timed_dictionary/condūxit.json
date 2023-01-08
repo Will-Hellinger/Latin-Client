@@ -2,5 +2,6 @@
     "not deponent": true,
     "3rd person": true,
     "deponent": false,
-    "pluperfect": false
+    "pluperfect": false,
+    "subjunctive": false
 }

@@ -2,5 +2,6 @@
     "plural": false,
     "nominative": false,
     "masculine": false,
-    "singular": true
+    "singular": true,
+    "feminine": false
 }

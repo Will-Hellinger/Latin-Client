@@ -7,5 +7,6 @@
     "nominative": false,
     "ablative": false,
     "masculine": true,
-    "neuter": false
+    "neuter": false,
+    "superlative": false
 }

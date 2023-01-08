@@ -5,5 +5,6 @@
     "positive": true,
     "genitive": true,
     "feminine": true,
-    "nominative": true
+    "nominative": true,
+    "superlative": false
 }

@@ -3,5 +3,6 @@
     "comparative": false,
     "singular": true,
     "neuter": true,
-    "feminine": false
+    "feminine": false,
+    "masculine": true
 }

@@ -5,5 +5,6 @@
     "indicative": false,
     "singular": false,
     "active": false,
-    "passive": true
+    "passive": true,
+    "3rd person": true
 }

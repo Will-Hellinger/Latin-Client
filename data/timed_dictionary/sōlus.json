@@ -3,5 +3,6 @@
     "nominative": true,
     "pronominal": true,
     "plural": false,
-    "positive": true
+    "positive": true,
+    "masculine": true
 }

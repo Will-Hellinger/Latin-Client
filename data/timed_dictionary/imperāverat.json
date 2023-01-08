@@ -6,5 +6,6 @@
     "3rd person": true,
     "indicative": true,
     "future": false,
-    "not deponent": true
+    "not deponent": true,
+    "subjunctive": false
 }

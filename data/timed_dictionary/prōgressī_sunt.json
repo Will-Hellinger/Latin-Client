@@ -4,5 +4,6 @@
     "semi-deponent": false,
     "deponent": true,
     "indicative": true,
-    "imperative": false
+    "imperative": false,
+    "feminine": false
 }

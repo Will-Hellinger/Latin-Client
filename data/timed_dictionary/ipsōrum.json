@@ -7,5 +7,6 @@
     "intensive": true,
     "plural": true,
     "feminine": false,
-    "adjective": true
+    "adjective": true,
+    "adverb": false
 }

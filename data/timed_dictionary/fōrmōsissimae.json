@@ -5,5 +5,7 @@
     "genitive": true,
     "masculine": false,
     "positive": false,
-    "comparative": false
+    "comparative": false,
+    "neuter": false,
+    "ablative": false
 }

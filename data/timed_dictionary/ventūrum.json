@@ -5,5 +5,6 @@
     "infinitive": false,
     "singular": true,
     "feminine": false,
-    "nominative": true
+    "nominative": true,
+    "comparative": false
 }

@@ -6,5 +6,6 @@
     "accusative": false,
     "superlative": false,
     "dative": true,
-    "comparative": false
+    "comparative": false,
+    "ablative": true
 }

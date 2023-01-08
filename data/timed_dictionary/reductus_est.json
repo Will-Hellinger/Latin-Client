@@ -10,5 +10,6 @@
     "active": false,
     "feminine": false,
     "indicative": true,
-    "pluperfect": false
+    "pluperfect": false,
+    "future": false
 }

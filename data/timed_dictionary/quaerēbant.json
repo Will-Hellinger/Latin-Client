@@ -4,5 +4,6 @@
     "passive": false,
     "plural": true,
     "3rd person": true,
-    "present": false
+    "present": false,
+    "not deponent": true
 }

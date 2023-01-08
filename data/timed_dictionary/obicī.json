@@ -4,5 +4,6 @@
     "semi-deponent": false,
     "passive": true,
     "deponent": false,
-    "present": true
+    "present": true,
+    "gerund": false
 }

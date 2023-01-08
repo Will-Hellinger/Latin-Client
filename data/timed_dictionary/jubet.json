@@ -8,5 +8,6 @@
     "not deponent": true,
     "semi-deponent": false,
     "future perfect": false,
-    "active": true
+    "active": true,
+    "plural": false
 }

@@ -5,5 +5,6 @@
     "active": true,
     "passive": false,
     "singular": true,
-    "3rd person": true
+    "3rd person": true,
+    "future": true
 }

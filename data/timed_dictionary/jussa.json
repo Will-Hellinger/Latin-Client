@@ -7,5 +7,6 @@
     "feminine": true,
     "positive": true,
     "active": false,
-    "nominative": true
+    "nominative": true,
+    "perfect": true
 }

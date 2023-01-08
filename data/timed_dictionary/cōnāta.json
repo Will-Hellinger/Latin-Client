@@ -4,5 +4,8 @@
     "positive": true,
     "neuter": true,
     "masculine": false,
-    "dative": false
+    "dative": false,
+    "nominative": true,
+    "perfect": true,
+    "infinitive": false
 }

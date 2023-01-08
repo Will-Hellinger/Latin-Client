@@ -1,5 +1,6 @@
 {
     "feminine": true,
     "plural": false,
-    "neuter": false
+    "neuter": false,
+    "nominative": true
 }

@@ -4,5 +4,7 @@
     "2nd person": false,
     "singular": true,
     "3rd person": true,
-    "indicative": true
+    "indicative": true,
+    "subjunctive": false,
+    "imperfect": true
 }

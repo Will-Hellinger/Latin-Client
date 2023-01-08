@@ -4,5 +4,6 @@
     "ablative": false,
     "indefinite": false,
     "reflexive": false,
-    "accusative": true
+    "accusative": true,
+    "3rd person": true
 }

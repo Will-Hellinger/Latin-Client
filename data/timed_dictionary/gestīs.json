@@ -8,5 +8,6 @@
     "passive": true,
     "gerund": false,
     "comparative": false,
-    "deponent": false
+    "deponent": false,
+    "participle": true
 }

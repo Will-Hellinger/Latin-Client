@@ -8,5 +8,6 @@
     "indicative": true,
     "2nd person": false,
     "1st person": false,
-    "perfect": true
+    "perfect": true,
+    "singular": true
 }

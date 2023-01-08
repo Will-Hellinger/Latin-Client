@@ -4,5 +4,6 @@
     "active": true,
     "deponent": false,
     "plural": true,
-    "imperative": false
+    "imperative": false,
+    "1st person": false
 }

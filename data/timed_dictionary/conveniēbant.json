@@ -6,5 +6,6 @@
     "subjunctive": false,
     "indicative": true,
     "deponent": false,
-    "singular": false
+    "singular": false,
+    "1st person": false
 }

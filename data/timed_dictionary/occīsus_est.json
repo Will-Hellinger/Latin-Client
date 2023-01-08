@@ -7,5 +7,6 @@
     "not deponent": true,
     "plural": false,
     "singular": true,
-    "perfect": true
+    "perfect": true,
+    "active": false
 }

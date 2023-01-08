@@ -6,5 +6,6 @@
     "superlative": false,
     "singular": false,
     "present": true,
-    "future": false
+    "future": false,
+    "positive": true
 }

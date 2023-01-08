@@ -8,5 +8,6 @@
     "singular": true,
     "passive": true,
     "not deponent": true,
-    "imperfect": false
+    "imperfect": false,
+    "deponent": false
 }

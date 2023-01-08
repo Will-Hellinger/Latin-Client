@@ -3,5 +3,8 @@
     "pluperfect": false,
     "masculine": false,
     "feminine": true,
-    "neuter": false
+    "neuter": false,
+    "3rd person": true,
+    "indicative": true,
+    "singular": true
 }

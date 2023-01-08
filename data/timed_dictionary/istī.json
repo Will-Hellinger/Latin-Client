@@ -2,5 +2,6 @@
     "nominative": true,
     "demonstrative": true,
     "genitive": false,
-    "interrogative": false
+    "interrogative": false,
+    "ablative": false
 }

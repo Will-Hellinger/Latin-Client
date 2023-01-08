@@ -10,5 +10,6 @@
     "neuter": false,
     "relative": false,
     "plural": true,
-    "reflexive": false
+    "reflexive": false,
+    "indefinite": false
 }

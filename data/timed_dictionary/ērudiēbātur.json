@@ -8,5 +8,6 @@
     "imperfect": true,
     "not deponent": true,
     "plural": false,
-    "indicative": true
+    "indicative": true,
+    "present": false
 }

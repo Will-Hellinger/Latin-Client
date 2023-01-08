@@ -8,5 +8,7 @@
     "singular": true,
     "indicative": true,
     "subjunctive": false,
-    "deponent": false
+    "deponent": false,
+    "plural": false,
+    "present": false
 }

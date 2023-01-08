@@ -3,5 +3,7 @@
     "dative": true,
     "accusative": false,
     "masculine": false,
-    "genitive": true
+    "genitive": true,
+    "plural": false,
+    "neuter": false
 }

@@ -4,5 +4,7 @@
     "subjunctive": false,
     "deponent": false,
     "3rd person": true,
-    "future perfect": false
+    "future perfect": false,
+    "passive": false,
+    "semi-deponent": false
 }

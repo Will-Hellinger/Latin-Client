@@ -4,5 +4,6 @@
     "nominative": true,
     "comparative": false,
     "singular": true,
-    "genitive": false
+    "genitive": false,
+    "dative": false
 }

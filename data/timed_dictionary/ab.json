@@ -3,5 +3,6 @@
     "pronoun": false,
     "preposition w/ abl.": true,
     "preposition w/ acc.": false,
-    "adjective": false
+    "adjective": false,
+    "conjunction": false
 }

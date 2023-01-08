@@ -4,5 +4,6 @@
     "pronoun": true,
     "neuter": false,
     "relative": true,
-    "accusative": true
+    "accusative": true,
+    "adjective": true
 }

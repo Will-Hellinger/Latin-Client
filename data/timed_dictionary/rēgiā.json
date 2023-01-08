@@ -4,5 +4,6 @@
     "feminine": true,
     "plural": false,
     "masculine": false,
-    "ablative": true
+    "ablative": true,
+    "accusative": false
 }

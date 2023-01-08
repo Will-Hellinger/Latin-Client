@@ -5,5 +5,7 @@
     "perfect": false,
     "not deponent": true,
     "semi-deponent": false,
-    "present": true
+    "present": true,
+    "passive": false,
+    "plural": false
 }

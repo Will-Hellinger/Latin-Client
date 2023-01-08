@@ -6,5 +6,8 @@
     "active": true,
     "perfect": true,
     "singular": false,
-    "deponent": false
+    "deponent": false,
+    "pluperfect": false,
+    "imperfect": false,
+    "plural": true
 }

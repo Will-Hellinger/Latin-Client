@@ -6,5 +6,6 @@
     "future": false,
     "3rd person": true,
     "not deponent": true,
-    "deponent": false
+    "deponent": false,
+    "plural": false
 }

@@ -2,5 +2,7 @@
     "nominative": true,
     "dative": false,
     "singular": false,
-    "neuter": true
+    "neuter": true,
+    "feminine": false,
+    "plural": true
 }

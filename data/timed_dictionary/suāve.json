@@ -5,5 +5,8 @@
     "superlative": false,
     "singular": true,
     "dative": false,
-    "positive": true
+    "positive": true,
+    "feminine": false,
+    "ablative": false,
+    "comparative": false
 }

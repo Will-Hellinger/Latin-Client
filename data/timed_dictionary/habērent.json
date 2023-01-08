@@ -3,5 +3,7 @@
     "subjunctive": true,
     "active": true,
     "3rd person": true,
-    "deponent": false
+    "deponent": false,
+    "not deponent": true,
+    "singular": false
 }

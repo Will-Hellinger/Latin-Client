@@ -5,5 +5,7 @@
     "neuter": true,
     "accusative": true,
     "feminine": false,
-    "singular": true
+    "singular": true,
+    "positive": false,
+    "comparative": false
 }

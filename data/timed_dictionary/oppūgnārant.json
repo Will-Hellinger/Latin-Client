@@ -8,5 +8,6 @@
     "not deponent": true,
     "semi-deponent": false,
     "indicative": true,
-    "future": false
+    "future": false,
+    "subjunctive": false
 }

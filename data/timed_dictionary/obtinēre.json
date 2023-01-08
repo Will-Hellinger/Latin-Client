@@ -8,5 +8,6 @@
     "2nd person": true,
     "not deponent": true,
     "subjunctive": false,
-    "infinitive": true
+    "infinitive": true,
+    "perfect": false
 }

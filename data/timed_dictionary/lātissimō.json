@@ -7,5 +7,6 @@
     "deponent": false,
     "feminine": false,
     "genitive": false,
-    "superlative": true
+    "superlative": true,
+    "neuter": true
 }

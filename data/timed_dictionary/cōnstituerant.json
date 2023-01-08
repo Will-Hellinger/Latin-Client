@@ -6,5 +6,6 @@
     "subjunctive": false,
     "pluperfect": true,
     "3rd person": true,
-    "imperative": false
+    "imperative": false,
+    "plural": true
 }

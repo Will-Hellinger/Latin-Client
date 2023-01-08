@@ -9,5 +9,6 @@
     "passive": false,
     "singular": true,
     "active": true,
-    "perfect": true
+    "perfect": true,
+    "not deponent": true
 }

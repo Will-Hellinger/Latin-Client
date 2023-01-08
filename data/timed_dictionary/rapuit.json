@@ -9,5 +9,6 @@
     "subjunctive": false,
     "singular": true,
     "perfect": true,
-    "present": false
+    "present": false,
+    "plural": false
 }

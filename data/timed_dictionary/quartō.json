@@ -11,5 +11,6 @@
     "ordinal": true,
     "nominative": false,
     "accusative": false,
-    "superlative": false
+    "superlative": false,
+    "dative": true
 }

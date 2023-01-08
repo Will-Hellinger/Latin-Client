@@ -4,5 +4,6 @@
     "1st person": true,
     "imperative": false,
     "2nd person": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "active": true
 }

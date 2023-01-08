@@ -4,5 +4,7 @@
     "not deponent": true,
     "deponent": false,
     "3rd person": true,
-    "masculine": true
+    "masculine": true,
+    "1st person": false,
+    "pluperfect": false
 }

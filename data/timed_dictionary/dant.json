@@ -7,5 +7,6 @@
     "subjunctive": false,
     "semi-deponent": false,
     "present": true,
-    "deponent": false
+    "deponent": false,
+    "not deponent": true
 }

@@ -10,5 +10,6 @@
     "3rd person": true,
     "1st person": false,
     "singular": false,
-    "imperfect": true
+    "imperfect": true,
+    "passive": false
 }

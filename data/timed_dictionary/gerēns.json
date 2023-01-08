@@ -7,5 +7,6 @@
     "deponent": false,
     "accusative": true,
     "passive": false,
-    "plural": false
+    "plural": false,
+    "infinitive": false
 }

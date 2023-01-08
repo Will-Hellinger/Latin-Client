@@ -1,5 +1,6 @@
 {
     "feminine": false,
     "genitive": true,
-    "masculine": true
+    "masculine": true,
+    "dative": false
 }

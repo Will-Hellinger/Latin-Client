@@ -7,5 +7,7 @@
     "semi-deponent": false,
     "future perfect": false,
     "future": true,
-    "plural": false
+    "plural": false,
+    "active": true,
+    "passive": false
 }

@@ -4,5 +4,6 @@
     "present": false,
     "active": true,
     "indicative": true,
-    "imperfect": false
+    "imperfect": false,
+    "not deponent": true
 }

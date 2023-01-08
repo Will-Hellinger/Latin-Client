@@ -5,5 +5,7 @@
     "1st person": false,
     "not deponent": true,
     "singular": true,
-    "perfect": false
+    "perfect": false,
+    "3rd person": true,
+    "semi-deponent": false
 }

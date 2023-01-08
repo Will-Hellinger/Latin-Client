@@ -3,5 +3,6 @@
     "deponent": false,
     "singular": true,
     "3rd person": true,
-    "active": true
+    "active": true,
+    "perfect": true
 }

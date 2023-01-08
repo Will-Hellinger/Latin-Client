@@ -6,5 +6,7 @@
     "genitive": false,
     "singular": false,
     "gerund": false,
-    "positive": true
+    "positive": true,
+    "ablative": true,
+    "infinitive": false
 }

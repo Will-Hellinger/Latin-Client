@@ -4,5 +4,7 @@
     "plural": true,
     "3rd person": true,
     "subjunctive": false,
-    "deponent": false
+    "deponent": false,
+    "imperfect": false,
+    "present": true
 }

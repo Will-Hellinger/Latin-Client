@@ -8,5 +8,6 @@
     "ordinal": false,
     "ablative": false,
     "positive": true,
-    "pronominal": true
+    "pronominal": true,
+    "demonstrative": false
 }

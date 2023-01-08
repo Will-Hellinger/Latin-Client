@@ -6,5 +6,8 @@
     "imperative": false,
     "not deponent": true,
     "indicative": true,
-    "plural": true
+    "plural": true,
+    "singular": false,
+    "passive": false,
+    "imperfect": false
 }

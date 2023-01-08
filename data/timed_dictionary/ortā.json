@@ -6,5 +6,6 @@
     "perfect": true,
     "dative": false,
     "masculine": false,
-    "superlative": false
+    "superlative": false,
+    "feminine": true
 }

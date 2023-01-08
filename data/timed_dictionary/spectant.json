@@ -5,5 +5,7 @@
     "present": true,
     "active": true,
     "singular": false,
-    "1st person": false
+    "1st person": false,
+    "deponent": false,
+    "imperfect": false
 }

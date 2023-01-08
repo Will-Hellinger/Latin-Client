@@ -8,5 +8,6 @@
     "not deponent": true,
     "subjunctive": true,
     "plural": false,
-    "active": true
+    "active": true,
+    "semi-deponent": false
 }

@@ -9,5 +9,6 @@
     "semi-deponent": false,
     "passive": false,
     "indicative": true,
-    "imperfect": false
+    "imperfect": false,
+    "3rd person": true
 }

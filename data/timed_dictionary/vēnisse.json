@@ -7,5 +7,6 @@
     "participle": false,
     "not deponent": true,
     "perfect": true,
-    "active": true
+    "active": true,
+    "future": false
 }

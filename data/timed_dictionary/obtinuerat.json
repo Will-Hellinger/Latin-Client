@@ -11,5 +11,6 @@
     "future perfect": false,
     "deponent": false,
     "pluperfect": true,
-    "active": true
+    "active": true,
+    "imperative": false
 }

@@ -5,5 +5,6 @@
     "comparative": false,
     "infinitive": false,
     "dative": false,
-    "masculine": true
+    "masculine": true,
+    "semi-deponent": false
 }

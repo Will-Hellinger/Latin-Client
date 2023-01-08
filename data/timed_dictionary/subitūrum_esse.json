@@ -8,5 +8,6 @@
     "feminine": false,
     "active": true,
     "masculine": true,
-    "infinitive": true
+    "infinitive": true,
+    "plural": false
 }

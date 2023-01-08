@@ -4,5 +4,7 @@
     "indicative": true,
     "imperative": false,
     "future": true,
-    "1st person": false
+    "1st person": false,
+    "singular": false,
+    "2nd person": false
 }

@@ -7,5 +7,6 @@
     "participle": true,
     "perfect": true,
     "neuter": false,
-    "gerund": false
+    "gerund": false,
+    "feminine": true
 }

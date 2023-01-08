@@ -2,5 +2,7 @@
     "dative": true,
     "nominative": true,
     "positive": true,
-    "demonstrative": false
+    "demonstrative": false,
+    "accusative": false,
+    "superlative": false
 }

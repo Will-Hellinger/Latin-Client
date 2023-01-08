@@ -8,5 +8,7 @@
     "singular": true,
     "perfect": false,
     "2nd person": false,
-    "1st person": true
+    "1st person": true,
+    "active": true,
+    "passive": false
 }

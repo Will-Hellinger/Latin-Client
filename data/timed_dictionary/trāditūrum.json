@@ -10,5 +10,6 @@
     "deponent": false,
     "feminine": false,
     "comparative": false,
-    "genitive": false
+    "genitive": false,
+    "imperfect": false
 }

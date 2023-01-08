@@ -8,5 +8,7 @@
     "neuter": true,
     "perfect": true,
     "positive": true,
-    "deponent": false
+    "deponent": false,
+    "active": false,
+    "feminine": false
 }

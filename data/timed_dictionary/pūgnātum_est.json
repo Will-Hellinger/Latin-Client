@@ -6,5 +6,6 @@
     "singular": true,
     "neuter": true,
     "masculine": false,
-    "passive": true
+    "passive": true,
+    "not deponent": true
 }

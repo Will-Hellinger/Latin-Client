@@ -5,5 +5,8 @@
     "passive": true,
     "neuter": false,
     "subjunctive": false,
-    "feminine": false
+    "feminine": false,
+    "perfect": true,
+    "3rd person": true,
+    "semi-deponent": false
 }

@@ -8,5 +8,7 @@
     "perfect": false,
     "3rd person": true,
     "pluperfect": true,
-    "not deponent": true
+    "not deponent": true,
+    "singular": true,
+    "deponent": false
 }

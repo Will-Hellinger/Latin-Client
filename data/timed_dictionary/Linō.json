@@ -2,5 +2,7 @@
     "masculine": true,
     "nominative": false,
     "plural": false,
-    "dative": true
+    "dative": true,
+    "genitive": false,
+    "accusative": false
 }

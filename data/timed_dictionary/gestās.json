@@ -6,5 +6,7 @@
     "ablative": false,
     "perfect": true,
     "infinitive": false,
-    "feminine": true
+    "feminine": true,
+    "positive": true,
+    "dative": false
 }

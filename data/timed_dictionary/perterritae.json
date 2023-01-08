@@ -8,5 +8,6 @@
     "dative": true,
     "active": false,
     "pluperfect": false,
-    "positive": true
+    "positive": true,
+    "passive": true
 }

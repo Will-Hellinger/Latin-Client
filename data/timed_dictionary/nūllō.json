@@ -2,5 +2,6 @@
     "ablative": true,
     "masculine": true,
     "demonstrative": false,
-    "singular": true
+    "singular": true,
+    "superlative": false
 }

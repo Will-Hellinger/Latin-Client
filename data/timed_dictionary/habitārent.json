@@ -3,5 +3,6 @@
     "2nd person": false,
     "plural": true,
     "active": true,
-    "singular": false
+    "singular": false,
+    "future": false
 }

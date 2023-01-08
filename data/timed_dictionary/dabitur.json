@@ -3,5 +3,8 @@
     "semi-deponent": false,
     "subjunctive": false,
     "passive": true,
-    "future perfect": false
+    "future perfect": false,
+    "indicative": true,
+    "2nd person": false,
+    "future": true
 }

@@ -5,5 +5,7 @@
     "not deponent": true,
     "1st person": false,
     "passive": false,
-    "3rd person": true
+    "3rd person": true,
+    "subjunctive": true,
+    "singular": true
 }

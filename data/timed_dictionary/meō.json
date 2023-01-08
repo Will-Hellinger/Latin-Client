@@ -7,5 +7,6 @@
     "ablative": true,
     "masculine": true,
     "dative": true,
-    "neuter": true
+    "neuter": true,
+    "feminine": false
 }

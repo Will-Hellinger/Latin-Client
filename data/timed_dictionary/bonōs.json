@@ -6,5 +6,6 @@
     "masculine": true,
     "genitive": false,
     "superlative": false,
-    "comparative": false
+    "comparative": false,
+    "plural": true
 }

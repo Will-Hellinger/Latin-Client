@@ -4,5 +4,7 @@
     "singular": true,
     "semi-deponent": false,
     "present": true,
-    "imperative": true
+    "imperative": true,
+    "future": false,
+    "perfect": false
 }

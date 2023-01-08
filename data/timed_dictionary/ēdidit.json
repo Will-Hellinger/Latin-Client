@@ -8,5 +8,6 @@
     "singular": true,
     "perfect": true,
     "not deponent": true,
-    "plural": false
+    "plural": false,
+    "3rd person": true
 }

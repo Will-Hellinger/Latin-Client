@@ -3,5 +3,8 @@
     "not deponent": true,
     "deponent": false,
     "semi-deponent": false,
-    "plural": false
+    "plural": false,
+    "3rd person": true,
+    "present": true,
+    "indicative": true
 }

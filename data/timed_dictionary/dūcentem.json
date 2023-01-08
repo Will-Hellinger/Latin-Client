@@ -6,5 +6,7 @@
     "ablative": false,
     "participle": true,
     "gerund": false,
-    "feminine": true
+    "feminine": true,
+    "superlative": false,
+    "not deponent": true
 }

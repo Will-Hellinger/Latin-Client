@@ -6,5 +6,6 @@
     "interrogative": true,
     "accusative": false,
     "reflexive": false,
-    "genitive": true
+    "genitive": true,
+    "demonstrative": false
 }

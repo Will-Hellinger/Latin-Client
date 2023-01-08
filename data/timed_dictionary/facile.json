@@ -6,5 +6,6 @@
     "accusative": true,
     "adjective": true,
     "genitive": false,
-    "adverb": true
+    "adverb": true,
+    "comparative": false
 }

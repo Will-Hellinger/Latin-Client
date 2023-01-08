@@ -4,5 +4,6 @@
     "ablative": true,
     "nominative": false,
     "positive": true,
-    "comparative": false
+    "comparative": false,
+    "perfect": true
 }

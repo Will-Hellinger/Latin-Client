@@ -2,5 +2,6 @@
     "plural": false,
     "singular": true,
     "deponent": false,
-    "passive": false
+    "passive": false,
+    "not deponent": true
 }

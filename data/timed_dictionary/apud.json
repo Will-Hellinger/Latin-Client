@@ -1,5 +1,6 @@
 {
     "adverb": false,
     "preposition w/ acc.": true,
-    "conjunction": false
+    "conjunction": false,
+    "preposition w/ abl.": false
 }

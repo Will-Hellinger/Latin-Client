@@ -7,5 +7,7 @@
     "semi-deponent": false,
     "3rd person": true,
     "subjunctive": false,
-    "passive": false
+    "passive": false,
+    "1st person": false,
+    "future": false
 }

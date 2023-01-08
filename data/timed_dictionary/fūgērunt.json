@@ -5,5 +5,7 @@
     "imperfect": false,
     "perfect": true,
     "semi-deponent": false,
-    "not deponent": true
+    "not deponent": true,
+    "3rd person": true,
+    "imperative": false
 }

@@ -5,5 +5,6 @@
     "deponent": true,
     "infinitive": false,
     "perfect": true,
-    "positive": true
+    "positive": true,
+    "neuter": false
 }

@@ -11,5 +11,6 @@
     "2nd person": false,
     "3rd person": true,
     "indicative": true,
-    "imperative": false
+    "imperative": false,
+    "subjunctive": false
 }

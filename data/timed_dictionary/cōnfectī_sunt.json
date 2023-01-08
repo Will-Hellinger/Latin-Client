@@ -10,5 +10,6 @@
     "semi-deponent": false,
     "2nd person": false,
     "deponent": false,
-    "not deponent": true
+    "not deponent": true,
+    "1st person": false
 }

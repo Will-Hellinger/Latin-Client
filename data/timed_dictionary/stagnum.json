@@ -4,5 +4,6 @@
     "genitive": false,
     "neuter": true,
     "singular": true,
-    "plural": false
+    "plural": false,
+    "feminine": false
 }

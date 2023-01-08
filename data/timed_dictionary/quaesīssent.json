@@ -2,5 +2,6 @@
     "passive": false,
     "pluperfect": true,
     "subjunctive": true,
-    "plural": true
+    "plural": true,
+    "indicative": false
 }

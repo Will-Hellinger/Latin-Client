@@ -4,5 +4,7 @@
     "superlative": false,
     "active": true,
     "participle": true,
-    "deponent": false
+    "deponent": false,
+    "not deponent": true,
+    "passive": false
 }

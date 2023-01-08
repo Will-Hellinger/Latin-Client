@@ -3,5 +3,6 @@
     "nominative": true,
     "singular": false,
     "feminine": true,
-    "plural": true
+    "plural": true,
+    "genitive": false
 }

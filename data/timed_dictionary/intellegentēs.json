@@ -7,5 +7,6 @@
     "participle": true,
     "feminine": true,
     "positive": true,
-    "accusative": true
+    "accusative": true,
+    "nominative": true
 }

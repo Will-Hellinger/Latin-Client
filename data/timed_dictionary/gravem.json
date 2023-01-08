@@ -2,5 +2,6 @@
     "accusative": true,
     "neuter": false,
     "feminine": true,
-    "comparative": false
+    "comparative": false,
+    "plural": false
 }

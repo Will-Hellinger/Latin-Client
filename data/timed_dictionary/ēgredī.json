@@ -7,5 +7,7 @@
     "future": false,
     "perfect": false,
     "passive": true,
-    "active": false
+    "active": false,
+    "gerund": false,
+    "participle": false
 }

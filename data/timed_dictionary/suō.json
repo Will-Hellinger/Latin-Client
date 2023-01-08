@@ -10,5 +10,7 @@
     "comparative": false,
     "nominative": false,
     "demonstrative": false,
-    "possessive": true
+    "possessive": true,
+    "genitive": false,
+    "reflexive": true
 }

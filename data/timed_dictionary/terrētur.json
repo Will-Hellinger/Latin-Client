@@ -6,5 +6,6 @@
     "3rd person": true,
     "deponent": false,
     "perfect": false,
-    "indicative": true
+    "indicative": true,
+    "present": true
 }

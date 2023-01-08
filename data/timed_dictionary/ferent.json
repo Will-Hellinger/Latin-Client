@@ -8,5 +8,6 @@
     "plural": true,
     "semi-deponent": false,
     "subjunctive": false,
-    "1st person": false
+    "1st person": false,
+    "active": true
 }

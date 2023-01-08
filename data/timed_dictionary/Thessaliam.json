@@ -5,5 +5,6 @@
     "accusative": true,
     "neuter": false,
     "dative": false,
-    "genitive": false
+    "genitive": false,
+    "ablative": false
 }

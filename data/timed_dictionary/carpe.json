@@ -9,5 +9,6 @@
     "singular": true,
     "not deponent": true,
     "subjunctive": false,
-    "1st person": false
+    "1st person": false,
+    "3rd person": false
 }

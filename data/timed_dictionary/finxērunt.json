@@ -4,5 +4,6 @@
     "imperative": false,
     "perfect": true,
     "singular": false,
-    "subjunctive": false
+    "subjunctive": false,
+    "indicative": true
 }

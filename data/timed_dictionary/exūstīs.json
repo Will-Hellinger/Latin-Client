@@ -8,5 +8,6 @@
     "nominative": false,
     "genitive": false,
     "perfect": true,
-    "ablative": true
+    "ablative": true,
+    "participle": true
 }

@@ -4,5 +4,7 @@
     "not deponent": true,
     "future": false,
     "active": true,
-    "participle": false
+    "participle": false,
+    "present": false,
+    "passive": false
 }

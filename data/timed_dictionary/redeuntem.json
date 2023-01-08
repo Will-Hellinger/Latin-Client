@@ -6,5 +6,6 @@
     "masculine": true,
     "neuter": false,
     "passive": false,
-    "ablative": false
+    "ablative": false,
+    "present": true
 }

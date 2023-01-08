@@ -4,5 +4,6 @@
     "singular": true,
     "semi-deponent": false,
     "indicative": false,
-    "present": true
+    "present": true,
+    "plural": false
 }

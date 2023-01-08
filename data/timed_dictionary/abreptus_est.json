@@ -7,5 +7,6 @@
     "active": false,
     "pluperfect": false,
     "subjunctive": false,
-    "deponent": false
+    "deponent": false,
+    "not deponent": true
 }

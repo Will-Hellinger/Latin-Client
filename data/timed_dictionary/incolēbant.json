@@ -3,5 +3,6 @@
     "semi-deponent": false,
     "1st person": false,
     "passive": false,
-    "active": true
+    "active": true,
+    "plural": true
 }

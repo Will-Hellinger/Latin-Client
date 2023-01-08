@@ -9,5 +9,6 @@
     "imperfect": false,
     "nominative": true,
     "feminine": false,
-    "participle": true
+    "participle": true,
+    "future": false
 }

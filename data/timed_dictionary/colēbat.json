@@ -5,5 +5,6 @@
     "semi-deponent": false,
     "singular": true,
     "deponent": false,
-    "imperfect": true
+    "imperfect": true,
+    "imperative": false
 }

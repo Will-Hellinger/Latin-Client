@@ -2,5 +2,8 @@
     "1st person": false,
     "3rd person": true,
     "ablative": false,
-    "demonstrative": true
+    "demonstrative": true,
+    "genitive": true,
+    "2nd person": false,
+    "indefinite": false
 }

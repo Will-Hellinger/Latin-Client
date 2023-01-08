@@ -10,5 +10,6 @@
     "semi-deponent": false,
     "imperfect": false,
     "imperative": false,
-    "not deponent": true
+    "not deponent": true,
+    "deponent": false
 }

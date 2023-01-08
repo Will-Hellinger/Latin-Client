@@ -4,5 +4,6 @@
     "present": false,
     "semi-deponent": false,
     "passive": true,
-    "neuter": false
+    "neuter": false,
+    "indicative": true
 }

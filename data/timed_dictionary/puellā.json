@@ -3,5 +3,7 @@
     "ablative": true,
     "neuter": false,
     "plural": false,
-    "nominative": false
+    "nominative": false,
+    "singular": true,
+    "dative": false
 }

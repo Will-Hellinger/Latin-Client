@@ -4,5 +4,7 @@
     "demonstrative": false,
     "pronominal": true,
     "superlative": false,
-    "feminine": false
+    "feminine": false,
+    "masculine": true,
+    "accusative": false
 }

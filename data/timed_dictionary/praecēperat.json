@@ -4,5 +4,6 @@
     "1st person": false,
     "not deponent": true,
     "pluperfect": true,
-    "plural": false
+    "plural": false,
+    "present": false
 }

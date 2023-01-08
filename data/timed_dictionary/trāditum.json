@@ -6,5 +6,8 @@
     "not deponent": true,
     "passive": true,
     "participle": true,
-    "ablative": false
+    "ablative": false,
+    "pluperfect": false,
+    "positive": true,
+    "accusative": true
 }

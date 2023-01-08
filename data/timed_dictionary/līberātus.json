@@ -8,5 +8,7 @@
     "not deponent": true,
     "deponent": false,
     "plural": false,
-    "positive": true
+    "positive": true,
+    "active": false,
+    "participle": true
 }

@@ -5,5 +5,7 @@
     "imperfect": true,
     "not deponent": true,
     "passive": false,
-    "future perfect": false
+    "future perfect": false,
+    "deponent": false,
+    "subjunctive": false
 }

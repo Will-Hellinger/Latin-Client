@@ -7,5 +7,6 @@
     "singular": true,
     "demonstrative": false,
     "noun": false,
-    "accusative": true
+    "accusative": true,
+    "masculine": false
 }

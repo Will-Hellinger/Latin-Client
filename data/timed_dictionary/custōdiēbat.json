@@ -6,5 +6,6 @@
     "deponent": false,
     "not deponent": true,
     "pluperfect": false,
-    "singular": true
+    "singular": true,
+    "perfect": false
 }

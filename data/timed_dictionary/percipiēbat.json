@@ -5,5 +5,7 @@
     "indicative": true,
     "2nd person": false,
     "not deponent": true,
-    "present": false
+    "present": false,
+    "imperfect": true,
+    "future perfect": false
 }

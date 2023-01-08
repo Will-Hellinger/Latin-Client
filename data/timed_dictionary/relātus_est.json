@@ -5,5 +5,7 @@
     "deponent": false,
     "neuter": false,
     "subjunctive": false,
-    "perfect": true
+    "perfect": true,
+    "passive": true,
+    "feminine": false
 }

@@ -4,5 +4,7 @@
     "present": true,
     "3rd person": false,
     "deponent": false,
-    "singular": true
+    "singular": true,
+    "participle": false,
+    "imperative": true
 }

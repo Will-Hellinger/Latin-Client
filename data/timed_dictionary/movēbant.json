@@ -5,5 +5,7 @@
     "plural": true,
     "subjunctive": false,
     "semi-deponent": false,
-    "deponent": false
+    "deponent": false,
+    "imperative": false,
+    "indicative": true
 }

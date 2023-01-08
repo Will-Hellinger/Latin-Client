@@ -4,5 +4,7 @@
     "dative": false,
     "genitive": true,
     "ablative": false,
-    "neuter": true
+    "neuter": true,
+    "accusative": false,
+    "feminine": false
 }

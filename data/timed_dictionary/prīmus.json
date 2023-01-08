@@ -6,5 +6,7 @@
     "comparative": false,
     "cardinal": false,
     "ordinal": true,
-    "masculine": true
+    "masculine": true,
+    "nominative": true,
+    "superlative": true
 }

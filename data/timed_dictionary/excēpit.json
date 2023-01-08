@@ -7,5 +7,7 @@
     "singular": true,
     "perfect": true,
     "indicative": true,
-    "passive": false
+    "passive": false,
+    "future": false,
+    "imperative": false
 }

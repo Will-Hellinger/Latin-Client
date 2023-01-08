@@ -5,5 +5,7 @@
     "present": true,
     "not deponent": true,
     "active": false,
-    "infinitive": true
+    "infinitive": true,
+    "deponent": false,
+    "gerund": false
 }

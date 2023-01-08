@@ -7,5 +7,7 @@
     "perfect": false,
     "singular": false,
     "passive": true,
-    "not deponent": true
+    "not deponent": true,
+    "subjunctive": false,
+    "imperfect": false
 }

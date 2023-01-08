@@ -5,5 +5,8 @@
     "singular": false,
     "3rd person": true,
     "semi-deponent": false,
-    "subjunctive": true
+    "subjunctive": true,
+    "present": false,
+    "plural": true,
+    "indicative": false
 }

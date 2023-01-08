@@ -16,5 +16,6 @@
     "passive": true,
     "subjunctive": true,
     "1st person": false,
-    "future": false
+    "future": false,
+    "perfect": false
 }

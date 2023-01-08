@@ -8,5 +8,6 @@
     "active": true,
     "semi-deponent": false,
     "future perfect": false,
-    "indicative": true
+    "indicative": true,
+    "singular": true
 }

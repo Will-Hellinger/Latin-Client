@@ -7,5 +7,7 @@
     "indicative": true,
     "3rd person": true,
     "not deponent": true,
-    "pluperfect": true
+    "pluperfect": true,
+    "singular": true,
+    "subjunctive": false
 }

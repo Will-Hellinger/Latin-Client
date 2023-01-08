@@ -7,5 +7,6 @@
     "semi-deponent": false,
     "present": true,
     "indicative": true,
-    "active": true
+    "active": true,
+    "deponent": false
 }

@@ -4,5 +4,6 @@
     "not deponent": true,
     "indicative": true,
     "3rd person": true,
-    "imperative": false
+    "imperative": false,
+    "plural": false
 }

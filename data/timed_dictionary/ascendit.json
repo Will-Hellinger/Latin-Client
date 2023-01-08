@@ -12,5 +12,6 @@
     "present": true,
     "semi-deponent": false,
     "1st person": false,
-    "subjunctive": false
+    "subjunctive": false,
+    "pluperfect": false
 }

@@ -9,5 +9,7 @@
     "participle": true,
     "singular": true,
     "deponent": true,
-    "plural": false
+    "plural": false,
+    "genitive": false,
+    "accusative": false
 }

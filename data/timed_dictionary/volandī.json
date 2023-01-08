@@ -8,5 +8,6 @@
     "semi-deponent": false,
     "passive": true,
     "masculine": true,
-    "nominative": true
+    "nominative": true,
+    "not deponent": true
 }

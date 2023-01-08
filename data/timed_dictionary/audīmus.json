@@ -6,5 +6,6 @@
     "active": true,
     "semi-deponent": false,
     "not deponent": true,
-    "1st person": true
+    "1st person": true,
+    "plural": true
 }

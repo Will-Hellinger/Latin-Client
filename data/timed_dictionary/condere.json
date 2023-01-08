@@ -4,5 +4,6 @@
     "1st person": false,
     "future": false,
     "present": true,
-    "2nd person": true
+    "2nd person": true,
+    "plural": false
 }

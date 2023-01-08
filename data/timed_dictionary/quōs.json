@@ -2,5 +2,6 @@
     "noun": false,
     "demonstrative": false,
     "interrogative": true,
-    "reflexive": false
+    "reflexive": false,
+    "singular": false
 }

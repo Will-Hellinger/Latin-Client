@@ -4,5 +4,7 @@
     "feminine": false,
     "neuter": true,
     "semi-deponent": false,
-    "future perfect": false
+    "future perfect": false,
+    "pluperfect": false,
+    "genitive": true
 }

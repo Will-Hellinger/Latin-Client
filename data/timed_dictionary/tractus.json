@@ -5,5 +5,7 @@
     "superlative": false,
     "neuter": false,
     "deponent": false,
-    "positive": true
+    "positive": true,
+    "infinitive": false,
+    "not deponent": true
 }

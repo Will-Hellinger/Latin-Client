@@ -5,5 +5,8 @@
     "semi-deponent": false,
     "plural": false,
     "neuter": false,
-    "indicative": true
+    "indicative": true,
+    "not deponent": true,
+    "future": false,
+    "future perfect": false
 }

@@ -3,5 +3,8 @@
     "semi-deponent": false,
     "singular": false,
     "infinitive": false,
-    "present": false
+    "present": false,
+    "nominative": false,
+    "passive": true,
+    "feminine": true
 }

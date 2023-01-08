@@ -6,5 +6,6 @@
     "comparative": false,
     "feminine": false,
     "superlative": true,
-    "singular": true
+    "singular": true,
+    "plural": false
 }

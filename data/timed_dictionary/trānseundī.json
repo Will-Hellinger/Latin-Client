@@ -9,5 +9,6 @@
     "genitive": true,
     "participle": true,
     "feminine": false,
-    "imperfect": false
+    "imperfect": false,
+    "neuter": true
 }

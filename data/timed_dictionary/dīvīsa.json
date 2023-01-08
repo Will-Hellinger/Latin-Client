@@ -8,5 +8,6 @@
     "comparative": false,
     "dative": false,
     "masculine": false,
-    "deponent": false
+    "deponent": false,
+    "superlative": false
 }

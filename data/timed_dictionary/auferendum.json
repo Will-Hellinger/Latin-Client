@@ -10,5 +10,6 @@
     "dative": false,
     "accusative": true,
     "nominative": true,
-    "masculine": true
+    "masculine": true,
+    "gerund": true
 }

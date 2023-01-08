@@ -6,5 +6,6 @@
     "genitive": true,
     "perfect": true,
     "feminine": false,
-    "deponent": false
+    "deponent": false,
+    "passive": true
 }

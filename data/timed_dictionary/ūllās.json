@@ -2,5 +2,8 @@
     "demonstrative": false,
     "pronominal": true,
     "positive": true,
-    "accusative": true
+    "accusative": true,
+    "neuter": false,
+    "singular": false,
+    "plural": true
 }

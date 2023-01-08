@@ -7,5 +7,8 @@
     "not deponent": true,
     "3rd person": true,
     "indicative": true,
-    "2nd person": false
+    "2nd person": false,
+    "subjunctive": false,
+    "imperfect": true,
+    "singular": true
 }

@@ -3,5 +3,6 @@
     "subjunctive": false,
     "not deponent": true,
     "future perfect": false,
-    "plural": false
+    "plural": false,
+    "imperative": false
 }

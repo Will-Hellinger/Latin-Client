@@ -7,5 +7,7 @@
     "deponent": false,
     "active": true,
     "dative": false,
-    "positive": true
+    "positive": true,
+    "present": true,
+    "genitive": false
 }

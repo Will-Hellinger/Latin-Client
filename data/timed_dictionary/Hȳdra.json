@@ -3,5 +3,6 @@
     "singular": true,
     "neuter": false,
     "nominative": true,
-    "ablative": false
+    "ablative": false,
+    "accusative": false
 }

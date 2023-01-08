@@ -9,5 +9,7 @@
     "future perfect": false,
     "comparative": false,
     "infinitive": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "participle": true,
+    "not deponent": false
 }

@@ -7,5 +7,6 @@
     "nominative": false,
     "genitive": true,
     "dative": true,
-    "plural": false
+    "plural": false,
+    "feminine": true
 }

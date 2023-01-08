@@ -4,5 +4,6 @@
     "perfect": true,
     "nominative": false,
     "superlative": false,
-    "genitive": false
+    "genitive": false,
+    "not deponent": true
 }

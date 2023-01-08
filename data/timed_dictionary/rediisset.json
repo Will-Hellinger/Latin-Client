@@ -7,5 +7,7 @@
     "active": true,
     "3rd person": true,
     "present": false,
-    "singular": true
+    "singular": true,
+    "perfect": false,
+    "pluperfect": true
 }

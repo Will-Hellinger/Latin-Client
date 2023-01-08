@@ -4,5 +4,6 @@
     "noun": false,
     "singular": false,
     "demonstrative": false,
-    "interrogative": true
+    "interrogative": true,
+    "ablative": true
 }

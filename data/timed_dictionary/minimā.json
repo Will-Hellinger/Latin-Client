@@ -2,5 +2,6 @@
     "genitive": false,
     "singular": true,
     "dative": false,
-    "superlative": true
+    "superlative": true,
+    "masculine": false
 }

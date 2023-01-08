@@ -9,5 +9,6 @@
     "pluperfect": true,
     "2nd person": false,
     "1st person": false,
-    "indicative": true
+    "indicative": true,
+    "imperative": false
 }

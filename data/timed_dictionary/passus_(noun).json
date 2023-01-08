@@ -2,5 +2,7 @@
     "neuter": false,
     "singular": true,
     "accusative": false,
-    "masculine": true
+    "masculine": true,
+    "plural": false,
+    "nominative": true
 }

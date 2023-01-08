@@ -2,5 +2,6 @@
     "noun": false,
     "singular": true,
     "pronoun": true,
-    "relative": false
+    "relative": false,
+    "adjective": true
 }

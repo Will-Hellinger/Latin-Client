@@ -6,5 +6,6 @@
     "present": false,
     "accusative": true,
     "perfect": true,
-    "not deponent": true
+    "not deponent": true,
+    "masculine": false
 }

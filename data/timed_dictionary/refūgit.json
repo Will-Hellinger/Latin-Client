@@ -4,5 +4,6 @@
     "active": true,
     "not deponent": true,
     "future": false,
-    "plural": false
+    "plural": false,
+    "passive": false
 }

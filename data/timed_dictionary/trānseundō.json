@@ -3,5 +3,6 @@
     "future": true,
     "nominative": false,
     "accusative": false,
-    "infinitive": false
+    "infinitive": false,
+    "feminine": false
 }

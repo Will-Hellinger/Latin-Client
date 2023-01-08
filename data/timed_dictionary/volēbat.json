@@ -4,5 +4,7 @@
     "not deponent": true,
     "active": true,
     "3rd person": true,
-    "imperative": false
+    "imperative": false,
+    "2nd person": false,
+    "plural": false
 }

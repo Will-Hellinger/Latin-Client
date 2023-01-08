@@ -10,5 +10,6 @@
     "3rd person": true,
     "plural": true,
     "active": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "future perfect": false
 }

@@ -4,5 +4,6 @@
     "future": false,
     "indicative": false,
     "singular": true,
-    "plural": false
+    "plural": false,
+    "not deponent": true
 }

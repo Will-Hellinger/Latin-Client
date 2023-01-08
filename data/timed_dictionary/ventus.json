@@ -7,5 +7,7 @@
     "neuter": false,
     "positive": true,
     "perfect": true,
-    "singular": true
+    "singular": true,
+    "nominative": true,
+    "participle": true
 }

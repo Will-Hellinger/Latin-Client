@@ -6,5 +6,6 @@
     "possessive": true,
     "neuter": true,
     "nominative": true,
-    "accusative": true
+    "accusative": true,
+    "reflexive": true
 }

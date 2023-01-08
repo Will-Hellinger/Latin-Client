@@ -11,5 +11,6 @@
     "1st person": false,
     "pluperfect": false,
     "masculine": true,
-    "future perfect": false
+    "future perfect": false,
+    "singular": true
 }

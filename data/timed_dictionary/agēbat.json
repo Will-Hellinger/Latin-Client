@@ -8,5 +8,6 @@
     "semi-deponent": false,
     "imperfect": true,
     "deponent": false,
-    "imperative": false
+    "imperative": false,
+    "perfect": false
 }

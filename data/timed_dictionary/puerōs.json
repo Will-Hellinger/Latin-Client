@@ -1,4 +1,7 @@
 {
     "accusative": true,
-    "masculine": true
+    "masculine": true,
+    "singular": false,
+    "ablative": false,
+    "plural": true
 }

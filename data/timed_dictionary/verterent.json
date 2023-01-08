@@ -9,5 +9,7 @@
     "deponent": false,
     "indicative": false,
     "present": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "future": false,
+    "plural": true
 }

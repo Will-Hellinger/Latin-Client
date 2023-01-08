@@ -7,5 +7,6 @@
     "deponent": false,
     "subjunctive": false,
     "plural": true,
-    "3rd person": true
+    "3rd person": true,
+    "active": true
 }

@@ -5,5 +5,7 @@
     "nominative": true,
     "superlative": false,
     "neuter": true,
-    "positive": true
+    "positive": true,
+    "deponent": false,
+    "ablative": false
 }

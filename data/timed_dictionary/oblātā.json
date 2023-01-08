@@ -7,5 +7,6 @@
     "participle": true,
     "passive": true,
     "singular": true,
-    "feminine": true
+    "feminine": true,
+    "not deponent": true
 }

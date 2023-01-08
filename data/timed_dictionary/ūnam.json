@@ -7,5 +7,6 @@
     "positive": true,
     "accusative": true,
     "plural": false,
-    "masculine": false
+    "masculine": false,
+    "feminine": true
 }

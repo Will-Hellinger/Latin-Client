@@ -3,5 +3,6 @@
     "deponent": false,
     "feminine": false,
     "positive": true,
-    "singular": true
+    "singular": true,
+    "neuter": true
 }

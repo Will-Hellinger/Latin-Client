@@ -8,5 +8,9 @@
     "2nd person": false,
     "pluperfect": true,
     "subjunctive": false,
-    "3rd person": true
+    "3rd person": true,
+    "perfect": false,
+    "masculine": false,
+    "feminine": false,
+    "present": false
 }

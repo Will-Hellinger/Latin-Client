@@ -3,5 +3,8 @@
     "neuter": false,
     "singular": true,
     "genitive": false,
-    "plural": false
+    "plural": false,
+    "masculine": true,
+    "superlative": true,
+    "comparative": false
 }

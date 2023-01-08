@@ -9,5 +9,6 @@
     "neuter": false,
     "superlative": false,
     "future": true,
-    "singular": true
+    "singular": true,
+    "participle": true
 }

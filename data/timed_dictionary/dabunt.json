@@ -3,5 +3,6 @@
     "1st person": false,
     "imperative": false,
     "deponent": false,
-    "indicative": true
+    "indicative": true,
+    "future": true
 }

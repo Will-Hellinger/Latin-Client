@@ -6,5 +6,7 @@
     "not deponent": true,
     "active": false,
     "ablative": true,
-    "imperfect": false
+    "imperfect": false,
+    "singular": true,
+    "future": false
 }

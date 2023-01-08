@@ -4,5 +4,7 @@
     "deponent": false,
     "plural": false,
     "singular": true,
-    "1st person": false
+    "1st person": false,
+    "perfect": false,
+    "passive": false
 }

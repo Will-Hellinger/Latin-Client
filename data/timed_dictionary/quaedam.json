@@ -4,5 +4,6 @@
     "nominative": true,
     "noun": false,
     "relative": false,
-    "demonstrative": false
+    "demonstrative": false,
+    "indefinite": true
 }

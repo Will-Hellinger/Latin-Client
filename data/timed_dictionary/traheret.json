@@ -4,5 +4,6 @@
     "indicative": false,
     "plural": false,
     "active": true,
-    "deponent": false
+    "deponent": false,
+    "3rd person": true
 }

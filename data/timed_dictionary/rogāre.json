@@ -7,5 +7,8 @@
     "2nd person": true,
     "perfect": false,
     "imperative": true,
-    "infinitive": true
+    "infinitive": true,
+    "semi-deponent": false,
+    "indicative": false,
+    "participle": false
 }

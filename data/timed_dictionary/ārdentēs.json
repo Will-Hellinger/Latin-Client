@@ -3,5 +3,7 @@
     "accusative": true,
     "participle": true,
     "active": true,
-    "masculine": true
+    "masculine": true,
+    "superlative": false,
+    "not deponent": true
 }

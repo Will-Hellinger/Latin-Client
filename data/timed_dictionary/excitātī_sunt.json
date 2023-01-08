@@ -6,5 +6,6 @@
     "indicative": true,
     "not deponent": true,
     "plural": true,
-    "1st person": false
+    "1st person": false,
+    "neuter": false
 }

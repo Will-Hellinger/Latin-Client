@@ -6,5 +6,6 @@
     "masculine": false,
     "neuter": false,
     "ablative": true,
-    "singular": true
+    "singular": true,
+    "accusative": false
 }

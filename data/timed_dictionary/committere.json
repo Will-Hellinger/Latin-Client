@@ -8,5 +8,6 @@
     "imperative": true,
     "future": false,
     "plural": false,
-    "perfect": false
+    "perfect": false,
+    "deponent": false
 }

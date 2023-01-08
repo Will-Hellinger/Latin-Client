@@ -7,5 +7,6 @@
     "semi-deponent": false,
     "future": false,
     "active": true,
-    "not deponent": true
+    "not deponent": true,
+    "3rd person": true
 }

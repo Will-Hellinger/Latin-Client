@@ -5,5 +5,6 @@
     "nominative": false,
     "ablative": true,
     "plural": true,
-    "dative": true
+    "dative": true,
+    "accusative": false
 }

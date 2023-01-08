@@ -5,5 +5,6 @@
     "perfect": false,
     "deponent": false,
     "future": false,
-    "participle": false
+    "participle": false,
+    "infinitive": true
 }

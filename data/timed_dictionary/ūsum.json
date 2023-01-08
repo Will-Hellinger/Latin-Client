@@ -6,5 +6,7 @@
     "accusative": true,
     "semi-deponent": false,
     "masculine": true,
-    "nominative": true
+    "nominative": true,
+    "singular": true,
+    "pluperfect": false
 }

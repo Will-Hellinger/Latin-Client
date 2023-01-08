@@ -3,5 +3,6 @@
     "deponent": false,
     "pluperfect": false,
     "active": true,
-    "plural": true
+    "plural": true,
+    "indicative": true
 }

@@ -5,5 +5,6 @@
     "not deponent": true,
     "infinitive": true,
     "plural": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "3rd person": false
 }

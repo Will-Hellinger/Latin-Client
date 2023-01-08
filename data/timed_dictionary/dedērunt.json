@@ -7,5 +7,6 @@
     "imperative": false,
     "3rd person": true,
     "2nd person": false,
-    "plural": true
+    "plural": true,
+    "active": true
 }

@@ -7,5 +7,6 @@
     "future": true,
     "participle": true,
     "infinitive": false,
-    "feminine": false
+    "feminine": false,
+    "neuter": true
 }

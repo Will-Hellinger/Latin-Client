@@ -5,5 +5,7 @@
     "3rd person": true,
     "present": false,
     "perfect": true,
-    "active": false
+    "active": false,
+    "future perfect": false,
+    "not deponent": true
 }

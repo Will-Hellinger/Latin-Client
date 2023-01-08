@@ -4,5 +4,7 @@
     "3rd person": true,
     "indicative": true,
     "subjunctive": false,
-    "pluperfect": true
+    "pluperfect": true,
+    "active": true,
+    "imperative": false
 }

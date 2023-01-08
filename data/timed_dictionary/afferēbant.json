@@ -9,5 +9,8 @@
     "future perfect": false,
     "not deponent": true,
     "passive": false,
-    "indicative": true
+    "indicative": true,
+    "semi-deponent": false,
+    "active": true,
+    "singular": false
 }

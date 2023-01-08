@@ -5,5 +5,6 @@
     "imperfect": false,
     "2nd person": false,
     "semi-deponent": false,
-    "deponent": false
+    "deponent": false,
+    "active": true
 }

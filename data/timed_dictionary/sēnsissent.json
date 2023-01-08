@@ -5,5 +5,8 @@
     "1st person": false,
     "singular": false,
     "imperative": false,
-    "passive": false
+    "passive": false,
+    "deponent": false,
+    "future perfect": false,
+    "plural": true
 }

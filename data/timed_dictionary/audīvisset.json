@@ -8,5 +8,6 @@
     "future perfect": false,
     "future": false,
     "pluperfect": true,
-    "passive": false
+    "passive": false,
+    "3rd person": true
 }

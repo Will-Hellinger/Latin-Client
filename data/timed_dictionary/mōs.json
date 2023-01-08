@@ -1,5 +1,7 @@
 {
     "masculine": true,
     "nominative": true,
-    "genitive": false
+    "genitive": false,
+    "feminine": false,
+    "singular": true
 }

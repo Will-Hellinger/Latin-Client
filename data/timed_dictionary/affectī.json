@@ -1,5 +1,6 @@
 {
     "neuter": true,
     "future perfect": false,
-    "perfect": true
+    "perfect": true,
+    "ablative": false
 }

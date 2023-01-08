@@ -7,5 +7,6 @@
     "singular": false,
     "future": false,
     "deponent": false,
-    "plural": true
+    "plural": true,
+    "passive": false
 }

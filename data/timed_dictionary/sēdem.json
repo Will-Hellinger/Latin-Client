@@ -4,5 +4,6 @@
     "ablative": false,
     "feminine": true,
     "genitive": false,
-    "singular": true
+    "singular": true,
+    "neuter": false
 }

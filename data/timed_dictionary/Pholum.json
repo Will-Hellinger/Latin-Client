@@ -5,5 +5,6 @@
     "neuter": false,
     "nominative": false,
     "masculine": true,
-    "plural": false
+    "plural": false,
+    "singular": true
 }

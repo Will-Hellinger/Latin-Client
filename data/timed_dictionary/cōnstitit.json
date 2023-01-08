@@ -4,5 +4,6 @@
     "plural": false,
     "perfect": true,
     "imperfect": false,
-    "active": true
+    "active": true,
+    "passive": false
 }

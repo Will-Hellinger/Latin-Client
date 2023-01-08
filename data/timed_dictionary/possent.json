@@ -5,5 +5,7 @@
     "plural": true,
     "3rd person": true,
     "present": false,
-    "imperfect": true
+    "imperfect": true,
+    "perfect": false,
+    "indicative": false
 }

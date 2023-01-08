@@ -2,5 +2,8 @@
     "2nd person": false,
     "plural": true,
     "imperfect": false,
-    "deponent": true
+    "deponent": true,
+    "present": true,
+    "3rd person": true,
+    "indicative": true
 }

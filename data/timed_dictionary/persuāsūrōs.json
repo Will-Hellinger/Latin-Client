@@ -6,5 +6,7 @@
     "active": true,
     "accusative": true,
     "not deponent": true,
-    "plural": true
+    "plural": true,
+    "future": true,
+    "superlative": false
 }

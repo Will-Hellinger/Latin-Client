@@ -6,5 +6,7 @@
     "1st person": false,
     "present": false,
     "singular": false,
-    "not deponent": true
+    "not deponent": true,
+    "future": false,
+    "indicative": true
 }

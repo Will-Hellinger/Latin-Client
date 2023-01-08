@@ -7,5 +7,6 @@
     "ablative": false,
     "nominative": true,
     "possessive": true,
-    "neuter": true
+    "neuter": true,
+    "dative": false
 }

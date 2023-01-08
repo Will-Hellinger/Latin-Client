@@ -7,5 +7,6 @@
     "nominative": true,
     "singular": true,
     "masculine": true,
-    "positive": true
+    "positive": true,
+    "comparative": false
 }

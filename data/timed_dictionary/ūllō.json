@@ -5,5 +5,7 @@
     "comparative": false,
     "positive": true,
     "superlative": false,
-    "genitive": false
+    "genitive": false,
+    "singular": true,
+    "masculine": true
 }

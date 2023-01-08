@@ -3,5 +3,7 @@
     "future perfect": false,
     "imperfect": true,
     "semi-deponent": false,
-    "singular": true
+    "singular": true,
+    "plural": false,
+    "active": true
 }

@@ -4,5 +4,6 @@
     "singular": true,
     "plural": false,
     "perfect": false,
-    "2nd person": false
+    "2nd person": false,
+    "not deponent": true
 }

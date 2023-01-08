@@ -3,5 +3,6 @@
     "nominative": true,
     "positive": true,
     "feminine": false,
-    "singular": true
+    "singular": true,
+    "neuter": true
 }

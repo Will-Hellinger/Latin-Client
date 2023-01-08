@@ -7,5 +7,6 @@
     "active": true,
     "imperative": false,
     "deponent": false,
-    "present": false
+    "present": false,
+    "indicative": true
 }

@@ -7,5 +7,6 @@
     "comparative": false,
     "plural": true,
     "superlative": false,
-    "neuter": true
+    "neuter": true,
+    "feminine": false
 }

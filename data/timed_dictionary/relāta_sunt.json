@@ -7,5 +7,6 @@
     "deponent": false,
     "not deponent": true,
     "semi-deponent": false,
-    "future": false
+    "future": false,
+    "singular": false
 }

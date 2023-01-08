@@ -6,5 +6,7 @@
     "singular": true,
     "imperfect": true,
     "active": true,
-    "future": false
+    "future": false,
+    "imperative": false,
+    "1st person": false
 }

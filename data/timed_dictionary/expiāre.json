@@ -5,5 +5,7 @@
     "subjunctive": false,
     "plural": false,
     "deponent": false,
-    "singular": true
+    "singular": true,
+    "infinitive": true,
+    "2nd person": true
 }

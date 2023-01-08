@@ -6,5 +6,6 @@
     "3rd person": true,
     "semi-deponent": false,
     "deponent": false,
-    "present": true
+    "present": true,
+    "plural": false
 }

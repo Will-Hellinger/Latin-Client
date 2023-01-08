@@ -10,5 +10,6 @@
     "superlative": false,
     "ablative": false,
     "singular": true,
-    "nominative": false
+    "nominative": false,
+    "comparative": false
 }

@@ -6,5 +6,6 @@
     "future": false,
     "singular": true,
     "gerund": false,
-    "passive": false
+    "passive": false,
+    "ablative": false
 }

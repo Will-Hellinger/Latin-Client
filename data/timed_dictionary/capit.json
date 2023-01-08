@@ -9,5 +9,7 @@
     "subjunctive": false,
     "active": true,
     "present": true,
-    "imperative": false
+    "imperative": false,
+    "indicative": true,
+    "not deponent": true
 }

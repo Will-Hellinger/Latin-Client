@@ -8,5 +8,6 @@
     "3rd person": true,
     "semi-deponent": false,
     "imperative": false,
-    "present": false
+    "present": false,
+    "active": false
 }

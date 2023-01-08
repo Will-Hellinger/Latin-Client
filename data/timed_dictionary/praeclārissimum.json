@@ -6,5 +6,6 @@
     "genitive": false,
     "feminine": false,
     "dative": false,
-    "plural": false
+    "plural": false,
+    "accusative": true
 }

@@ -7,5 +7,7 @@
     "active": true,
     "accusative": true,
     "neuter": true,
-    "passive": false
+    "passive": false,
+    "semi-deponent": false,
+    "positive": true
 }

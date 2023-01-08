@@ -7,5 +7,6 @@
     "comparative": false,
     "neuter": true,
     "feminine": true,
-    "pronominal": true
+    "pronominal": true,
+    "genitive": false
 }

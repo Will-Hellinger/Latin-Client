@@ -9,5 +9,6 @@
     "ablative": false,
     "perfect": true,
     "superlative": false,
-    "participle": true
+    "participle": true,
+    "accusative": true
 }

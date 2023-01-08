@@ -7,5 +7,6 @@
     "imperative": false,
     "3rd person": true,
     "deponent": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "singular": false
 }

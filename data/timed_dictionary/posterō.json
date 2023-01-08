@@ -7,5 +7,6 @@
     "accusative": false,
     "comparative": false,
     "superlative": false,
-    "positive": true
+    "positive": true,
+    "neuter": true
 }

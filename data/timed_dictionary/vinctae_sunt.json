@@ -7,5 +7,6 @@
     "subjunctive": false,
     "masculine": false,
     "perfect": true,
-    "future": false
+    "future": false,
+    "deponent": false
 }

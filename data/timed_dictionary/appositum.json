@@ -6,5 +6,7 @@
     "active": false,
     "not deponent": true,
     "infinitive": false,
-    "neuter": true
+    "neuter": true,
+    "participle": true,
+    "ablative": false
 }

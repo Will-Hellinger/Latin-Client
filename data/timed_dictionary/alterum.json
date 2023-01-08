@@ -3,5 +3,8 @@
     "singular": true,
     "dative": false,
     "demonstrative": false,
-    "positive": true
+    "positive": true,
+    "nominative": true,
+    "plural": false,
+    "pronominal": true
 }

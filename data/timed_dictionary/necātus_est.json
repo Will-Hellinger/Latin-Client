@@ -9,5 +9,7 @@
     "perfect": true,
     "imperfect": false,
     "present": false,
-    "singular": true
+    "singular": true,
+    "deponent": false,
+    "pluperfect": false
 }

@@ -6,5 +6,6 @@
     "adjective": true,
     "singular": true,
     "demonstrative": false,
-    "noun": false
+    "noun": false,
+    "relative": false
 }

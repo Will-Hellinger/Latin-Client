@@ -7,5 +7,6 @@
     "future": true,
     "present": false,
     "accusative": true,
-    "not deponent": true
+    "not deponent": true,
+    "plural": false
 }

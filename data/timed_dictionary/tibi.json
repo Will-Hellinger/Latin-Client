@@ -4,5 +4,6 @@
     "demonstrative": false,
     "singular": true,
     "intensive": false,
-    "3rd person": false
+    "3rd person": false,
+    "plural": false
 }

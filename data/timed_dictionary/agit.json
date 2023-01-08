@@ -6,5 +6,7 @@
     "subjunctive": false,
     "imperative": false,
     "active": true,
-    "present": true
+    "present": true,
+    "future": false,
+    "deponent": false
 }

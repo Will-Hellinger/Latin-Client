@@ -6,5 +6,6 @@
     "semi-deponent": false,
     "deponent": false,
     "passive": false,
-    "future": false
+    "future": false,
+    "present": true
 }

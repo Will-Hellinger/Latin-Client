@@ -3,5 +3,6 @@
     "cardinal": true,
     "positive": true,
     "feminine": false,
-    "genitive": false
+    "genitive": false,
+    "demonstrative": false
 }

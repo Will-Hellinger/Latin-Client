@@ -7,5 +7,6 @@
     "passive": false,
     "1st person": false,
     "pluperfect": false,
-    "singular": true
+    "singular": true,
+    "plural": false
 }

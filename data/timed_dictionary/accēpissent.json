@@ -8,5 +8,6 @@
     "subjunctive": true,
     "1st person": false,
     "perfect": false,
-    "singular": false
+    "singular": false,
+    "passive": false
 }

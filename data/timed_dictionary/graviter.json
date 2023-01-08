@@ -1,4 +1,6 @@
 {
     "pronoun": false,
-    "positive": true
+    "positive": true,
+    "comparative": false,
+    "adverb": true
 }

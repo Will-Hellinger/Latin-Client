@@ -7,5 +7,6 @@
     "deponent": false,
     "passive": false,
     "plural": false,
-    "2nd person": false
+    "2nd person": false,
+    "semi-deponent": false
 }

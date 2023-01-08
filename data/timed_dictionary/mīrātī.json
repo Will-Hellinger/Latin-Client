@@ -3,5 +3,6 @@
     "neuter": true,
     "feminine": false,
     "genitive": true,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "nominative": true
 }

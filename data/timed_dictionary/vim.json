@@ -1,5 +1,6 @@
 {
     "feminine": true,
     "singular": true,
-    "plural": false
+    "plural": false,
+    "masculine": false
 }

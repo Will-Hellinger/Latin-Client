@@ -8,5 +8,6 @@
     "dative": false,
     "participle": true,
     "passive": true,
-    "masculine": true
+    "masculine": true,
+    "infinitive": false
 }

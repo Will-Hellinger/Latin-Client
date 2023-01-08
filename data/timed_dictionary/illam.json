@@ -4,5 +4,6 @@
     "demonstrative": true,
     "singular": true,
     "nominative": false,
-    "reflexive": false
+    "reflexive": false,
+    "neuter": false
 }

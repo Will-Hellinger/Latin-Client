@@ -1,5 +1,7 @@
 {
     "neuter": false,
     "genitive": true,
-    "feminine": true
+    "feminine": true,
+    "nominative": true,
+    "dative": true
 }

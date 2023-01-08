@@ -3,5 +3,7 @@
     "plural": false,
     "infinitive": true,
     "singular": true,
-    "not deponent": true
+    "not deponent": true,
+    "indicative": false,
+    "imperative": true
 }

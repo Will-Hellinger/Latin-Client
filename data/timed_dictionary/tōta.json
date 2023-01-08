@@ -4,5 +4,7 @@
     "ablative": false,
     "pronominal": true,
     "comparative": false,
-    "demonstrative": false
+    "demonstrative": false,
+    "superlative": false,
+    "dative": false
 }

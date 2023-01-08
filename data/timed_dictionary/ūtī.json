@@ -3,5 +3,6 @@
     "future": false,
     "imperfect": false,
     "semi-deponent": false,
-    "present": true
+    "present": true,
+    "gerund": false
 }

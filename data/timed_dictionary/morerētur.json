@@ -4,5 +4,6 @@
     "plural": false,
     "imperfect": true,
     "subjunctive": true,
-    "1st person": false
+    "1st person": false,
+    "2nd person": false
 }

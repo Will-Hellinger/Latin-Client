@@ -3,5 +3,7 @@
     "singular": true,
     "passive": false,
     "active": true,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "1st person": false,
+    "2nd person": false
 }

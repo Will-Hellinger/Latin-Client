@@ -6,5 +6,7 @@
     "participle": false,
     "gerund": false,
     "perfect": true,
-    "active": true
+    "active": true,
+    "semi-deponent": false,
+    "deponent": false
 }

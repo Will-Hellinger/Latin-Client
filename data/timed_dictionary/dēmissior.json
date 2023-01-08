@@ -6,5 +6,6 @@
     "accusative": false,
     "pluperfect": false,
     "deponent": false,
-    "masculine": true
+    "masculine": true,
+    "feminine": true
 }

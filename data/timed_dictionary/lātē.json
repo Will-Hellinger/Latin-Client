@@ -8,5 +8,6 @@
     "present": false,
     "gerund": false,
     "infinitive": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "positive": true
 }

@@ -5,5 +5,7 @@
     "participle": false,
     "imperative": true,
     "3rd person": false,
-    "plural": false
+    "plural": false,
+    "singular": true,
+    "semi-deponent": false
 }

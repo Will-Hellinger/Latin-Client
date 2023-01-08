@@ -3,5 +3,6 @@
     "plural": false,
     "imperative": false,
     "subjunctive": false,
-    "singular": true
+    "singular": true,
+    "future": true
 }

@@ -2,3 +2,4 @@
 *.pyc
 settings.json
 *.DS_Store
+data/timed_dictionary/.DS_Store

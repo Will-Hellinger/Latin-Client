@@ -11,5 +11,6 @@
     "2nd person": false,
     "pluperfect": true,
     "subjunctive": true,
-    "active": false
+    "active": false,
+    "imperative": false
 }

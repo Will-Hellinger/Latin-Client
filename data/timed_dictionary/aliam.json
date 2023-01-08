@@ -4,5 +4,6 @@
     "accusative": true,
     "pronominal": true,
     "comparative": false,
-    "plural": false
+    "plural": false,
+    "neuter": false
 }

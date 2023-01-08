@@ -6,5 +6,6 @@
     "dative": false,
     "comparative": false,
     "positive": true,
-    "ablative": false
+    "ablative": false,
+    "plural": false
 }

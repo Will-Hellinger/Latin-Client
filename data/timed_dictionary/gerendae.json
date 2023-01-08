@@ -4,5 +4,7 @@
     "deponent": false,
     "future": true,
     "future perfect": false,
-    "nominative": true
+    "nominative": true,
+    "not deponent": true,
+    "genitive": true
 }

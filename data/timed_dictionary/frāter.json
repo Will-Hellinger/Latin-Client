@@ -2,5 +2,6 @@
     "masculine": true,
     "singular": true,
     "plural": false,
-    "accusative": false
+    "accusative": false,
+    "neuter": false
 }

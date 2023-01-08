@@ -1,5 +1,8 @@
 {
     "indicative": true,
     "perfect": true,
-    "active": true
+    "active": true,
+    "3rd person": true,
+    "singular": true,
+    "pluperfect": false
 }

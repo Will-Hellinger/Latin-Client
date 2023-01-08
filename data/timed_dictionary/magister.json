@@ -1,5 +1,8 @@
 {
     "nominative": true,
     "singular": true,
-    "plural": false
+    "plural": false,
+    "masculine": true,
+    "neuter": false,
+    "feminine": false
 }

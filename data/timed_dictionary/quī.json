@@ -11,5 +11,6 @@
     "ablative": false,
     "genitive": false,
     "relative": true,
-    "dative": false
+    "dative": false,
+    "accusative": false
 }

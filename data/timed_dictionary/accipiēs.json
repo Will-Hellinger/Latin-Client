@@ -9,5 +9,6 @@
     "active": true,
     "imperative": false,
     "future": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "deponent": false
 }

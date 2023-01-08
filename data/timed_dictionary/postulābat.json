@@ -11,5 +11,6 @@
     "passive": false,
     "indicative": true,
     "imperative": false,
-    "singular": true
+    "singular": true,
+    "subjunctive": false
 }

@@ -2,5 +2,6 @@
     "participle": false,
     "active": false,
     "deponent": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "infinitive": true
 }

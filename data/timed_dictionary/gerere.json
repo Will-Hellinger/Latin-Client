@@ -5,5 +5,6 @@
     "plural": false,
     "gerund": false,
     "deponent": false,
-    "indicative": false
+    "indicative": false,
+    "perfect": false
 }

@@ -4,5 +4,6 @@
     "participle": true,
     "feminine": false,
     "genitive": true,
-    "pluperfect": false
+    "pluperfect": false,
+    "nominative": true
 }

@@ -2,5 +2,6 @@
     "neuter": false,
     "accusative": false,
     "ablative": false,
-    "masculine": false
+    "masculine": false,
+    "dative": true
 }

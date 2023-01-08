@@ -8,5 +8,6 @@
     "neuter": false,
     "perfect": true,
     "not deponent": false,
-    "3rd person": true
+    "3rd person": true,
+    "semi-deponent": true
 }

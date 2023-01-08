@@ -6,5 +6,8 @@
     "participle": true,
     "positive": true,
     "present": false,
-    "active": false
+    "active": false,
+    "semi-deponent": false,
+    "passive": true,
+    "neuter": true
 }

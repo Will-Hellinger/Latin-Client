@@ -6,5 +6,6 @@
     "genitive": false,
     "masculine": false,
     "neuter": true,
-    "nominative": true
+    "nominative": true,
+    "singular": false
 }

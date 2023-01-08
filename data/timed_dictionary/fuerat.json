@@ -4,5 +4,6 @@
     "pluperfect": true,
     "singular": true,
     "present": false,
-    "future": false
+    "future": false,
+    "3rd person": true
 }

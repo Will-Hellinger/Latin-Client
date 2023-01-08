@@ -3,5 +3,8 @@
     "comparative": false,
     "positive": true,
     "superlative": false,
-    "plural": true
+    "plural": true,
+    "dative": true,
+    "ablative": true,
+    "nominative": false
 }

@@ -6,5 +6,7 @@
     "plural": false,
     "participle": false,
     "semi-deponent": false,
-    "present": true
+    "present": true,
+    "imperative": true,
+    "deponent": false
 }

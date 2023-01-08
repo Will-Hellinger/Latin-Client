@@ -3,5 +3,8 @@
     "singular": true,
     "subjunctive": true,
     "future": false,
-    "present": true
+    "present": true,
+    "pluperfect": false,
+    "3rd person": true,
+    "plural": false
 }

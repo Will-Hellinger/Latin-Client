@@ -6,5 +6,6 @@
     "2nd person": true,
     "perfect": false,
     "semi-deponent": false,
-    "infinitive": true
+    "infinitive": true,
+    "participle": false
 }
