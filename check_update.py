@@ -105,3 +105,5 @@ if len(sys.argv) >= 2:
     if str(sys.argv[1]) == 'build':
         build_mode = True
         run()
+    elif str(sys.argv[1]) == 'run':
+        run()
