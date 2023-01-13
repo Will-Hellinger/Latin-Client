@@ -1,0 +1,12 @@
+{
+    "hand over": true,
+    "deliver": true,
+    "report": true,
+    "rumor": false,
+    "fame": false,
+    "surrender": true,
+    "lead across": false,
+    "lead": false,
+    "break through": false,
+    "cross": false
+}

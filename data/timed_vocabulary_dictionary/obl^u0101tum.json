@@ -1,0 +1,9 @@
+{
+    "take": false,
+    "offer": true,
+    "fear": false,
+    "seize": false,
+    "kill": false,
+    "feel": false,
+    "harm": false
+}

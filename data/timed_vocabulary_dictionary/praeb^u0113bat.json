@@ -1,0 +1,10 @@
+{
+    "instruct": false,
+    "excel": false,
+    "reward": false,
+    "show": true,
+    "exhibit": true,
+    "surpass": false,
+    "advise": false,
+    "spoil": false
+}

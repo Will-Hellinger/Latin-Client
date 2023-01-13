@@ -1,0 +1,9 @@
+{
+    "get back": true,
+    "accept": true,
+    "answer": false,
+    "flee": false,
+    "return": false,
+    "recover": true,
+    "go back": false
+}

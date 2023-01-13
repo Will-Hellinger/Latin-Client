@@ -1,0 +1,10 @@
+{
+    "jaws": false,
+    "river": true,
+    "land": false,
+    "bank": false,
+    "throat": false,
+    "sea": false,
+    "flight": false,
+    "iron": false
+}

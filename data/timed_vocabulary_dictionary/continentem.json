@@ -1,0 +1,9 @@
+{
+    "grasp": false,
+    "cover": false,
+    "surround": true,
+    "bound": true,
+    "contain": true,
+    "contest": false,
+    "hasten": false
+}

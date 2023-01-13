@@ -1,0 +1,6 @@
+{
+    "drink": true,
+    "bite": false,
+    "dine": false,
+    "breathe": false
+}

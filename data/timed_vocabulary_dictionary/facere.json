@@ -1,0 +1,10 @@
+{
+    "drive": false,
+    "complete": false,
+    "do": true,
+    "kill": false,
+    "stain": false,
+    "give": false,
+    "make": true,
+    "weaken": false
+}

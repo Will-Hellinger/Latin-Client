@@ -1,0 +1,11 @@
+{
+    "halt": true,
+    "stop": true,
+    "try": false,
+    "stand firm": true,
+    "spend": false,
+    "attempt": false,
+    "throw": false,
+    "decide": false,
+    "hold back": false
+}

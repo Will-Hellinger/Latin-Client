@@ -1,0 +1,9 @@
+{
+    "journey": true,
+    "path": true,
+    "rain": false,
+    "inconvenience": false,
+    "hit": false,
+    "blow": false,
+    "command": false
+}

@@ -1,0 +1,8 @@
+{
+    "daughter": true,
+    "sister": false,
+    "grandson": false,
+    "mother": false,
+    "border": false,
+    "son": false
+}

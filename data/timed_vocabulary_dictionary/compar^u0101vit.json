@@ -1,0 +1,11 @@
+{
+    "combat": false,
+    "complete": false,
+    "purchase": true,
+    "prepare": true,
+    "visit": false,
+    "obtain": true,
+    "command": false,
+    "entrust": false,
+    "procure": true
+}

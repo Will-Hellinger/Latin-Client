@@ -1,0 +1,10 @@
+{
+    "send": true,
+    "hurry": false,
+    "entrust": false,
+    "show": false,
+    "meet": false,
+    "remind": false,
+    "stay": false,
+    "hasten": false
+}

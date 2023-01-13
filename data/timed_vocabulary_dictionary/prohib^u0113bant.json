@@ -1,0 +1,12 @@
+{
+    "propose": false,
+    "protect": false,
+    "hold back": true,
+    "advance": false,
+    "hasten": false,
+    "keep away": true,
+    "stop": true,
+    "hurry": false,
+    "prohibit": true,
+    "restrain": true
+}

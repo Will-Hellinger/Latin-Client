@@ -1,0 +1,10 @@
+{
+    "horse": false,
+    "cow": true,
+    "stag": false,
+    "ox": true,
+    "cattle": true,
+    "boar": false,
+    "bird": false,
+    "deer": false
+}

@@ -1,0 +1,8 @@
+{
+    "power": true,
+    "violence": true,
+    "situation": false,
+    "effort": false,
+    "wish": false,
+    "struggle": false
+}

@@ -1,0 +1,10 @@
+{
+    "join": false,
+    "pray": false,
+    "persuade": false,
+    "order": true,
+    "instruct": false,
+    "command": true,
+    "beg": false,
+    "in order that": false
+}

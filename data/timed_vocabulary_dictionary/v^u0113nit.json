@@ -1,0 +1,8 @@
+{
+    "come": true,
+    "poison": false,
+    "go": false,
+    "wish": false,
+    "turn": false,
+    "want": false
+}

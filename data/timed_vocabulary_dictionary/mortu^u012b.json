@@ -1,0 +1,8 @@
+{
+    "die": true,
+    "show": false,
+    "move": false,
+    "bite": false,
+    "delay": false,
+    "point (out/at)": false
+}

@@ -1,0 +1,9 @@
+{
+    "name": true,
+    "call": true,
+    "cry": false,
+    "summon": false,
+    "approach": false,
+    "draw near": false,
+    "drive": false
+}

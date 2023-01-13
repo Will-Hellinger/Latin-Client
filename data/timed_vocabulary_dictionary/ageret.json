@@ -1,0 +1,8 @@
+{
+    "do": true,
+    "drive": true,
+    "push": false,
+    "wear": false,
+    "carry": false,
+    "beat": false
+}

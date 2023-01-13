@@ -1,0 +1,9 @@
+{
+    "reward": true,
+    "aid": false,
+    "prey": false,
+    "loot": false,
+    "help": false,
+    "spoil": false,
+    "battle": false
+}

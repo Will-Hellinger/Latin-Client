@@ -1,0 +1,13 @@
+{
+    "receive": true,
+    "happen": false,
+    "catch": false,
+    "deliver": false,
+    "accept": true,
+    "feel": false,
+    "get back": false,
+    "incur": true,
+    "take up": false,
+    "give": false,
+    "undertake": false
+}

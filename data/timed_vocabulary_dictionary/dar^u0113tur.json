@@ -1,0 +1,8 @@
+{
+    "give": true,
+    "receive": false,
+    "instruct": false,
+    "do": false,
+    "teach": false,
+    "take": false
+}

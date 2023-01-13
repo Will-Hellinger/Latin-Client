@@ -1,0 +1,9 @@
+{
+    "impose": true,
+    "command": false,
+    "imprison": false,
+    "put on": true,
+    "order": false,
+    "send into": false,
+    "attack": false
+}

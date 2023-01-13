@@ -1,0 +1,8 @@
+{
+    "establish": true,
+    "resolve": true,
+    "spend": false,
+    "consult": false,
+    "hurl": false,
+    "throw": false
+}

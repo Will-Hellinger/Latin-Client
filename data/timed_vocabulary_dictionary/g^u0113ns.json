@@ -1,0 +1,9 @@
+{
+    "clan": true,
+    "kind": false,
+    "type": false,
+    "tribe": true,
+    "person": false,
+    "man": false,
+    "race": true
+}

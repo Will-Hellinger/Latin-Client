@@ -1,0 +1,9 @@
+{
+    "these": true,
+    "them": true,
+    "him": true,
+    "the same ____": false,
+    "each": false,
+    "some": false,
+    "that": true
+}

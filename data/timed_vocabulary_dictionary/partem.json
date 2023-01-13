@@ -1,0 +1,11 @@
+{
+    "whole": false,
+    "father": false,
+    "region": true,
+    "fisherman": false,
+    "part": true,
+    "fight": false,
+    "poet": false,
+    "fear": false,
+    "foot": false
+}

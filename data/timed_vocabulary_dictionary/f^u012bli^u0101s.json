@@ -1,0 +1,10 @@
+{
+    "maiden": false,
+    "daughter": true,
+    "grandfather": false,
+    "son": false,
+    "grandson": false,
+    "mother": false,
+    "father": false,
+    "sister": false
+}

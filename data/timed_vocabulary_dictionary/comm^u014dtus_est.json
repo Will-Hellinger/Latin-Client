@@ -1,0 +1,8 @@
+{
+    "visit": false,
+    "compress": false,
+    "shake": true,
+    "entrust": false,
+    "move": true,
+    "change": false
+}

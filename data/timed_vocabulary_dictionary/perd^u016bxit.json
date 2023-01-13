@@ -1,0 +1,8 @@
+{
+    "bring": true,
+    "hit": false,
+    "arrive": false,
+    "persuade": false,
+    "pay": false,
+    "lead": true
+}

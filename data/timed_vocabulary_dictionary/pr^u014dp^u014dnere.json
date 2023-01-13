@@ -1,0 +1,10 @@
+{
+    "instruct": false,
+    "advise": false,
+    "propose": true,
+    "prohibit": false,
+    "hasten": false,
+    "restrain": false,
+    "hurry": false,
+    "look for": false
+}

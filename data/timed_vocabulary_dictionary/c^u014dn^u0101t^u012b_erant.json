@@ -1,0 +1,9 @@
+{
+    "test": false,
+    "decide": false,
+    "delay": false,
+    "attempt": true,
+    "try": true,
+    "encourage": false,
+    "follow": false
+}

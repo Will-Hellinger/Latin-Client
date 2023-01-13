@@ -1,0 +1,7 @@
+{
+    "rule": true,
+    "king": false,
+    "kingdom": true,
+    "power": true,
+    "region": false
+}

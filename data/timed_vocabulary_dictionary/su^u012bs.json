@@ -1,0 +1,11 @@
+{
+    "him": false,
+    "the very ___": false,
+    "they": false,
+    "her": true,
+    "whose": false,
+    "that": false,
+    "their": true,
+    "this": false,
+    "theirs": true
+}

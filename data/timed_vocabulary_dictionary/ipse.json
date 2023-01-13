@@ -1,0 +1,14 @@
+{
+    "what": false,
+    "mine": false,
+    "our(s)": false,
+    "whose": false,
+    "the very ___": true,
+    "himself": true,
+    "itself": true,
+    "which": false,
+    "me": false,
+    "your(s)": false,
+    "that": false,
+    "whom": false
+}

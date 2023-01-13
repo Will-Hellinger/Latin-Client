@@ -1,0 +1,9 @@
+{
+    "deliver": false,
+    "drag": true,
+    "break through": false,
+    "cross": false,
+    "report": false,
+    "draw": true,
+    "trap": false
+}

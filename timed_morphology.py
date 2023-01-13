@@ -23,12 +23,12 @@ def save_file(file, data):
 def solver():
     word1 = str(driver.find_element(By.XPATH, f"// p[@id='timedMorph_form']").text)
     word2 = str(driver.find_element(By.XPATH, f"// p[@id='timedMorph_stimulus']").text)
-    if os.path.exists(f'.{subDirectory}data{subDirectory}timed_dictionary{subDirectory}{word1.replace(" ", "_")}.json') == False:
+    if os.path.exists(f'.{subDirectory}data{subDirectory}timed_morphology_dictionary{subDirectory}{word1.replace(" ", "_")}.json') == False:
         print(f'word {word1} not found, creating entry.')
-        with open(f'.{subDirectory}data{subDirectory}timed_dictionary{subDirectory}{word1.replace(" ", "_")}.json', 'w') as temp_file:
+        with open(f'.{subDirectory}data{subDirectory}timed_morphology_dictionary{subDirectory}{word1.replace(" ", "_")}.json', 'w') as temp_file:
             temp_file.write('{\n}')
         
-        with open(f'.{subDirectory}data{subDirectory}timed_dictionary{subDirectory}{word1.replace(" ", "_")}.json', encoding='utf-8', mode='r+') as file:
+        with open(f'.{subDirectory}data{subDirectory}timed_morphology_dictionary{subDirectory}{word1.replace(" ", "_")}.json', encoding='utf-8', mode='r+') as file:
             data = json.load(file)
             driver.find_element(By.XPATH, f"// label[@for='timed_morphology_answer_false']").click()
             while True:
@@ -44,7 +44,7 @@ def solver():
                 print(f'Guess - False: {word1} - {word2}: Incorrect')
             save_file(file, data)
     else:
-        with open(f'.{subDirectory}data{subDirectory}timed_dictionary{subDirectory}{word1.replace(" ", "_")}.json', encoding='utf-8', mode='r+') as file:
+        with open(f'.{subDirectory}data{subDirectory}timed_morphology_dictionary{subDirectory}{word1.replace(" ", "_")}.json', encoding='utf-8', mode='r+') as file:
             data = json.load(file)
             items = []
             for item in data:

@@ -1,0 +1,11 @@
+{
+    "with": true,
+    "then": false,
+    "once": false,
+    "moreover": false,
+    "since": true,
+    "without": false,
+    "although": true,
+    "why": false,
+    "already": false
+}

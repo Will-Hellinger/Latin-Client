@@ -1,0 +1,12 @@
+{
+    "these": true,
+    "them": true,
+    "the same ____": false,
+    "both": false,
+    "neither": false,
+    "the very ___": false,
+    "each": false,
+    "those": true,
+    "either": false,
+    "any": false
+}

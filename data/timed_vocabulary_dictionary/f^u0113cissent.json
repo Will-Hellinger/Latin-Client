@@ -1,0 +1,11 @@
+{
+    "make": true,
+    "affect": false,
+    "do": true,
+    "kill": false,
+    "fail": false,
+    "stain": false,
+    "give": false,
+    "work": false,
+    "complete": false
+}

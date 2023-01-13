@@ -1,0 +1,9 @@
+{
+    "fire": true,
+    "attack": false,
+    "anger": false,
+    "strike": false,
+    "hit": false,
+    "island": false,
+    "blow": false
+}

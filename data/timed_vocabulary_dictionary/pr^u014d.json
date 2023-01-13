@@ -1,0 +1,8 @@
+{
+    "for": true,
+    "on behalf of": true,
+    "through": false,
+    "because of": false,
+    "on account of": false,
+    "after": false
+}

@@ -1,0 +1,10 @@
+{
+    "island": false,
+    "border": false,
+    "land": true,
+    "sea": false,
+    "scare": false,
+    "frighten": false,
+    "terror": false,
+    "terrify": false
+}

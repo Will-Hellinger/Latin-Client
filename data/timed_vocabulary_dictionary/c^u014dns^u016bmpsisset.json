@@ -1,0 +1,8 @@
+{
+    "consume": true,
+    "pass": true,
+    "throw": false,
+    "establish": false,
+    "contend": false,
+    "attempt": false
+}

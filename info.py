@@ -5,7 +5,7 @@ import os
 version = 0.1
 user = 'none'
 
-modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'composition', 'ciples', 'infinitive morphology', 'timed morphology']
+modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
 
 doAction = False
 enterKey = False

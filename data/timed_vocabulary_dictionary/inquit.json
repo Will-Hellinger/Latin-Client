@@ -1,0 +1,9 @@
+{
+    "command": false,
+    "persuade": false,
+    "know": false,
+    "say": true,
+    "lead": false,
+    "permit": false,
+    "invite": false
+}

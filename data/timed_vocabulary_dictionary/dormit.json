@@ -1,0 +1,10 @@
+{
+    "speak": false,
+    "lead": false,
+    "sleep": true,
+    "instruct": false,
+    "do": false,
+    "dwell": false,
+    "die": false,
+    "live": false
+}

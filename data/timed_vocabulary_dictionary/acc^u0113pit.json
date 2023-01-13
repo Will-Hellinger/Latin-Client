@@ -1,0 +1,10 @@
+{
+    "receive": true,
+    "accept": true,
+    "run": false,
+    "surrender": false,
+    "feel": false,
+    "give": false,
+    "get back": false,
+    "happen": false
+}

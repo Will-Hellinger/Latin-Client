@@ -1,0 +1,16 @@
+{
+    "shout": false,
+    "smell": false,
+    "labor": true,
+    "dread": false,
+    "work": true,
+    "odor": false,
+    "effort": true,
+    "love": false,
+    "fear": false,
+    "pain": false,
+    "struggle": true,
+    "cry": false,
+    "task": true,
+    "call": false
+}

@@ -1,0 +1,10 @@
+{
+    "carcass": false,
+    "body": false,
+    "head": true,
+    "prisoner": false,
+    "cattle": false,
+    "captive": false,
+    "reason": false,
+    "cause": false
+}

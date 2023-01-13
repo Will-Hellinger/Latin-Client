@@ -1,0 +1,10 @@
+{
+    "sky": true,
+    "chain": false,
+    "cave": false,
+    "crab": false,
+    "cause": false,
+    "meat": false,
+    "sea": false,
+    "tail": false
+}

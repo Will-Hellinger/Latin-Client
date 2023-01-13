@@ -1,0 +1,9 @@
+{
+    "demand": true,
+    "command": false,
+    "pray": false,
+    "order": false,
+    "beg": false,
+    "follow": false,
+    "possess": false
+}

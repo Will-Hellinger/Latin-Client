@@ -1,0 +1,12 @@
+{
+    "advise": false,
+    "accept": true,
+    "surrender": false,
+    "receive": true,
+    "recover": false,
+    "feel": false,
+    "instruct": false,
+    "light": false,
+    "happen": false,
+    "incur": true
+}

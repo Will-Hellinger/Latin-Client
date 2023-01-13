@@ -1,0 +1,9 @@
+{
+    "custom": false,
+    "hill": true,
+    "valley": false,
+    "death": false,
+    "way": false,
+    "monster": false,
+    "mountain": true
+}

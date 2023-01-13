@@ -1,0 +1,11 @@
+{
+    "select": false,
+    "drag": false,
+    "launch": true,
+    "draw off": false,
+    "lead down": true,
+    "catch": false,
+    "choose": false,
+    "throw down": false,
+    "cease": false
+}

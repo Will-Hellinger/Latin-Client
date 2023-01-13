@@ -1,0 +1,8 @@
+{
+    "ship": false,
+    "name": false,
+    "number": true,
+    "sailor": false,
+    "duty": false,
+    "nothing": false
+}

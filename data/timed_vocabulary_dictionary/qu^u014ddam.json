@@ -1,0 +1,10 @@
+{
+    "where": false,
+    "whose": false,
+    "certain": true,
+    "certain ___, a certain ___": true,
+    "anyone": false,
+    "any": false,
+    "this": false,
+    "that": false
+}

@@ -1,0 +1,9 @@
+{
+    "force": true,
+    "teach": false,
+    "gather": true,
+    "compel": true,
+    "safety": false,
+    "fly": false,
+    "fury": false
+}

@@ -1,0 +1,9 @@
+{
+    "leave behind": false,
+    "flee": false,
+    "bring back": true,
+    "hold back": false,
+    "bring": true,
+    "abandon": false,
+    "run away": false
+}

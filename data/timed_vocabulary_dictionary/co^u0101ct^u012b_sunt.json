@@ -1,0 +1,10 @@
+{
+    "gather": true,
+    "health": false,
+    "madness": false,
+    "lead": false,
+    "compel": true,
+    "force": true,
+    "do": false,
+    "teach": false
+}

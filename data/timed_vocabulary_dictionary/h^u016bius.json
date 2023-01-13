@@ -1,0 +1,9 @@
+{
+    "this": true,
+    "those": false,
+    "my": false,
+    "I": false,
+    "himself": false,
+    "who": false,
+    "the very ___": false
+}

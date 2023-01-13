@@ -1,0 +1,12 @@
+{
+    "help": false,
+    "advice": false,
+    "rumor": false,
+    "battle": false,
+    "prey": true,
+    "plunder": true,
+    "loot": true,
+    "report": false,
+    "booty": true,
+    "plan": false
+}

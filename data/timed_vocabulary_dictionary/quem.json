@@ -1,0 +1,14 @@
+{
+    "sleep": false,
+    "hour": false,
+    "which": true,
+    "whom": true,
+    "what": true,
+    "our(s)": false,
+    "the same ____": false,
+    "the very ___": false,
+    "nap": false,
+    "mine": false,
+    "and": false,
+    "rest": false
+}

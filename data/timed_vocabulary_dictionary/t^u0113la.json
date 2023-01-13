@@ -1,0 +1,8 @@
+{
+    "spear": true,
+    "back": false,
+    "weather": false,
+    "cover": false,
+    "test": false,
+    "weapon": true
+}

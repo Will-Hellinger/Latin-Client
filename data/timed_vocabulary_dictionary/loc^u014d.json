@@ -1,0 +1,11 @@
+{
+    "space": false,
+    "fury": false,
+    "place": true,
+    "madness": false,
+    "room": false,
+    "put": false,
+    "bedroom": false,
+    "pursue": false,
+    "follow": false
+}

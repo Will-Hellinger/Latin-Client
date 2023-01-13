@@ -1,0 +1,13 @@
+{
+    "consideration": true,
+    "day": false,
+    "duty": false,
+    "fact": true,
+    "nothing": false,
+    "affair": true,
+    "rock": false,
+    "event": true,
+    "cliff": false,
+    "job": false,
+    "king": false
+}

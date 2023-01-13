@@ -1,0 +1,7 @@
+{
+    "destroy": false,
+    "find": false,
+    "lose": true,
+    "permit": false,
+    "send into": false
+}

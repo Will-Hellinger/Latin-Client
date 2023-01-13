@@ -1,0 +1,12 @@
+{
+    "carry on": true,
+    "do": true,
+    "wage": true,
+    "go": false,
+    "come": false,
+    "make": false,
+    "understand": false,
+    "find": false,
+    "wear": true,
+    "know": false
+}

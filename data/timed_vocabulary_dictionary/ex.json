@@ -1,0 +1,13 @@
+{
+    "against": false,
+    "out": true,
+    "out of": true,
+    "toward": false,
+    "away from": false,
+    "down from": false,
+    "from": true,
+    "to": false,
+    "in": false,
+    "under": false,
+    "on": false
+}

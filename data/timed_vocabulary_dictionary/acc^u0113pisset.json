@@ -1,0 +1,11 @@
+{
+    "accept": true,
+    "instruct": false,
+    "receive": true,
+    "incur": true,
+    "undertake": false,
+    "advise": false,
+    "run": false,
+    "happen": false,
+    "get back": false
+}

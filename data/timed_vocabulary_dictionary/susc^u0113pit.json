@@ -1,0 +1,12 @@
+{
+    "take up": true,
+    "be left": false,
+    "summon": false,
+    "defeat": false,
+    "surrender": false,
+    "remain": false,
+    "supply": false,
+    "undertake": true,
+    "conquer": false,
+    "sustain": false
+}

@@ -1,0 +1,11 @@
+{
+    "neither": false,
+    "his": true,
+    "its": true,
+    "some": false,
+    "any": false,
+    "her": true,
+    "the same ____": false,
+    "hers": true,
+    "the very ___": false
+}

@@ -1,0 +1,12 @@
+{
+    "depart": true,
+    "use": false,
+    "start out": true,
+    "labor": false,
+    "set out": true,
+    "follow": false,
+    "attempt": false,
+    "work": false,
+    "pursue": false,
+    "disembark": false
+}

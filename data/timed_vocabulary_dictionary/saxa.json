@@ -1,0 +1,8 @@
+{
+    "torture": false,
+    "stone": true,
+    "sanity": false,
+    "arrow": false,
+    "jaws": false,
+    "blood": false
+}

@@ -1,0 +1,6 @@
+{
+    "mud": false,
+    "wall": true,
+    "death": false,
+    "messenger": false
+}

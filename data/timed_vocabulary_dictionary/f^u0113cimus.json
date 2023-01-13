@@ -1,0 +1,10 @@
+{
+    "make": true,
+    "give": false,
+    "kill": false,
+    "drive": false,
+    "fail": false,
+    "accomplish": false,
+    "do": true,
+    "affect": false
+}

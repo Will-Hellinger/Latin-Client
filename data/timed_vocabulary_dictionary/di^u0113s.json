@@ -1,0 +1,8 @@
+{
+    "home": false,
+    "day": true,
+    "pain": false,
+    "gift": false,
+    "leader": false,
+    "sadness": false
+}

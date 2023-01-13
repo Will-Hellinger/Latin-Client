@@ -1,0 +1,9 @@
+{
+    "aim": false,
+    "land": false,
+    "chest": false,
+    "water": true,
+    "art": false,
+    "ark": false,
+    "horse": false
+}

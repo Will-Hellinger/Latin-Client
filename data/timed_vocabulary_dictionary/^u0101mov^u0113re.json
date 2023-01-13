@@ -1,0 +1,8 @@
+{
+    "stay": false,
+    "remain": false,
+    "lose": false,
+    "approach": false,
+    "move away": true,
+    "enter (into)": false
+}

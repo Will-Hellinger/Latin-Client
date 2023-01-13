@@ -1,0 +1,7 @@
+{
+    "sky": true,
+    "ocean": false,
+    "land": false,
+    "tail": false,
+    "meat": false
+}

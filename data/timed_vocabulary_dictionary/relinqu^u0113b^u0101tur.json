@@ -1,0 +1,11 @@
+{
+    "leave": true,
+    "approach": false,
+    "abandon": true,
+    "restrain": false,
+    "hold back": false,
+    "bring": false,
+    "give": false,
+    "leave behind": true,
+    "keep": false
+}

@@ -3,16 +3,16 @@ try:
     import time, pynput
     from system_commands import *
     import heheHa
-    import check_update
+#    import check_update
     from info import *
 #    from discord_rpc import *
     from web_driver import *
-    import infinitive_morphology, noun_adj, synopsis, timed_morphology
+    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary
 except Exception as error:
     input(error)
     exit()
 
-check_update.run()
+#check_update.run()
 print(f'[+] Starting Client v{version}')
 
 def on_press(key):
@@ -103,10 +103,24 @@ while True:
             enterKey = False
     elif mode == 'timed morphology':
         if doAction == True:
-            timed_morphology.solver()
+            try:
+                timed_morphology.solver()
+            except Exception as error:
+                print(f'error: {error}')
+                doAction = False
+    elif mode == 'timed vocabulary':
+        if doAction == True:
+            try:
+                timed_vocabulary.solver()
+            except Exception as error:
+                print(f'error: {error}')
+                doAction = False
     elif mode == 'synopsis':
         if doAction:
             #Finds latin conjugation type
-            synopsis.find_chart()
+            try:
+                synopsis.find_chart()
+            except Exception as error:
+                print(f'error: {error}')
             doAction = False
 driver.close()
