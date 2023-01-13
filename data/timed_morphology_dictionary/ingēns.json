@@ -1,9 +1,0 @@
-{
-    "nominative": true,
-    "dative": false,
-    "plural": false,
-    "genitive": false,
-    "comparative": false,
-    "ablative": false,
-    "accusative": true
-}
