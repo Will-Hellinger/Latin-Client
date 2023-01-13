@@ -39,6 +39,11 @@ def solver():
     word = str(driver.find_element(By.XPATH, f"// p[@id='{vocab_element}']").text).split('\n')[0]
     definition = str(driver.find_element(By.XPATH, f"// p[@id='{definition_element}']").text)
     file_name = (str(word.replace(" ", "_")).encode("unicode-escape")).decode("utf-8").replace("\\", "^")
+    #This is honestly only for windows
+    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
+    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
+    for a in range(len(removeList)):
+        file_name.replace(str(removeList[a]), str(replaceList[a]))
     predicted_guess = "none"
 
     if runPrediction == True:
