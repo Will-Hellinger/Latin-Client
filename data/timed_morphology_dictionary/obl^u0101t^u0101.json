@@ -1,1 +1,12 @@
-{\n    "perfect": true,\n    "neuter": false,\n    "positive": true,\n    "infinitive": false,\n    "active": false,\n    "participle": true,\n    "passive": true,\n    "singular": true,\n    "feminine": true,\n    "not deponent": true\n}
+{
+    "perfect": true,
+    "neuter": false,
+    "positive": true,
+    "infinitive": false,
+    "active": false,
+    "participle": true,
+    "passive": true,
+    "singular": true,
+    "feminine": true,
+    "not deponent": true
+}

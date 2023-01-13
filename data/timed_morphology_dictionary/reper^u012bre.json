@@ -1,1 +1,9 @@
-{\n    "singular": true,\n    "present": true,\n    "imperative": true,\n    "subjunctive": false,\n    "2nd person": true,\n    "future": false,\n    "3rd person": false\n}
+{
+    "singular": true,
+    "present": true,
+    "imperative": true,
+    "subjunctive": false,
+    "2nd person": true,
+    "future": false,
+    "3rd person": false
+}

@@ -1,1 +1,12 @@
-{\n    "plural": false,\n    "future perfect": false,\n    "dative": false,\n    "feminine": false,\n    "not deponent": true,\n    "neuter": true,\n    "passive": true,\n    "active": false,\n    "masculine": true,\n    "semi-deponent": false\n}
+{
+    "plural": false,
+    "future perfect": false,
+    "dative": false,
+    "feminine": false,
+    "not deponent": true,
+    "neuter": true,
+    "passive": true,
+    "active": false,
+    "masculine": true,
+    "semi-deponent": false
+}

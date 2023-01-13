@@ -1,1 +1,11 @@
-{\n    "accusative": false,\n    "genitive": true,\n    "comparative": false,\n    "masculine": true,\n    "semi-deponent": false,\n    "active": false,\n    "perfect": true,\n    "feminine": false,\n    "neuter": true\n}
+{
+    "accusative": false,
+    "genitive": true,
+    "comparative": false,
+    "masculine": true,
+    "semi-deponent": false,
+    "active": false,
+    "perfect": true,
+    "feminine": false,
+    "neuter": true
+}

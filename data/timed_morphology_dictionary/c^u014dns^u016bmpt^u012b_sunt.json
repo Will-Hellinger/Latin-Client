@@ -1,1 +1,13 @@
-{\n    "subjunctive": false,\n    "future": false,\n    "masculine": true,\n    "1st person": false,\n    "passive": true,\n    "not deponent": true,\n    "3rd person": true,\n    "imperative": false,\n    "future perfect": false,\n    "neuter": false,\n    "indicative": true\n}
+{
+    "subjunctive": false,
+    "future": false,
+    "masculine": true,
+    "1st person": false,
+    "passive": true,
+    "not deponent": true,
+    "3rd person": true,
+    "imperative": false,
+    "future perfect": false,
+    "neuter": false,
+    "indicative": true
+}

@@ -1,1 +1,8 @@
-{\n    "subjunctive": false,\n    "singular": false,\n    "plural": true,\n    "indicative": true,\n    "not deponent": true,\n    "perfect": true\n}
+{
+    "subjunctive": false,
+    "singular": false,
+    "plural": true,
+    "indicative": true,
+    "not deponent": true,
+    "perfect": true
+}

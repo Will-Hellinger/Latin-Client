@@ -1,1 +1,9 @@
-{\n    "1st person": false,\n    "3rd person": true,\n    "ablative": false,\n    "demonstrative": true,\n    "genitive": true,\n    "2nd person": false,\n    "indefinite": false\n}
+{
+    "1st person": false,
+    "3rd person": true,
+    "ablative": false,
+    "demonstrative": true,
+    "genitive": true,
+    "2nd person": false,
+    "indefinite": false
+}

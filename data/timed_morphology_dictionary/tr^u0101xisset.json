@@ -1,1 +1,11 @@
-{\n    "subjunctive": true,\n    "2nd person": false,\n    "active": true,\n    "3rd person": true,\n    "not deponent": true,\n    "1st person": false,\n    "future": false,\n    "indicative": false,\n    "deponent": false\n}
+{
+    "subjunctive": true,
+    "2nd person": false,
+    "active": true,
+    "3rd person": true,
+    "not deponent": true,
+    "1st person": false,
+    "future": false,
+    "indicative": false,
+    "deponent": false
+}

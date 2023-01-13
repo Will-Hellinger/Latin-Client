@@ -1,1 +1,10 @@
-{\n    "singular": true,\n    "passive": false,\n    "deponent": false,\n    "subjunctive": true,\n    "present": false,\n    "imperative": false,\n    "3rd person": true,\n    "active": true\n}
+{
+    "singular": true,
+    "passive": false,
+    "deponent": false,
+    "subjunctive": true,
+    "present": false,
+    "imperative": false,
+    "3rd person": true,
+    "active": true
+}

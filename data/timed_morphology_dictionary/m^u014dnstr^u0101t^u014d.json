@@ -1,1 +1,10 @@
-{\n    "dative": true,\n    "active": false,\n    "positive": true,\n    "perfect": true,\n    "participle": true,\n    "genitive": false,\n    "semi-deponent": false,\n    "deponent": false\n}
+{
+    "dative": true,
+    "active": false,
+    "positive": true,
+    "perfect": true,
+    "participle": true,
+    "genitive": false,
+    "semi-deponent": false,
+    "deponent": false
+}

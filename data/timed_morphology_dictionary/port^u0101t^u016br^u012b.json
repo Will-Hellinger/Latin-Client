@@ -1,1 +1,11 @@
-{\n    "feminine": false,\n    "active": true,\n    "neuter": true,\n    "future": true,\n    "masculine": true,\n    "semi-deponent": false,\n    "perfect": false,\n    "participle": true,\n    "genitive": true\n}
+{
+    "feminine": false,
+    "active": true,
+    "neuter": true,
+    "future": true,
+    "masculine": true,
+    "semi-deponent": false,
+    "perfect": false,
+    "participle": true,
+    "genitive": true
+}

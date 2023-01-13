@@ -1,1 +1,13 @@
-{\n    "feminine": false,\n    "cardinal": false,\n    "dative": true,\n    "genitive": false,\n    "superlative": true,\n    "singular": true,\n    "nominative": false,\n    "positive": false,\n    "masculine": true,\n    "comparative": false,\n    "accusative": false\n}
+{
+    "feminine": false,
+    "cardinal": false,
+    "dative": true,
+    "genitive": false,
+    "superlative": true,
+    "singular": true,
+    "nominative": false,
+    "positive": false,
+    "masculine": true,
+    "comparative": false,
+    "accusative": false
+}

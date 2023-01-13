@@ -1,1 +1,9 @@
-{\n    "semi-deponent": false,\n    "imperative": false,\n    "3rd person": true,\n    "indicative": true,\n    "masculine": false,\n    "active": false,\n    "neuter": false\n}
+{
+    "semi-deponent": false,
+    "imperative": false,
+    "3rd person": true,
+    "indicative": true,
+    "masculine": false,
+    "active": false,
+    "neuter": false
+}

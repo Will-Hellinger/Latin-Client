@@ -1,1 +1,9 @@
-{\n    "passive": true,\n    "comparative": false,\n    "neuter": true,\n    "accusative": false,\n    "feminine": false,\n    "infinitive": false,\n    "gerund": true\n}
+{
+    "passive": true,
+    "comparative": false,
+    "neuter": true,
+    "accusative": false,
+    "feminine": false,
+    "infinitive": false,
+    "gerund": true
+}

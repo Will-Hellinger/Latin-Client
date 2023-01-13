@@ -1,1 +1,11 @@
-{\n    "active": false,\n    "semi-deponent": false,\n    "perfect": true,\n    "masculine": true,\n    "indicative": true,\n    "not deponent": true,\n    "plural": true,\n    "1st person": false,\n    "neuter": false\n}
+{
+    "active": false,
+    "semi-deponent": false,
+    "perfect": true,
+    "masculine": true,
+    "indicative": true,
+    "not deponent": true,
+    "plural": true,
+    "1st person": false,
+    "neuter": false
+}

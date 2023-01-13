@@ -1,1 +1,11 @@
-{\n    "feminine": true,\n    "plural": false,\n    "superlative": false,\n    "pronominal": true,\n    "nominative": false,\n    "ablative": true,\n    "singular": true,\n    "dative": false,\n    "demonstrative": false\n}
+{
+    "feminine": true,
+    "plural": false,
+    "superlative": false,
+    "pronominal": true,
+    "nominative": false,
+    "ablative": true,
+    "singular": true,
+    "dative": false,
+    "demonstrative": false
+}

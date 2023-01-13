@@ -1,1 +1,14 @@
-{\n    "passive": true,\n    "deponent": false,\n    "feminine": false,\n    "future": false,\n    "gerund": false,\n    "participle": false,\n    "neuter": false,\n    "genitive": false,\n    "accusative": true,\n    "semi-deponent": false,\n    "active": false,\n    "singular": false\n}
+{
+    "passive": true,
+    "deponent": false,
+    "feminine": false,
+    "future": false,
+    "gerund": false,
+    "participle": false,
+    "neuter": false,
+    "genitive": false,
+    "accusative": true,
+    "semi-deponent": false,
+    "active": false,
+    "singular": false
+}

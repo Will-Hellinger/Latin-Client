@@ -1,1 +1,8 @@
-{\n    "deponent": true,\n    "neuter": true,\n    "feminine": false,\n    "genitive": true,\n    "semi-deponent": false,\n    "nominative": true\n}
+{
+    "deponent": true,
+    "neuter": true,
+    "feminine": false,
+    "genitive": true,
+    "semi-deponent": false,
+    "nominative": true
+}

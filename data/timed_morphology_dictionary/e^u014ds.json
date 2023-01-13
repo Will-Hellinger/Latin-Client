@@ -1,1 +1,15 @@
-{\n    "demonstrative": true,\n    "nominative": false,\n    "singular": false,\n    "masculine": true,\n    "possessive": false,\n    "ablative": false,\n    "3rd person": true,\n    "1st person": false,\n    "neuter": false,\n    "relative": false,\n    "plural": true,\n    "reflexive": false,\n    "indefinite": false\n}
+{
+    "demonstrative": true,
+    "nominative": false,
+    "singular": false,
+    "masculine": true,
+    "possessive": false,
+    "ablative": false,
+    "3rd person": true,
+    "1st person": false,
+    "neuter": false,
+    "relative": false,
+    "plural": true,
+    "reflexive": false,
+    "indefinite": false
+}

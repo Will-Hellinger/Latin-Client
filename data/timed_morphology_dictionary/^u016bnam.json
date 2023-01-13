@@ -1,1 +1,12 @@
-{\n    "cardinal": true,\n    "demonstrative": false,\n    "neuter": false,\n    "ablative": false,\n    "ordinal": false,\n    "positive": true,\n    "accusative": true,\n    "plural": false,\n    "masculine": false,\n    "feminine": true\n}
+{
+    "cardinal": true,
+    "demonstrative": false,
+    "neuter": false,
+    "ablative": false,
+    "ordinal": false,
+    "positive": true,
+    "accusative": true,
+    "plural": false,
+    "masculine": false,
+    "feminine": true
+}

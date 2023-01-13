@@ -1,1 +1,14 @@
-{\n    "relative": true,\n    "feminine": false,\n    "reflexive": false,\n    "plural": false,\n    "noun": false,\n    "demonstrative": false,\n    "adjective": true,\n    "interrogative": true,\n    "pronoun": true,\n    "masculine": true,\n    "singular": true,\n    "neuter": true\n}
+{
+    "relative": true,
+    "feminine": false,
+    "reflexive": false,
+    "plural": false,
+    "noun": false,
+    "demonstrative": false,
+    "adjective": true,
+    "interrogative": true,
+    "pronoun": true,
+    "masculine": true,
+    "singular": true,
+    "neuter": true
+}

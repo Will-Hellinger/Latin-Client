@@ -1,1 +1,10 @@
-{\n    "active": false,\n    "2nd person": false,\n    "not deponent": true,\n    "plural": true,\n    "subjunctive": false,\n    "future": true,\n    "semi-deponent": false,\n    "3rd person": false\n}
+{
+    "active": false,
+    "2nd person": false,
+    "not deponent": true,
+    "plural": true,
+    "subjunctive": false,
+    "future": true,
+    "semi-deponent": false,
+    "3rd person": false
+}

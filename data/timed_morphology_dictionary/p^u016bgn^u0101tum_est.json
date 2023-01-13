@@ -1,1 +1,11 @@
-{\n    "deponent": false,\n    "subjunctive": false,\n    "3rd person": true,\n    "2nd person": false,\n    "singular": true,\n    "neuter": true,\n    "masculine": false,\n    "passive": true,\n    "not deponent": true\n}
+{
+    "deponent": false,
+    "subjunctive": false,
+    "3rd person": true,
+    "2nd person": false,
+    "singular": true,
+    "neuter": true,
+    "masculine": false,
+    "passive": true,
+    "not deponent": true
+}

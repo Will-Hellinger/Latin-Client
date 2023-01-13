@@ -1,1 +1,10 @@
-{\n    "singular": true,\n    "accusative": true,\n    "nominative": true,\n    "feminine": false,\n    "masculine": false,\n    "plural": false,\n    "dative": false,\n    "neuter": true\n}
+{
+    "singular": true,
+    "accusative": true,
+    "nominative": true,
+    "feminine": false,
+    "masculine": false,
+    "plural": false,
+    "dative": false,
+    "neuter": true
+}

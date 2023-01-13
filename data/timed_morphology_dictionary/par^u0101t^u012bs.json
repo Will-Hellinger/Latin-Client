@@ -1,1 +1,12 @@
-{\n    "future perfect": false,\n    "semi-deponent": false,\n    "plural": true,\n    "active": false,\n    "genitive": false,\n    "singular": false,\n    "gerund": false,\n    "positive": true,\n    "ablative": true,\n    "infinitive": false\n}
+{
+    "future perfect": false,
+    "semi-deponent": false,
+    "plural": true,
+    "active": false,
+    "genitive": false,
+    "singular": false,
+    "gerund": false,
+    "positive": true,
+    "ablative": true,
+    "infinitive": false
+}

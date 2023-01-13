@@ -1,1 +1,14 @@
-{\n    "deponent": false,\n    "comparative": false,\n    "semi-deponent": false,\n    "infinitive": false,\n    "superlative": false,\n    "active": false,\n    "passive": true,\n    "genitive": true,\n    "participle": true,\n    "feminine": false,\n    "imperfect": false,\n    "neuter": true\n}
+{
+    "deponent": false,
+    "comparative": false,
+    "semi-deponent": false,
+    "infinitive": false,
+    "superlative": false,
+    "active": false,
+    "passive": true,
+    "genitive": true,
+    "participle": true,
+    "feminine": false,
+    "imperfect": false,
+    "neuter": true
+}

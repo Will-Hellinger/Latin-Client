@@ -1,1 +1,12 @@
-{\n    "feminine": false,\n    "3rd person": true,\n    "plural": true,\n    "singular": false,\n    "not deponent": true,\n    "present": false,\n    "deponent": false,\n    "2nd person": false,\n    "indicative": false,\n    "passive": true\n}
+{
+    "feminine": false,
+    "3rd person": true,
+    "plural": true,
+    "singular": false,
+    "not deponent": true,
+    "present": false,
+    "deponent": false,
+    "2nd person": false,
+    "indicative": false,
+    "passive": true
+}

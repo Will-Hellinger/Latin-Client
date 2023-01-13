@@ -1,1 +1,8 @@
-{\n    "3rd person": true,\n    "reflexive": false,\n    "plural": false,\n    "feminine": false,\n    "dative": false,\n    "2nd person": false\n}
+{
+    "3rd person": true,
+    "reflexive": false,
+    "plural": false,
+    "feminine": false,
+    "dative": false,
+    "2nd person": false
+}

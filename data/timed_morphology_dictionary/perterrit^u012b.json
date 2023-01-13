@@ -1,1 +1,10 @@
-{\n    "positive": true,\n    "genitive": true,\n    "passive": true,\n    "comparative": false,\n    "infinitive": false,\n    "dative": false,\n    "masculine": true,\n    "semi-deponent": false\n}
+{
+    "positive": true,
+    "genitive": true,
+    "passive": true,
+    "comparative": false,
+    "infinitive": false,
+    "dative": false,
+    "masculine": true,
+    "semi-deponent": false
+}

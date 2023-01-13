@@ -1,1 +1,13 @@
-{\n    "interrogative": true,\n    "feminine": false,\n    "plural": true,\n    "relative": true,\n    "adjective": true,\n    "singular": false,\n    "ablative": false,\n    "noun": false,\n    "genitive": true,\n    "pronoun": true,\n    "nominative": false\n}
+{
+    "interrogative": true,
+    "feminine": false,
+    "plural": true,
+    "relative": true,
+    "adjective": true,
+    "singular": false,
+    "ablative": false,
+    "noun": false,
+    "genitive": true,
+    "pronoun": true,
+    "nominative": false
+}

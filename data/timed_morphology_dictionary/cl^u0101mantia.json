@@ -1,1 +1,14 @@
-{\n    "positive": true,\n    "nominative": true,\n    "plural": true,\n    "participle": true,\n    "comparative": false,\n    "present": true,\n    "neuter": true,\n    "dative": false,\n    "active": true,\n    "future": false,\n    "accusative": true,\n    "infinitive": false\n}
+{
+    "positive": true,
+    "nominative": true,
+    "plural": true,
+    "participle": true,
+    "comparative": false,
+    "present": true,
+    "neuter": true,
+    "dative": false,
+    "active": true,
+    "future": false,
+    "accusative": true,
+    "infinitive": false
+}

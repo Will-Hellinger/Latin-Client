@@ -1,1 +1,7 @@
-{\n    "present": true,\n    "active": false,\n    "passive": true,\n    "future": false,\n    "not deponent": true\n}
+{
+    "present": true,
+    "active": false,
+    "passive": true,
+    "future": false,
+    "not deponent": true
+}

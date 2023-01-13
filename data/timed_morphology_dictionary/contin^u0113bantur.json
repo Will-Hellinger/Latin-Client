@@ -1,1 +1,8 @@
-{\n    "2nd person": false,\n    "plural": true,\n    "passive": true,\n    "imperative": false,\n    "future": false,\n    "imperfect": true\n}
+{
+    "2nd person": false,
+    "plural": true,
+    "passive": true,
+    "imperative": false,
+    "future": false,
+    "imperfect": true
+}

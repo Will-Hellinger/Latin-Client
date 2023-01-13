@@ -1,1 +1,10 @@
-{\n    "plural": true,\n    "semi-deponent": false,\n    "singular": false,\n    "infinitive": false,\n    "present": false,\n    "nominative": false,\n    "passive": true,\n    "feminine": true\n}
+{
+    "plural": true,
+    "semi-deponent": false,
+    "singular": false,
+    "infinitive": false,
+    "present": false,
+    "nominative": false,
+    "passive": true,
+    "feminine": true
+}

@@ -1,1 +1,9 @@
-{\n    "1st person": true,\n    "plural": false,\n    "semi-deponent": false,\n    "present": true,\n    "active": true,\n    "not deponent": true,\n    "deponent": false\n}
+{
+    "1st person": true,
+    "plural": false,
+    "semi-deponent": false,
+    "present": true,
+    "active": true,
+    "not deponent": true,
+    "deponent": false
+}

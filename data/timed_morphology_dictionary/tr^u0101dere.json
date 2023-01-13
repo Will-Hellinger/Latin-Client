@@ -1,1 +1,12 @@
-{\n    "1st person": false,\n    "participle": false,\n    "singular": true,\n    "perfect": false,\n    "2nd person": true,\n    "subjunctive": false,\n    "indicative": false,\n    "gerund": false,\n    "plural": false,\n    "3rd person": false\n}
+{
+    "1st person": false,
+    "participle": false,
+    "singular": true,
+    "perfect": false,
+    "2nd person": true,
+    "subjunctive": false,
+    "indicative": false,
+    "gerund": false,
+    "plural": false,
+    "3rd person": false
+}

@@ -1,1 +1,10 @@
-{\n    "3rd person": true,\n    "singular": false,\n    "plural": true,\n    "not deponent": false,\n    "1st person": false,\n    "subjunctive": false,\n    "present": false,\n    "future perfect": false\n}
+{
+    "3rd person": true,
+    "singular": false,
+    "plural": true,
+    "not deponent": false,
+    "1st person": false,
+    "subjunctive": false,
+    "present": false,
+    "future perfect": false
+}

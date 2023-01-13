@@ -1,1 +1,9 @@
-{\n    "not deponent": false,\n    "nominative": true,\n    "feminine": false,\n    "infinitive": false,\n    "participle": true,\n    "deponent": true,\n    "genitive": true\n}
+{
+    "not deponent": false,
+    "nominative": true,
+    "feminine": false,
+    "infinitive": false,
+    "participle": true,
+    "deponent": true,
+    "genitive": true
+}

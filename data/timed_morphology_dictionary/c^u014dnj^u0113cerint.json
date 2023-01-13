@@ -1,1 +1,12 @@
-{\n    "subjunctive": true,\n    "plural": true,\n    "3rd person": true,\n    "deponent": false,\n    "future perfect": true,\n    "2nd person": false,\n    "imperative": false,\n    "perfect": true,\n    "1st person": false,\n    "passive": false\n}
+{
+    "subjunctive": true,
+    "plural": true,
+    "3rd person": true,
+    "deponent": false,
+    "future perfect": true,
+    "2nd person": false,
+    "imperative": false,
+    "perfect": true,
+    "1st person": false,
+    "passive": false
+}

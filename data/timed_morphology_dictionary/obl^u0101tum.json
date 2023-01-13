@@ -1,1 +1,11 @@
-{\n    "passive": true,\n    "nominative": true,\n    "participle": true,\n    "active": false,\n    "not deponent": true,\n    "feminine": false,\n    "positive": true,\n    "comparative": false,\n    "plural": false\n}
+{
+    "passive": true,
+    "nominative": true,
+    "participle": true,
+    "active": false,
+    "not deponent": true,
+    "feminine": false,
+    "positive": true,
+    "comparative": false,
+    "plural": false
+}

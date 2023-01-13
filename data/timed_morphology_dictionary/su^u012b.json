@@ -1,1 +1,10 @@
-{\n    "possessive": true,\n    "superlative": false,\n    "2nd person": false,\n    "nominative": true,\n    "3rd person": true,\n    "ablative": false,\n    "positive": true,\n    "comparative": false\n}
+{
+    "possessive": true,
+    "superlative": false,
+    "2nd person": false,
+    "nominative": true,
+    "3rd person": true,
+    "ablative": false,
+    "positive": true,
+    "comparative": false
+}

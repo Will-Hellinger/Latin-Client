@@ -1,1 +1,13 @@
-{\n    "accusative": false,\n    "genitive": false,\n    "positive": true,\n    "not deponent": true,\n    "infinitive": false,\n    "perfect": true,\n    "passive": true,\n    "gerund": false,\n    "comparative": false,\n    "deponent": false,\n    "participle": true\n}
+{
+    "accusative": false,
+    "genitive": false,
+    "positive": true,
+    "not deponent": true,
+    "infinitive": false,
+    "perfect": true,
+    "passive": true,
+    "gerund": false,
+    "comparative": false,
+    "deponent": false,
+    "participle": true
+}

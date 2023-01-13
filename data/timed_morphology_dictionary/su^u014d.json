@@ -1,1 +1,16 @@
-{\n    "plural": false,\n    "neuter": true,\n    "dative": true,\n    "singular": true,\n    "feminine": false,\n    "masculine": true,\n    "3rd person": true,\n    "1st person": false,\n    "comparative": false,\n    "nominative": false,\n    "demonstrative": false,\n    "possessive": true,\n    "genitive": false,\n    "reflexive": true\n}
+{
+    "plural": false,
+    "neuter": true,
+    "dative": true,
+    "singular": true,
+    "feminine": false,
+    "masculine": true,
+    "3rd person": true,
+    "1st person": false,
+    "comparative": false,
+    "nominative": false,
+    "demonstrative": false,
+    "possessive": true,
+    "genitive": false,
+    "reflexive": true
+}

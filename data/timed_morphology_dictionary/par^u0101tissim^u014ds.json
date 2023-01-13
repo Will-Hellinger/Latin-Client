@@ -1,1 +1,9 @@
-{\n    "deponent": false,\n    "passive": true,\n    "plural": true,\n    "nominative": false,\n    "not deponent": true,\n    "superlative": true,\n    "ablative": false\n}
+{
+    "deponent": false,
+    "passive": true,
+    "plural": true,
+    "nominative": false,
+    "not deponent": true,
+    "superlative": true,
+    "ablative": false
+}

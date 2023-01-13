@@ -1,1 +1,11 @@
-{\n    "active": true,\n    "neuter": true,\n    "genitive": false,\n    "singular": true,\n    "accusative": true,\n    "participle": false,\n    "plural": false,\n    "feminine": false,\n    "present": false\n}
+{
+    "active": true,
+    "neuter": true,
+    "genitive": false,
+    "singular": true,
+    "accusative": true,
+    "participle": false,
+    "plural": false,
+    "feminine": false,
+    "present": false
+}

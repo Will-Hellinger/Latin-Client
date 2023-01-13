@@ -1,1 +1,12 @@
-{\n    "plural": false,\n    "future": false,\n    "active": true,\n    "3rd person": true,\n    "indicative": true,\n    "imperative": false,\n    "singular": true,\n    "passive": false,\n    "perfect": true,\n    "future perfect": false\n}
+{
+    "plural": false,
+    "future": false,
+    "active": true,
+    "3rd person": true,
+    "indicative": true,
+    "imperative": false,
+    "singular": true,
+    "passive": false,
+    "perfect": true,
+    "future perfect": false
+}

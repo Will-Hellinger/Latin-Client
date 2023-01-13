@@ -1,1 +1,11 @@
-{\n    "perfect": true,\n    "future perfect": false,\n    "not deponent": true,\n    "nominative": true,\n    "superlative": false,\n    "neuter": true,\n    "positive": true,\n    "deponent": false,\n    "ablative": false\n}
+{
+    "perfect": true,
+    "future perfect": false,
+    "not deponent": true,
+    "nominative": true,
+    "superlative": false,
+    "neuter": true,
+    "positive": true,
+    "deponent": false,
+    "ablative": false
+}

@@ -1,1 +1,8 @@
-{\n    "passive": true,\n    "singular": true,\n    "plural": false,\n    "1st person": false,\n    "indicative": false,\n    "not deponent": true\n}
+{
+    "passive": true,
+    "singular": true,
+    "plural": false,
+    "1st person": false,
+    "indicative": false,
+    "not deponent": true
+}

@@ -1,1 +1,10 @@
-{\n    "not deponent": true,\n    "feminine": true,\n    "comparative": false,\n    "deponent": false,\n    "plural": false,\n    "passive": true,\n    "participle": true,\n    "accusative": false\n}
+{
+    "not deponent": true,
+    "feminine": true,
+    "comparative": false,
+    "deponent": false,
+    "plural": false,
+    "passive": true,
+    "participle": true,
+    "accusative": false
+}

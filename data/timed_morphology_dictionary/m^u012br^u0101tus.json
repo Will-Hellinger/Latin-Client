@@ -1,1 +1,10 @@
-{\n    "semi-deponent": false,\n    "nominative": true,\n    "feminine": false,\n    "deponent": true,\n    "infinitive": false,\n    "perfect": true,\n    "positive": true,\n    "neuter": false\n}
+{
+    "semi-deponent": false,
+    "nominative": true,
+    "feminine": false,
+    "deponent": true,
+    "infinitive": false,
+    "perfect": true,
+    "positive": true,
+    "neuter": false
+}

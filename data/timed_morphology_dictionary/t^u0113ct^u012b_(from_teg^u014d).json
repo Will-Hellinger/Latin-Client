@@ -1,1 +1,21 @@
-{\n    "perfect": true,\n    "active": false,\n    "passive": true,\n    "not deponent": true,\n    "nominative": true,\n    "ablative": false,\n    "feminine": false,\n    "gerund": false,\n    "accusative": false,\n    "neuter": true,\n    "pluperfect": false,\n    "participle": true,\n    "dative": false,\n    "positive": true,\n    "genitive": true,\n    "deponent": false,\n    "comparative": false,\n    "semi-deponent": false,\n    "superlative": false\n}
+{
+    "perfect": true,
+    "active": false,
+    "passive": true,
+    "not deponent": true,
+    "nominative": true,
+    "ablative": false,
+    "feminine": false,
+    "gerund": false,
+    "accusative": false,
+    "neuter": true,
+    "pluperfect": false,
+    "participle": true,
+    "dative": false,
+    "positive": true,
+    "genitive": true,
+    "deponent": false,
+    "comparative": false,
+    "semi-deponent": false,
+    "superlative": false
+}

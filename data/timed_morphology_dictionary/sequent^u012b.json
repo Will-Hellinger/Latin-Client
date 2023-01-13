@@ -1,1 +1,13 @@
-{\n    "plural": false,\n    "gerund": false,\n    "deponent": true,\n    "present": true,\n    "ablative": false,\n    "positive": true,\n    "genitive": false,\n    "participle": true,\n    "not deponent": false,\n    "superlative": false,\n    "dative": true\n}
+{
+    "plural": false,
+    "gerund": false,
+    "deponent": true,
+    "present": true,
+    "ablative": false,
+    "positive": true,
+    "genitive": false,
+    "participle": true,
+    "not deponent": false,
+    "superlative": false,
+    "dative": true
+}

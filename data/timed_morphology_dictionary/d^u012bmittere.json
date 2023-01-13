@@ -1,1 +1,9 @@
-{\n    "deponent": false,\n    "semi-deponent": false,\n    "1st person": false,\n    "2nd person": true,\n    "singular": true,\n    "subjunctive": false,\n    "infinitive": true\n}
+{
+    "deponent": false,
+    "semi-deponent": false,
+    "1st person": false,
+    "2nd person": true,
+    "singular": true,
+    "subjunctive": false,
+    "infinitive": true
+}

@@ -1,1 +1,9 @@
-{\n    "deponent": true,\n    "indicative": false,\n    "plural": false,\n    "imperfect": true,\n    "subjunctive": true,\n    "1st person": false,\n    "2nd person": false\n}
+{
+    "deponent": true,
+    "indicative": false,
+    "plural": false,
+    "imperfect": true,
+    "subjunctive": true,
+    "1st person": false,
+    "2nd person": false
+}

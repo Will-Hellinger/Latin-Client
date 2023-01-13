@@ -1,1 +1,11 @@
-{\n    "2nd person": true,\n    "future": false,\n    "infinitive": true,\n    "plural": false,\n    "imperative": true,\n    "gerund": false,\n    "not deponent": true,\n    "subjunctive": false,\n    "singular": true\n}
+{
+    "2nd person": true,
+    "future": false,
+    "infinitive": true,
+    "plural": false,
+    "imperative": true,
+    "gerund": false,
+    "not deponent": true,
+    "subjunctive": false,
+    "singular": true
+}

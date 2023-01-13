@@ -1,1 +1,11 @@
-{\n    "accusative": false,\n    "noun": false,\n    "ablative": false,\n    "nominative": true,\n    "dative": true,\n    "reflexive": false,\n    "intensive": true,\n    "adverb": false,\n    "pronoun": true\n}
+{
+    "accusative": false,
+    "noun": false,
+    "ablative": false,
+    "nominative": true,
+    "dative": true,
+    "reflexive": false,
+    "intensive": true,
+    "adverb": false,
+    "pronoun": true
+}

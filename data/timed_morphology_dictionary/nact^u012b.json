@@ -1,1 +1,14 @@
-{\n    "not deponent": false,\n    "ablative": false,\n    "superlative": false,\n    "positive": true,\n    "perfect": true,\n    "masculine": true,\n    "accusative": false,\n    "imperfect": false,\n    "nominative": true,\n    "feminine": false,\n    "participle": true,\n    "future": false\n}
+{
+    "not deponent": false,
+    "ablative": false,
+    "superlative": false,
+    "positive": true,
+    "perfect": true,
+    "masculine": true,
+    "accusative": false,
+    "imperfect": false,
+    "nominative": true,
+    "feminine": false,
+    "participle": true,
+    "future": false
+}

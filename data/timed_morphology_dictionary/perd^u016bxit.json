@@ -1,1 +1,9 @@
-{\n    "perfect": true,\n    "semi-deponent": false,\n    "active": true,\n    "passive": false,\n    "plural": false,\n    "present": false,\n    "indicative": true\n}
+{
+    "perfect": true,
+    "semi-deponent": false,
+    "active": true,
+    "passive": false,
+    "plural": false,
+    "present": false,
+    "indicative": true
+}

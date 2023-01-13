@@ -1,1 +1,13 @@
-{\n    "demonstrative": true,\n    "dative": true,\n    "plural": true,\n    "ablative": true,\n    "singular": false,\n    "accusative": false,\n    "nominative": false,\n    "reflexive": false,\n    "indefinite": false,\n    "relative": false,\n    "genitive": false\n}
+{
+    "demonstrative": true,
+    "dative": true,
+    "plural": true,
+    "ablative": true,
+    "singular": false,
+    "accusative": false,
+    "nominative": false,
+    "reflexive": false,
+    "indefinite": false,
+    "relative": false,
+    "genitive": false
+}

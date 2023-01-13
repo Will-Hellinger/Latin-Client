@@ -1,1 +1,10 @@
-{\n    "not deponent": true,\n    "passive": true,\n    "present": true,\n    "perfect": false,\n    "deponent": false,\n    "future": false,\n    "participle": false,\n    "infinitive": true\n}
+{
+    "not deponent": true,
+    "passive": true,
+    "present": true,
+    "perfect": false,
+    "deponent": false,
+    "future": false,
+    "participle": false,
+    "infinitive": true
+}

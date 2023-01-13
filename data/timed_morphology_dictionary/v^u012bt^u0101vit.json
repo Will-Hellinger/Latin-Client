@@ -1,1 +1,11 @@
-{\n    "not deponent": true,\n    "semi-deponent": false,\n    "singular": true,\n    "subjunctive": false,\n    "imperative": false,\n    "active": true,\n    "plural": false,\n    "passive": false,\n    "perfect": true\n}
+{
+    "not deponent": true,
+    "semi-deponent": false,
+    "singular": true,
+    "subjunctive": false,
+    "imperative": false,
+    "active": true,
+    "plural": false,
+    "passive": false,
+    "perfect": true
+}

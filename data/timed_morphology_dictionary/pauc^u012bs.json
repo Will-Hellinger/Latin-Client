@@ -1,1 +1,9 @@
-{\n    "positive": true,\n    "comparative": false,\n    "nominative": false,\n    "superlative": false,\n    "dative": true,\n    "genitive": false,\n    "ablative": true\n}
+{
+    "positive": true,
+    "comparative": false,
+    "nominative": false,
+    "superlative": false,
+    "dative": true,
+    "genitive": false,
+    "ablative": true
+}

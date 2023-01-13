@@ -1,1 +1,9 @@
-{\n    "plural": true,\n    "active": true,\n    "imperative": false,\n    "perfect": true,\n    "singular": false,\n    "subjunctive": false,\n    "indicative": true\n}
+{
+    "plural": true,
+    "active": true,
+    "imperative": false,
+    "perfect": true,
+    "singular": false,
+    "subjunctive": false,
+    "indicative": true
+}

@@ -1,1 +1,11 @@
-{\n    "3rd person": true,\n    "feminine": true,\n    "perfect": true,\n    "subjunctive": false,\n    "imperfect": false,\n    "indicative": true,\n    "not deponent": false,\n    "singular": true,\n    "neuter": false\n}
+{
+    "3rd person": true,
+    "feminine": true,
+    "perfect": true,
+    "subjunctive": false,
+    "imperfect": false,
+    "indicative": true,
+    "not deponent": false,
+    "singular": true,
+    "neuter": false
+}

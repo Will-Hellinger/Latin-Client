@@ -1,1 +1,13 @@
-{\n    "singular": true,\n    "plural": false,\n    "genitive": true,\n    "nominative": false,\n    "cardinal": true,\n    "superlative": false,\n    "ordinal": false,\n    "ablative": false,\n    "positive": true,\n    "pronominal": true,\n    "demonstrative": false\n}
+{
+    "singular": true,
+    "plural": false,
+    "genitive": true,
+    "nominative": false,
+    "cardinal": true,
+    "superlative": false,
+    "ordinal": false,
+    "ablative": false,
+    "positive": true,
+    "pronominal": true,
+    "demonstrative": false
+}

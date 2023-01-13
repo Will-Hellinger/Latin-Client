@@ -1,1 +1,15 @@
-{\n    "active": false,\n    "not deponent": true,\n    "plural": true,\n    "passive": true,\n    "1st person": false,\n    "singular": false,\n    "neuter": false,\n    "feminine": false,\n    "imperative": false,\n    "pluperfect": true,\n    "perfect": false,\n    "3rd person": true,\n    "masculine": true\n}
+{
+    "active": false,
+    "not deponent": true,
+    "plural": true,
+    "passive": true,
+    "1st person": false,
+    "singular": false,
+    "neuter": false,
+    "feminine": false,
+    "imperative": false,
+    "pluperfect": true,
+    "perfect": false,
+    "3rd person": true,
+    "masculine": true
+}

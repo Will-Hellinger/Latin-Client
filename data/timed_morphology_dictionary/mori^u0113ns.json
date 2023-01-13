@@ -1,1 +1,11 @@
-{\n    "deponent": true,\n    "active": true,\n    "semi-deponent": false,\n    "positive": true,\n    "future": false,\n    "singular": true,\n    "gerund": false,\n    "passive": false,\n    "ablative": false\n}
+{
+    "deponent": true,
+    "active": true,
+    "semi-deponent": false,
+    "positive": true,
+    "future": false,
+    "singular": true,
+    "gerund": false,
+    "passive": false,
+    "ablative": false
+}

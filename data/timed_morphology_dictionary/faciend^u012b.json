@@ -1,1 +1,13 @@
-{\n    "feminine": false,\n    "gerund": true,\n    "future": true,\n    "deponent": false,\n    "semi-deponent": false,\n    "neuter": true,\n    "dative": false,\n    "participle": true,\n    "passive": true,\n    "masculine": true,\n    "infinitive": false\n}
+{
+    "feminine": false,
+    "gerund": true,
+    "future": true,
+    "deponent": false,
+    "semi-deponent": false,
+    "neuter": true,
+    "dative": false,
+    "participle": true,
+    "passive": true,
+    "masculine": true,
+    "infinitive": false
+}

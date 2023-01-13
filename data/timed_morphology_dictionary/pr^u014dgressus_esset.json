@@ -1,1 +1,10 @@
-{\n    "singular": true,\n    "3rd person": true,\n    "imperfect": false,\n    "plural": false,\n    "masculine": true,\n    "feminine": false,\n    "subjunctive": true,\n    "semi-deponent": false\n}
+{
+    "singular": true,
+    "3rd person": true,
+    "imperfect": false,
+    "plural": false,
+    "masculine": true,
+    "feminine": false,
+    "subjunctive": true,
+    "semi-deponent": false
+}

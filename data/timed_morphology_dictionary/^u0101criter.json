@@ -1,1 +1,6 @@
-{\n    "positive": true,\n    "pronoun": false,\n    "comparative": false,\n    "adverb": true\n}
+{
+    "positive": true,
+    "pronoun": false,
+    "comparative": false,
+    "adverb": true
+}

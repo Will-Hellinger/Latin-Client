@@ -1,1 +1,8 @@
-{\n    "singular": true,\n    "not deponent": true,\n    "future": false,\n    "2nd person": false,\n    "pluperfect": true,\n    "imperative": false\n}
+{
+    "singular": true,
+    "not deponent": true,
+    "future": false,
+    "2nd person": false,
+    "pluperfect": true,
+    "imperative": false
+}

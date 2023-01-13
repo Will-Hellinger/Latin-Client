@@ -1,1 +1,9 @@
-{\n    "accusative": true,\n    "gerund": false,\n    "plural": false,\n    "participle": true,\n    "dative": false,\n    "positive": true,\n    "not deponent": true\n}
+{
+    "accusative": true,
+    "gerund": false,
+    "plural": false,
+    "participle": true,
+    "dative": false,
+    "positive": true,
+    "not deponent": true
+}

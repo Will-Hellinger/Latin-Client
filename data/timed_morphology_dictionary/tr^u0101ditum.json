@@ -1,1 +1,13 @@
-{\n    "neuter": true,\n    "masculine": true,\n    "superlative": false,\n    "feminine": false,\n    "not deponent": true,\n    "passive": true,\n    "participle": true,\n    "ablative": false,\n    "pluperfect": false,\n    "positive": true,\n    "accusative": true\n}
+{
+    "neuter": true,
+    "masculine": true,
+    "superlative": false,
+    "feminine": false,
+    "not deponent": true,
+    "passive": true,
+    "participle": true,
+    "ablative": false,
+    "pluperfect": false,
+    "positive": true,
+    "accusative": true
+}

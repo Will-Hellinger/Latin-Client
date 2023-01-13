@@ -1,1 +1,11 @@
-{\n    "perfect": true,\n    "imperative": false,\n    "not deponent": true,\n    "2nd person": false,\n    "semi-deponent": false,\n    "indicative": true,\n    "plural": false,\n    "present": false,\n    "singular": true\n}
+{
+    "perfect": true,
+    "imperative": false,
+    "not deponent": true,
+    "2nd person": false,
+    "semi-deponent": false,
+    "indicative": true,
+    "plural": false,
+    "present": false,
+    "singular": true
+}

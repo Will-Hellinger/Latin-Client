@@ -1,1 +1,12 @@
-{\n    "neuter": false,\n    "nominative": true,\n    "genitive": false,\n    "1st person": false,\n    "plural": false,\n    "3rd person": true,\n    "demonstrative": true,\n    "dative": false,\n    "indefinite": false,\n    "relative": false\n}
+{
+    "neuter": false,
+    "nominative": true,
+    "genitive": false,
+    "1st person": false,
+    "plural": false,
+    "3rd person": true,
+    "demonstrative": true,
+    "dative": false,
+    "indefinite": false,
+    "relative": false
+}

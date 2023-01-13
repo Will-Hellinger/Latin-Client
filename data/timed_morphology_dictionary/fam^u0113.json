@@ -1,1 +1,8 @@
-{\n    "plural": false,\n    "singular": true,\n    "dative": false,\n    "ablative": true,\n    "neuter": false,\n    "masculine": false\n}
+{
+    "plural": false,
+    "singular": true,
+    "dative": false,
+    "ablative": true,
+    "neuter": false,
+    "masculine": false
+}

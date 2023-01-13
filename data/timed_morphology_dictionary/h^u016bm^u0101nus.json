@@ -1,1 +1,9 @@
-{\n    "feminine": false,\n    "masculine": true,\n    "nominative": true,\n    "comparative": false,\n    "singular": true,\n    "genitive": false,\n    "dative": false\n}
+{
+    "feminine": false,
+    "masculine": true,
+    "nominative": true,
+    "comparative": false,
+    "singular": true,
+    "genitive": false,
+    "dative": false
+}

@@ -1,1 +1,9 @@
-{\n    "deponent": false,\n    "passive": false,\n    "active": true,\n    "subjunctive": false,\n    "not deponent": true,\n    "semi-deponent": false,\n    "singular": true\n}
+{
+    "deponent": false,
+    "passive": false,
+    "active": true,
+    "subjunctive": false,
+    "not deponent": true,
+    "semi-deponent": false,
+    "singular": true
+}

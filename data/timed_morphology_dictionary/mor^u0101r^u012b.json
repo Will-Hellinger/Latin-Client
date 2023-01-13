@@ -1,1 +1,11 @@
-{\n    "infinitive": true,\n    "gerund": false,\n    "deponent": true,\n    "present": true,\n    "participle": false,\n    "not deponent": false,\n    "semi-deponent": false,\n    "future": false,\n    "perfect": false\n}
+{
+    "infinitive": true,
+    "gerund": false,
+    "deponent": true,
+    "present": true,
+    "participle": false,
+    "not deponent": false,
+    "semi-deponent": false,
+    "future": false,
+    "perfect": false
+}

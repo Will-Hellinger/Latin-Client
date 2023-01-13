@@ -1,1 +1,6 @@
-{\n    "dative": true,\n    "singular": true,\n    "plural": false,\n    "ablative": false\n}
+{
+    "dative": true,
+    "singular": true,
+    "plural": false,
+    "ablative": false
+}

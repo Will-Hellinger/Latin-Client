@@ -1,1 +1,9 @@
-{\n    "singular": true,\n    "genitive": true,\n    "plural": false,\n    "adjective": true,\n    "adverb": false,\n    "intensive": true,\n    "ablative": false\n}
+{
+    "singular": true,
+    "genitive": true,
+    "plural": false,
+    "adjective": true,
+    "adverb": false,
+    "intensive": true,
+    "ablative": false
+}

@@ -1,1 +1,15 @@
-{\n    "ablative": false,\n    "dative": true,\n    "accusative": false,\n    "2nd person": false,\n    "demonstrative": true,\n    "possessive": false,\n    "indefinite": false,\n    "genitive": false,\n    "nominative": true,\n    "3rd person": true,\n    "relative": false,\n    "interrogative": false,\n    "1st person": false\n}
+{
+    "ablative": false,
+    "dative": true,
+    "accusative": false,
+    "2nd person": false,
+    "demonstrative": true,
+    "possessive": false,
+    "indefinite": false,
+    "genitive": false,
+    "nominative": true,
+    "3rd person": true,
+    "relative": false,
+    "interrogative": false,
+    "1st person": false
+}

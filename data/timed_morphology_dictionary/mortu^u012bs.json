@@ -1,1 +1,12 @@
-{\n    "singular": false,\n    "positive": true,\n    "not deponent": false,\n    "ablative": true,\n    "future perfect": false,\n    "gerund": false,\n    "deponent": true,\n    "perfect": true,\n    "participle": true,\n    "infinitive": false\n}
+{
+    "singular": false,
+    "positive": true,
+    "not deponent": false,
+    "ablative": true,
+    "future perfect": false,
+    "gerund": false,
+    "deponent": true,
+    "perfect": true,
+    "participle": true,
+    "infinitive": false
+}

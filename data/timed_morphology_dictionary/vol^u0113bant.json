@@ -1,1 +1,10 @@
-{\n    "1st person": false,\n    "singular": false,\n    "present": false,\n    "subjunctive": false,\n    "plural": true,\n    "imperative": false,\n    "passive": false,\n    "future": false\n}
+{
+    "1st person": false,
+    "singular": false,
+    "present": false,
+    "subjunctive": false,
+    "plural": true,
+    "imperative": false,
+    "passive": false,
+    "future": false
+}

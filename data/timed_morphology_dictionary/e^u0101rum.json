@@ -1,1 +1,10 @@
-{\n    "feminine": true,\n    "demonstrative": true,\n    "1st person": false,\n    "neuter": false,\n    "singular": false,\n    "genitive": true,\n    "plural": true,\n    "3rd person": true\n}
+{
+    "feminine": true,
+    "demonstrative": true,
+    "1st person": false,
+    "neuter": false,
+    "singular": false,
+    "genitive": true,
+    "plural": true,
+    "3rd person": true
+}

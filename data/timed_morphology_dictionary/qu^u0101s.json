@@ -1,1 +1,13 @@
-{\n    "reflexive": false,\n    "demonstrative": false,\n    "masculine": false,\n    "noun": false,\n    "interrogative": true,\n    "pronoun": true,\n    "neuter": false,\n    "feminine": true,\n    "singular": false,\n    "plural": true,\n    "adjective": true\n}
+{
+    "reflexive": false,
+    "demonstrative": false,
+    "masculine": false,
+    "noun": false,
+    "interrogative": true,
+    "pronoun": true,
+    "neuter": false,
+    "feminine": true,
+    "singular": false,
+    "plural": true,
+    "adjective": true
+}

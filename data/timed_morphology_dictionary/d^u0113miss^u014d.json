@@ -1,1 +1,11 @@
-{\n    "participle": true,\n    "passive": true,\n    "genitive": false,\n    "positive": true,\n    "infinitive": false,\n    "feminine": false,\n    "accusative": false,\n    "neuter": true,\n    "superlative": false\n}
+{
+    "participle": true,
+    "passive": true,
+    "genitive": false,
+    "positive": true,
+    "infinitive": false,
+    "feminine": false,
+    "accusative": false,
+    "neuter": true,
+    "superlative": false
+}

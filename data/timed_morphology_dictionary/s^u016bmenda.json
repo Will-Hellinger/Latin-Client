@@ -1,1 +1,9 @@
-{\n    "feminine": true,\n    "positive": true,\n    "not deponent": true,\n    "accusative": true,\n    "deponent": false,\n    "passive": true,\n    "masculine": false\n}
+{
+    "feminine": true,
+    "positive": true,
+    "not deponent": true,
+    "accusative": true,
+    "deponent": false,
+    "passive": true,
+    "masculine": false
+}

@@ -1,1 +1,9 @@
-{\n    "preposition w/ abl.": true,\n    "conjunction": false,\n    "pronoun": false,\n    "preposition w/ acc.": false,\n    "noun": false,\n    "adverb": false,\n    "adjective": false\n}
+{
+    "preposition w/ abl.": true,
+    "conjunction": false,
+    "pronoun": false,
+    "preposition w/ acc.": false,
+    "noun": false,
+    "adverb": false,
+    "adjective": false
+}

@@ -1,1 +1,11 @@
-{\n    "accusative": false,\n    "active": false,\n    "pluperfect": false,\n    "participle": true,\n    "genitive": true,\n    "perfect": true,\n    "feminine": false,\n    "deponent": false,\n    "passive": true\n}
+{
+    "accusative": false,
+    "active": false,
+    "pluperfect": false,
+    "participle": true,
+    "genitive": true,
+    "perfect": true,
+    "feminine": false,
+    "deponent": false,
+    "passive": true
+}

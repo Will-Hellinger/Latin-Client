@@ -1,1 +1,10 @@
-{\n    "singular": true,\n    "not deponent": true,\n    "deponent": false,\n    "semi-deponent": false,\n    "plural": false,\n    "3rd person": true,\n    "present": true,\n    "indicative": true\n}
+{
+    "singular": true,
+    "not deponent": true,
+    "deponent": false,
+    "semi-deponent": false,
+    "plural": false,
+    "3rd person": true,
+    "present": true,
+    "indicative": true
+}

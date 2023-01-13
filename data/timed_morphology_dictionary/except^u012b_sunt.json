@@ -1,1 +1,12 @@
-{\n    "masculine": true,\n    "not deponent": true,\n    "plural": true,\n    "present": false,\n    "semi-deponent": false,\n    "indicative": true,\n    "subjunctive": false,\n    "passive": true,\n    "feminine": false,\n    "future perfect": false\n}
+{
+    "masculine": true,
+    "not deponent": true,
+    "plural": true,
+    "present": false,
+    "semi-deponent": false,
+    "indicative": true,
+    "subjunctive": false,
+    "passive": true,
+    "feminine": false,
+    "future perfect": false
+}

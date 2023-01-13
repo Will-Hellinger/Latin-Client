@@ -1,1 +1,13 @@
-{\n    "1st person": false,\n    "possessive": true,\n    "plural": false,\n    "singular": true,\n    "comparative": false,\n    "3rd person": true,\n    "ablative": true,\n    "accusative": false,\n    "masculine": false,\n    "2nd person": false\n}
+{
+    "1st person": false,
+    "possessive": true,
+    "plural": false,
+    "singular": true,
+    "comparative": false,
+    "3rd person": true,
+    "ablative": true,
+    "accusative": false,
+    "masculine": false,
+    "2nd person": false,
+    "positive": true
+}

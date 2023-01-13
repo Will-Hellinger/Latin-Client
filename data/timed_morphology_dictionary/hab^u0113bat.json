@@ -1,1 +1,21 @@
-{\n    "semi-deponent": false,\n    "imperative": false,\n    "2nd person": false,\n    "plural": false,\n    "3rd person": true,\n    "singular": true,\n    "deponent": false,\n    "active": true,\n    "indicative": true,\n    "future": false,\n    "not deponent": true,\n    "imperfect": true,\n    "passive": false,\n    "perfect": false,\n    "pluperfect": false,\n    "1st person": false,\n    "subjunctive": false,\n    "present": false,\n    "future perfect": false\n}
+{
+    "semi-deponent": false,
+    "imperative": false,
+    "2nd person": false,
+    "plural": false,
+    "3rd person": true,
+    "singular": true,
+    "deponent": false,
+    "active": true,
+    "indicative": true,
+    "future": false,
+    "not deponent": true,
+    "imperfect": true,
+    "passive": false,
+    "perfect": false,
+    "pluperfect": false,
+    "1st person": false,
+    "subjunctive": false,
+    "present": false,
+    "future perfect": false
+}

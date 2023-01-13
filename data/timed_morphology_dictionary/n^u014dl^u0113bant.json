@@ -1,1 +1,9 @@
-{\n    "not deponent": true,\n    "present": false,\n    "imperfect": true,\n    "indicative": true,\n    "perfect": false,\n    "singular": false,\n    "plural": true\n}
+{
+    "not deponent": true,
+    "present": false,
+    "imperfect": true,
+    "indicative": true,
+    "perfect": false,
+    "singular": false,
+    "plural": true
+}

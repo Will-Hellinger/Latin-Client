@@ -1,1 +1,13 @@
-{\n    "semi-deponent": false,\n    "active": true,\n    "3rd person": true,\n    "subjunctive": true,\n    "indicative": false,\n    "1st person": false,\n    "singular": true,\n    "plural": false,\n    "imperfect": true,\n    "deponent": false,\n    "passive": false\n}
+{
+    "semi-deponent": false,
+    "active": true,
+    "3rd person": true,
+    "subjunctive": true,
+    "indicative": false,
+    "1st person": false,
+    "singular": true,
+    "plural": false,
+    "imperfect": true,
+    "deponent": false,
+    "passive": false
+}

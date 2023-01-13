@@ -1,1 +1,10 @@
-{\n    "plural": false,\n    "personal pronoun": true,\n    "dative": false,\n    "singular": true,\n    "nominative": true,\n    "relative": false,\n    "genitive": false,\n    "intensive": false\n}
+{
+    "plural": false,
+    "personal pronoun": true,
+    "dative": false,
+    "singular": true,
+    "nominative": true,
+    "relative": false,
+    "genitive": false,
+    "intensive": false
+}

@@ -1,1 +1,10 @@
-{\n    "passive": false,\n    "perfect": true,\n    "deponent": false,\n    "indicative": true,\n    "semi-deponent": false,\n    "pluperfect": false,\n    "singular": true,\n    "imperfect": false\n}
+{
+    "passive": false,
+    "perfect": true,
+    "deponent": false,
+    "indicative": true,
+    "semi-deponent": false,
+    "pluperfect": false,
+    "singular": true,
+    "imperfect": false
+}

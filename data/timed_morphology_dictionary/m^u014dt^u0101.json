@@ -1,1 +1,10 @@
-{\n    "positive": true,\n    "singular": true,\n    "plural": false,\n    "neuter": false,\n    "active": false,\n    "gerund": false,\n    "participle": true,\n    "imperfect": false\n}
+{
+    "positive": true,
+    "singular": true,
+    "plural": false,
+    "neuter": false,
+    "active": false,
+    "gerund": false,
+    "participle": true,
+    "imperfect": false
+}

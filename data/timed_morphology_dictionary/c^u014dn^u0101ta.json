@@ -1,1 +1,11 @@
-{\n    "feminine": true,\n    "future perfect": false,\n    "positive": true,\n    "neuter": true,\n    "masculine": false,\n    "dative": false,\n    "nominative": true,\n    "perfect": true,\n    "infinitive": false\n}
+{
+    "feminine": true,
+    "future perfect": false,
+    "positive": true,
+    "neuter": true,
+    "masculine": false,
+    "dative": false,
+    "nominative": true,
+    "perfect": true,
+    "infinitive": false
+}

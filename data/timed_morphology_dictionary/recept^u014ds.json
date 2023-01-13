@@ -1,1 +1,15 @@
-{\n    "gerund": false,\n    "deponent": false,\n    "neuter": false,\n    "singular": false,\n    "masculine": true,\n    "positive": true,\n    "perfect": true,\n    "genitive": false,\n    "comparative": false,\n    "future perfect": false,\n    "participle": true,\n    "not deponent": true,\n    "superlative": false\n}
+{
+    "gerund": false,
+    "deponent": false,
+    "neuter": false,
+    "singular": false,
+    "masculine": true,
+    "positive": true,
+    "perfect": true,
+    "genitive": false,
+    "comparative": false,
+    "future perfect": false,
+    "participle": true,
+    "not deponent": true,
+    "superlative": false
+}

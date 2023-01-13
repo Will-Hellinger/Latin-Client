@@ -1,1 +1,10 @@
-{\n    "participle": false,\n    "gerund": false,\n    "singular": true,\n    "semi-deponent": false,\n    "present": true,\n    "imperative": true,\n    "future": false,\n    "perfect": false\n}
+{
+    "participle": false,
+    "gerund": false,
+    "singular": true,
+    "semi-deponent": false,
+    "present": true,
+    "imperative": true,
+    "future": false,
+    "perfect": false
+}

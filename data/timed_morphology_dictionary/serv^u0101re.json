@@ -1,1 +1,9 @@
-{\n    "not deponent": true,\n    "subjunctive": false,\n    "deponent": false,\n    "future": false,\n    "imperative": true,\n    "present": true,\n    "singular": true\n}
+{
+    "not deponent": true,
+    "subjunctive": false,
+    "deponent": false,
+    "future": false,
+    "imperative": true,
+    "present": true,
+    "singular": true
+}
