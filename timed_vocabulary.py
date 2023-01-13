@@ -4,6 +4,8 @@ from info import *
 try:
     from googletrans import Translator
     translator = Translator()
+    #test to see if translator works first
+    translator.translate('le tit', src='la', dest='en')
     runPrediction = True
 except:
     runPrediction = False

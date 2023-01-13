@@ -3,7 +3,7 @@ try:
     import time, pynput
     from system_commands import *
     import heheHa
-#    import check_update
+    import check_update
     from info import *
 #    from discord_rpc import *
     from web_driver import *
@@ -12,7 +12,7 @@ except Exception as error:
     input(error)
     exit()
 
-#check_update.run()
+check_update.run()
 print(f'[+] Starting Client v{version}')
 
 def on_press(key):
