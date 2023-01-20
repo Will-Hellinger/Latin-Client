@@ -1,3 +1,4 @@
 {
-    "produce": false
+    "produce": false,
+    "afflict": true
 }

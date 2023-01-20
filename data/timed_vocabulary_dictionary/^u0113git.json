@@ -4,5 +4,6 @@
     "farm": false,
     "push": false,
     "make": false,
-    "carry on": false
+    "carry on": false,
+    "do": true
 }

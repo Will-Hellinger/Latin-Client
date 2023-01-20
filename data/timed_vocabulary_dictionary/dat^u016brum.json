@@ -1,5 +1,6 @@
 {
     "dare": false,
     "give": true,
-    "explain": false
+    "explain": false,
+    "take": false
 }

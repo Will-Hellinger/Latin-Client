@@ -1,4 +1,5 @@
 {
     "reward": false,
-    "grab": true
+    "grab": true,
+    "stop": false
 }

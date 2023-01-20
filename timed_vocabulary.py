@@ -25,14 +25,14 @@ def check_true():
     else:
         return False
 
-def wait_reload(word1, word2):
+def wait_reload(word1: str, word2: str):
     while True:
         if word1 == str(driver.find_element(By.XPATH, f"// p[@id='{vocab_element}']").text).split('\n')[0] and word2 == str(driver.find_element(By.XPATH, f"// p[@id='{definition_element}']").text):
             time.sleep(.5)
         else:
             break
 
-def save_file(file, data):
+def save_file(file: bytes, data: dict):
     file.seek(0)
     json.dump(data, file, indent=4)
     file.truncate()

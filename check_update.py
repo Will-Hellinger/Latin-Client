@@ -52,8 +52,10 @@ def run():
                 if name.endswith(exclude_list[a]) or '.git' in name: #dont want .git files to get tangled into/with mine
                     useFile = False
             if useFile == True:
-                data[name.replace(subDirectory, "(sub)")] = hashlib.md5(open(name,'rb').read()).hexdigest()
-#               print(f"{name} - {hashlib.md5(open(name,'rb').read()).hexdigest()}")
+                hash = hashlib.md5(open(name,'rb').read()).hexdigest()
+                data[name.replace(subDirectory, "(sub)")] = hash
+                if build_mode == True:
+                    print(f"{name} - {hash}", end='\r')
         file.seek(0)
         json.dump(data, file, indent=4)
         file.truncate()

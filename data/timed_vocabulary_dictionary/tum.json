@@ -3,5 +3,6 @@
     "again": false,
     "soon": false,
     "closest": false,
-    "indeed": false
+    "indeed": false,
+    "next": true
 }

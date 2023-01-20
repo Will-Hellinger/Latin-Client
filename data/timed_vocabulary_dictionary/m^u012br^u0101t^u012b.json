@@ -1,3 +1,5 @@
 {
-    "judge": false
+    "judge": false,
+    "wonder": true,
+    "follow": false
 }

@@ -1,5 +1,6 @@
 {
     "evade": true,
     "disappear": true,
-    "escape": true
+    "escape": true,
+    "plead": false
 }
