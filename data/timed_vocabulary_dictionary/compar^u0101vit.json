@@ -7,5 +7,7 @@
     "obtain": true,
     "command": false,
     "entrust": false,
-    "procure": true
+    "procure": true,
+    "compel": false,
+    "spend": false
 }

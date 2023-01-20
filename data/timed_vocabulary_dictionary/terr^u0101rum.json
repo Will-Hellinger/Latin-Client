@@ -2,5 +2,6 @@
     "border": false,
     "land": true,
     "sea": false,
-    "terror": false
+    "terror": false,
+    "scare": false
 }

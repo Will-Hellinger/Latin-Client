@@ -1,3 +1,5 @@
 {
-    "anger": false
+    "anger": false,
+    "friend": false,
+    "soul": true
 }

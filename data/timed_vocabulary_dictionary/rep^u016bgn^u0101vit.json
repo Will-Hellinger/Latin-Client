@@ -4,5 +4,6 @@
     "help": false,
     "allow": false,
     "resist": true,
-    "hold back": false
+    "hold back": false,
+    "discover": false
 }

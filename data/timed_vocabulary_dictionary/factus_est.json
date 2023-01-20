@@ -1,3 +1,5 @@
 {
-    "give": false
+    "give": false,
+    "drive": false,
+    "make": true
 }

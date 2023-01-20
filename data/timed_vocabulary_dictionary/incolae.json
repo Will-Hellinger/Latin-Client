@@ -1,3 +1,5 @@
 {
-    "city": false
+    "city": false,
+    "tail": false,
+    "island": false
 }

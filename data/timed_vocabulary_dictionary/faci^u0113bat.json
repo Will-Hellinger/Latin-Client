@@ -3,5 +3,6 @@
     "do": true,
     "make": true,
     "accomplish": false,
-    "give": false
+    "give": false,
+    "kill": false
 }

@@ -1,3 +1,5 @@
 {
-    "border": false
+    "border": false,
+    "tree": false,
+    "territory": true
 }

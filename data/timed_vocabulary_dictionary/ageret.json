@@ -4,5 +4,6 @@
     "push": false,
     "wear": false,
     "carry": false,
-    "beat": false
+    "beat": false,
+    "make": false
 }

@@ -3,5 +3,6 @@
     "choose": false,
     "launch": true,
     "lead down": true,
-    "select": false
+    "select": false,
+    "catch": false
 }

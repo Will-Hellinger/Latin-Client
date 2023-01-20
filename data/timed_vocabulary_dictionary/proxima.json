@@ -2,5 +2,6 @@
     "closest": true,
     "next": true,
     "nearest": true,
-    "last": false
+    "last": false,
+    "farthest": false
 }

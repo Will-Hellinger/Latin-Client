@@ -4,5 +4,7 @@
     "pain": false,
     "gift": false,
     "leader": false,
-    "sadness": false
+    "sadness": false,
+    "god": false,
+    "grief": false
 }

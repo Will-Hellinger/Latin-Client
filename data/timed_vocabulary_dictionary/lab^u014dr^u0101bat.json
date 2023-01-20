@@ -4,5 +4,6 @@
     "work": true,
     "job": false,
     "task": false,
-    "duty": false
+    "duty": false,
+    "attempt": false
 }

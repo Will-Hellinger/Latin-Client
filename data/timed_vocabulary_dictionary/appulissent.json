@@ -1,3 +1,5 @@
 {
-    "do": false
+    "do": false,
+    "sail": false,
+    "name": false
 }

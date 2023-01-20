@@ -2,5 +2,6 @@
     "disturb": true,
     "take up": false,
     "calm": false,
-    "tire out": false
+    "tire out": false,
+    "terrify": false
 }

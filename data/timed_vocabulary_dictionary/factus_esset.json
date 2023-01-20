@@ -6,5 +6,6 @@
     "stain": false,
     "work": false,
     "give": false,
-    "do": true
+    "do": true,
+    "fail": false
 }

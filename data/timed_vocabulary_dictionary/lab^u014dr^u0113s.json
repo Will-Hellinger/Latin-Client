@@ -1,3 +1,5 @@
 {
-    "effort": true
+    "effort": true,
+    "work": true,
+    "attempt": false
 }

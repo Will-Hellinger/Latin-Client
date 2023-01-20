@@ -1,3 +1,6 @@
 {
-    "bedroom": false
+    "bedroom": false,
+    "danger": true,
+    "chain": false,
+    "peril": true
 }

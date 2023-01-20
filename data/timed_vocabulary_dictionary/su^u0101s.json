@@ -9,5 +9,8 @@
     "what": false,
     "our(s)": false,
     "them": true,
-    "him": false
+    "him": false,
+    "he": false,
+    "you": false,
+    "they": false
 }

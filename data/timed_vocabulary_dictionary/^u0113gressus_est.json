@@ -1,3 +1,6 @@
 {
-    "wait": false
+    "wait": false,
+    "release": false,
+    "spring up": false,
+    "go out": true
 }

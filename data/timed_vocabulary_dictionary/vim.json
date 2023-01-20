@@ -6,5 +6,7 @@
     "effort": false,
     "event": false,
     "vigor": true,
-    "thing": false
+    "thing": false,
+    "wish": false,
+    "work": false
 }

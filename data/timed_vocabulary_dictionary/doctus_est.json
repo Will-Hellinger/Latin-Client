@@ -1,3 +1,6 @@
 {
-    "be quiet": false
+    "be quiet": false,
+    "explain": true,
+    "set on shore": false,
+    "exercise": false
 }

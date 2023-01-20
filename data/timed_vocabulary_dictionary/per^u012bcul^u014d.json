@@ -1,3 +1,6 @@
 {
-    "chain": false
+    "chain": false,
+    "cup": false,
+    "danger": true,
+    "peril": true
 }

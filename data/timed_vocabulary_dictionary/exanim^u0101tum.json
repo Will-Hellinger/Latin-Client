@@ -1,3 +1,5 @@
 {
-    "awake": false
+    "awake": false,
+    "exhaust": true,
+    "explain": false
 }

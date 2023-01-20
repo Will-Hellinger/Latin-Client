@@ -1,3 +1,5 @@
 {
-    "combat": false
+    "combat": false,
+    "coast": false,
+    "body": true
 }

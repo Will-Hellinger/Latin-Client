@@ -4,5 +4,6 @@
     "order": false,
     "permit": false,
     "instruct": false,
-    "feel": false
+    "feel": false,
+    "demand": false
 }

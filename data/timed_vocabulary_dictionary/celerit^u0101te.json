@@ -1,3 +1,6 @@
 {
-    "contest": false
+    "contest": false,
+    "competition": false,
+    "speed": true,
+    "centaur": false
 }

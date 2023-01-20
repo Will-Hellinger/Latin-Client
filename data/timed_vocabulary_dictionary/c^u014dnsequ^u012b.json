@@ -1,3 +1,5 @@
 {
-    "spring up": false
+    "spring up": false,
+    "advance": false,
+    "follow": true
 }

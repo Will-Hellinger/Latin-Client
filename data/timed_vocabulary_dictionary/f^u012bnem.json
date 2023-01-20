@@ -1,3 +1,6 @@
 {
-    "scythe": false
+    "scythe": false,
+    "border": true,
+    "boundary": true,
+    "territory": true
 }

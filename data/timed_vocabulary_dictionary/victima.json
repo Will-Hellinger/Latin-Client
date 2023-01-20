@@ -1,4 +1,5 @@
 {
     "escape": false,
-    "victim": true
+    "victim": true,
+    "chain": false
 }

@@ -1,3 +1,5 @@
 {
-    "shield": false
+    "shield": false,
+    "sin": true,
+    "crime": true
 }

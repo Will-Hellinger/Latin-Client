@@ -1,3 +1,5 @@
 {
-    "bring": true
+    "bring": true,
+    "abandon": false,
+    "hold back": false
 }

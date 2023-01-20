@@ -3,5 +3,6 @@
     "certain": true,
     "rest": false,
     "other": false,
-    "swift": false
+    "swift": false,
+    "quick": false
 }

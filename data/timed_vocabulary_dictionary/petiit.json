@@ -3,5 +3,6 @@
     "reach": false,
     "lead": false,
     "weigh": false,
-    "push": false
+    "push": false,
+    "arrive": false
 }

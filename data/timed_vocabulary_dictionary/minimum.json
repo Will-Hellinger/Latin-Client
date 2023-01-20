@@ -1,3 +1,5 @@
 {
-    "little": true
+    "little": true,
+    "small": true,
+    "great": false
 }

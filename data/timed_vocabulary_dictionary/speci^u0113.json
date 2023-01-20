@@ -4,5 +4,6 @@
     "sight": false,
     "span (of time)": false,
     "cave": false,
-    "spectator": false
+    "spectator": false,
+    "glance": false
 }

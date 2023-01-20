@@ -1,3 +1,5 @@
 {
-    "repeat": true
+    "repeat": true,
+    "receive": false,
+    "restore": false
 }

@@ -1,3 +1,5 @@
 {
-    "flee": false
+    "flee": false,
+    "leave behind": false,
+    "bring back": true
 }

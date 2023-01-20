@@ -1,3 +1,5 @@
 {
-    "drive": true
+    "drive": true,
+    "sail": false,
+    "name": false
 }

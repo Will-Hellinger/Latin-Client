@@ -1,3 +1,5 @@
 {
-    "change": false
+    "change": false,
+    "entrust": false,
+    "move": true
 }

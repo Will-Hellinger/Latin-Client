@@ -4,5 +4,6 @@
     "lead across": false,
     "break through": false,
     "deliver": true,
-    "report": true
+    "report": true,
+    "reputation": false
 }

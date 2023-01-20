@@ -1,3 +1,4 @@
 {
-    "glance": false
+    "glance": false,
+    "resolve": false
 }

@@ -45,7 +45,7 @@ def solver():
     removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
     replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
     for a in range(len(removeList)):
-        file_name.replace(str(removeList[a]), str(replaceList[a]))
+        file_name = file_name.replace(str(removeList[a]), str(replaceList[a]))
     predicted_guess = "none"
 
     if runPrediction == True:

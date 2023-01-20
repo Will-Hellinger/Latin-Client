@@ -1,3 +1,4 @@
 {
-    "hasten": false
+    "hasten": false,
+    "delay": true
 }

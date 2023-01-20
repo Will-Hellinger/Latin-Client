@@ -1,4 +1,5 @@
 {
     "opinion": false,
-    "task": false
+    "task": false,
+    "town": true
 }

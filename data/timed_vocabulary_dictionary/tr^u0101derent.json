@@ -4,5 +4,6 @@
     "reputation": false,
     "lead across": false,
     "rumor": false,
-    "hand over": true
+    "hand over": true,
+    "lead": false
 }

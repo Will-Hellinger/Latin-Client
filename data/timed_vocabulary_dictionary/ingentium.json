@@ -6,5 +6,7 @@
     "huge": true,
     "enormous": true,
     "small": false,
-    "diligent": false
+    "diligent": false,
+    "fit": false,
+    "extreme": false
 }

@@ -4,5 +4,6 @@
     "watch": false,
     "look": false,
     "hope": false,
-    "mirror": false
+    "mirror": false,
+    "spectator": false
 }

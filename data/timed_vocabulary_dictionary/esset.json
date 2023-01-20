@@ -3,5 +3,6 @@
     "make": false,
     "summon": false,
     "decide": false,
-    "do": false
+    "do": false,
+    "be able": false
 }

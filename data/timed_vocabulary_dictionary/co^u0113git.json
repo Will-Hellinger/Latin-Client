@@ -1,3 +1,4 @@
 {
-    "force": true
+    "force": true,
+    "gather": true
 }

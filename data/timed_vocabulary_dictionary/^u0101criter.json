@@ -1,3 +1,5 @@
 {
-    "sharp": true
+    "sharp": true,
+    "dense": false,
+    "fierce": true
 }

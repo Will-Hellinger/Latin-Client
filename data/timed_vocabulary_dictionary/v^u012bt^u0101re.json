@@ -1,3 +1,4 @@
 {
-    "disappear": false
+    "disappear": false,
+    "avoid": true
 }

@@ -4,5 +4,7 @@
     "go": false,
     "wish": false,
     "turn": false,
-    "want": false
+    "want": false,
+    "see": false,
+    "carry": false
 }

@@ -1,3 +1,4 @@
 {
-    "rule": false
+    "rule": false,
+    "queen": true
 }

@@ -3,5 +3,7 @@
     "rock": false,
     "situation": false,
     "fact": false,
-    "reign": false
+    "reign": false,
+    "kingdom": false,
+    "rule": false
 }

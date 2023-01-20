@@ -6,5 +6,6 @@
     "stain": false,
     "give": false,
     "make": true,
-    "weaken": false
+    "weaken": false,
+    "fail": false
 }

@@ -1,3 +1,5 @@
 {
-    "first": false
+    "first": false,
+    "small": true,
+    "many": false
 }

@@ -2,5 +2,6 @@
     "hold": false,
     "dwell": true,
     "live": true,
-    "inhabit": true
+    "inhabit": true,
+    "home": false
 }

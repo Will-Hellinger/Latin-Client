@@ -3,5 +3,6 @@
     "hostile": false,
     "column": false,
     "unharmed": true,
-    "enormous": false
+    "enormous": false,
+    "unhappy": false
 }

@@ -1,3 +1,5 @@
 {
-    "snatch": true
+    "snatch": true,
+    "recover": false,
+    "grab": true
 }

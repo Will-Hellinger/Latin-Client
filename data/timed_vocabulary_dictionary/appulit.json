@@ -1,3 +1,5 @@
 {
-    "land": true
+    "land": true,
+    "make": false,
+    "approach": false
 }

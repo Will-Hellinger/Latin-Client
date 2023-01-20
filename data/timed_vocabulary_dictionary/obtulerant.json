@@ -1,3 +1,5 @@
 {
-    "feel": false
+    "feel": false,
+    "offer": true,
+    "harm": false
 }

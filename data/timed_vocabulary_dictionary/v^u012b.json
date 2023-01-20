@@ -7,5 +7,6 @@
     "violence": true,
     "wish": false,
     "want": false,
-    "strong": false
+    "strong": false,
+    "thing": false
 }

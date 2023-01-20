@@ -6,5 +6,6 @@
     "instruct": false,
     "command": true,
     "beg": false,
-    "in order that": false
+    "in order that": false,
+    "teach": false
 }

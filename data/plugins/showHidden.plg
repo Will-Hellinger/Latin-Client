@@ -1,0 +1,14 @@
+<info>
+{
+    "mode" : "launchpad",
+    "plugin-name" : "showHidden",
+    "author-name" : "Will Hellinger"
+}
+<code>
+(function() {
+    var hidden = (document.querySelectorAll('[style="display:none"]'));
+    for (let a = 0; a < hidden.length; a++) {
+        hidden[a].setAttribute("style", "margin:0;padding:0;border:none");
+        console.log(hidden[a]);
+    }
+})();

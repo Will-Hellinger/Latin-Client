@@ -7,5 +7,7 @@
     "(plural) troops": true,
     "body": false,
     "advice": false,
-    "plan": false
+    "plan": false,
+    "sight": false,
+    "cow": false
 }

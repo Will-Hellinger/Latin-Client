@@ -1,3 +1,4 @@
 {
-    "entrust": false
+    "entrust": false,
+    "compress": true
 }

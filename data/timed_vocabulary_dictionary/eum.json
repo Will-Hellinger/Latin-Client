@@ -6,5 +6,6 @@
     "this": true,
     "both": false,
     "the very ___": false,
-    "the same ____": false
+    "the same ____": false,
+    "some": false
 }

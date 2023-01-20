@@ -1,5 +1,7 @@
 {
     "willing": true,
     "little": false,
-    "small": false
+    "small": false,
+    "light": false,
+    "lower": false
 }

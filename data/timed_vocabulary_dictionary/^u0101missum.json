@@ -1,3 +1,4 @@
 {
-    "destroy": false
+    "destroy": false,
+    "lose": true
 }

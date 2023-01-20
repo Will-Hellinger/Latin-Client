@@ -5,5 +5,7 @@
     "call": false,
     "escape": true,
     "embrace": false,
-    "bind": false
+    "bind": false,
+    "disappear": false,
+    "avoid": true
 }

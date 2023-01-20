@@ -1,5 +1,6 @@
 {
     "iron": false,
     "island": true,
-    "path": false
+    "path": false,
+    "wrath": false
 }

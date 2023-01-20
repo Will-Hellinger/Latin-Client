@@ -7,5 +7,6 @@
     "which": false,
     "himself": false,
     "where": false,
-    "certain ___, a certain ___": true
+    "certain ___, a certain ___": true,
+    "any": false
 }

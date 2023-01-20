@@ -1,3 +1,6 @@
 {
-    "repeat": false
+    "repeat": false,
+    "bring back": true,
+    "abandon": false,
+    "respond": false
 }

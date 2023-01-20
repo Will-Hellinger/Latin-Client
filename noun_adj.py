@@ -18,10 +18,12 @@ def solver():
     for a in range(len(nouns)):
         if 'noun' not in str(driver.title).lower():
             break
+
         words = nouns[a].split(' ')
         availableEndings = []
         unknownWord = False
         output = False
+
         for b in range(len(words)):
             tempList = []
             for c in range(len(allEndings)):
@@ -47,6 +49,7 @@ def solver():
             for b in range(len(endingNumbers[0])):
                 if endingNumbers[0][b] in endingNumbers[1]:
                     output = True
+
         try:
             if a != 0:
                 driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.XPATH, f'// label[@for="no{a}"]'))
@@ -55,48 +58,46 @@ def solver():
                 driver.execute_script("arguments[0].scrollIntoView();", driver.find_element(By.XPATH, f'// label[@for="no1"]'))
         except:
             print(f'unable to scroll to element {a}')
-            if 'noun' not in str(driver.title).lower():
-                break
 
-        if output == False:
-            if 'noun' not in str(driver.title).lower():
-                break
-            try:
-                if loadWait(By.XPATH, f'// label[@for="no{a+1}"]'):
-                    driver.find_element(By.XPATH, f'// label[@for="no{a+1}"]').click()
-            except:
-                print(f'unable to press no{a+1}')
+
+        if 'noun' not in str(driver.title).lower():
+            break
+
+        if output == True:
+            choice = 'yes'
         else:
-            if 'noun' not in str(driver.title).lower():
-                break
-            try:
-                if loadWait(By.XPATH, f'// label[@for="yes{a+1}"]'):
-                    driver.find_element(By.XPATH, f'// label[@for="yes{a+1}"]').click()
-            except:
-                print(f'unable to press yes{a+1}')
+            choice = 'no'
+        
+        try:
+            if loadWait(By.XPATH, f'// label[@for="{choice}{a+1}"]'):
+                driver.find_element(By.XPATH, f'// label[@for="{choice}{a+1}"]').click()
+        except:
+            print(f'unable to press {choice}{a+1}')
+
+
         if human_mode:
             time.sleep(int(random.randint(100, 500))/100)
+
+
+    selection = 'agreeSubmit'
+
     while True:
         if 'noun' not in str(driver.title).lower():
             break
+
         try:
-            if loadWait(By.ID, 'agreeSubmit'):
-                driver.find_element(By.ID, 'agreeSubmit').click()
-                break
+            if loadWait(By.ID, selection):
+                driver.find_element(By.ID, selection).click()
+                if selection != 'agreeMore':
+                    selection = 'agreeMore'
+                else:
+                    break
         except:
-            print(f'unable to press get feedback')
+            print(f'unable to press get {selection}')
             time.sleep(2)
-    while True:
-        if 'noun' not in str(driver.title).lower():
-            break
-        try:
-            if loadWait(By.ID, 'agreeMore'):
-                driver.find_element(By.ID, 'agreeMore').click()
-                break
-        except:
-            print(f'unable to press get more')
-            time.sleep(2)
+
     time.sleep(5)
+
     try:
         print(str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text).split('\n')[0])
     except:

@@ -1,5 +1,7 @@
 {
     "lead": false,
     "sleep": true,
-    "die": false
+    "die": false,
+    "speak": false,
+    "instruct": false
 }

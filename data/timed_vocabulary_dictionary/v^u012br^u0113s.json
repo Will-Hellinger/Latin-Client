@@ -4,5 +4,6 @@
     "situation": false,
     "effort": false,
     "wish": false,
-    "struggle": false
+    "struggle": false,
+    "fact": false
 }

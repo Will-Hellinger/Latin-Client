@@ -1,3 +1,5 @@
 {
-    "glance": false
+    "glance": false,
+    "contend": true,
+    "strive": true
 }

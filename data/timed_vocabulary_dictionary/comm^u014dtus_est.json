@@ -4,5 +4,7 @@
     "shake": true,
     "entrust": false,
     "move": true,
-    "change": false
+    "change": false,
+    "hold": false,
+    "choke": false
 }

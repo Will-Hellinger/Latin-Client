@@ -4,5 +4,6 @@
     "now": false,
     "even": true,
     "ever": false,
-    "at once": false
+    "at once": false,
+    "already": false
 }

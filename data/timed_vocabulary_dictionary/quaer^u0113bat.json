@@ -6,5 +6,6 @@
     "stare": false,
     "inquire": true,
     "attack": false,
-    "ask": true
+    "ask": true,
+    "look (at)": false
 }

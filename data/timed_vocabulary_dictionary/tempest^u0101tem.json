@@ -1,3 +1,5 @@
 {
-    "test": false
+    "test": false,
+    "storm": true,
+    "terror": false
 }

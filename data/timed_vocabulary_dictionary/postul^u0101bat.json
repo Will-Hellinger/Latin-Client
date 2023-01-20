@@ -5,5 +5,6 @@
     "order": false,
     "beg": false,
     "follow": false,
-    "possess": false
+    "possess": false,
+    "request": false
 }

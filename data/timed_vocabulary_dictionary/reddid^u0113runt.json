@@ -4,5 +4,7 @@
     "flee": false,
     "receive": false,
     "run away": false,
-    "go back": false
+    "go back": false,
+    "render": true,
+    "return": true
 }

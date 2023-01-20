@@ -1,3 +1,5 @@
 {
-    "hurl": false
+    "hurl": false,
+    "weaken": true,
+    "complete": true
 }

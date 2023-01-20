@@ -7,5 +7,6 @@
     "stain": false,
     "give": false,
     "work": false,
-    "complete": false
+    "complete": false,
+    "weaken": false
 }

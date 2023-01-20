@@ -1,3 +1,6 @@
 {
-    "good": true
+    "good": true,
+    "short": false,
+    "blessed": false,
+    "happy": false
 }

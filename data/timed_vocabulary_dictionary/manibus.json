@@ -1,3 +1,7 @@
 {
-    "remain": false
+    "remain": false,
+    "sea": false,
+    "leg": false,
+    "neck": false,
+    "hand": true
 }

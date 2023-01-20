@@ -1,3 +1,7 @@
 {
-    "give": true
+    "give": true,
+    "teach": false,
+    "instruct": false,
+    "explain": false,
+    "take": false
 }

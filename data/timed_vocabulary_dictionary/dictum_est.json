@@ -4,5 +4,6 @@
     "say": true,
     "announce": true,
     "speak": true,
-    "withdraw": false
+    "withdraw": false,
+    "depart": false
 }

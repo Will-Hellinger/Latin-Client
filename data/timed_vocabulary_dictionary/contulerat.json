@@ -4,5 +4,7 @@
     "establish": false,
     "gather": true,
     "hurl": false,
-    "convene": false
+    "convene": false,
+    "throw": false,
+    "collect": true
 }

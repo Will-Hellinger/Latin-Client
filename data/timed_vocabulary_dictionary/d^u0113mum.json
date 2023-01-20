@@ -4,5 +4,7 @@
     "already": false,
     "long since": false,
     "at last": true,
-    "finally": true
+    "finally": true,
+    "not yet": false,
+    "again": false
 }

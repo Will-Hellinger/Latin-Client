@@ -4,5 +4,7 @@
     "spend": false,
     "consult": false,
     "hurl": false,
-    "throw": false
+    "throw": false,
+    "consume": false,
+    "set up": true
 }

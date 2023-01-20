@@ -1,4 +1,6 @@
 {
     "try": false,
-    "spend": true
+    "spend": true,
+    "establish": false,
+    "accomplish": false
 }

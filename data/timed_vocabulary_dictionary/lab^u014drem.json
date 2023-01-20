@@ -3,5 +3,7 @@
     "work": true,
     "complete": false,
     "labor": true,
-    "duty": true
+    "duty": true,
+    "fury": false,
+    "squalor": false
 }

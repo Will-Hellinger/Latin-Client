@@ -1,4 +1,5 @@
 {
     "make": true,
-    "work": false
+    "work": false,
+    "do": true
 }

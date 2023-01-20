@@ -1,3 +1,5 @@
 {
-    "go out": true
+    "go out": true,
+    "disembark": true,
+    "release": false
 }

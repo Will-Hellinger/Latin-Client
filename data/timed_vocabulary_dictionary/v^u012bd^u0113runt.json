@@ -1,3 +1,5 @@
 {
-    "tie": false
+    "tie": false,
+    "fasten": false,
+    "bind": false
 }

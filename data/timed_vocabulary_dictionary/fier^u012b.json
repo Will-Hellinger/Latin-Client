@@ -4,5 +4,6 @@
     "do": true,
     "make": true,
     "weaken": false,
-    "affect": false
+    "affect": false,
+    "work": false
 }

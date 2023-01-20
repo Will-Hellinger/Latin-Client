@@ -5,5 +5,7 @@
     "start out": true,
     "labor": false,
     "work": false,
-    "set out": true
+    "set out": true,
+    "follow": false,
+    "delay": false
 }

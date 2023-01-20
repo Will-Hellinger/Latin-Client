@@ -1,3 +1,5 @@
 {
-    "poison": false
+    "poison": false,
+    "wound": true,
+    "force": false
 }

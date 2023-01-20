@@ -1,3 +1,7 @@
 {
-    "consult": false
+    "consult": false,
+    "resolve": true,
+    "throw": false,
+    "set up": true,
+    "establish": true
 }

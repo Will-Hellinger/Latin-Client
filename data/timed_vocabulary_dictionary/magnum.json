@@ -6,5 +6,6 @@
     "strong": false,
     "large": true,
     "magical": false,
-    "good": false
+    "good": false,
+    "bad": false
 }

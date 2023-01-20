@@ -4,5 +4,6 @@
     "number": true,
     "sailor": false,
     "duty": false,
-    "nothing": false
+    "nothing": false,
+    "task": false
 }

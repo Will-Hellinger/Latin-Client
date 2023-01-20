@@ -4,5 +4,6 @@
     "wind": false,
     "want": false,
     "carry": false,
-    "go": false
+    "go": false,
+    "turn": false
 }

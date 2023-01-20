@@ -3,5 +3,6 @@
     "peril": false,
     "joy": true,
     "grief": false,
-    "pain": false
+    "pain": false,
+    "torture": false
 }

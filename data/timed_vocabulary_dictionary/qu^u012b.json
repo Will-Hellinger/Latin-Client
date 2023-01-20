@@ -7,5 +7,7 @@
     "I": false,
     "themselves": false,
     "your(s)": false,
-    "the very ___": false
+    "the very ___": false,
+    "indeed": false,
+    "that": true
 }

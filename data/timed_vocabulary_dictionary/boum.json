@@ -6,5 +6,6 @@
     "boar": false,
     "cattle": true,
     "dog": false,
-    "bird": false
+    "bird": false,
+    "deer": false
 }

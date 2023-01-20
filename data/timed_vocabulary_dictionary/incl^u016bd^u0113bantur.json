@@ -1,3 +1,4 @@
 {
-    "dwell": false
+    "dwell": false,
+    "confine": true
 }

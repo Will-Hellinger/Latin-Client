@@ -1,3 +1,4 @@
 {
-    "seize": false
+    "seize": false,
+    "throw": false
 }

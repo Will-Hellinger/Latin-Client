@@ -1,5 +1,8 @@
 {
     "approach": false,
     "go away": true,
-    "cut off": false
+    "cut off": false,
+    "wander": false,
+    "err": false,
+    "remove": false
 }

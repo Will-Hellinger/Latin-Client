@@ -1,3 +1,5 @@
 {
-    "signal": false
+    "signal": false,
+    "woods": true,
+    "sister": false
 }

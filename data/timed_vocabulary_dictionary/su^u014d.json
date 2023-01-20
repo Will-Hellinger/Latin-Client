@@ -7,5 +7,7 @@
     "their": true,
     "its": true,
     "him": false,
-    "your(s)": false
+    "your(s)": false,
+    "which": false,
+    "mine": false
 }

@@ -2,5 +2,6 @@
     "head": false,
     "neck": false,
     "body": true,
-    "cow": false
+    "cow": false,
+    "combat": false
 }

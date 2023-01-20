@@ -4,5 +4,6 @@
     "hold": true,
     "obtain": false,
     "possess": false,
-    "inhabit": false
+    "inhabit": false,
+    "choke": false
 }

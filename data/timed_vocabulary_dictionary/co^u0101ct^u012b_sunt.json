@@ -6,5 +6,6 @@
     "compel": true,
     "force": true,
     "do": false,
-    "teach": false
+    "teach": false,
+    "safety": false
 }

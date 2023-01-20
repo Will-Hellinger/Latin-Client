@@ -1,4 +1,6 @@
 {
     "large": false,
-    "suitable": true
+    "suitable": true,
+    "convenient": true,
+    "bad": false
 }

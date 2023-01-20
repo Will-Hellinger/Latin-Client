@@ -1,3 +1,5 @@
 {
-    "job": false
+    "job": false,
+    "battle": true,
+    "advice": false
 }

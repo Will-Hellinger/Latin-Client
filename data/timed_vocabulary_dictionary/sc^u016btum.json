@@ -1,3 +1,5 @@
 {
-    "shield": true
+    "shield": true,
+    "stone": false,
+    "cradle": false
 }

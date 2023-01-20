@@ -4,5 +4,6 @@
     "it": true,
     "this": true,
     "that": true,
-    "neither": false
+    "neither": false,
+    "some": false
 }

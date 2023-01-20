@@ -1,3 +1,6 @@
 {
-    "complete": false
+    "complete": false,
+    "make": true,
+    "weaken": false,
+    "do": true
 }

@@ -2,5 +2,6 @@
     "prey": false,
     "reward": true,
     "aid": false,
-    "booty": false
+    "booty": false,
+    "help": false
 }

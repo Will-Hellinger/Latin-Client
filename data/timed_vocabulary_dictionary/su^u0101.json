@@ -7,5 +7,6 @@
     "his": true,
     "my": false,
     "her": true,
-    "theirs": true
+    "theirs": true,
+    "what": false
 }

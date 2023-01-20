@@ -29,7 +29,7 @@ def solver():
     removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
     replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
     for a in range(len(removeList)):
-        file_name.replace(str(removeList[a]), str(replaceList[a]))
+        file_name = file_name.replace(str(removeList[a]), str(replaceList[a]))
     
     if os.path.exists(f'.{subDirectory}data{subDirectory}timed_morphology_dictionary{subDirectory}{file_name}.json') == False:
         print(f'word {word1} not found, creating entry.')

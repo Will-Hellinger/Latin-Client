@@ -4,5 +4,7 @@
     "beyond": false,
     "for": false,
     "because of": true,
-    "apart from": false
+    "apart from": false,
+    "through": false,
+    "after": false
 }

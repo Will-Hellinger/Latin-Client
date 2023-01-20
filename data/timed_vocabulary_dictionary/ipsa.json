@@ -1,3 +1,5 @@
 {
-    "this": false
+    "this": false,
+    "me": false,
+    "which": false
 }

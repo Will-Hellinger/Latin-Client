@@ -1,3 +1,6 @@
 {
-    "much": true
+    "much": true,
+    "small": false,
+    "large": false,
+    "strong": false
 }

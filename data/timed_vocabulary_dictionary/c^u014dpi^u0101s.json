@@ -7,5 +7,6 @@
     "body": false,
     "supply": true,
     "stare": false,
-    "gaze": false
+    "gaze": false,
+    "few": false
 }

@@ -1,3 +1,5 @@
 {
-    "death": false
+    "death": false,
+    "god": true,
+    "right": false
 }

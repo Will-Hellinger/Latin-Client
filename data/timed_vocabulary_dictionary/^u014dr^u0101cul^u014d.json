@@ -1,3 +1,6 @@
 {
-    "war": false
+    "war": false,
+    "stable": false,
+    "cup": false,
+    "oracle": true
 }

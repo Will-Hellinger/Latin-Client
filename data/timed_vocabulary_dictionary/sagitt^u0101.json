@@ -1,3 +1,5 @@
 {
-    "arrow": true
+    "arrow": true,
+    "blood": false,
+    "safety": false
 }

@@ -3,7 +3,8 @@ try:
     import time, pynput
     from system_commands import *
     import heheHa
-    import check_update
+    import glob
+#    import check_update
     from info import *
 #    from discord_rpc import *
     from web_driver import *
@@ -12,7 +13,7 @@ except Exception as error:
     input(error)
     exit()
 
-check_update.run()
+#check_update.run()
 print(f'[+] Starting Client v{version}')
 
 def on_press(key):
@@ -42,21 +43,26 @@ while True:
         driver.find_element(By.ID, 'edit-mail').send_keys(schoologyUser)
     else:
         print('unable to find username input')
+
     if loadWait(By.ID, 'edit-pass'):
         driver.find_element(By.ID, 'edit-pass').send_keys(schoologyPass)
     else:
         print('unable to find password input')
+
     if loadWait(By.ID, 'edit-submit'):
         driver.find_element(By.ID, 'edit-submit').click()
     else:
         print('unable to click enter button')
+
     if loadWait(By.ID, 'schoology-app-container'):
         print('[+] Successfully Logged In')
         break
     else:
         print('[-] unable to log in, retrying')
         driver.get(latinLink)
+
 time.sleep(3)
+
 while True:
     try:
         driver.get('https://lthslatin.org')
@@ -72,34 +78,70 @@ else:
     print('[-] Unable to Find User')
 mode = 'launchpad'
 assignment = 'Latin Launchpad'
-print(f'\033[1;32;40m[+] Successfully Started Client v{version}')
+print(f'[+] Successfully Started Client v{version}')
 
 #rpc_start(user)
 
+#load plugins
+pluginFiles = glob.glob(f'.{subDirectory}data{subDirectory}plugins{subDirectory}*.plg')
+plugins = []
+for a in range(len(pluginFiles)):
+    loadPlugin = True
+
+    with open(pluginFiles[a], encoding='utf-8', mode='r') as file:
+        try:
+            pluginCode = (str(file.read()).replace('\n', '')).split('<code>')[1]
+        except Exception as error:
+            print(f'[-] plugin {pluginFiles[a]} couldnt be loaded, error: {error}')
+            loadPlugin = False
+
+    with open(pluginFiles[a], encoding='utf-8', mode='r') as file:
+        try:
+            pluginInfo = json.loads(str((str(file.read()).replace('\n', '')).split('<code>')[0]).replace('<info>', ''))
+        except Exception as error:
+            print(f'[-] plugin {pluginFiles[a]} couldnt be loaded, error: {error}')
+            loadPlugin = False
+
+    if loadPlugin == True:
+        print(f"[+] Plugin: {pluginInfo.get('plugin-name')}, By: {pluginInfo.get('author-name')} loaded")
+        plugins.append([pluginInfo["mode"], pluginCode])
+
 while True:
     if loadWait(By.CLASS_NAME, 'ui-title'):
-        for a in range(len(driver.find_elements(By.CLASS_NAME, 'ui-title'))):
+        title_elements = driver.find_elements(By.CLASS_NAME, 'ui-title')
+        for a in range(len(title_elements)):
             for b in range(len(modes)):
                 try:
-                    if modes[b] in str(driver.find_elements(By.CLASS_NAME, 'ui-title')[a].text).lower():
-                        if mode != modes[b]:
-                            mode = modes[b]
+                    if modes[b] in str(title_elements[a].text).lower() and mode != modes[b]:
+                        mode = modes[b]
                 except:
                     pass
     else:
         if 'latin' not in str(driver.title):
             break
+
+    for a in range(len(plugins)):
+        if mode == plugins[a][0]:
+            driver.execute_script(plugins[a][1])
+
     if mode == 'launchpad':
         doAction = False
         enterKey = False
     if mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you
-            noun_adj.solver()
+            try:
+                noun_adj.solver()
+            except Exception as error:
+                print(f'error: {error}')
+                doAction = False
     elif mode == 'infinitive morphology' or mode == 'ciples':
         if enterKey == True:
             #Adds enter key back
-            infinitive_morphology.enter_addon()
+            try:
+                infinitive_morphology.enter_addon()
+            except Exception as error:
+                print(f'error: {error}')
             enterKey = False
     elif mode == 'timed morphology':
         if doAction == True:

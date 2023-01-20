@@ -4,5 +4,6 @@
     "command": false,
     "path": true,
     "hit": false,
-    "journey": true
+    "journey": true,
+    "attack": false
 }
