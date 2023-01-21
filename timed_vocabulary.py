@@ -5,7 +5,11 @@ try:
     from googletrans import Translator
     translator = Translator()
     #test to see if translator works first
-    translator.translate('le tit', src='la', dest='en')
+    translator.translate('le tit', src='fr', dest='en')
+    import nltk
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+    from nltk.corpus import wordnet
     runPrediction = True
 except:
     runPrediction = False
@@ -32,6 +36,24 @@ def wait_reload(word1: str, word2: str):
         else:
             break
 
+def synonym_extractor(phrase):
+    synonyms = []
+    for syn in wordnet.synsets(phrase):
+        for l in syn.lemmas():
+            synonyms.append(l.name())
+
+    return synonyms
+
+def antonym_extractor(phrase):
+    antonyms = []
+    
+    for syn in wordnet.synsets(phrase):
+        for l in syn.lemmas():
+            if l.antonyms():
+                antonyms.append(l.antonyms()[0].name())
+    
+    return antonyms
+
 def save_file(file: bytes, data: dict):
     file.seek(0)
     json.dump(data, file, indent=4)
@@ -49,9 +71,12 @@ def solver():
     predicted_guess = "none"
 
     if runPrediction == True:
-        translated_word = (translator.translate(word, src='la', dest='en').text).split(' ')
-        
-            
+        translated_word = (translator.translate(word, src='la', dest='en').text)
+        translated_word_synonyms = synonym_extractor(translated_word)
+        #just to make sure it's added
+        translated_word_synonyms.append(translated_word)
+        translated_word_antonyms = antonym_extractor(translated_word)
+
     if os.path.exists(f'.{subDirectory}data{subDirectory}timed_vocabulary_dictionary{subDirectory}{file_name}.json') == False:
         print(f'word {word} not found, creating entry.')
         with open(f'.{subDirectory}data{subDirectory}timed_vocabulary_dictionary{subDirectory}{file_name}.json', 'w') as temp_file:
@@ -59,14 +84,32 @@ def solver():
 
         with open(f'.{subDirectory}data{subDirectory}timed_vocabulary_dictionary{subDirectory}{file_name}.json', encoding='utf-8', mode='r+') as file:
             data = json.load(file)
-            driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
+            if runPrediction == True:
+                if definition in translated_word_synonyms:
+                    predicted_guess = True
+                elif definition in translated_word_antonyms:
+                    predicted_guess = False
+            
+            if predicted_guess == True:
+                driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
+            else:
+                driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
+
             wait_reload(word, definition)
             if check_true():
-                data[definition] = False
-                print(f'Guess - False: {word} - {definition}: Correct')
+                if predicted_guess != "none":
+                    data[definition] = predicted_guess
+                    print(f'Predicted Guess - {predicted_guess}: {word} - {definition}: Correct')
+                else:
+                    data[definition] = False
+                    print(f'Guess - False: {word} - {definition}: Correct')
             else:
-                data[definition] = True
-                print(f'Guess - False: {word} - {definition}: Incorrect')
+                if predicted_guess != "none":
+                    data[definition] = not predicted_guess
+                    print(f'Predicted Guess - {predicted_guess}: {word} - {definition}: Incorrect')
+                else:
+                    data[definition] = True
+                    print(f'Guess - False: {word} - {definition}: Incorrect')
             save_file(file, data)
     else:
         with open(f'.{subDirectory}data{subDirectory}timed_vocabulary_dictionary{subDirectory}{file_name}.json', encoding='utf-8', mode='r+') as file:
@@ -102,12 +145,43 @@ def solver():
                         print(f'Assuming timeout on word {word}')
             else:
                 print(f'no entry within word {word} for {definition}, creating one now.')
-                driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
+                for item in data:
+                    if data[item] == False:
+                        data_antonyms = antonym_extractor(item)
+                    else:
+                        data_synonyms = synonym_extractor(item)
+
+                if runPrediction == True:
+                    if definition in translated_word_synonyms:
+                        predicted_guess = True
+                    elif definition in translated_word_antonyms:
+                        predicted_guess = False
+                try:
+                    if definition in data_synonyms:
+                        predicted_guess = True
+                    elif definition in data_antonyms:
+                        predicted_guess = False
+                except:
+                    pass
+
+                if predicted_guess == True:
+                    driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
+                else:
+                    driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
+
                 wait_reload(word, definition)
                 if check_true():
-                    data[definition] = False
-                    print(f'Guess - False: {word} - {definition}: Correct')
+                    if predicted_guess != "none":
+                        data[definition] = predicted_guess
+                        print(f'Predicted Guess - {predicted_guess}: {word} - {definition}: Correct')
+                    else:
+                        data[definition] = False
+                        print(f'Guess - False: {word} - {definition}: Correct')
                 else:
-                    data[definition] = True
-                    print(f'Guess - False: {word} - {definition}: Incorrect')
+                    if predicted_guess != "none":
+                        data[definition] = not predicted_guess
+                        print(f'Predicted Guess - {predicted_guess}: {word} - {definition}: Incorrect')
+                    else:
+                        data[definition] = True
+                        print(f'Guess - False: {word} - {definition}: Inorrect')
                 save_file(file, data)

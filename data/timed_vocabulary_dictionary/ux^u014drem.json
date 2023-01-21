@@ -1,5 +1,6 @@
 {
     "shoulder": false,
     "daughter": false,
-    "wife": true
+    "wife": true,
+    "mother": false
 }

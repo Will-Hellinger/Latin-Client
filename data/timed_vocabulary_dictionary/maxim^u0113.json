@@ -5,5 +5,6 @@
     "big": true,
     "little": false,
     "kind": false,
-    "great": true
+    "great": true,
+    "magic": false
 }

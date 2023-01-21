@@ -1,4 +1,5 @@
 {
     "demonstrate": false,
-    "point (out/at)": false
+    "point (out/at)": false,
+    "show": true
 }

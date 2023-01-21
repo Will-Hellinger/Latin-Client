@@ -1,4 +1,5 @@
 {
     "not any": true,
-    "no": true
+    "no": true,
+    "some": false
 }

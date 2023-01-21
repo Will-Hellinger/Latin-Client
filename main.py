@@ -13,7 +13,7 @@ except Exception as error:
     input(error)
     exit()
 
-check_update.run()
+#check_update.run()
 print(f'[+] Starting Client v{version}')
 
 def on_press(key):

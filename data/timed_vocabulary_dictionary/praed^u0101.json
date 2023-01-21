@@ -3,5 +3,6 @@
     "rumor": false,
     "prey": true,
     "booty": true,
-    "report": false
+    "report": false,
+    "spoil": true
 }
