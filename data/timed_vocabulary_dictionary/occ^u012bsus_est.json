@@ -1,4 +1,5 @@
 {
     "occupy": false,
-    "cut down": true
+    "cut down": true,
+    "destroy": false
 }

@@ -4,5 +4,6 @@
     "right": false,
     "death": false,
     "deed": false,
-    "day": false
+    "day": false,
+    "district": false
 }

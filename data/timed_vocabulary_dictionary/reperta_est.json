@@ -1,4 +1,5 @@
 {
     "renew": false,
-    "discover": true
+    "discover": true,
+    "reveal": false
 }

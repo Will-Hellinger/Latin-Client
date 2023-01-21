@@ -1,5 +1,7 @@
 {
     "effort": true,
     "work": true,
-    "attempt": false
+    "attempt": false,
+    "terror": false,
+    "struggle": true
 }

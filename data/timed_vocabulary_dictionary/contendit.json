@@ -1,4 +1,5 @@
 {
     "glance": false,
-    "resolve": false
+    "resolve": false,
+    "hurl": false
 }

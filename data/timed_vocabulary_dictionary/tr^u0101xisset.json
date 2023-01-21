@@ -1,3 +1,5 @@
 {
-    "surrender": false
+    "surrender": false,
+    "cross": false,
+    "deliver": false
 }

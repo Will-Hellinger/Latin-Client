@@ -9,5 +9,7 @@
     "your(s)": false,
     "the very ___": false,
     "indeed": false,
-    "that": true
+    "that": true,
+    "sleep": true,
+    "the same ____": false
 }

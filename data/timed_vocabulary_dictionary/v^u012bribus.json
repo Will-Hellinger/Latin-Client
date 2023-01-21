@@ -1,4 +1,5 @@
 {
     "strength": true,
-    "force": true
+    "force": true,
+    "struggle": false
 }

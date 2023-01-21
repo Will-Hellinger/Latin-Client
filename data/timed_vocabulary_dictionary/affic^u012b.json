@@ -1,4 +1,5 @@
 {
     "affect": true,
-    "flee": false
+    "flee": false,
+    "run away": false
 }

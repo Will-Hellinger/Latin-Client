@@ -2,7 +2,7 @@ import json
 import setup
 import os
 
-version = 0.1
+version = 1.0
 user = 'none'
 
 modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
@@ -28,8 +28,6 @@ try:
     webbrowserType = str(json.load(open('settings.json'))['configuration']['browser-type'])
     delay = int(json.load(open('settings.json'))['configuration']['timeout-delay'])
 
-    discord_tracking = json.load(open('settings.json'))['configuration']['discord_tracking']
-    discord_advertisement = json.load(open('settings.json'))['configuration']['discord_advertisement']
     discord_rpc = json.load(open('settings.json'))['configuration']['discord_rpc']
 
     funnySound = json.load(open('settings.json'))['configuration']['sound']

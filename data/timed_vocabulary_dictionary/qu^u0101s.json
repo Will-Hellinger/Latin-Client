@@ -8,5 +8,6 @@
     "mine": false,
     "what": true,
     "because": false,
-    "annually": false
+    "annually": false,
+    "rest": false
 }

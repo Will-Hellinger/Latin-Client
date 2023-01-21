@@ -6,5 +6,6 @@
     "situation": false,
     "job": true,
     "difficulty": false,
-    "power": false
+    "power": false,
+    "affair": false
 }

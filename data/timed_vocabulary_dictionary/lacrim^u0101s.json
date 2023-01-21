@@ -1,4 +1,5 @@
 {
     "tear": true,
-    "lake": false
+    "lake": false,
+    "effort": false
 }

@@ -1,3 +1,5 @@
 {
-    "bring": true
+    "bring": true,
+    "pay": false,
+    "lead": true
 }

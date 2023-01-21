@@ -1,5 +1,6 @@
 {
     "divide": false,
     "announce": true,
-    "withdraw": false
+    "withdraw": false,
+    "speak": true
 }

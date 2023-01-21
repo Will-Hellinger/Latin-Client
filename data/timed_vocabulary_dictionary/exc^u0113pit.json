@@ -1,3 +1,4 @@
 {
-    "receive": true
+    "receive": true,
+    "exhibit": false
 }

@@ -8,5 +8,6 @@
     "loot": true,
     "report": false,
     "booty": true,
-    "plan": false
+    "plan": false,
+    "reward": false
 }

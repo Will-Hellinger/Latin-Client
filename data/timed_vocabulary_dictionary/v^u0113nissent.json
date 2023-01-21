@@ -2,5 +2,6 @@
     "wish": false,
     "come": true,
     "wind": false,
-    "see": false
+    "see": false,
+    "poison": false
 }

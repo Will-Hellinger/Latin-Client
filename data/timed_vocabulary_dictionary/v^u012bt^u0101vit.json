@@ -1,4 +1,5 @@
 {
     "disappear": false,
-    "evade": true
+    "evade": true,
+    "approach": true
 }

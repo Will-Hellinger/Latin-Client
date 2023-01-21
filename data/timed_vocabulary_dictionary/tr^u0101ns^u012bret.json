@@ -4,5 +4,5 @@
     "surrender": false,
     "go across": true,
     "deliver": false,
-    "train": false
+    "train": true
 }

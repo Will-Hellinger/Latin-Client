@@ -3,5 +3,6 @@
     "send": true,
     "remind": false,
     "hurry": false,
-    "meet": false
+    "meet": false,
+    "stay": false
 }

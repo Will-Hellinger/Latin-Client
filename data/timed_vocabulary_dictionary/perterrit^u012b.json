@@ -1,3 +1,5 @@
 {
-    "terrify": true
+    "terrify": true,
+    "permit": false,
+    "fear": false
 }

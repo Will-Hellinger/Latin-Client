@@ -1,3 +1,4 @@
 {
-    "obey": false
+    "obey": false,
+    "remove": true
 }

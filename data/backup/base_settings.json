@@ -3,8 +3,6 @@
         "action-button": "`",
         "sound" : true,
         "discord_rpc" : true,
-        "discord_tracking" : true,
-        "discord_advertisement" : false,
         "icon" : "icon.ico",
         "browser-type" : "none",
         "timeout-delay" : "5",

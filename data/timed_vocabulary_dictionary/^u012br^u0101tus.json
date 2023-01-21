@@ -6,5 +6,6 @@
     "angry": true,
     "angered": true,
     "dangerous": false,
-    "safe": false
+    "safe": false,
+    "violent": true
 }

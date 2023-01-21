@@ -1,3 +1,5 @@
 {
-    "ship": false
+    "ship": false,
+    "sail": true,
+    "tell": false
 }

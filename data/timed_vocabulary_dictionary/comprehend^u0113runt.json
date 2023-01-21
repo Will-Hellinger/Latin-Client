@@ -1,3 +1,5 @@
 {
-    "seize": true
+    "seize": true,
+    "compel": false,
+    "complete": false
 }

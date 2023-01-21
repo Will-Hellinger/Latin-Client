@@ -1,4 +1,6 @@
 {
     "competition": true,
-    "certain": false
+    "certain": false,
+    "rest": false,
+    "contest": true
 }

@@ -1,4 +1,6 @@
 {
     "go out": true,
-    "give out": false
+    "give out": false,
+    "wait": false,
+    "disembark": true
 }

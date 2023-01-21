@@ -1,4 +1,5 @@
 {
     "jar": false,
-    "friend": true
+    "friend": true,
+    "ambassador": false
 }

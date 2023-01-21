@@ -1,3 +1,4 @@
 {
-    "dwell": true
+    "dwell": true,
+    "hold": false
 }

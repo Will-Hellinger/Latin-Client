@@ -1,4 +1,5 @@
 {
     "watch": false,
-    "stare": false
+    "stare": false,
+    "discover": false
 }

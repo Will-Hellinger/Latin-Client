@@ -1,3 +1,4 @@
 {
-    "advise": true
+    "advise": true,
+    "warn": true
 }

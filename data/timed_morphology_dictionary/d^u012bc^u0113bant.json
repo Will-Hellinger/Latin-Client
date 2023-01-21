@@ -4,5 +4,6 @@
     "3rd person": true,
     "2nd person": false,
     "active": true,
-    "not deponent": true
+    "not deponent": true,
+    "singular": true
 }

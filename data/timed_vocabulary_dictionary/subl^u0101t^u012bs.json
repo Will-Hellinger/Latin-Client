@@ -1,4 +1,5 @@
 {
     "raise": true,
-    "bring together": false
+    "bring together": false,
+    "remove": true
 }

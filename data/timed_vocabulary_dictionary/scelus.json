@@ -1,5 +1,6 @@
 {
     "shield": false,
     "sin": true,
-    "crime": true
+    "crime": true,
+    "duty": true
 }

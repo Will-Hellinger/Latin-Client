@@ -6,5 +6,6 @@
     "smell": false,
     "effort": true,
     "squalor": false,
-    "sadness": false
+    "sadness": false,
+    "terror": true
 }

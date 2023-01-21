@@ -1,3 +1,5 @@
 {
-    "run away": false
+    "run away": false,
+    "hold back": false,
+    "leave behind": false
 }

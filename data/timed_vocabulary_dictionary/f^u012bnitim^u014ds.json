@@ -1,4 +1,5 @@
 {
     "bordering": true,
-    "neighboring": true
+    "neighboring": true,
+    "neighbor": true
 }

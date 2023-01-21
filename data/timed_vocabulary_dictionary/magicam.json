@@ -1,3 +1,4 @@
 {
-    "many": false
+    "many": true,
+    "magical": false
 }

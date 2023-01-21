@@ -4,5 +4,6 @@
     "throw": false,
     "establish": false,
     "contend": false,
-    "attempt": false
+    "attempt": false,
+    "struggle": false
 }

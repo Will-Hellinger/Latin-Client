@@ -1,5 +1,6 @@
 {
     "tie": true,
     "wound": false,
-    "avoid": false
+    "avoid": false,
+    "call": false
 }

@@ -1,5 +1,7 @@
 {
     "stable": false,
     "peril": true,
-    "chain": false
+    "chain": false,
+    "temple": false,
+    "bedroom": false
 }

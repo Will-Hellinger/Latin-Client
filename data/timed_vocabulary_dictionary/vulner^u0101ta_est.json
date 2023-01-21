@@ -1,5 +1,6 @@
 {
     "force": false,
     "poison": false,
-    "avoid": false
+    "avoid": false,
+    "attack": false
 }

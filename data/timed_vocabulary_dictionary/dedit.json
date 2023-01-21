@@ -3,5 +3,6 @@
     "instruct": false,
     "take": false,
     "receive": false,
-    "teach": false
+    "teach": false,
+    "dare": false
 }

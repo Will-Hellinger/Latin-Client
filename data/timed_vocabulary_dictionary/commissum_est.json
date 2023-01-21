@@ -1,5 +1,6 @@
 {
     "collect": false,
     "seize": false,
-    "surround": false
+    "surround": false,
+    "compress": false
 }

@@ -1,4 +1,5 @@
 {
     "excel": false,
-    "show": true
+    "show": true,
+    "point (out/at)": true
 }

@@ -1,4 +1,5 @@
 {
     "be silent": false,
-    "set on shore": false
+    "set on shore": false,
+    "expose": false
 }

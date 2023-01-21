@@ -1,5 +1,6 @@
 {
     "beach": false,
     "farm": true,
-    "horse": false
+    "horse": false,
+    "field": true
 }

@@ -1,4 +1,5 @@
 {
     "death": false,
-    "wall": true
+    "wall": true,
+    "messenger": false
 }

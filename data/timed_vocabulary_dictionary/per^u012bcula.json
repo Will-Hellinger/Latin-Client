@@ -6,5 +6,6 @@
     "temple": false,
     "peril": true,
     "bedroom": false,
-    "grain": false
+    "grain": false,
+    "mirror": false
 }

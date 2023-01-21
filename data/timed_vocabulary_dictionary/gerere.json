@@ -1,4 +1,7 @@
 {
     "wage": true,
-    "make": false
+    "make": false,
+    "drive": false,
+    "do": true,
+    "know": false
 }

@@ -1,4 +1,5 @@
 {
     "send": true,
-    "hurry": true
+    "hurry": true,
+    "stay": false
 }

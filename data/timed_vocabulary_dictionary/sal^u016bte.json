@@ -1,4 +1,6 @@
 {
     "priest": false,
-    "safety": true
+    "safety": true,
+    "deliverance": true,
+    "sanity": false
 }

@@ -6,15 +6,26 @@ try:
     import glob
     import check_update
     from info import *
-#    from discord_rpc import *
+    from discord_rpc import *
     from web_driver import *
     import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary
 except Exception as error:
     input(error)
     exit()
 
-#check_update.run()
+try:
+    check_update.run()
+except Exception as error:
+    print(f'unable to update due to {error}')
+
 print(f'[+] Starting Client v{version}')
+
+def get_token():
+    cookies = driver.get_cookies()
+    for cookie in cookies:
+        if cookie['domain'] == 'lthslatin.org':
+            token = cookie['value']
+    return token
 
 def on_press(key):
     global doAction, actionButton, enterKey
@@ -80,7 +91,8 @@ mode = 'launchpad'
 assignment = 'Latin Launchpad'
 print(f'[+] Successfully Started Client v{version}')
 
-#rpc_start(user)
+if discordFound:
+    rpc_start()
 
 #load plugins
 pluginFiles = glob.glob(f'.{subDirectory}data{subDirectory}plugins{subDirectory}*.plg')
@@ -127,7 +139,7 @@ while True:
     if mode == 'launchpad':
         doAction = False
         enterKey = False
-    if mode == 'noun-adj':
+    elif mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you
             try:
@@ -165,4 +177,5 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
             doAction = False
+    time.sleep(.1)
 driver.close()

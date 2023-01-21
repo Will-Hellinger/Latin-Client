@@ -2,14 +2,16 @@ from web_driver import *
 from info import *
 import time, random, json
 
-with open(f".{subDirectory}data{subDirectory}noun-adj_chart.json", encoding='utf-8') as file:
-    data = json.load(file)
-    allEndings = []
-    for item in data:
-        allEndings.append([item, data[item]])
+def load_chart():
+    with open(f".{subDirectory}data{subDirectory}noun-adj_chart.json", encoding='utf-8') as file:
+        data = json.load(file)
+        allEndings = []
+        for item in data:
+            allEndings.append([item, data[item]])
+    return allEndings
 
 def solver():
-    global allEndings
+    allEndings = load_chart()
     nouns = []
     for a in range(10):
         if loadWait(By.NAME, f'input{str(a+1)}'):

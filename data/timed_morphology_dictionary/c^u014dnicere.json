@@ -8,5 +8,6 @@
     "perfect": false,
     "3rd person": false,
     "deponent": false,
-    "imperative": true
+    "imperative": true,
+    "2nd person": true
 }

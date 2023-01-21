@@ -1,5 +1,6 @@
 {
     "engage in": true,
     "compel": false,
-    "command": false
+    "command": false,
+    "collect": false
 }

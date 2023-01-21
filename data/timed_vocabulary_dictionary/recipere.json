@@ -1,4 +1,6 @@
 {
     "get back": true,
-    "accept": true
+    "accept": true,
+    "answer": false,
+    "go back": false
 }

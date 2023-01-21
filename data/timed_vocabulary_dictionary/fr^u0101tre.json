@@ -1,3 +1,5 @@
 {
-    "friend": false
+    "friend": false,
+    "brother": true,
+    "sister": false
 }

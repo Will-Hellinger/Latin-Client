@@ -4,5 +4,6 @@
     "from where": true,
     "both": false,
     "everywhere": false,
-    "ever": false
+    "ever": false,
+    "from which": true
 }

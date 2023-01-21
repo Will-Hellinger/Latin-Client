@@ -1,4 +1,5 @@
 {
     "disappear": false,
-    "avoid": true
+    "avoid": true,
+    "escape": true
 }

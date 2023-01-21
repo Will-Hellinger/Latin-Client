@@ -1,5 +1,6 @@
 {
     "form a habit": false,
     "gaze": false,
-    "consult": false
+    "consult": false,
+    "board": true
 }

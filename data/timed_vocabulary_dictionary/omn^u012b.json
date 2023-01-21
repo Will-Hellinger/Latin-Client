@@ -1,5 +1,6 @@
 {
     "few": false,
     "open": false,
-    "all": true
+    "all": true,
+    "every": true
 }

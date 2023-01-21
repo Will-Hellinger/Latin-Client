@@ -3,5 +3,6 @@
     "king": false,
     "kingdom": true,
     "power": true,
-    "region": false
+    "region": false,
+    "palace": false
 }

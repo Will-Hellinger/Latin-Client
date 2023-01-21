@@ -1,4 +1,5 @@
 {
     "put on": false,
-    "place": true
+    "place": true,
+    "expose": false
 }

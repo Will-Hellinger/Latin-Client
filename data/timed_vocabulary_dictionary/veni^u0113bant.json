@@ -5,5 +5,6 @@
     "want": false,
     "carry": false,
     "go": false,
-    "turn": false
+    "turn": false,
+    "poison": true
 }

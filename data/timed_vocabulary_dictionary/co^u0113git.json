@@ -1,4 +1,5 @@
 {
     "force": true,
-    "gather": true
+    "gather": true,
+    "compel": true
 }

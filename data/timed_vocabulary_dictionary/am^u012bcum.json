@@ -1,4 +1,5 @@
 {
     "enemy": false,
-    "jar": false
+    "jar": false,
+    "desire": true
 }

@@ -10,5 +10,6 @@
     "3rd person": true,
     "indicative": true,
     "pluperfect": false,
-    "passive": false
+    "passive": false,
+    "imperative": true
 }

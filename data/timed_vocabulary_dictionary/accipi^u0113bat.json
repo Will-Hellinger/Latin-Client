@@ -1,5 +1,6 @@
 {
     "catch": false,
     "take up": false,
-    "incur": true
+    "incur": true,
+    "accept": true
 }

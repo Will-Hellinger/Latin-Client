@@ -1,3 +1,5 @@
 {
-    "great": false
+    "great": false,
+    "heavy": true,
+    "serious": true
 }

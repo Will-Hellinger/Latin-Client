@@ -7,5 +7,6 @@
     "attempt": false,
     "throw": false,
     "decide": false,
-    "hold back": false
+    "hold back": false,
+    "set up": false
 }

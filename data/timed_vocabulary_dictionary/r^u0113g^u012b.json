@@ -1,4 +1,5 @@
 {
     "rock": false,
-    "situation": false
+    "situation": false,
+    "king": true
 }

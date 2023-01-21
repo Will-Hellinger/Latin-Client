@@ -1,4 +1,5 @@
 {
     "seize": false,
-    "throw": false
+    "throw": false,
+    "weaken": true
 }
