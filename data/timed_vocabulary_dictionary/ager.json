@@ -1,5 +1,6 @@
 {
     "skill": false,
     "army": false,
-    "field": true
+    "field": true,
+    "border": false
 }

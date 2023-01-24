@@ -1,5 +1,6 @@
 {
     "fate": true,
     "destiny": true,
-    "death": false
+    "death": false,
+    "rumor": false
 }

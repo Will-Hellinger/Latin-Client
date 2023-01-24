@@ -1,4 +1,5 @@
 {
     "moisten": true,
-    "block": true
+    "block": true,
+    "form": false
 }

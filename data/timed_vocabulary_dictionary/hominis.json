@@ -1,5 +1,6 @@
 {
     "man": true,
     "person": true,
-    "girl": false
+    "girl": false,
+    "grandfather": false
 }

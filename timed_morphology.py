@@ -22,12 +22,6 @@ def check_true():
     else:
         return False
 
-def check_true():
-    if ((str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']").text).split('\n')[0]).endswith((str(int(str(driver.find_element(By.XPATH, f"// p[@id='laststreak']").text).split(': ')[1]) + 1) + '.')) and 'current streak is' in (str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']").text).split('\n')[0]).lower()) or 'freak' in (str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']").text).split('\n')[0]).lower():
-        return True
-    else:
-        return False
-
 def check_timout(word: str, definition: str, data: dict):
     ui_title = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 

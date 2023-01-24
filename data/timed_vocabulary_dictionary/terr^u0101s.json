@@ -3,5 +3,6 @@
     "land": true,
     "terrify": false,
     "island": false,
-    "border": false
+    "border": false,
+    "frighten": false
 }

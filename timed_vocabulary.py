@@ -78,8 +78,9 @@ def wait_reload(word1: str, word2: str, choice: bool):
                 driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
 
 
-def synonym_extractor(phrase):
+def synonym_extractor(phrase: str):
     synonyms = []
+
     for syn in wordnet.synsets(phrase):
         for l in syn.lemmas():
             synonyms.append(l.name())
@@ -87,7 +88,7 @@ def synonym_extractor(phrase):
     return synonyms
 
 
-def antonym_extractor(phrase):
+def antonym_extractor(phrase: str):
     antonyms = []
     
     for syn in wordnet.synsets(phrase):
