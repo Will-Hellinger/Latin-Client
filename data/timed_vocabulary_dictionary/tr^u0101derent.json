@@ -5,5 +5,6 @@
     "lead across": false,
     "rumor": false,
     "hand over": true,
-    "lead": false
+    "lead": false,
+    "deliver": true
 }

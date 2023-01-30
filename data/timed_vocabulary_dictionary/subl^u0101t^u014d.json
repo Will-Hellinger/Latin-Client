@@ -1,5 +1,6 @@
 {
     "remove": true,
     "raise": true,
-    "gather": false
+    "gather": false,
+    "lift": true
 }

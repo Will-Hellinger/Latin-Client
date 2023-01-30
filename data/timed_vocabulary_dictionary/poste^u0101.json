@@ -1,5 +1,6 @@
 {
     "afterward": true,
     "finally": false,
-    "previously": false
+    "previously": false,
+    "formerly": true
 }

@@ -6,5 +6,6 @@
     "return": false,
     "recover": true,
     "go back": false,
-    "leave": false
+    "leave": false,
+    "abandon": false
 }

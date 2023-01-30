@@ -1,5 +1,6 @@
 {
     "change": false,
     "entrust": false,
-    "move": true
+    "move": true,
+    "choke": false
 }

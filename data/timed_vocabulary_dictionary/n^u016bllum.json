@@ -6,5 +6,6 @@
     "whole": false,
     "one": false,
     "every": false,
-    "all": false
+    "all": false,
+    "some": false
 }

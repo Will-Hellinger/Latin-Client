@@ -58,24 +58,12 @@ def check_timout(word: str, definition: str, data: dict):
 
 
 def wait_reload(word1: str, word2: str, choice: bool):
-    timer = str(driver.find_element(By.XPATH, f"// p[@id='{timer_element}']").text)
-    if timer == '(untimed)':
-        start_time = time.time()
-    else:
-        start_time = int(timer.split(":")[1])
-
     while True:
         if word1 == str(driver.find_element(By.XPATH, f"// p[@id='{vocab_element}']").text).split('\n')[0] and word2 == str(driver.find_element(By.XPATH, f"// p[@id='{definition_element}']").text):
             time.sleep(.5)
         else:
             time.sleep(1)
             break
-        timer = str(driver.find_element(By.XPATH, f"// p[@id='{timer_element}']").text)
-        if (timer == '(untimed)' and time.time() - start_time >= 3) or (timer != '(untimed)' and -1 * (int(timer.split(":")[1]) - start_time) >= 2):
-            if choice == True:
-                driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
-            elif choice == False:
-                driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
 
 
 def synonym_extractor(phrase: str):

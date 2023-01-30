@@ -1,4 +1,5 @@
 {
     "depart": false,
-    "release": true
+    "release": true,
+    "withdraw": true
 }

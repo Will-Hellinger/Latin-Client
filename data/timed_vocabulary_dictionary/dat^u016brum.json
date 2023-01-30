@@ -2,5 +2,6 @@
     "dare": false,
     "give": true,
     "explain": false,
-    "take": false
+    "take": false,
+    "teach": false
 }

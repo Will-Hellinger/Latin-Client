@@ -4,5 +4,6 @@
     "scare": false,
     "border": false,
     "island": false,
-    "sea": false
+    "sea": false,
+    "terrify": false
 }

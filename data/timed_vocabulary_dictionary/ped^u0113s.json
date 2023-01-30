@@ -1,4 +1,5 @@
 {
     "head": false,
-    "hand": false
+    "hand": false,
+    "danger": false
 }

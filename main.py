@@ -8,15 +8,15 @@ try:
     from info import *
     from discord_rpc import *
     from web_driver import *
-    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary
+    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings
 except Exception as error:
     input(error)
     exit()
 
-try:
-    check_update.run()
-except Exception as error:
-    print(f'unable to update due to {error}')
+#try:
+#    check_update.run()
+#except Exception as error:
+#    print(f'unable to update due to {error}')
 
 print(f'[+] Starting Client v{version}')
 
@@ -139,6 +139,13 @@ while True:
     if mode == 'launchpad':
         doAction = False
         enterKey = False
+    elif mode == '(grasp)' or mode == 'reading':
+        if doAction == True:
+            try:
+                readings.scan_words()
+            except Exception as error:
+                print(f'error: {error}')
+            doAction = False
     elif mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you

@@ -1,4 +1,6 @@
 {
     "spring up": false,
-    "give out": false
+    "give out": false,
+    "go out": true,
+    "enter (into)": false
 }

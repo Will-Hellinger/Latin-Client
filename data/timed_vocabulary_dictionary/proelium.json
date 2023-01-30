@@ -1,5 +1,6 @@
 {
     "job": false,
     "battle": true,
-    "advice": false
+    "advice": false,
+    "prophecy": false
 }

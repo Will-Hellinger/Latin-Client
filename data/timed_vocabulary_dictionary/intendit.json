@@ -2,5 +2,6 @@
     "confine": false,
     "enclose": false,
     "aim": true,
-    "stretch": true
+    "stretch": true,
+    "dwell": false
 }

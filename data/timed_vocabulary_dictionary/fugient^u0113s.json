@@ -1,5 +1,6 @@
 {
     "report": false,
     "flee": true,
-    "run away": true
+    "run away": true,
+    "fear": false
 }

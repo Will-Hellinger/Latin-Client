@@ -1,5 +1,6 @@
 {
     "cliff": false,
     "king": true,
-    "situation": true
+    "situation": true,
+    "fact": false
 }

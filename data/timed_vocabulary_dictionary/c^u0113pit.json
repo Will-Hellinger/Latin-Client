@@ -4,5 +4,6 @@
     "seize": true,
     "take": true,
     "grab": false,
-    "fall": false
+    "fall": false,
+    "grasp": false
 }

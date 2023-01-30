@@ -5,5 +5,6 @@
     "the same ____": false,
     "each": false,
     "some": false,
-    "that": true
+    "that": true,
+    "this": true
 }

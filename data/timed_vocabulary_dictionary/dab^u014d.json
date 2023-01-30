@@ -1,4 +1,5 @@
 {
     "give": true,
-    "instruct": false
+    "instruct": false,
+    "receive": false
 }

@@ -1,5 +1,6 @@
 {
     "hasten": false,
     "proceed": true,
-    "advance": true
+    "advance": true,
+    "depart": false
 }

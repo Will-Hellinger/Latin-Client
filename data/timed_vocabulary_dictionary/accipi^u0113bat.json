@@ -2,5 +2,6 @@
     "catch": false,
     "take up": false,
     "incur": true,
-    "accept": true
+    "accept": true,
+    "get back": false
 }

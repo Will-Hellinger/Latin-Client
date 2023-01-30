@@ -1,4 +1,5 @@
 {
     "fall": true,
-    "possibility": true
+    "possibility": true,
+    "carcass": false
 }

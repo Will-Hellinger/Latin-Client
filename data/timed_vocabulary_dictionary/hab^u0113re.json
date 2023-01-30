@@ -2,5 +2,6 @@
     "grasp": false,
     "seize": false,
     "hold": true,
-    "compress": false
+    "compress": false,
+    "dwell": false
 }

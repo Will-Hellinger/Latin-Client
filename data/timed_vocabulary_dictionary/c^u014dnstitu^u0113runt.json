@@ -1,4 +1,5 @@
 {
     "consult": false,
-    "consume": false
+    "consume": false,
+    "decide": true
 }

@@ -1,5 +1,6 @@
 {
     "thing": true,
     "affair": true,
-    "cliff": false
+    "cliff": false,
+    "day": false
 }

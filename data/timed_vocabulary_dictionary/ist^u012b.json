@@ -1,5 +1,6 @@
 {
     "the same ____": false,
     "himself": false,
-    "that": true
+    "that": true,
+    "these": false
 }

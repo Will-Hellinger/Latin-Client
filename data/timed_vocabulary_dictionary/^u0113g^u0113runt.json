@@ -1,4 +1,5 @@
 {
     "drive": true,
-    "wear": false
+    "wear": false,
+    "push": false
 }

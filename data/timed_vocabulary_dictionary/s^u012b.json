@@ -4,5 +4,6 @@
     "if": true,
     "lest": false,
     "because": false,
-    "even though": false
+    "even though": false,
+    "although": false
 }

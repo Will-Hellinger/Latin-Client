@@ -1,4 +1,5 @@
 {
     "ship": true,
-    "sailor": false
+    "sailor": false,
+    "task": false
 }

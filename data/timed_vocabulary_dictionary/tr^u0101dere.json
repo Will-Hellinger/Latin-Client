@@ -1,4 +1,5 @@
 {
     "surrender": true,
-    "deliver": true
+    "deliver": true,
+    "cross": false
 }

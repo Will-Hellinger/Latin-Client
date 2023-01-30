@@ -1,4 +1,5 @@
 {
     "stain": false,
-    "kill": true
+    "kill": true,
+    "aim": true
 }

@@ -21,7 +21,7 @@ def translate(word: str, latinDict: list, englishDict: list):
 filelist = []
 for root, dirs, files in os.walk('.'):
     for file in files:
-        if str(os.path.join(root,file)).endswith('.json') and 'timed_vocabulary_dictionary' in str(os.path.join(root,file)):
+        if str(os.path.join(root,file)).endswith('.json') and 'latin_dictionary' in str(os.path.join(root,file)):
             filelist.append(os.path.join(root,file))
 
 allLatinWords = []

@@ -1,4 +1,5 @@
 {
     "follow": false,
-    "demand": true
+    "demand": true,
+    "beg": false
 }

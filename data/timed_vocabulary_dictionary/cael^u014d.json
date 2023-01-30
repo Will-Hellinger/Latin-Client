@@ -4,5 +4,6 @@
     "land": false,
     "tail": false,
     "meat": false,
-    "sea": false
+    "sea": false,
+    "chain": false
 }

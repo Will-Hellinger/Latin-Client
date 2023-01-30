@@ -1,5 +1,6 @@
 {
     "seize": false,
     "throw": false,
-    "weaken": true
+    "weaken": true,
+    "hurl": false
 }

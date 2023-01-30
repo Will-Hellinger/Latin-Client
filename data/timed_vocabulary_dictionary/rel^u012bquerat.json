@@ -1,5 +1,6 @@
 {
     "leave": true,
     "remind": false,
-    "receive": false
+    "receive": false,
+    "abandon": true
 }

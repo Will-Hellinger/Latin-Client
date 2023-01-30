@@ -1,4 +1,5 @@
 {
     "arrow": true,
-    "health": false
+    "health": false,
+    "sail": false
 }

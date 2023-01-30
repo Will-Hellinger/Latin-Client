@@ -1,0 +1,7 @@
+{
+    "obtain": true,
+    "collect": true,
+    "prepare": true,
+    "purchase": true,
+    "procure": true
+}

@@ -7,5 +7,6 @@
     "himself": true,
     "our(s)": false,
     "which": false,
-    "the very ___": true
+    "the very ___": true,
+    "mine": false
 }

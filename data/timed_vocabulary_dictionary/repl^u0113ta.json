@@ -1,4 +1,5 @@
 {
     "exhaust": false,
-    "refill": true
+    "refill": true,
+    "desist": false
 }

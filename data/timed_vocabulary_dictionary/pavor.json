@@ -1,5 +1,6 @@
 {
     "fear": true,
     "task": false,
-    "stare": false
+    "stare": false,
+    "duty": false
 }

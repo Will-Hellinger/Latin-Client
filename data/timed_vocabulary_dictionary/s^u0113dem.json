@@ -6,5 +6,6 @@
     "snake": false,
     "sand": false,
     "conversation": false,
-    "home": true
+    "home": true,
+    "burial": false
 }

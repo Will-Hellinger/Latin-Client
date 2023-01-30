@@ -2,5 +2,6 @@
     "sit": true,
     "save": false,
     "depart": false,
-    "follow": false
+    "follow": false,
+    "talk": false
 }

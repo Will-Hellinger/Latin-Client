@@ -1,5 +1,6 @@
 {
     "glance": false,
     "resolve": false,
-    "hurl": false
+    "hurl": false,
+    "decide": false
 }

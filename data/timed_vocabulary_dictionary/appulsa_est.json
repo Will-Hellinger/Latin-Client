@@ -1,5 +1,6 @@
 {
     "drive": true,
     "sail": false,
-    "name": false
+    "name": false,
+    "land": true
 }

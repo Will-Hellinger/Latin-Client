@@ -1,5 +1,6 @@
 {
     "wake": false,
     "wear out": true,
-    "yell": false
+    "yell": false,
+    "explain": false
 }

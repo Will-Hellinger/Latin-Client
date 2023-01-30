@@ -2,5 +2,6 @@
     "not any": true,
     "no": true,
     "some": false,
-    "every": false
+    "every": false,
+    "other": false
 }

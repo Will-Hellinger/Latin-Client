@@ -1,3 +1,4 @@
 {
-    "torture": true
+    "torture": true,
+    "task": false
 }

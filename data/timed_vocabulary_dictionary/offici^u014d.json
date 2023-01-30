@@ -7,5 +7,6 @@
     "job": true,
     "difficulty": false,
     "power": false,
-    "affair": false
+    "affair": false,
+    "duty": true
 }
