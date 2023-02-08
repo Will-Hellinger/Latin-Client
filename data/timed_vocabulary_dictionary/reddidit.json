@@ -1,5 +1,7 @@
 {
+    "return": true,
     "repeat": true,
-    "receive": false,
-    "restore": false
+    "give back": true,
+    "render": true,
+    "flee": false
 }

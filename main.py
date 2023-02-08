@@ -1,8 +1,6 @@
 # ---------->SETUP START<----------
 try:
-    import time, pynput
-    from system_commands import *
-    import heheHa
+    import time, pynput, sys, playsound, threading, random
     import glob
     import check_update
     from info import *
@@ -13,10 +11,60 @@ except Exception as error:
     input(error)
     exit()
 
-#try:
-#    check_update.run()
-#except Exception as error:
-#    print(f'unable to update due to {error}')
+def debugger_tool():
+    layout = [[sg.Text('Module:'), sg.Combo(['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings'], default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
+            [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
+            [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")]]
+
+    window = sg.Window('debugger', layout, resizable=True)
+
+    while True:
+        event, values = window.read()
+        if event == 'Reload':
+            module = values['_MODULE_INPUT_']
+
+            if module == 'infinitive_morphology':
+                importlib.reload(infinitive_morphology)
+            elif module == 'noun_adj':
+                importlib.reload(noun_adj)
+            elif module == 'synopsis':
+                importlib.reload(synopsis)
+            elif module == 'timed_morphology':
+                importlib.reload(timed_morphology)
+            elif module == 'timed_vocabulary':
+                importlib.reload(timed_vocabulary)
+            elif module == 'readings':
+                importlib.reload(readings)
+        elif event == 'Inject':
+            driver.execute_script(f'document.cookie = "PHPSESSID={values["_TOKEN_INPUT_"]}"')
+            time.sleep(.5)
+            driver.get("https://lthslatin.org/")
+        elif event == 'Get Token':
+            window.Element('_TOKEN_OUTPUT_').Update(str(get_token()))
+        elif event == sg.WIN_CLOSED:
+            break
+    window.close()
+
+
+update = True
+
+## DEV TOOL
+if len(sys.argv) >= 2:
+    if str(sys.argv[1]) == '--debugger':
+        update = False
+        try:
+            import PySimpleGUI as sg
+            import importlib
+            threading.Thread(target=debugger_tool).start()
+        except Exception as error:
+            print(f'unable to launch debugger due to {error}')
+
+
+try:
+    if update:
+        check_update.run()
+except Exception as error:
+    print(f'unable to update due to {error}')
 
 print(f'[+] Starting Client v{version}')
 
@@ -40,6 +88,15 @@ listener = pynput.keyboard.Listener(on_press=on_press)
 listener.start()
 
 # ---------->SETUP END<----------
+
+def heheHA():
+    playsound.playsound(f'.{subDirectory}data{subDirectory}sounds{subDirectory}test.mp3')
+
+try:
+    if int(random.randint(1,50)) == 1 and funnySound == True:
+        threading.Thread(target=heheHA).start()
+except:
+    pass
 
 while True:
     try:
@@ -142,7 +199,7 @@ while True:
     elif mode == '(grasp)' or mode == 'reading':
         if doAction == True:
             try:
-                readings.scan_words()
+                readings.learn_words()
             except Exception as error:
                 print(f'error: {error}')
             doAction = False

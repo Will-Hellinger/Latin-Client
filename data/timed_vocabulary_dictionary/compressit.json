@@ -1,5 +1,7 @@
 {
-    "entrust": false,
+    "hold": true,
+    "press": true,
     "compress": true,
-    "keep": false
+    "squeeze": true,
+    "choke": true
 }

@@ -1,12 +1,7 @@
 {
-    "plan": false,
-    "plenty": true,
-    "cattle": false,
     "abundance": true,
+    "plenty": true,
     "(plural) troops": true,
-    "body": false,
-    "supply": true,
-    "stare": false,
-    "gaze": false,
-    "few": false
+    "supplies": true,
+    "supply": true
 }

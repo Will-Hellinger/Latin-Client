@@ -1,5 +1,3 @@
 {
-    "sing": true,
-    "dog": true,
-    "sky": false
+    "dog": true
 }

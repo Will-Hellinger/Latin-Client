@@ -1,3 +1,5 @@
 {
-    "leader": false
+    "legate": true,
+    "envoy": true,
+    "ambassador": true
 }

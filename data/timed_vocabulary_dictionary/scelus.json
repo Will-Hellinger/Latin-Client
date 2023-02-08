@@ -1,6 +1,4 @@
 {
-    "shield": false,
     "sin": true,
-    "crime": true,
-    "duty": true
+    "crime": true
 }

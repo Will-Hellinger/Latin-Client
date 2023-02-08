@@ -1,5 +1,5 @@
 {
-    "cut down": false,
-    "run into": false,
-    "grab": false
+    "seize": true,
+    "occupy": true,
+    "cut down": false
 }

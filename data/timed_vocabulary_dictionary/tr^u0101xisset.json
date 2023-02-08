@@ -1,5 +1,4 @@
 {
-    "surrender": false,
-    "cross": false,
-    "deliver": false
+    "drag": true,
+    "draw": true
 }

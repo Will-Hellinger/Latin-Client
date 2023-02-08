@@ -1,4 +1,6 @@
 {
     "collect": false,
-    "surround": false
+    "surround": false,
+    "engage in": true,
+    "compress": false
 }

@@ -1,3 +1,4 @@
 {
-    "receive": false
+    "receive": false,
+    "leave behind": true
 }

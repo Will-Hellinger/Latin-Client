@@ -1,10 +1,6 @@
 {
-    "as soon as": false,
     "so that... not...": true,
-    "until": false,
     "in order that... not...": true,
     "lest": true,
-    "indeed": false,
-    "nevertheless": false,
     "as often as": false
 }

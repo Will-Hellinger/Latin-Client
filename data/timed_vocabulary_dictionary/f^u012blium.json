@@ -1,5 +1,3 @@
 {
-    "son": true,
-    "mother": false,
-    "boy": false
+    "son": true
 }

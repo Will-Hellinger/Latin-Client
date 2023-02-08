@@ -1,4 +1,5 @@
 {
     "rest": false,
-    "certain": false
+    "certain": false,
+    "alive": false
 }

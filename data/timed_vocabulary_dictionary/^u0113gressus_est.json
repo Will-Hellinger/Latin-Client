@@ -1,6 +1,4 @@
 {
-    "wait": false,
-    "release": false,
-    "spring up": false,
-    "go out": true
+    "go out": true,
+    "disembark": true
 }

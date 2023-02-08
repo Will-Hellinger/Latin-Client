@@ -1,5 +1,3 @@
 {
-    "honor": true,
-    "health": false,
-    "person": false
+    "honor": true
 }

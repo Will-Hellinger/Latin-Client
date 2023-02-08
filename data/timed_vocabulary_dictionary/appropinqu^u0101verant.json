@@ -1,5 +1,4 @@
 {
-    "influence": false,
-    "draw near": true,
-    "affect": false
+    "approach": true,
+    "draw near": true
 }

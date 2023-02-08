@@ -1,3 +1,4 @@
 {
-    "heat": false
+    "body": true,
+    "carcass": true
 }

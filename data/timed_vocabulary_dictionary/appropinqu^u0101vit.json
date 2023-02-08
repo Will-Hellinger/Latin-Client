@@ -1,4 +1,6 @@
 {
     "wonder": false,
-    "afflict": false
+    "afflict": false,
+    "approach": true,
+    "open": false
 }

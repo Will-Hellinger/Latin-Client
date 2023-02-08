@@ -1,4 +1,5 @@
 {
-    "deliverance": true,
-    "safety": true
+    "health": true,
+    "safety": true,
+    "deliverance": true
 }

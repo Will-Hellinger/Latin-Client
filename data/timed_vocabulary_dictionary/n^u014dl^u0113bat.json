@@ -1,9 +1,4 @@
 {
-    "wish": false,
-    "not wish": true,
     "not want": true,
-    "call": false,
-    "learn": false,
-    "want": false,
-    "know": false
+    "not wish": true
 }

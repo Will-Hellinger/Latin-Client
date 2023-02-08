@@ -1,9 +1,6 @@
 {
-    "instruct": false,
     "persuade": true,
-    "order": false,
     "command": false,
-    "feel": false,
-    "plead": false,
-    "demand": false
+    "demand": true,
+    "plead": false
 }

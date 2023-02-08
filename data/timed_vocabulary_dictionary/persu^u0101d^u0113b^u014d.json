@@ -1,9 +1,3 @@
 {
-    "persuade": true,
-    "beg": false,
-    "order": false,
-    "permit": false,
-    "instruct": false,
-    "feel": false,
-    "demand": false
+    "persuade": true
 }

@@ -1,3 +1,4 @@
 {
-    "look": false
+    "throw": true,
+    "hurl": true
 }

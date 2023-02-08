@@ -1,11 +1,7 @@
 {
+    "place": true,
     "put aside": true,
-    "explain": false,
-    "put on": false,
-    "give up": true,
-    "impose": false,
-    "lament": false,
+    "put down": true,
     "store": true,
-    "expose": false,
-    "put down": true
+    "give up": true
 }

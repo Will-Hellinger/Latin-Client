@@ -1,5 +1,6 @@
 {
-    "watch": false,
-    "stare": false,
-    "discover": false
+    "ask": true,
+    "inquire": true,
+    "seek": true,
+    "look for": true
 }

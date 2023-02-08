@@ -1,9 +1,3 @@
 {
-    "dread": false,
-    "father": true,
-    "son": false,
-    "mother": false,
-    "sister": false,
-    "man": false,
-    "brother": false
+    "father": true
 }

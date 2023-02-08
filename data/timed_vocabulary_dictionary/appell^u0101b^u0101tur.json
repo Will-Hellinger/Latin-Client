@@ -1,9 +1,6 @@
 {
-    "name": true,
     "call": true,
-    "cry": false,
-    "summon": false,
-    "approach": false,
+    "name": true,
     "draw near": false,
-    "drive": false
+    "cry": false
 }

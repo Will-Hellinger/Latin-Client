@@ -1,4 +1,4 @@
 {
-    "grandfather": false,
-    "grandson": true
+    "grandson": true,
+    "brother": false
 }

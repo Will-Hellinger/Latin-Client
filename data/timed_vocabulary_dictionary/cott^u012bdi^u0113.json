@@ -1,4 +1,4 @@
 {
     "daily": true,
-    "immediately": false
+    "every day": true
 }

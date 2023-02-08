@@ -1,4 +1,5 @@
 {
-    "dwell": false,
-    "confine": true
+    "enclose": true,
+    "confine": true,
+    "imprison": true
 }

@@ -1,13 +1,8 @@
 {
-    "whose": false,
+    "his": true,
+    "her": true,
+    "hers": true,
     "its": true,
     "their": true,
-    "the same ____": false,
-    "me": false,
-    "his": true,
-    "my": false,
-    "her": true,
-    "theirs": true,
-    "what": false,
-    "the very ___": false
+    "theirs": true
 }

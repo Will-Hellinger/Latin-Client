@@ -1,3 +1,4 @@
 {
-    "chain": true
+    "chain": true,
+    "room": false
 }

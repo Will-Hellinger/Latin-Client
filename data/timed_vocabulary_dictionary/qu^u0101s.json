@@ -1,13 +1,9 @@
 {
-    "sleep": false,
-    "themselves": false,
-    "indeed": false,
-    "how often?": false,
-    "hour": false,
-    "in fact": false,
-    "mine": false,
-    "what": true,
-    "because": false,
-    "annually": false,
-    "rest": false
+    "that": true,
+    "who": true,
+    "whose": true,
+    "whom": true,
+    "which": true,
+    "(as an adjective) what": true,
+    "indeed": false
 }

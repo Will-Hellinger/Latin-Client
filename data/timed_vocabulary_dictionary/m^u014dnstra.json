@@ -1,5 +1,3 @@
 {
-    "monster": true,
-    "way": false,
-    "bite": false
+    "monster": true
 }

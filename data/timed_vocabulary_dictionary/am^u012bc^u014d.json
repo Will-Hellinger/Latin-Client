@@ -1,3 +1,5 @@
 {
-    "jar": false
+    "friend": true,
+    "friendly": true,
+    "enemy": false
 }

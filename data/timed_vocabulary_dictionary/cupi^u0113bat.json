@@ -1,9 +1,5 @@
 {
-    "desire": true,
-    "long for": true,
-    "recline": false,
-    "run": false,
-    "course": false,
     "wish": true,
-    "guard": false
+    "desire": true,
+    "long (for)": true
 }

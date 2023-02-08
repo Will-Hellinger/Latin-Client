@@ -1,3 +1,5 @@
 {
-    "make": true
+    "make": true,
+    "construct": true,
+    "build": true
 }

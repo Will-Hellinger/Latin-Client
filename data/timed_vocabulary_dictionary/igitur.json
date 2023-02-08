@@ -1,9 +1,4 @@
 {
     "therefore": true,
-    "however": false,
-    "still": false,
-    "up to this point": false,
-    "as yet": false,
-    "immediately": false,
-    "entirely": false
+    "immediately": false
 }

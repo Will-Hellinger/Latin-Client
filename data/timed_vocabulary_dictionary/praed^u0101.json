@@ -1,8 +1,8 @@
 {
-    "reputation": false,
-    "rumor": false,
-    "prey": true,
+    "loot": true,
     "booty": true,
-    "report": false,
-    "spoil": true
+    "plunder": true,
+    "prey": true,
+    "spoil": true,
+    "reward": false
 }

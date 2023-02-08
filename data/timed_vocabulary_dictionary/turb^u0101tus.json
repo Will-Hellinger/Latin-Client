@@ -1,7 +1,3 @@
 {
-    "disturb": true,
-    "take up": false,
-    "calm": false,
-    "tire out": false,
-    "terrify": false
+    "disturb": true
 }

@@ -1,11 +1,16 @@
 {
-    "everywhere": false,
-    "there": true,
-    "at once": false,
-    "either": false,
-    "in that place": true,
-    "also": false,
-    "to that place": true,
-    "entirely": false,
-    "every day": false
+    "this": true,
+    "that": true,
+    "he": true,
+    "she": true,
+    "it": true,
+    "his": true,
+    "her": true,
+    "hers": true,
+    "him": true,
+    "its": true,
+    "they": true,
+    "them": true,
+    "their": true,
+    "theirs": true
 }

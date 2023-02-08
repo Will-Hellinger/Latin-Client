@@ -1,9 +1,3 @@
 {
-    "god": false,
-    "day": true,
-    "sadness": false,
-    "home": false,
-    "grief": false,
-    "gift": false,
-    "leader": false
+    "day": true
 }

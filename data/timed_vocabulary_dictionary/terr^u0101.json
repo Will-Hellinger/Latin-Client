@@ -1,10 +1,6 @@
 {
-    "island": false,
-    "border": false,
     "land": true,
-    "sea": false,
-    "scare": false,
-    "frighten": false,
-    "terror": false,
-    "terrify": false
+    "with orbis: earth": true,
+    "with orbis: world": true,
+    "with orbis: universe": true
 }

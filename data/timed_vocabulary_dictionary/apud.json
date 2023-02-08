@@ -1,10 +1,4 @@
 {
     "among": true,
-    "against": false,
-    "after": false,
-    "between": false,
-    "at the home of": true,
-    "above": false,
-    "toward": false,
-    "about": false
+    "at the home of": true
 }

@@ -1,10 +1,6 @@
 {
-    "living": false,
-    "extreme": true,
     "violent": true,
-    "irate": false,
-    "angry": false,
-    "furious": false,
+    "extreme": true,
     "ardent": true,
-    "enraged": false
+    "exceeding": true
 }

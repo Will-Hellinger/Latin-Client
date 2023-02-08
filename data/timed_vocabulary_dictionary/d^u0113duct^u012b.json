@@ -1,8 +1,5 @@
 {
-    "cease": false,
-    "choose": false,
-    "launch": true,
+    "(with n\u0101vis or linter) launch": true,
     "lead down": true,
-    "select": false,
-    "catch": false
+    "select": false
 }

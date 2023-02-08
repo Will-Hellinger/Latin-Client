@@ -1,6 +1,5 @@
 {
-    "big": false,
-    "at first (adverbial)": true,
-    "much": false,
-    "large": true
+    "first": true,
+    "(adverbial: at first)": true,
+    "highest": false
 }

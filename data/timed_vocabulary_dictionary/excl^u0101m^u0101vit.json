@@ -1,3 +1,5 @@
 {
-    "shout": true
+    "shout": true,
+    "yell": true,
+    "exclaim": true
 }

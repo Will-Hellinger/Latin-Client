@@ -1,12 +1,7 @@
 {
-    "carry on": true,
+    "[idiomatic meanings vary]": true,
     "do": true,
     "wage": true,
-    "go": false,
-    "come": false,
-    "make": false,
-    "understand": false,
-    "find": false,
     "wear": true,
-    "know": false
+    "carry on": true
 }

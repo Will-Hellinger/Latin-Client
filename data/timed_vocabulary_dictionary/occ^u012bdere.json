@@ -1,4 +1,7 @@
 {
-    "come to pass": false,
-    "cut down": true
+    "kill": true,
+    "cut down": true,
+    "slay": true,
+    "destroy": false,
+    "occupy": true
 }

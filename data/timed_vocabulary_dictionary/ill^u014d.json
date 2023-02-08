@@ -1,3 +1,5 @@
 {
-    "that": true
+    "that": true,
+    "(plural: those)": true,
+    "the very ___": false
 }

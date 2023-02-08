@@ -1,13 +1,8 @@
 {
-    "in": false,
     "from": true,
-    "out of": true,
     "out": true,
-    "to": false,
-    "on account of": false,
-    "because of": false,
-    "through": false,
-    "away from": false,
-    "against": false,
-    "on": false
+    "out of": true,
+    "proceed": true,
+    "advance": true,
+    "away from": false
 }

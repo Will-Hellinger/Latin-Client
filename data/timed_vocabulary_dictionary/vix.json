@@ -1,9 +1,6 @@
 {
     "scarcely": true,
-    "always": false,
-    "still": false,
     "hardly": true,
-    "altogether": false,
-    "almost": false,
-    "entirely": false
+    "entirely": false,
+    "almost": true
 }

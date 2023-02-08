@@ -1,10 +1,6 @@
 {
-    "accomplish": false,
     "rise": true,
-    "light": false,
-    "accept": false,
-    "happen": false,
     "climb": true,
-    "receive": false,
-    "ascend": true
+    "ascend": true,
+    "receive": false
 }

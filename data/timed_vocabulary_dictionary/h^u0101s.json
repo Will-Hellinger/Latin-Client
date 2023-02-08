@@ -1,9 +1,4 @@
 {
-    "these": true,
-    "me": false,
-    "those": false,
-    "my": false,
-    "mine": false,
-    "whom": false,
-    "our(s)": false
+    "this": true,
+    "(plural: these)": true
 }

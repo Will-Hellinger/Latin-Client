@@ -1,3 +1,4 @@
 {
-    "destroy": false
+    "kill": true,
+    "harm": true
 }

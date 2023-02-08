@@ -1,7 +1,4 @@
 {
-    "grasp": false,
-    "seize": false,
     "hold": true,
-    "compress": false,
-    "dwell": false
+    "have": true
 }

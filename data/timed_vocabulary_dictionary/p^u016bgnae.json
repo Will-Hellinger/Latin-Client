@@ -1,4 +1,5 @@
 {
-    "power": false,
-    "enemy": false
+    "battle": true,
+    "fight": true,
+    "combat": true
 }

@@ -1,7 +1,6 @@
 {
-    "nap": true,
-    "rest": true,
     "sleep": true,
-    "which": false,
-    "what": false
+    "rest": true,
+    "nap": true,
+    "room": false
 }

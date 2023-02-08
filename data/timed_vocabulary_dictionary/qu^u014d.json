@@ -1,18 +1,8 @@
 {
+    "that": true,
+    "who": true,
+    "whose": true,
     "whom": true,
-    "themselves": false,
     "which": true,
-    "how often?": false,
-    "me": false,
-    "what": true,
-    "herself": false,
-    "rest": false,
-    "hour": false,
-    "your(s)": false,
-    "sleep": false,
-    "the very ___": false,
-    "also": false,
-    "every year": false,
-    "indeed": false,
-    "you": false
+    "(as an adjective) what": true
 }

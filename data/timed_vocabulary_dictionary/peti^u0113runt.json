@@ -1,6 +1,4 @@
 {
-    "attack": true,
-    "beat": false,
     "seek": true,
-    "push": false
+    "attack": true
 }

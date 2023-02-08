@@ -1,4 +1,4 @@
 {
-    "bedroom": false,
-    "knife": false
+    "run": true,
+    "course": true
 }

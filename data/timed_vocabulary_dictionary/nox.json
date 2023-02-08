@@ -1,3 +1,4 @@
 {
-    "name": false
+    "night": true,
+    "day": false
 }

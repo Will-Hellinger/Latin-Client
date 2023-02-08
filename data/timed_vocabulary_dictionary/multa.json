@@ -1,10 +1,4 @@
 {
     "many": true,
-    "enormous": false,
-    "much": true,
-    "small": false,
-    "strong": false,
-    "big": false,
-    "little": false,
-    "great": false
+    "much": true
 }

@@ -1,5 +1,6 @@
 {
     "rumor": false,
     "rock": true,
-    "rattle": false
+    "rattle": false,
+    "run": false
 }

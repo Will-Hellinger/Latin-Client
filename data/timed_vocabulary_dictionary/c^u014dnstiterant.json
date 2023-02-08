@@ -1,12 +1,6 @@
 {
-    "halt": true,
     "stop": true,
-    "try": false,
     "stand firm": true,
-    "spend": false,
-    "attempt": false,
-    "throw": false,
-    "decide": false,
-    "hold back": false,
-    "set up": false
+    "halt": true,
+    "consist (of)": true
 }

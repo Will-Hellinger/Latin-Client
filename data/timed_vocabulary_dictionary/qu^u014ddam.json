@@ -1,11 +1,5 @@
 {
-    "where": false,
-    "whose": false,
-    "certain": true,
-    "certain ___, a certain ___": true,
-    "anyone": false,
-    "any": false,
-    "this": false,
-    "that": false,
-    "what": false
+    "some": true,
+    "certain ___": true,
+    "the very ___": false
 }

@@ -1,13 +1,9 @@
 {
-    "mine": false,
-    "which": true,
-    "the same ____": false,
-    "what": true,
-    "indeed": false,
-    "itself": false,
-    "himself": false,
-    "nap": false,
+    "that": true,
+    "who": true,
+    "whose": true,
     "whom": true,
-    "also": false,
-    "themselves": false
+    "which": true,
+    "(as an adjective) what": true,
+    "rest": false
 }

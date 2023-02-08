@@ -1,4 +1,5 @@
 {
-    "fear": false,
-    "heat": false
+    "pain": true,
+    "grief": true,
+    "sadness": true
 }

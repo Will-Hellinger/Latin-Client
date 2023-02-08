@@ -1,8 +1,4 @@
 {
-    "horse": false,
-    "body": false,
     "neck": true,
-    "column": false,
-    "station": false,
-    "head": false
+    "dog": false
 }

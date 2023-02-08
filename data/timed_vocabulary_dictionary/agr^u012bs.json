@@ -1,3 +1,6 @@
 {
-    "territory": true
+    "field": true,
+    "farm": true,
+    "territory": true,
+    "district": true
 }

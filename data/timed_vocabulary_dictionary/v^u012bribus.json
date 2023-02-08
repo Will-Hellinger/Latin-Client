@@ -1,5 +1,8 @@
 {
+    "power": true,
     "strength": true,
     "force": true,
-    "struggle": false
+    "violence": true,
+    "vigor": true,
+    "event": false
 }

@@ -1,7 +1,3 @@
 {
-    "friend": false,
-    "year": true,
-    "soul": false,
-    "mind": false,
-    "snake": false
+    "year": true
 }

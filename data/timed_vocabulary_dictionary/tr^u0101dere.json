@@ -1,5 +1,6 @@
 {
+    "report": true,
     "surrender": true,
-    "deliver": true,
-    "cross": false
+    "hand over": true,
+    "deliver": true
 }

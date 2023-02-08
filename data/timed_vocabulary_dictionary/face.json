@@ -1,3 +1,4 @@
 {
-    "torch": true
+    "torch": true,
+    "destiny": false
 }

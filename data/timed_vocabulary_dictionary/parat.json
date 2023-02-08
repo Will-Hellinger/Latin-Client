@@ -1,11 +1,7 @@
 {
-    "send": false,
-    "get ready": true,
     "get": true,
-    "step": false,
-    "overcome": false,
-    "hurry": false,
+    "get ready": true,
     "prepare": true,
-    "terrify": false,
-    "take": false
+    "proceed": true,
+    "advance": true
 }

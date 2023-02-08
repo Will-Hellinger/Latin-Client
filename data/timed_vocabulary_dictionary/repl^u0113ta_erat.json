@@ -1,10 +1,4 @@
 {
-    "refill": true,
-    "desist": false,
-    "exhaust": false,
     "fill": true,
-    "report": false,
-    "lament": false,
-    "empty": false,
-    "fight back": false
+    "refill": true
 }

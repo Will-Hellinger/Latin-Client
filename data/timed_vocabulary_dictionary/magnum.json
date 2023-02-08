@@ -1,11 +1,6 @@
 {
-    "amazing": false,
-    "great": true,
     "big": true,
-    "magic": false,
-    "strong": false,
     "large": true,
-    "magical": false,
-    "good": false,
-    "bad": false
+    "great": true,
+    "amazing": false
 }

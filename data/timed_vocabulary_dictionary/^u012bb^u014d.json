@@ -1,7 +1,3 @@
 {
-    "go": true,
-    "dwell": false,
-    "have": false,
-    "stay": false,
-    "live": false
+    "go": true
 }

@@ -1,10 +1,4 @@
 {
-    "these": true,
-    "himself": false,
-    "the very ___": false,
-    "mine": false,
-    "herself": false,
-    "my": false,
-    "that": false,
-    "me": false
+    "this": true,
+    "(plural: these)": true
 }

@@ -1,6 +1,10 @@
 {
     "thing": true,
+    "matter": true,
+    "situation": true,
     "affair": true,
-    "cliff": false,
-    "day": false
+    "circumstance": true,
+    "event": true,
+    "fact": true,
+    "consideration": true
 }

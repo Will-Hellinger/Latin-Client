@@ -1,10 +1,4 @@
 {
     "want": true,
-    "be able": false,
-    "wish": true,
-    "do": false,
-    "long": false,
-    "give": false,
-    "can": false,
-    "will": false
+    "wish": true
 }

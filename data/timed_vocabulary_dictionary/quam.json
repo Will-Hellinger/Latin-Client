@@ -1,9 +1,5 @@
 {
-    "how often?": false,
     "(with superlative) as ___ as possible": true,
-    "as often as": false,
-    "indeed": false,
-    "how long": false,
-    "sleep": false,
+    "(with comparative) than": true,
     "certainly": false
 }

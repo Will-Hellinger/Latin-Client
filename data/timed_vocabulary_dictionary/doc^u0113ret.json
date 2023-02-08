@@ -1,5 +1,5 @@
 {
-    "be silent": false,
-    "set on shore": false,
-    "expose": false
+    "teach": true,
+    "instruct": true,
+    "explain": true
 }

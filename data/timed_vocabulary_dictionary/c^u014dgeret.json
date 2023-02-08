@@ -1,4 +1,5 @@
 {
+    "force": true,
     "gather": true,
-    "learn": false
+    "compel": true
 }

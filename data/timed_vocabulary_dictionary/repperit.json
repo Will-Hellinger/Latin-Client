@@ -1,4 +1,5 @@
 {
     "repeat": false,
-    "respond": false
+    "respond": false,
+    "receive": false
 }

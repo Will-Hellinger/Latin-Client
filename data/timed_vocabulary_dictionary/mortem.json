@@ -1,11 +1,4 @@
 {
-    "habit": false,
-    "danger": false,
-    "life": false,
-    "slaughter": false,
-    "moment": false,
-    "dread": false,
     "death": true,
-    "terror": false,
-    "manner": false
+    "delay": false
 }

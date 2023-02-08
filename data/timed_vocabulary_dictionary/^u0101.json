@@ -1,11 +1,5 @@
 {
-    "from": true,
-    "by": true,
-    "out of": false,
-    "under": false,
-    "in": false,
     "away from": true,
-    "on account of": false,
-    "because of": false,
-    "against": false
+    "from": true,
+    "by": true
 }

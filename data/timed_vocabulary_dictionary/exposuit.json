@@ -1,11 +1,5 @@
 {
     "explain": true,
-    "receive": false,
     "expose": true,
-    "exclaim": false,
-    "train": false,
-    "excite": false,
-    "shout": false,
-    "set on shore": true,
-    "release": false
+    "set on shore": true
 }

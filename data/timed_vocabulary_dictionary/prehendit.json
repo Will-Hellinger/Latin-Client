@@ -1,5 +1,6 @@
 {
-    "reward": false,
+    "seize": true,
+    "grasp": true,
     "grab": true,
-    "stop": false
+    "display": false
 }

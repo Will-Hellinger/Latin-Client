@@ -1,4 +1,5 @@
 {
     "disembark": true,
-    "spring up": false
+    "spring up": false,
+    "release": false
 }

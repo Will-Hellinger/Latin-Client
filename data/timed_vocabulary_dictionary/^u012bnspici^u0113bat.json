@@ -1,3 +1,5 @@
 {
-    "sprinkle": false
+    "gaze": true,
+    "stare": true,
+    "look": true
 }

@@ -1,3 +1,5 @@
 {
-    "wine": false
+    "amphora": true,
+    "jar": true,
+    "pitcher": true
 }

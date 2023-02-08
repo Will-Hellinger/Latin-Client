@@ -1,10 +1,5 @@
 {
-    "seize": false,
-    "have": true,
     "hold": true,
-    "obtain": false,
-    "possess": false,
-    "inhabit": false,
-    "choke": false,
-    "grasp": false
+    "have": true,
+    "press": false
 }

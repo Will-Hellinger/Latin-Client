@@ -1,10 +1,4 @@
 {
-    "destroy": false,
     "be away": true,
-    "be absent": true,
-    "undertake": false,
-    "kill": false,
-    "go to": false,
-    "send": false,
-    "draw near": true
+    "be absent": true
 }

@@ -1,6 +1,4 @@
 {
     "drink": true,
-    "bite": false,
-    "dine": false,
-    "breathe": false
+    "dine": false
 }

@@ -1,6 +1,3 @@
 {
-    "sail": false,
-    "stumble upon": false,
-    "tell": true,
-    "name": false
+    "tell": true
 }

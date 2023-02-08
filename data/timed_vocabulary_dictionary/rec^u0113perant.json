@@ -1,6 +1,8 @@
 {
-    "abandon": false,
     "receive": true,
-    "answer": false,
-    "get back": true
+    "accept": true,
+    "recover": true,
+    "get back": true,
+    "(with s\u0113) withdraw": true,
+    "flee": false
 }

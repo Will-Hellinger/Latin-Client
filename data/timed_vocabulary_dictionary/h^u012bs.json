@@ -1,8 +1,5 @@
 {
-    "our(s)": false,
-    "these": true,
-    "what": false,
-    "whom": false,
-    "whose": true,
-    "you": false
+    "this": true,
+    "(plural: these)": true,
+    "themselves": false
 }

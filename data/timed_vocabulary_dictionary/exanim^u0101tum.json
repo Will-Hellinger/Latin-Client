@@ -1,5 +1,7 @@
 {
-    "awake": false,
     "exhaust": true,
-    "explain": false
+    "wear out": true,
+    "tire out": true,
+    "explain": false,
+    "wake": false
 }

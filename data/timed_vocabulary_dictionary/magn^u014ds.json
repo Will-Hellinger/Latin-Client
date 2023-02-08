@@ -1,3 +1,5 @@
 {
-    "strong": false
+    "big": true,
+    "large": true,
+    "great": true
 }

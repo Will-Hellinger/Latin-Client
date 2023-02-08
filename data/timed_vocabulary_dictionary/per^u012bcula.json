@@ -1,11 +1,6 @@
 {
-    "chain": false,
-    "cup": false,
-    "sky": false,
     "danger": true,
-    "temple": false,
     "peril": true,
-    "bedroom": false,
-    "grain": false,
-    "mirror": false
+    "sky": false,
+    "bedroom": false
 }

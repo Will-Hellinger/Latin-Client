@@ -1,9 +1,5 @@
 {
-    "strong": false,
-    "be absent": false,
-    "get ready": false,
-    "be away": false,
-    "be able": true,
     "can": true,
-    "get": false
+    "be able": true,
+    "want": false
 }

@@ -1,4 +1,7 @@
 {
     "ask": true,
-    "seek": true
+    "seek": true,
+    "stare": false,
+    "watch": false,
+    "look for": true
 }

@@ -1,17 +1,8 @@
 {
-    "the very ___": true,
+    "himself": true,
     "herself": true,
-    "these": false,
-    "whose": false,
-    "this": false,
-    "my": false,
     "itself": true,
-    "which": false,
-    "those": false,
-    "your(s)": false,
-    "me": false,
-    "the same ____": false,
-    "mine": false,
-    "our(s)": false,
-    "I": false
+    "themselves": true,
+    "the very ___": true,
+    "me": false
 }

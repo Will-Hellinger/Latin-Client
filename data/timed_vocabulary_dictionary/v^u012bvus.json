@@ -1,3 +1,5 @@
 {
-    "empty": false
+    "living": true,
+    "alive": true,
+    "dwelling": false
 }

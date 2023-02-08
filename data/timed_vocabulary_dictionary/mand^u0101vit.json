@@ -1,8 +1,5 @@
 {
-    "stay": false,
-    "entrust": true,
-    "engage in": false,
     "command": true,
-    "remain": false,
-    "matter": false
+    "entrust": true,
+    "stay": false
 }

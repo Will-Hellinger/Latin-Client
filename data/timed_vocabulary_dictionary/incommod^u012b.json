@@ -1,9 +1,5 @@
 {
-    "inconvenience": true,
-    "beginning": false,
     "harm": true,
-    "disadvantage": true,
-    "baby": false,
-    "distance": false,
-    "sacrifice": false
+    "inconvenience": true,
+    "disadvantage": true
 }

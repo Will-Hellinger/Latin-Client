@@ -1,12 +1,7 @@
 {
     "get": true,
-    "terrify": false,
-    "hasten": false,
     "get ready": true,
-    "send": false,
-    "hurry": false,
-    "give": false,
-    "overcome": false,
+    "prepare": true,
     "dread": false,
-    "disturb": false
+    "take": true
 }

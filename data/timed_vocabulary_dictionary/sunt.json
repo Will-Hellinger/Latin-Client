@@ -1,9 +1,3 @@
 {
-    "can": false,
-    "be": true,
-    "are": true,
-    "make": false,
-    "decide": false,
-    "want": false,
-    "do": false
+    "be\n(am, is, are, was, were, be, being, been)": true
 }

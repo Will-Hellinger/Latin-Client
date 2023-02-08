@@ -1,5 +1,7 @@
 {
     "time": false,
     "territory": false,
-    "temple": false
+    "temple": false,
+    "storm": true,
+    "test": false
 }

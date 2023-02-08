@@ -1,5 +1,5 @@
 {
     "receive": true,
-    "undertake": false,
-    "give": false
+    "accept": true,
+    "incur": true
 }

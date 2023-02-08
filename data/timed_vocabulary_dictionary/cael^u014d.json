@@ -1,9 +1,3 @@
 {
-    "sky": true,
-    "ocean": false,
-    "land": false,
-    "tail": false,
-    "meat": false,
-    "sea": false,
-    "chain": false
+    "sky": true
 }

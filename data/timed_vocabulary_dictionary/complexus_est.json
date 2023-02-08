@@ -1,9 +1,7 @@
 {
-    "contain": false,
-    "enclose": true,
     "grasp": true,
-    "entrust": false,
+    "enclose": true,
     "surround": true,
     "embrace": true,
-    "collect": false
+    "shake": false
 }

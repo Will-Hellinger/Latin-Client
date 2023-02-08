@@ -1,6 +1,3 @@
 {
-    "sun": true,
-    "year": false,
-    "evening": false,
-    "day": false
+    "sun": true
 }

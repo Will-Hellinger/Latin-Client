@@ -1,6 +1,6 @@
 {
-    "beach": false,
+    "field": true,
     "farm": true,
-    "horse": false,
-    "field": true
+    "territory": true,
+    "district": true
 }

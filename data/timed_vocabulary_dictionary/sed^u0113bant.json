@@ -1,9 +1,4 @@
 {
     "sit": true,
-    "bury": false,
-    "realize": false,
-    "sense": false,
-    "seize": false,
-    "save": false,
-    "talk": false
+    "seize": false
 }

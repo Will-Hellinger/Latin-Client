@@ -1,6 +1,6 @@
 {
-    "beach": false,
+    "box": true,
     "ark": true,
     "chest": true,
-    "art": false
+    "tree": false
 }

@@ -1,4 +1,6 @@
 {
-    "abandon": false,
-    "dismiss": false
+    "depart": true,
+    "withdraw": true,
+    "leave": true,
+    "disembark": false
 }

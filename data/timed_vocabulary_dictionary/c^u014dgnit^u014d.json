@@ -1,5 +1,6 @@
 {
     "learn": true,
     "change": false,
-    "collect": false
+    "collect": false,
+    "command": false
 }

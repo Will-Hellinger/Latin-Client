@@ -1,13 +1,5 @@
 {
-    "onto": false,
-    "through": false,
-    "because of": false,
-    "down from": false,
-    "against": false,
     "away from": true,
-    "on": false,
     "from": true,
-    "in": false,
-    "on account of": false,
-    "under": false
+    "by": true
 }

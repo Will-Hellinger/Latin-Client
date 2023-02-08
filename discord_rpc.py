@@ -53,7 +53,10 @@ def update_rpc():
 
     while True:
         mode = get_mode(mode)
-        assignment = get_assignment()
+        try:
+            assignment = get_assignment()
+        except:
+            continue
         RPCdetails = 'none'
         if mode == 'synopsis':
             if loadWait(By.XPATH, f"// h1[@class='showScore ui-title']"):

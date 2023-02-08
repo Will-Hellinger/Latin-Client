@@ -1,5 +1,6 @@
 {
+    "race": true,
+    "tribe": true,
     "clan": true,
-    "people": true,
-    "man": false
+    "people": true
 }

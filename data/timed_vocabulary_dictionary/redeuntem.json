@@ -1,9 +1,4 @@
 {
-    "discover": false,
-    "go back": true,
-    "repeat": false,
     "return": true,
-    "get back": false,
-    "arrive": false,
-    "keep": false
+    "go back": true
 }

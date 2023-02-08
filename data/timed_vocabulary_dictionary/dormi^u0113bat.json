@@ -1,7 +1,3 @@
 {
-    "lead": false,
-    "sleep": true,
-    "die": false,
-    "speak": false,
-    "instruct": false
+    "sleep": true
 }

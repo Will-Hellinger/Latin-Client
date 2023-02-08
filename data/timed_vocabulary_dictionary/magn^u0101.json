@@ -1,4 +1,5 @@
 {
-    "small": false,
-    "little": false
+    "big": true,
+    "large": true,
+    "great": true
 }

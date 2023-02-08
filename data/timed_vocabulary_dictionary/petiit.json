@@ -1,8 +1,5 @@
 {
+    "seek": true,
     "attack": true,
-    "reach": false,
-    "lead": false,
-    "weigh": false,
-    "push": false,
     "arrive": false
 }

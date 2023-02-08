@@ -1,9 +1,5 @@
 {
-    "every": true,
     "all": true,
-    "some": false,
-    "few": false,
-    "no": false,
-    "other": false,
-    "not any": false
+    "every": true,
+    "open": false
 }

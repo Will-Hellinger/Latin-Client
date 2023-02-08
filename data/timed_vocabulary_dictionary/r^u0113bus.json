@@ -1,13 +1,10 @@
 {
     "thing": true,
     "matter": true,
-    "circumstance": true,
-    "consideration": true,
-    "job": false,
-    "day": false,
-    "fact": true,
-    "duty": false,
     "situation": true,
-    "rock": false,
-    "king": false
+    "affair": true,
+    "circumstance": true,
+    "event": true,
+    "fact": true,
+    "consideration": true
 }

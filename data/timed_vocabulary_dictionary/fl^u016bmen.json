@@ -1,9 +1,4 @@
 {
-    "iron": false,
     "river": true,
-    "jaws": false,
-    "flight": false,
-    "throat": false,
-    "sea": false,
-    "land": false
+    "sea": false
 }

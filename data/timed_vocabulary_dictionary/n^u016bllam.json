@@ -1,7 +1,5 @@
 {
-    "not any": true,
     "no": true,
-    "some": false,
-    "every": false,
-    "other": false
+    "not any": true,
+    "one": false
 }

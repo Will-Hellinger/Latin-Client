@@ -1,6 +1,4 @@
 {
-    "compress": false,
-    "have": true,
-    "choke": false,
-    "hold": true
+    "hold": true,
+    "have": true
 }

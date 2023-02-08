@@ -1,17 +1,8 @@
 {
-    "sleep": false,
-    "hour": false,
-    "which": true,
+    "that": true,
+    "who": true,
+    "whose": true,
     "whom": true,
-    "what": true,
-    "our(s)": false,
-    "the same ____": false,
-    "the very ___": false,
-    "nap": false,
-    "mine": false,
-    "and": false,
-    "rest": false,
-    "because": false,
-    "themselves": false,
-    "in fact": false
+    "which": true,
+    "(as an adjective) what": true
 }

@@ -1,4 +1,5 @@
 {
-    "drive together": true,
-    "collect": true
+    "drive": true,
+    "collect": true,
+    "drive together": true
 }

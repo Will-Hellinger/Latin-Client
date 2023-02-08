@@ -1,8 +1,6 @@
 {
     "then": true,
-    "again": true,
-    "soon": false,
-    "closest": false,
-    "indeed": false,
-    "next": true
+    "next": true,
+    "at that time": true,
+    "once": false
 }

@@ -1,3 +1,5 @@
 {
-    "depart": false
+    "depart": false,
+    "calm": false,
+    "arouse": true
 }

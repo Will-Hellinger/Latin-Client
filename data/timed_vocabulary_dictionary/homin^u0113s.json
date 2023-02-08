@@ -1,12 +1,4 @@
 {
-    "king": false,
-    "son": false,
-    "father": false,
-    "soldier": false,
-    "person": true,
-    "grandfather": false,
     "man": true,
-    "woman": false,
-    "boy": false,
-    "the same ____": false
+    "person": true
 }

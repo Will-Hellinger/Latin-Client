@@ -19,23 +19,28 @@ else:
     pip = 'pip3'
     clear = 'clear'
 
+path = f'.{subDirectory}data{subDirectory}'
+
+def clear_console():
+    os.system(clear)
+
 try:
     try:
-        actionButton = str(json.load(open('settings.json'))['configuration']['action-button'])
+        actionButton = str(json.load(open(f'{path}settings.json'))['configuration']['action-button'])
     except:
         actionButton = '`'
     
-    webbrowserType = str(json.load(open('settings.json'))['configuration']['browser-type'])
-    delay = int(json.load(open('settings.json'))['configuration']['timeout-delay'])
+    webbrowserType = str(json.load(open(f'{path}settings.json'))['configuration']['browser-type'])
+    delay = int(json.load(open(f'{path}settings.json'))['configuration']['timeout-delay'])
 
-    discord_rpc = json.load(open('settings.json'))['configuration']['discord_rpc']
+    discord_rpc = json.load(open(f'{path}settings.json'))['configuration']['discord_rpc']
 
-    funnySound = json.load(open('settings.json'))['configuration']['sound']
+    funnySound = json.load(open(f'{path}settings.json'))['configuration']['sound']
 
-    latinLink = str(json.load(open('settings.json'))['schoology']['latin-link'])
-    schoologyUser = str(json.load(open('settings.json'))['schoology']['username'])
-    schoologyPass = str(json.load(open('settings.json'))['schoology']['password'])
-    human_mode = json.load(open('settings.json'))['configuration']['fake-human']
+    latinLink = str(json.load(open(f'{path}settings.json'))['schoology']['latin-link'])
+    schoologyUser = str(json.load(open(f'{path}settings.json'))['schoology']['username'])
+    schoologyPass = str(json.load(open(f'{path}settings.json'))['schoology']['password'])
+    human_mode = json.load(open(f'{path}settings.json'))['configuration']['fake-human']
 
     check_modified = [latinLink, schoologyPass, schoologyUser, webbrowserType]
     modified = True
@@ -45,9 +50,9 @@ try:
             setup.run()
     
     if modified == False:
-        webbrowserType = str(json.load(open('settings.json'))['configuration']['browser-type'])
-        latinLink = str(json.load(open('settings.json'))['schoology']['latin-link'])
-        schoologyUser = str(json.load(open('settings.json'))['schoology']['username'])
-        schoologyPass = str(json.load(open('settings.json'))['schoology']['password'])
+        webbrowserType = str(json.load(open(f'{path}settings.json'))['configuration']['browser-type'])
+        latinLink = str(json.load(open(f'{path}settings.json'))['schoology']['latin-link'])
+        schoologyUser = str(json.load(open(f'{path}settings.json'))['schoology']['username'])
+        schoologyPass = str(json.load(open(f'{path}settings.json'))['schoology']['password'])
 except:
     setup.run()

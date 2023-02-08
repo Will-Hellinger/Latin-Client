@@ -1,7 +1,3 @@
 {
-    "not": false,
-    "whether": false,
-    "but": true,
-    "and": false,
-    "if": false
+    "but": true
 }

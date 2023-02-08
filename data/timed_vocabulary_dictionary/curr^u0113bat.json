@@ -1,4 +1,4 @@
 {
-    "guard": false,
-    "run": true
+    "run": true,
+    "long for": false
 }

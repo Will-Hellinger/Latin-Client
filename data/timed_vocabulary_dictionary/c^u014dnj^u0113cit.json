@@ -1,4 +1,4 @@
 {
-    "decide": false,
-    "halt": false
+    "throw": true,
+    "hurl": true
 }

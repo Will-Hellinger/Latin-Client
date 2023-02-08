@@ -1,9 +1,6 @@
 {
-    "always": false,
-    "at once": false,
+    "above": true,
     "earlier": true,
     "previously": true,
-    "above": true,
-    "soon": false,
-    "at the same time": false
+    "at once": false
 }

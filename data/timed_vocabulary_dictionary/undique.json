@@ -1,9 +1,6 @@
 {
-    "all around": true,
-    "(exclamatory) how!": false,
-    "both": false,
-    "when": false,
-    "where": false,
     "on all sides": true,
+    "all around": true,
+    "everywhere": true,
     "from all parts": true
 }

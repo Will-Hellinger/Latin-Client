@@ -1,8 +1,3 @@
 {
-    "stand": true,
-    "stare": false,
-    "stop": false,
-    "study": false,
-    "strike": false,
-    "stir": false
+    "stand": true
 }

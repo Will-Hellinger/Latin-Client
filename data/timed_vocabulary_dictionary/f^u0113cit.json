@@ -1,11 +1,7 @@
 {
+    "[idiomatic meanings vary]": true,
     "do": true,
-    "work": false,
-    "give": false,
     "make": true,
-    "complete": false,
-    "affect": false,
-    "drive": false,
-    "weaken": false,
-    "stain": false
+    "(with certior) inform": true,
+    "weaken": false
 }

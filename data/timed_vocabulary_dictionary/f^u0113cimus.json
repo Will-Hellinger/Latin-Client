@@ -1,10 +1,8 @@
 {
-    "make": true,
-    "give": false,
-    "kill": false,
-    "drive": false,
-    "fail": false,
-    "accomplish": false,
+    "[idiomatic meanings vary]": true,
     "do": true,
-    "affect": false
+    "make": true,
+    "(with certior) inform": true,
+    "complete": false,
+    "fail": false
 }

@@ -1,4 +1,5 @@
 {
-    "bedroom": false,
-    "girdle": true
+    "girdle": true,
+    "sword belt": true,
+    "box": false
 }

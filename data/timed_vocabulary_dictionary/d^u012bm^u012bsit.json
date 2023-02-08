@@ -1,4 +1,7 @@
 {
-    "depart": false,
-    "learn": false
+    "dismiss": true,
+    "send away": true,
+    "send out": true,
+    "learn": false,
+    "depart": true
 }

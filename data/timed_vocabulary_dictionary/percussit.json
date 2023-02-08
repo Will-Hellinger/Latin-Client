@@ -1,4 +1,5 @@
 {
-    "realize": false,
-    "confuse": false
+    "hit": true,
+    "beat": true,
+    "strike": true
 }

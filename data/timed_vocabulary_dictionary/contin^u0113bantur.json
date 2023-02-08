@@ -1,3 +1,7 @@
 {
-    "imprison": false
+    "contain": true,
+    "bound": true,
+    "surround": true,
+    "(continenter) continuously": true,
+    "(continens, -ntis) mainland": true
 }

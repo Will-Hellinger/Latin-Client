@@ -1,6 +1,3 @@
 {
-    "force": false,
-    "poison": false,
-    "avoid": false,
-    "attack": false
+    "wound": true
 }

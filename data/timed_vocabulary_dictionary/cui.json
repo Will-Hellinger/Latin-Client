@@ -1,14 +1,8 @@
 {
-    "our(s)": false,
-    "you": false,
-    "which": true,
-    "the same ____": false,
-    "what": true,
+    "that": true,
+    "who": true,
+    "whose": true,
     "whom": true,
-    "my": false,
-    "I": false,
-    "me": false,
-    "herself": false,
-    "the very ___": false,
-    "themselves": false
+    "which": true,
+    "(as an adjective) what": true
 }

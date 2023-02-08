@@ -1,3 +1,6 @@
 {
-    "empty": false
+    "bind": true,
+    "tie": true,
+    "fasten": true,
+    "overcome": true
 }

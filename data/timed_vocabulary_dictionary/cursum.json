@@ -1,5 +1,4 @@
 {
-    "cut down": false,
-    "guard": false,
-    "knife": false
+    "run": true,
+    "course": true
 }

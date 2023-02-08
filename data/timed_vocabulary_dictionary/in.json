@@ -1,9 +1,13 @@
 {
-    "near": false,
     "in": true,
-    "between": false,
-    "at the home of": false,
-    "against": true,
     "on": true,
-    "by": false
+    "into": true,
+    "onto": true,
+    "against": true,
+    "that": true,
+    "who": true,
+    "whose": true,
+    "whom": true,
+    "which": true,
+    "(as an adjective) what": true
 }

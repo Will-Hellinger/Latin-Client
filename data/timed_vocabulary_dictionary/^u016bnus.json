@@ -1,8 +1,5 @@
 {
     "one": true,
-    "any": false,
-    "night": false,
-    "last": false,
-    "good": false,
-    "next": false
+    "proceed": true,
+    "advance": true
 }

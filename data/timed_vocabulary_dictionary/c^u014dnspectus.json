@@ -1,4 +1,6 @@
 {
-    "watch": false,
-    "gaze": true
+    "gaze": true,
+    "stare": true,
+    "glance": true,
+    "sight": true
 }

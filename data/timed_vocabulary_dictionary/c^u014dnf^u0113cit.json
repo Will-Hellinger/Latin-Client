@@ -1,3 +1,6 @@
 {
-    "reinforce": false
+    "weaken": true,
+    "complete": true,
+    "accomplish": true,
+    "finish": true
 }

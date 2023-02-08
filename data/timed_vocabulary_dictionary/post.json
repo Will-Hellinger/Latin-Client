@@ -1,8 +1,4 @@
 {
-    "because of": false,
     "after": true,
-    "against": false,
-    "toward": false,
-    "from": false,
-    "to": false
+    "because of": true
 }

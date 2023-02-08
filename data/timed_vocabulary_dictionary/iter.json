@@ -1,9 +1,4 @@
 {
-    "baby": false,
-    "hit": false,
-    "command": false,
-    "attack": false,
-    "anger": false,
     "path": true,
     "journey": true
 }

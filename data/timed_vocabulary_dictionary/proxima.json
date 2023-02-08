@@ -1,7 +1,5 @@
 {
-    "closest": true,
     "next": true,
-    "nearest": true,
-    "last": false,
-    "farthest": false
+    "closest": true,
+    "nearest": true
 }

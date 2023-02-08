@@ -1,5 +1,6 @@
 {
     "first": false,
     "thousand": false,
-    "two": true
+    "two": true,
+    "twelve": false
 }

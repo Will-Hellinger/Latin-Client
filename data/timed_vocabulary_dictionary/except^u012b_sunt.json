@@ -1,3 +1,5 @@
 {
-    "undertake": false
+    "undertake": false,
+    "exhibit": false,
+    "receive": true
 }

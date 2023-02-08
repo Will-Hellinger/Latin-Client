@@ -1,10 +1,4 @@
 {
-    "on account of": true,
-    "on behalf of": false,
-    "beyond": false,
-    "for": false,
     "because of": true,
-    "apart from": false,
-    "through": false,
-    "after": false
+    "on account of": true
 }

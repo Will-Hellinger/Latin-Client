@@ -1,11 +1,5 @@
 {
-    "any": false,
     "no": true,
     "not any": true,
-    "never": false,
-    "whole": false,
-    "one": false,
-    "every": false,
-    "all": false,
-    "some": false
+    "one": false
 }

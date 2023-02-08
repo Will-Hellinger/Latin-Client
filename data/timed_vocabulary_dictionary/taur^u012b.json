@@ -1,3 +1,5 @@
 {
-    "bull": true
+    "bull": true,
+    "dread": false,
+    "boar": true
 }

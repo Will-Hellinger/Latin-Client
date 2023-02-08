@@ -1,11 +1,4 @@
 {
-    "such": false,
-    "large": false,
-    "much": true,
     "many": true,
-    "enormous": false,
-    "great": false,
-    "big": false,
-    "huge": false,
-    "so great": false
+    "much": true
 }

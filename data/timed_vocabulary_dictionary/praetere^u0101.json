@@ -1,9 +1,6 @@
 {
-    "in the distance": false,
+    "beyond": true,
     "besides": true,
     "in addition": true,
-    "beyond": true,
-    "from afar": false,
-    "far away": false,
-    "almost": false
+    "little": false
 }

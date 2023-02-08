@@ -1,6 +1,4 @@
 {
-    "change": false,
-    "entrust": false,
     "move": true,
-    "choke": false
+    "shake": true
 }

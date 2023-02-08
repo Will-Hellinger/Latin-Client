@@ -1,3 +1,4 @@
 {
-    "visit": false
+    "move": true,
+    "shake": true
 }

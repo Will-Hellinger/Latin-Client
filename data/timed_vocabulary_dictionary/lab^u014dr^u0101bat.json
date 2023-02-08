@@ -1,9 +1,4 @@
 {
-    "labor": true,
-    "rejoice": false,
     "work": true,
-    "job": false,
-    "task": false,
-    "duty": false,
-    "attempt": false
+    "labor": true
 }

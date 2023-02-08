@@ -1,9 +1,8 @@
 {
-    "both... and... (correlative)": true,
     "and": true,
-    "but": false,
-    "not": false,
-    "because": false,
-    "out": false,
-    "before": false
+    "both... and... (correlative)": true,
+    "return": true,
+    "repeat": true,
+    "give back": true,
+    "render": true
 }

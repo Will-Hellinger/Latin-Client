@@ -1,5 +1,3 @@
 {
-    "receive": false,
-    "light": true,
-    "accept": false
+    "light": true
 }

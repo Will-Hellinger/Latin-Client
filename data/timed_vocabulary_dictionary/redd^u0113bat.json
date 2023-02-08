@@ -1,4 +1,6 @@
 {
-    "abandon": false,
-    "go back": false
+    "return": true,
+    "repeat": true,
+    "give back": true,
+    "render": true
 }

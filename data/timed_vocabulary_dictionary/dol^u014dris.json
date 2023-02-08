@@ -1,5 +1,6 @@
 {
+    "pain": true,
     "grief": true,
-    "dread": false,
-    "squalor": false
+    "sadness": true,
+    "madness": false
 }

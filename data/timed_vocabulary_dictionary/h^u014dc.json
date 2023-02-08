@@ -1,8 +1,9 @@
 {
     "this": true,
-    "mine": false,
-    "that": false,
-    "our(s)": false,
-    "I": false,
-    "whose": false
+    "(plural: these)": true,
+    "return": true,
+    "repeat": true,
+    "give back": true,
+    "render": true,
+    "the very ___": false
 }

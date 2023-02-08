@@ -1,6 +1,3 @@
 {
-    "job": false,
-    "battle": true,
-    "advice": false,
-    "prophecy": false
+    "battle": true
 }

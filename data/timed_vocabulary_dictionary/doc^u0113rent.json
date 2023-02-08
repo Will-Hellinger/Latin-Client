@@ -1,4 +1,5 @@
 {
     "teach": true,
-    "expose": false
+    "expose": false,
+    "do": false
 }

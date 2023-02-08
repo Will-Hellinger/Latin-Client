@@ -1,4 +1,5 @@
 {
-    "start out": false,
-    "instruct": true
+    "instruct": true,
+    "advise": true,
+    "throw down": false
 }

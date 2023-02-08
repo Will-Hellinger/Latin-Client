@@ -1,4 +1,5 @@
 {
     "prepare": true,
-    "give": false
+    "give": false,
+    "get ready": true
 }

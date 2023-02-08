@@ -1,4 +1,3 @@
 {
-    "prohibit": false,
-    "restrain": false
+    "propose": true
 }

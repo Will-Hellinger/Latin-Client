@@ -1,6 +1,5 @@
 {
     "horrible": true,
-    "happy": false,
-    "good": false,
-    "terrible": false
+    "terrible": false,
+    "happy": false
 }

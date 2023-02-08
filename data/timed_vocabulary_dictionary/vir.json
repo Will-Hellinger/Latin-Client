@@ -1,10 +1,4 @@
 {
     "man": true,
-    "manliness": false,
-    "voice": false,
-    "violence": false,
-    "woman": false,
-    "bravery": false,
-    "boy": false,
-    "maiden": false
+    "manliness": false
 }

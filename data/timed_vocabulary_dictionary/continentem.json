@@ -1,9 +1,7 @@
 {
-    "grasp": false,
-    "cover": false,
-    "surround": true,
-    "bound": true,
     "contain": true,
-    "contest": false,
-    "hasten": false
+    "bound": true,
+    "surround": true,
+    "(continenter) continuously": true,
+    "(continens, -ntis) mainland": true
 }

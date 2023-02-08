@@ -1,14 +1,7 @@
 {
-    "arouse": false,
-    "tire out": true,
     "exhaust": true,
-    "atone (for)": false,
-    "exclaim": false,
-    "yell": false,
-    "wait": false,
     "wear out": true,
-    "shout": false,
-    "awake": false,
+    "tire out": true,
     "await": false,
-    "draw out": false
+    "awake": false
 }

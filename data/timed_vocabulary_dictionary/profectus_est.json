@@ -1,11 +1,5 @@
 {
-    "advance": false,
-    "pursue": false,
-    "use": false,
+    "depart": true,
     "start out": true,
-    "labor": false,
-    "work": false,
-    "set out": true,
-    "follow": false,
-    "delay": false
+    "set out": true
 }

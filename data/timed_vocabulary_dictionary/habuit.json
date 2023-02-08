@@ -1,10 +1,6 @@
 {
-    "have": true,
-    "live": false,
-    "press": false,
-    "grasp": false,
     "hold": true,
-    "compress": false,
-    "seize": false,
-    "dwell": false
+    "have": true,
+    "press": false,
+    "possess": false
 }

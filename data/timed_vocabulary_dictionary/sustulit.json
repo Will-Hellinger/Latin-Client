@@ -1,4 +1,6 @@
 {
-    "bring back": false,
-    "destroy": true
+    "remove": true,
+    "raise": true,
+    "destroy": true,
+    "lift": true
 }

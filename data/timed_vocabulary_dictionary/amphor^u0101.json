@@ -1,5 +1,6 @@
 {
-    "dinner": false,
-    "friend": false,
-    "wine": false
+    "amphora": true,
+    "jar": true,
+    "pitcher": true,
+    "love": false
 }

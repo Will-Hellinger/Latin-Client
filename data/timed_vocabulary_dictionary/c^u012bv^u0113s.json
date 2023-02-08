@@ -1,4 +1,3 @@
 {
-    "city": false,
-    "person": false
+    "citizen": true
 }

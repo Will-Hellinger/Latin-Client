@@ -1,15 +1,7 @@
 {
-    "instruct": false,
-    "excite": true,
-    "arouse": true,
-    "exclaim": false,
-    "receive": false,
-    "teach": false,
-    "withdraw": false,
-    "awake": true,
-    "depart": false,
     "rouse": true,
-    "shout": false,
+    "arouse": true,
     "wake": true,
-    "calm": false
+    "awake": true,
+    "excite": true
 }

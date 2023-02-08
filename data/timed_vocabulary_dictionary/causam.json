@@ -1,11 +1,4 @@
 {
-    "event": false,
-    "heat": false,
-    "fact": false,
     "cause": true,
-    "reason": true,
-    "on account of": false,
-    "because of": false,
-    "head": false,
-    "because": false
+    "reason": true
 }

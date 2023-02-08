@@ -1,10 +1,5 @@
 {
     "kill": true,
-    "slay": true,
-    "cut off": false,
-    "occupy": false,
-    "destroy": false,
-    "divide": false,
-    "run into": false,
-    "seize": false
+    "cut down": true,
+    "slay": true
 }

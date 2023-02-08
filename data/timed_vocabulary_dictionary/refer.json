@@ -1,5 +1,6 @@
 {
-    "run away": false,
-    "hold back": false,
-    "leave behind": false
+    "[idiomatic meanings vary]": true,
+    "bring": true,
+    "bring back": true,
+    "receive": false
 }

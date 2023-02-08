@@ -1,7 +1,4 @@
 {
     "opportunity": true,
-    "report": false,
-    "deed": false,
-    "action": false,
     "fact": false
 }

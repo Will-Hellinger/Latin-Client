@@ -1,6 +1,4 @@
 {
-    "engage in": true,
-    "compel": false,
-    "command": false,
-    "collect": false
+    "entrust": true,
+    "engage in": true
 }

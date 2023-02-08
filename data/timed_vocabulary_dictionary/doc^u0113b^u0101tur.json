@@ -1,3 +1,5 @@
 {
-    "be quiet": false
+    "teach": true,
+    "instruct": true,
+    "explain": true
 }

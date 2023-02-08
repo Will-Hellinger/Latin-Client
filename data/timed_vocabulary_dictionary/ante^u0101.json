@@ -1,9 +1,5 @@
 {
-    "before": true,
-    "moreover": false,
     "previously": true,
-    "always": false,
-    "also": false,
-    "however": false,
-    "still": false
+    "before": true,
+    "formerly": true
 }

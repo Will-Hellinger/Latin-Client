@@ -1,7 +1,9 @@
 {
+    "task": true,
     "effort": true,
+    "struggle": true,
     "work": true,
-    "attempt": false,
-    "terror": false,
-    "struggle": true
+    "labor": true,
+    "cry": false,
+    "attempt": false
 }

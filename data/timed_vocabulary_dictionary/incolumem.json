@@ -1,8 +1,5 @@
 {
     "safe": true,
-    "hostile": false,
-    "column": false,
     "unharmed": true,
-    "enormous": false,
-    "unhappy": false
+    "unsafe": false
 }

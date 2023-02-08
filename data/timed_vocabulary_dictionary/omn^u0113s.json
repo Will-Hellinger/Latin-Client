@@ -1,7 +1,4 @@
 {
     "all": true,
-    "not any": false,
-    "open": false,
-    "other": false,
-    "old": false
+    "every": true
 }

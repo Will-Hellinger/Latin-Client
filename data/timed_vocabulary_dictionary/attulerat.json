@@ -1,4 +1,6 @@
 {
+    "bring": true,
+    "bear": true,
     "carry": true,
-    "bear": true
+    "surrender": false
 }

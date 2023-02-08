@@ -1,4 +1,5 @@
 {
-    "hurl": false,
+    "spend": true,
+    "consume": true,
     "pass": true
 }

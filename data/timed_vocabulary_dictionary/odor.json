@@ -1,4 +1,6 @@
 {
+    "smell": true,
+    "odor": true,
     "poison": false,
-    "burden": false
+    "struggle": false
 }

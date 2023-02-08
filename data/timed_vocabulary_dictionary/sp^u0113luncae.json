@@ -1,9 +1,4 @@
 {
-    "mirror": false,
-    "spectator": false,
-    "look": false,
     "cave": true,
-    "hope": false,
-    "watch": false,
-    "appearance": false
+    "watch": false
 }

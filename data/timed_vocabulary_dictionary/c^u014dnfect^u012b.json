@@ -1,5 +1,6 @@
 {
     "reinforce": false,
     "accomplish": true,
-    "grasp": false
+    "grasp": false,
+    "weaken": true
 }

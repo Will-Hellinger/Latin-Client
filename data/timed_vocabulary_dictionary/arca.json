@@ -1,3 +1,6 @@
 {
-    "art": false
+    "box": true,
+    "ark": true,
+    "chest": true,
+    "skill": false
 }

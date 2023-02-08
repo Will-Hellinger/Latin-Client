@@ -1,9 +1,4 @@
 {
-    "certain ___, a certain ___": true,
-    "which": false,
-    "what": false,
-    "certain": true,
-    "who": false,
-    "anyone": false,
-    "anything": false
+    "some": true,
+    "certain ___": true
 }

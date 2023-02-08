@@ -1,3 +1,5 @@
 {
-    "beast": false
+    "roar": true,
+    "lowing": false,
+    "monster": false
 }

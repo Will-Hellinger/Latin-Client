@@ -1,10 +1,7 @@
 {
     "power": true,
+    "strength": true,
+    "force": true,
     "violence": true,
-    "situation": false,
-    "effort": false,
-    "wish": false,
-    "struggle": false,
-    "fact": false,
-    "thing": false
+    "vigor": true
 }

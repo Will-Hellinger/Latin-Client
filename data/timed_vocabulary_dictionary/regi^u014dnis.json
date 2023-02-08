@@ -1,9 +1,4 @@
 {
-    "part": false,
-    "power": false,
-    "rule": false,
-    "palace": false,
     "region": true,
-    "king": false,
-    "queen": false
+    "palace": false
 }

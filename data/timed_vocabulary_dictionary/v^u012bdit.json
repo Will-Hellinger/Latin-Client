@@ -1,5 +1,5 @@
 {
     "see": true,
-    "fasten": false,
-    "smell": false
+    "(passive) seem": true,
+    "hear": false
 }

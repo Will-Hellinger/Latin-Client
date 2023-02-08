@@ -1,5 +1,4 @@
 {
     "turn": true,
-    "conquer": false,
-    "escape": false
+    "defeat": false
 }

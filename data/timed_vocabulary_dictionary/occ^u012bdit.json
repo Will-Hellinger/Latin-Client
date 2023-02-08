@@ -1,3 +1,5 @@
 {
-    "divide": false
+    "kill": true,
+    "cut down": true,
+    "slay": true
 }

@@ -1,11 +1,3 @@
 {
-    "grandson": false,
-    "son": false,
-    "daughter": true,
-    "brother": false,
-    "grandfather": false,
-    "father": false,
-    "sister": false,
-    "border": false,
-    "mother": false
+    "daughter": true
 }

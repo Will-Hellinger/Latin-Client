@@ -1,7 +1,4 @@
 {
-    "confine": false,
-    "enclose": false,
-    "aim": true,
     "stretch": true,
-    "dwell": false
+    "aim": true
 }

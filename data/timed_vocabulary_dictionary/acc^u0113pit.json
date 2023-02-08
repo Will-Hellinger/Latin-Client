@@ -1,13 +1,6 @@
 {
     "receive": true,
     "accept": true,
-    "run": false,
-    "surrender": false,
-    "feel": false,
-    "give": false,
-    "get back": false,
-    "happen": false,
-    "undertake": false,
-    "light": false,
-    "take up": false
+    "incur": true,
+    "light": false
 }

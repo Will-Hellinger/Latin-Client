@@ -1,6 +1,6 @@
 {
+    "bind": true,
     "tie": true,
-    "wound": false,
-    "avoid": false,
-    "call": false
+    "fasten": true,
+    "overcome": false
 }

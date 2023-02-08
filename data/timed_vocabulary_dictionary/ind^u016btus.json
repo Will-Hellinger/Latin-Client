@@ -1,7 +1,3 @@
 {
-    "strip off": false,
-    "put on": true,
-    "send": false,
-    "depart": false,
-    "give": false
+    "put on": true
 }

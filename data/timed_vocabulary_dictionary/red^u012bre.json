@@ -1,9 +1,4 @@
 {
-    "arrive": false,
-    "keep": false,
-    "give back": false,
-    "get back": false,
-    "go back": true,
     "return": true,
-    "discover": false
+    "go back": true
 }

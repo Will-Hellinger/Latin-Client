@@ -1,8 +1,3 @@
 {
-    "entrust": false,
-    "send": true,
-    "remind": false,
-    "hurry": false,
-    "meet": false,
-    "stay": false
+    "send": true
 }

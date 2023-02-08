@@ -1,8 +1,6 @@
 {
-    "rule": true,
-    "king": false,
-    "kingdom": true,
     "power": true,
-    "region": false,
-    "palace": false
+    "kingdom": true,
+    "(with obtin\u0113re) rule": true,
+    "queen": false
 }

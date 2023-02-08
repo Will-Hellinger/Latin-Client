@@ -1,10 +1,4 @@
 {
-    "sand": false,
     "bank": true,
-    "woods": false,
-    "land": false,
-    "sea": false,
-    "forest": false,
-    "tax": false,
-    "water": false
+    "woods": false
 }

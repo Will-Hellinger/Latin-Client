@@ -1,9 +1,5 @@
 {
-    "harm": false,
-    "struggle": false,
-    "task": true,
+    "job": true,
     "duty": true,
-    "grandson": false,
-    "neighbor": false,
-    "job": true
+    "task": true
 }

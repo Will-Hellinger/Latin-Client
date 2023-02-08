@@ -1,9 +1,5 @@
 {
-    "not know (about)": true,
     "be ignorant (of)": true,
-    "realize": false,
-    "know": false,
-    "understand": false,
-    "learn": false,
-    "inquire": false
+    "not know (about)": true,
+    "know": false
 }

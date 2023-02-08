@@ -1,4 +1,6 @@
 {
-    "bad": false,
-    "large": true
+    "big": true,
+    "large": true,
+    "great": true,
+    "good": false
 }

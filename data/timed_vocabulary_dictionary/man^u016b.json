@@ -1,5 +1,4 @@
 {
     "hand": true,
-    "warn": false,
-    "foot": false
+    "foot": true
 }

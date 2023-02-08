@@ -1,12 +1,8 @@
 {
-    "its": false,
-    "itself": true,
     "himself": true,
-    "his": false,
-    "I": false,
-    "hers": false,
+    "herself": true,
+    "itself": true,
     "themselves": true,
-    "me": false,
-    "theirs": false,
-    "you": false
+    "proceed": true,
+    "advance": true
 }

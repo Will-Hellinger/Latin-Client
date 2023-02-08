@@ -1,8 +1,4 @@
 {
-    "give": true,
-    "receive": false,
-    "instruct": false,
-    "do": false,
-    "teach": false,
-    "take": false
+    "[idiomatic meanings vary]": true,
+    "give": true
 }

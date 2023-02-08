@@ -1,12 +1,5 @@
 {
-    "stretch": false,
-    "bring": false,
-    "render": false,
-    "terrify": false,
-    "arrive": true,
-    "pursue": false,
-    "approach": false,
-    "lead": false,
+    "arrive (at)": true,
     "reach": true,
-    "touch": false
+    "feel": false
 }

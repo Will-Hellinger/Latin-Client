@@ -1,8 +1,3 @@
 {
-    "city": true,
-    "ark": false,
-    "art": false,
-    "wave": false,
-    "tribe": false,
-    "people": false
+    "city": true
 }

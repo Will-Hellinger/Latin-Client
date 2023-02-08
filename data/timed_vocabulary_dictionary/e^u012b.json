@@ -1,10 +1,16 @@
 {
-    "these": true,
-    "them": true,
-    "him": true,
-    "the same ____": false,
-    "each": false,
-    "some": false,
+    "this": true,
     "that": true,
-    "this": true
+    "he": true,
+    "she": true,
+    "it": true,
+    "his": true,
+    "her": true,
+    "hers": true,
+    "him": true,
+    "its": true,
+    "they": true,
+    "them": true,
+    "their": true,
+    "theirs": true
 }

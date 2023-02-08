@@ -1,4 +1,5 @@
 {
-    "home": false,
+    "gift": true,
+    "pain": false,
     "torture": false
 }

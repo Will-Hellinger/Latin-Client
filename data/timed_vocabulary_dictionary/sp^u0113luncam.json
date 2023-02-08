@@ -1,8 +1,3 @@
 {
-    "cave": true,
-    "appearance": false,
-    "spectator": false,
-    "mirror": false,
-    "hope": false,
-    "look": false
+    "cave": true
 }

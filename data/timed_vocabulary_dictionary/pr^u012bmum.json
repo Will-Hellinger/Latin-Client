@@ -1,11 +1,4 @@
 {
-    "one": false,
-    "at first (adverbial)": true,
-    "great": false,
     "first": true,
-    "many": false,
-    "last": false,
-    "big": false,
-    "highest": false,
-    "fourth": false
+    "(adverbial: at first)": true
 }

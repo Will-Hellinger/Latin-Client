@@ -1,13 +1,7 @@
 {
-    "love": false,
-    "cry": false,
     "task": true,
-    "leader": false,
+    "effort": true,
     "struggle": true,
     "work": true,
-    "effort": true,
-    "smell": false,
-    "fury": false,
-    "noise": false,
-    "terror": false
+    "labor": true
 }

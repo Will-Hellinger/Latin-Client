@@ -1,9 +1,5 @@
 {
     "remove": true,
-    "slaughter": false,
     "carry away": true,
-    "launch": false,
-    "listen": false,
-    "dare": false,
-    "drain": false
+    "steal": true
 }

@@ -1,3 +1,5 @@
 {
-    "surround": false
+    "enclose": true,
+    "confine": true,
+    "imprison": true
 }

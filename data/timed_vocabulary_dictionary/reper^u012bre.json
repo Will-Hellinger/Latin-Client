@@ -1,8 +1,5 @@
 {
     "discover": true,
-    "resist": false,
-    "renew": false,
-    "respond": false,
-    "bring": false,
-    "receive": false
+    "find": true,
+    "bring": false
 }

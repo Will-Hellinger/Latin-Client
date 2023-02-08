@@ -1,5 +1,9 @@
 {
-    "ignorant": false,
-    "unlucky": false,
-    "irate": true
+    "irate": true,
+    "angry": true,
+    "furious": true,
+    "enraged": true,
+    "angered": true,
+    "violent": true,
+    "dangerous": false
 }

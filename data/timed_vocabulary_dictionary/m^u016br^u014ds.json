@@ -1,5 +1,4 @@
 {
-    "death": false,
     "wall": true,
-    "messenger": false
+    "mountain": false
 }

@@ -1,7 +1,4 @@
 {
-    "stable": false,
-    "peril": true,
-    "chain": false,
-    "temple": false,
-    "bedroom": false
+    "danger": true,
+    "peril": true
 }

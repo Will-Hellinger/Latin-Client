@@ -1,7 +1,4 @@
 {
-    "unsafe": false,
-    "hostile": false,
-    "enormous": false,
-    "unharmed": true,
-    "safe": true
+    "safe": true,
+    "unharmed": true
 }

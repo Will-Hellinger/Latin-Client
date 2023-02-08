@@ -1,9 +1,4 @@
 {
-    "enormous": false,
-    "great": false,
-    "much": true,
     "many": true,
-    "crowd": true,
-    "such": false,
-    "huge": false
+    "much": true
 }

@@ -1,3 +1,4 @@
 {
-    "weaken": false
+    "weaken": false,
+    "fail": false
 }

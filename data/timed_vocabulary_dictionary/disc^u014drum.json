@@ -1,4 +1,4 @@
 {
-    "place": false,
-    "discus": true
+    "discus": true,
+    "contest": false
 }

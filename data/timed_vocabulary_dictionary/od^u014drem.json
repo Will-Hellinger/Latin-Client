@@ -1,4 +1,4 @@
 {
-    "pain": false,
-    "poison": false
+    "smell": true,
+    "odor": true
 }

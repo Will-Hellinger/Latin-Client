@@ -1,9 +1,6 @@
 {
+    "[idiomatic meanings vary]": true,
+    "do": true,
     "drive": true,
-    "beat": false,
-    "farm": false,
-    "push": false,
-    "make": false,
-    "carry on": false,
-    "do": true
+    "push": true
 }

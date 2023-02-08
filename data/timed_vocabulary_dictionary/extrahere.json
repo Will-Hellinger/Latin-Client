@@ -1,5 +1,6 @@
 {
-    "depart": false,
+    "withdraw": true,
     "release": true,
-    "withdraw": true
+    "draw out": true,
+    "drag out": true
 }

@@ -1,9 +1,5 @@
 {
-    "mine": false,
     "that": true,
-    "the very ___": false,
-    "my": false,
-    "whom": false,
-    "itself": false,
-    "herself": false
+    "(plural: those)": true,
+    "the same ____": false
 }

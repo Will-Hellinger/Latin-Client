@@ -1,11 +1,6 @@
 {
-    "besides": false,
-    "not at all": false,
-    "previously": false,
-    "in addition": false,
-    "still": false,
     "in the distance": true,
     "far away": true,
     "from afar": true,
-    "at first (adverbial)": false
+    "besides": false
 }

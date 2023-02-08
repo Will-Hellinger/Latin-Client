@@ -1,12 +1,6 @@
 {
     "with": true,
-    "then": false,
-    "once": false,
-    "moreover": false,
+    "when": true,
     "since": true,
-    "without": false,
-    "although": true,
-    "why": false,
-    "already": false,
-    "from": false
+    "although": true
 }

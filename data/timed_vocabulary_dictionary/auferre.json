@@ -1,9 +1,7 @@
 {
-    "launch": false,
     "remove": true,
     "carry away": true,
-    "listen": false,
-    "hear": false,
-    "dare": false,
-    "exhaust": false
+    "steal": true,
+    "launch": false,
+    "drain": false
 }

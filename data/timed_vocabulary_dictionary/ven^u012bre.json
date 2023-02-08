@@ -1,9 +1,6 @@
 {
-    "wind": false,
-    "carry": false,
-    "wish": false,
-    "see": false,
     "come": true,
-    "turn": false,
-    "poison": false
+    "with in colloquium: have a conversation": true,
+    "poison": false,
+    "go": true
 }

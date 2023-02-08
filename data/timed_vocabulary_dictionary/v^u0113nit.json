@@ -1,10 +1,4 @@
 {
     "come": true,
-    "poison": false,
-    "go": false,
-    "wish": false,
-    "turn": false,
-    "want": false,
-    "see": false,
-    "carry": false
+    "with in colloquium: have a conversation": true
 }

@@ -1,10 +1,6 @@
 {
-    "weaken": false,
-    "make": true,
+    "[idiomatic meanings vary]": true,
     "do": true,
-    "accomplish": false,
-    "drive": false,
-    "stain": false,
-    "kill": false,
-    "work": false
+    "make": true,
+    "(with certior) inform": true
 }

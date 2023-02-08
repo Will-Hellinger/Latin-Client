@@ -1,3 +1,4 @@
 {
-    "hold back": false
+    "resist": true,
+    "fight back": true
 }

@@ -1,8 +1,4 @@
 {
-    "anything": false,
     "nothing": true,
-    "neither": false,
-    "thing": false,
-    "never": false,
-    "harm": false
+    "thing": false
 }

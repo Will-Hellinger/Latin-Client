@@ -1,7 +1,3 @@
 {
-    "noise": false,
-    "night": false,
-    "name": true,
-    "nothing": false,
-    "prophecy": false
+    "name": true
 }

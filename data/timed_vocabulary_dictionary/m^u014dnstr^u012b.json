@@ -1,8 +1,3 @@
 {
-    "monster": true,
-    "sea": false,
-    "manner": false,
-    "death": false,
-    "way": false,
-    "bite": false
+    "monster": true
 }

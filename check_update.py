@@ -75,6 +75,8 @@ def run():
         newest_chksms = json.loads(requests.get(f'{updateURL}chksm.json').content)
         for item in newest_chksms:
             print(f'scanning: {str(item)}', end='\r')
+            if data.get(item) != None and ('latin_dictionary' in str(item) or 'timed_morphology_dictionary' in str(item) or 'timed_vocab_dictionary' in str(item)):
+                break
 
             if (data.get(item) != newest_chksms[item]):
                 print(f'{str(item).replace("(sub)", subDirectory)}: {data[item]} -> {newest_chksms[item]}')
@@ -92,6 +94,12 @@ def run():
             server_chksm = 'Not Connected'
         
         print(f'[+] Building chksms: {server_chksm} -> {chksm}')
+    
+    if build_mode == False:
+        if os.path.exists('chksm.json'):
+            os.remove('chksm.json')
+        if os.path.exists('main.chksm'):
+            os.remove('main.chksm')
 
 if len(sys.argv) >= 2:
     if str(sys.argv[1]) == 'build':

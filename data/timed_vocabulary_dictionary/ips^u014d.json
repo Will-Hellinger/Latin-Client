@@ -1,4 +1,9 @@
 {
     "himself": true,
-    "what": false
+    "herself": true,
+    "itself": true,
+    "themselves": true,
+    "the very ___": true,
+    "our(s)": false,
+    "your(s)": false
 }

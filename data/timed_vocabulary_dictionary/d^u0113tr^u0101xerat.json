@@ -1,3 +1,6 @@
 {
-    "skin": true
+    "remove": true,
+    "skin": true,
+    "drag": true,
+    "draw off": true
 }

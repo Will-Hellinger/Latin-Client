@@ -1,13 +1,7 @@
 {
-    "combat": false,
-    "complete": false,
-    "purchase": true,
-    "prepare": true,
-    "visit": false,
     "obtain": true,
-    "command": false,
-    "entrust": false,
-    "procure": true,
-    "compel": false,
-    "spend": false
+    "collect": true,
+    "prepare": true,
+    "purchase": true,
+    "procure": true
 }

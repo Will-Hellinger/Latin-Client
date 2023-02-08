@@ -1,9 +1,9 @@
 {
-    "and... not...": false,
-    "although": false,
-    "and": false,
-    "like": false,
     "but": true,
-    "after": false,
-    "before": false
+    "proceed": true,
+    "advance": true,
+    "himself": true,
+    "herself": true,
+    "itself": true,
+    "themselves": true
 }

@@ -1,8 +1,5 @@
 {
-    "hold": false,
-    "home": false,
-    "have": false,
-    "dwell": true,
-    "inhabit": true,
-    "live": true
+    "live (in)": true,
+    "dwell (in)": true,
+    "inhabit": true
 }

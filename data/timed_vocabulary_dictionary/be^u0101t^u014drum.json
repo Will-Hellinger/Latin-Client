@@ -1,9 +1,4 @@
 {
-    "blessed": true,
-    "warlike": false,
     "happy": true,
-    "believable": false,
-    "unhappy": false,
-    "cruel": false,
-    "good": false
+    "blessed": true
 }

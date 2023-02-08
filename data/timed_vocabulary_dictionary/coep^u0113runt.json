@@ -1,4 +1,5 @@
 {
     "begin": true,
-    "compel": true
+    "compel": true,
+    "force": false
 }

@@ -1,11 +1,8 @@
 {
-    "labor": true,
-    "fear": false,
-    "leader": false,
-    "cry": false,
-    "smell": false,
+    "task": true,
     "effort": true,
-    "squalor": false,
-    "sadness": false,
-    "terror": true
+    "struggle": true,
+    "work": true,
+    "labor": true,
+    "squalor": false
 }

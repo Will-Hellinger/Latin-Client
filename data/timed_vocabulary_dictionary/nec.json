@@ -1,10 +1,4 @@
 {
-    "because": false,
     "and... not...": true,
-    "indeed": false,
-    "just as": false,
-    "neither... nor... (correlative)": true,
-    "lest": false,
-    "but": false,
-    "even though": false
+    "(correlative: neither... nor...)": true
 }

@@ -1,4 +1,6 @@
 {
     "abandon": false,
-    "disappear": false
+    "disappear": false,
+    "learn": false,
+    "disembark": false
 }

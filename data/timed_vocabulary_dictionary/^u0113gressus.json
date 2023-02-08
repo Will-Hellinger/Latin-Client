@@ -1,5 +1,4 @@
 {
     "go out": true,
-    "enter (into)": false,
-    "wait": false
+    "disembark": true
 }

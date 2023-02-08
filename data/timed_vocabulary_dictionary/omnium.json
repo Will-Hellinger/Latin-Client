@@ -1,5 +1,4 @@
 {
-    "not any": false,
     "all": true,
-    "open": false
+    "every": true
 }

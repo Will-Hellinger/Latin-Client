@@ -1,4 +1,5 @@
 {
-    "shame": false,
-    "select": true
+    "choose": true,
+    "select": true,
+    "catch": false
 }

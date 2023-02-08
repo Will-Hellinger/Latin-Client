@@ -1,3 +1,6 @@
 {
-    "announce": true
+    "announce": true,
+    "publish": true,
+    "strip off": false,
+    "atone (for)": false
 }

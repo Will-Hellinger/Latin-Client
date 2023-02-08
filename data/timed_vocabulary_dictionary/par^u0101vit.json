@@ -1,4 +1,5 @@
 {
-    "dread": false,
-    "get": true
+    "get": true,
+    "get ready": true,
+    "prepare": true
 }

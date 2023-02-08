@@ -1,4 +1,5 @@
 {
-    "priest": false,
-    "oracle": false
+    "poet": true,
+    "oracle": false,
+    "fisherman": true
 }

@@ -1,3 +1,5 @@
 {
-    "keep": false
+    "return": true,
+    "go back": true,
+    "repeat": false
 }

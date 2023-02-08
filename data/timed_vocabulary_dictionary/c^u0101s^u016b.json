@@ -1,5 +1,8 @@
 {
-    "fall": true,
+    "outcome": true,
+    "accident": true,
     "possibility": true,
-    "carcass": false
+    "downfall": true,
+    "misfortune": true,
+    "cause": false
 }

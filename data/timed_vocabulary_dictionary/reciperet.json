@@ -1,11 +1,11 @@
 {
-    "get back": true,
+    "receive": true,
     "accept": true,
-    "answer": false,
-    "flee": false,
-    "return": false,
     "recover": true,
-    "go back": false,
-    "leave": false,
-    "abandon": false
+    "get back": true,
+    "(with s\u0113) withdraw": true,
+    "himself": true,
+    "herself": true,
+    "itself": true,
+    "themselves": true
 }

@@ -1,8 +1,4 @@
 {
-    "mouth": false,
     "custom": true,
-    "habit": true,
-    "bite": false,
-    "death": false,
-    "delay": false
+    "habit": true
 }

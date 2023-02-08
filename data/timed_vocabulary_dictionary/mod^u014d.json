@@ -1,8 +1,5 @@
 {
-    "manner": true,
-    "journey": false,
     "way": true,
-    "death": false,
-    "habit": false,
-    "hand": false
+    "manner": true,
+    "journey": false
 }

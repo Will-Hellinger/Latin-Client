@@ -1,4 +1,5 @@
 {
-    "strip off": false,
-    "atone (for)": false
+    "announce": true,
+    "publish": true,
+    "strip off": false
 }

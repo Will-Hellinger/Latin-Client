@@ -1,9 +1,3 @@
 {
-    "so that": false,
-    "while": false,
-    "if": true,
-    "lest": false,
-    "because": false,
-    "even though": false,
-    "although": false
+    "if": true
 }

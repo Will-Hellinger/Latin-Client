@@ -1,8 +1,5 @@
 {
-    "free": true,
-    "wood": false,
     "set free": true,
-    "(plural) children": false,
-    "willing": false,
-    "wooden": false
+    "free": true,
+    "willing": false
 }

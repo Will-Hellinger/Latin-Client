@@ -1,10 +1,7 @@
 {
-    "do": false,
-    "compel": true,
+    "warlike": true,
     "force": true,
-    "safety": false,
-    "madness": false,
-    "teach": false,
     "gather": true,
-    "health": false
+    "compel": true,
+    "judge": false
 }

@@ -1,6 +1,3 @@
 {
-    "speak": false,
-    "lead": true,
-    "write": false,
-    "love": false
+    "lead": true
 }

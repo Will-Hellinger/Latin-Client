@@ -1,9 +1,3 @@
 {
-    "king": true,
-    "rock": false,
-    "situation": false,
-    "fact": false,
-    "reign": false,
-    "kingdom": false,
-    "rule": false
+    "king": true
 }

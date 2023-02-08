@@ -1,10 +1,10 @@
 {
+    "decide": true,
     "establish": true,
     "resolve": true,
-    "spend": false,
-    "consult": false,
-    "hurl": false,
-    "throw": false,
-    "consume": false,
-    "set up": true
+    "set up": true,
+    "erect": true,
+    "proceed": true,
+    "advance": true,
+    "pass": false
 }

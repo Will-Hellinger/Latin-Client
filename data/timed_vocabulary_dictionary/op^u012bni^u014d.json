@@ -1,5 +1,6 @@
 {
     "opinion": true,
     "appreciation": true,
-    "prophecy": false
+    "prophecy": false,
+    "expectation": true
 }

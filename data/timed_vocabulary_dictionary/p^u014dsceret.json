@@ -1,3 +1,5 @@
 {
-    "demand": true
+    "demand": true,
+    "beg": true,
+    "request": true
 }

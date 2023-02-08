@@ -1,7 +1,6 @@
 {
-    "hand over": true,
-    "lead": false,
     "report": true,
     "surrender": true,
-    "rumor": false
+    "hand over": true,
+    "deliver": true
 }

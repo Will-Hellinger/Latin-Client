@@ -1,6 +1,7 @@
 {
-    "how much": false,
-    "how great": false,
-    "at last": false,
-    "such great": true
+    "so great": true,
+    "such great": true,
+    "(adverbial: so much)": true,
+    "such": false,
+    "moreover": false
 }

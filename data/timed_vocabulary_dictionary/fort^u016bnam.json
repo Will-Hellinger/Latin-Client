@@ -1,5 +1,7 @@
 {
+    "fortune": true,
     "luck": true,
-    "fury": false,
-    "story": false
+    "footprint": false,
+    "shape": false,
+    "fury": false
 }

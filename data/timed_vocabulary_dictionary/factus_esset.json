@@ -1,11 +1,6 @@
 {
-    "affect": false,
-    "kill": false,
-    "make": true,
-    "weaken": false,
-    "stain": false,
-    "work": false,
-    "give": false,
+    "[idiomatic meanings vary]": true,
     "do": true,
-    "fail": false
+    "make": true,
+    "(with certior) inform": true
 }

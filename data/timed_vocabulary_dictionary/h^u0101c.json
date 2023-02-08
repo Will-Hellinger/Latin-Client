@@ -1,7 +1,4 @@
 {
     "this": true,
-    "I": false,
-    "your(s)": false,
-    "our(s)": false,
-    "that": false
+    "(plural: these)": true
 }

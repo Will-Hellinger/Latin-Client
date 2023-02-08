@@ -1,5 +1,7 @@
 {
     "border": false,
     "tree": false,
-    "territory": true
+    "territory": true,
+    "farm": true,
+    "field": true
 }

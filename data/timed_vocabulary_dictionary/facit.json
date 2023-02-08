@@ -1,10 +1,6 @@
 {
-    "accomplish": false,
-    "work": false,
+    "[idiomatic meanings vary]": true,
     "do": true,
     "make": true,
-    "complete": false,
-    "stain": false,
-    "kill": false,
-    "affect": false
+    "(with certior) inform": true
 }

@@ -1,5 +1,4 @@
 {
-    "go back": false,
-    "enter (into)": false,
-    "calm": false
+    "cross": true,
+    "go across": true
 }

@@ -1,4 +1,5 @@
 {
-    "withdraw": false,
-    "dismiss": true
+    "dismiss": true,
+    "send away": true,
+    "send out": true
 }

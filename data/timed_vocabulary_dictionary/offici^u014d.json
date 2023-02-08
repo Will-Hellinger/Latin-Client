@@ -1,12 +1,5 @@
 {
-    "effort": false,
-    "office": true,
-    "gift": false,
-    "town": false,
-    "situation": false,
     "job": true,
-    "difficulty": false,
-    "power": false,
-    "affair": false,
+    "office": true,
     "duty": true
 }

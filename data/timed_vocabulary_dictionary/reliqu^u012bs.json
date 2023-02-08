@@ -1,7 +1,4 @@
 {
-    "ancient": false,
-    "rest": true,
-    "the remaining": true,
-    "other": false,
-    "old": false
+    "the rest (of)": true,
+    "the remaining": true
 }

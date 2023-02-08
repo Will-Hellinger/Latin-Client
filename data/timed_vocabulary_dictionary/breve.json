@@ -1,10 +1,4 @@
 {
     "short": true,
-    "friendly": false,
-    "bronze": false,
-    "brave": false,
-    "great": false,
-    "strong": false,
-    "large": false,
-    "serious": false
+    "strong": false
 }

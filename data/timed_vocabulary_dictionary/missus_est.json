@@ -1,5 +1,4 @@
 {
-    "hurry": false,
-    "show": false,
-    "entrust": false
+    "send": true,
+    "show": false
 }

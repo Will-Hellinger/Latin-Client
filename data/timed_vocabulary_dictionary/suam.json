@@ -1,8 +1,8 @@
 {
-    "this": false,
-    "I": false,
+    "his": true,
+    "her": true,
+    "hers": true,
     "its": true,
-    "who": false,
-    "she": false,
+    "their": true,
     "theirs": true
 }

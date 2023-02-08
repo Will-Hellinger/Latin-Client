@@ -11,11 +11,19 @@ else:
     pip = 'pip3'
     clear = 'clear'
 
-def translate(word: str, latinDict: list, englishDict: list):
+def build_dictionary():
+    filelist = []
+    for root, dirs, files in os.walk('.'):
+        for file in files:
+            if str(os.path.join(root,file)).endswith('.json') and 'latin_dictionary' in str(os.path.join(root,file)):
+                filelist.append(os.path.join(root,file))
+
+
+def translate(word: str, translationDict: list, wordDict: list):
     translated = []
-    for a in range(len(englishDict)):
-        if englishDict[a] == word:
-            translated.append(latinDict[a])
+    for a in range(len(wordDict)):
+        if wordDict[a] == word:
+            translated.append(translationDict[a])
     return translated
 
 filelist = []

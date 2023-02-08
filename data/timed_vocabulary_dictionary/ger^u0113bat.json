@@ -1,4 +1,8 @@
 {
-    "understand": false,
-    "come": false
+    "[idiomatic meanings vary]": true,
+    "do": true,
+    "wage": true,
+    "wear": true,
+    "carry on": true,
+    "drive": false
 }

@@ -1,10 +1,6 @@
 {
+    "return": true,
+    "repeat": true,
     "give back": true,
-    "restore": false,
-    "flee": false,
-    "receive": false,
-    "run away": false,
-    "go back": false,
-    "render": true,
-    "return": true
+    "render": true
 }

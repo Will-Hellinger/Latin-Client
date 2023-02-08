@@ -1,3 +1,5 @@
 {
-    "disclose": true
+    "disclose": true,
+    "reveal": true,
+    "divulge": true
 }

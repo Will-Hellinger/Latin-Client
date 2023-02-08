@@ -1,9 +1,4 @@
 {
-    "fierce": false,
-    "deepest": true,
     "highest": true,
-    "sweet": false,
-    "sacred": false,
-    "cruel": false,
-    "studious": false
+    "deepest": true
 }

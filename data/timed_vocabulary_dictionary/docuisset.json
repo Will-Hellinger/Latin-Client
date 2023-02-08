@@ -1,9 +1,5 @@
 {
-    "be silent": false,
-    "explain": true,
     "teach": true,
-    "expose": false,
-    "exercise": false,
     "instruct": true,
-    "do": false
+    "explain": true
 }

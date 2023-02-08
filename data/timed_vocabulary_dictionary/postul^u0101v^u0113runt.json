@@ -1,3 +1,5 @@
 {
-    "demand": true
+    "demand": true,
+    "possess": false,
+    "pray": false
 }

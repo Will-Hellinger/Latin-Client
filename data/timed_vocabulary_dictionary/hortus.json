@@ -1,7 +1,3 @@
 {
-    "garden": true,
-    "hope": false,
-    "honor": false,
-    "harbor": false,
-    "home": false
+    "garden": true
 }

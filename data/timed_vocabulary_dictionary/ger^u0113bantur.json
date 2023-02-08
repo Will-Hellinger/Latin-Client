@@ -1,4 +1,7 @@
 {
+    "[idiomatic meanings vary]": true,
     "do": true,
-    "drive": false
+    "wage": true,
+    "wear": true,
+    "carry on": true
 }

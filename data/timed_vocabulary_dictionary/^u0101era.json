@@ -1,3 +1,6 @@
 {
-    "sky": false
+    "air": true,
+    "breeze": true,
+    "storm": false,
+    "age": false
 }

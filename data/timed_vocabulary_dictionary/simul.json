@@ -1,8 +1,4 @@
 {
     "as soon as": true,
-    "at the same time": true,
-    "scarcely": false,
-    "earlier": false,
-    "always": false,
-    "suddenly": false
+    "at the same time": true
 }

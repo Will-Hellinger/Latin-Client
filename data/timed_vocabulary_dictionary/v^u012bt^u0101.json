@@ -1,11 +1,3 @@
 {
-    "see": false,
-    "invite": false,
-    "visit": false,
-    "call": false,
-    "escape": true,
-    "embrace": false,
-    "bind": false,
-    "disappear": false,
-    "avoid": true
+    "life": true
 }

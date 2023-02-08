@@ -1,13 +1,8 @@
 {
-    "hers": true,
-    "theirs": true,
+    "his": true,
     "her": true,
-    "whose": false,
-    "the very ___": false,
-    "their": true,
+    "hers": true,
     "its": true,
-    "him": false,
-    "your(s)": false,
-    "which": false,
-    "mine": false
+    "their": true,
+    "theirs": true
 }

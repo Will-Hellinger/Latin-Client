@@ -1,10 +1,4 @@
 {
-    "bite": false,
-    "mouth": false,
-    "delay": false,
-    "habit": true,
     "custom": true,
-    "death": false,
-    "mother": false,
-    "monster": false
+    "habit": true
 }

@@ -1,12 +1,7 @@
 {
+    "[idiomatic meanings vary]": true,
     "take up": true,
-    "be left": false,
-    "summon": false,
-    "defeat": false,
-    "surrender": false,
-    "remain": false,
-    "supply": false,
     "undertake": true,
-    "conquer": false,
-    "sustain": false
+    "(with r\u0113gnum) rule": true,
+    "conquer": false
 }

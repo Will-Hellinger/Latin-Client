@@ -1,0 +1,6 @@
+{
+    "each": true,
+    "either": true,
+    "both": true,
+    "rest": false
+}

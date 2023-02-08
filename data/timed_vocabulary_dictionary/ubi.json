@@ -1,11 +1,4 @@
 {
-    "where": true,
-    "now": false,
     "when": true,
-    "never": false,
-    "almost": false,
-    "soon": false,
-    "then": false,
-    "so": false,
-    "at last": false
+    "where": true
 }

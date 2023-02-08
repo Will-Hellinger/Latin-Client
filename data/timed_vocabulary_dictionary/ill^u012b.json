@@ -1,4 +1,5 @@
 {
-    "those": true,
-    "whom": false
+    "that": true,
+    "(plural: those)": true,
+    "what": false
 }

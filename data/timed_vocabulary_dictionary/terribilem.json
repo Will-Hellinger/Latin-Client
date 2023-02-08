@@ -1,8 +1,3 @@
 {
-    "shameful": false,
-    "difficult": false,
-    "terrible": true,
-    "serious": false,
-    "light": false,
-    "heavy": false
+    "terrible": true
 }

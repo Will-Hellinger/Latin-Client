@@ -1,6 +1,3 @@
 {
-    "memory": true,
-    "sense": false,
-    "oracle": false,
-    "mind": false
+    "memory": true
 }

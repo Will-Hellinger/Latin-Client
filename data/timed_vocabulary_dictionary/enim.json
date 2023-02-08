@@ -1,9 +1,4 @@
 {
-    "but": false,
-    "indeed": true,
-    "with": false,
-    "or": false,
-    "and": false,
     "for": true,
-    "if": false
+    "indeed": true
 }

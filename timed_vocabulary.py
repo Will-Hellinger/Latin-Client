@@ -10,15 +10,15 @@ try:
     translator.translate('le tit', src='fr', dest='en')
     translater_delay = time.time() - translater_delay
 
-    import nltk
-    nltk.download('wordnet')
-    nltk.download('omw-1.4')
-    from nltk.corpus import wordnet
-
-    if translater_delay < 5:
+    if translater_delay < 0:
         runPrediction = True
+        import nltk
+        nltk.download('wordnet')
+        nltk.download('omw-1.4')
+        from nltk.corpus import wordnet
     else:
         runPrediction = False
+    
 except:
     runPrediction = False
     print('prediction mode disabled')

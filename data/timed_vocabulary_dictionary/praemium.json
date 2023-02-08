@@ -1,7 +1,3 @@
 {
-    "prey": false,
-    "reward": true,
-    "aid": false,
-    "booty": false,
-    "help": false
+    "reward": true
 }

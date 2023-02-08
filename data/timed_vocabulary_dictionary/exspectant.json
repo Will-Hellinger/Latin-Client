@@ -1,5 +1,5 @@
 {
-    "excite": false,
-    "wait": true,
-    "await": true
+    "wait (for)": true,
+    "await": true,
+    "expect": true
 }

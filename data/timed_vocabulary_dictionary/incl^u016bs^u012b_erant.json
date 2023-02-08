@@ -1,8 +1,5 @@
 {
-    "dwell": false,
     "enclose": true,
     "confine": true,
-    "imprison": true,
-    "inhabit": false,
-    "live": false
+    "imprison": true
 }

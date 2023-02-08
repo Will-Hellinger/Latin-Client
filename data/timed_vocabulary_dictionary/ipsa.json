@@ -1,5 +1,7 @@
 {
-    "this": false,
-    "me": false,
-    "which": false
+    "himself": true,
+    "herself": true,
+    "itself": true,
+    "themselves": true,
+    "the very ___": true
 }

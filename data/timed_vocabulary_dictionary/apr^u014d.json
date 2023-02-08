@@ -1,6 +1,3 @@
 {
-    "boar": true,
-    "cow": false,
-    "lion": false,
-    "bull": true
+    "boar": true
 }

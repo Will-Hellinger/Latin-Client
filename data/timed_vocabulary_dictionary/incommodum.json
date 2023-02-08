@@ -1,5 +1,6 @@
 {
-    "beginning": false,
-    "command": false,
-    "inconvenience": true
+    "harm": true,
+    "inconvenience": true,
+    "disadvantage": true,
+    "baby": false
 }

@@ -1,8 +1,11 @@
 {
-    "when": false,
-    "(exclamatory) how!": true,
+    "so that": true,
+    "in order that": true,
+    "just as": true,
     "with the result that": true,
-    "even though": false,
-    "because": false,
-    "where": false
+    "(exclamatory) how!": true,
+    "himself": true,
+    "herself": true,
+    "itself": true,
+    "themselves": true
 }

@@ -1,8 +1,4 @@
 {
-    "manner": false,
-    "long": false,
-    "way": false,
     "time": true,
-    "storm": false,
-    "land": false
+    "manner": false
 }

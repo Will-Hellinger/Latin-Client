@@ -1,3 +1,5 @@
 {
-    "find": true
+    "discover": true,
+    "find": true,
+    "depart": false
 }

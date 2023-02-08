@@ -1,13 +1,9 @@
 {
-    "which": true,
-    "your(s)": false,
-    "certainly": false,
+    "that": true,
+    "who": true,
+    "whose": true,
     "whom": true,
-    "itself": false,
-    "himself": false,
-    "because": false,
-    "what": true,
-    "indeed": false,
-    "my": false,
-    "me": false
+    "which": true,
+    "(as an adjective) what": true,
+    "every year": false
 }

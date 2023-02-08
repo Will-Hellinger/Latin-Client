@@ -1,3 +1,5 @@
 {
-    "cast": false
+    "discover": true,
+    "find": true,
+    "stain": false
 }

@@ -1,7 +1,6 @@
 {
-    "catch": false,
-    "take up": false,
-    "incur": true,
+    "receive": true,
     "accept": true,
+    "incur": true,
     "get back": false
 }

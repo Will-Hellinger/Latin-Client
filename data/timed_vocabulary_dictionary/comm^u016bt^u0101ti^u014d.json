@@ -1,5 +1,5 @@
 {
     "change": true,
-    "order": false,
-    "contest": false
+    "reversal": true,
+    "command": false
 }

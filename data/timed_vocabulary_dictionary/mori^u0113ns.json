@@ -1,4 +1,5 @@
 {
     "delay": false,
-    "die": true
+    "die": true,
+    "bite": false
 }

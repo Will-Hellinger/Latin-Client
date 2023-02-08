@@ -1,12 +1,7 @@
 {
-    "erect": false,
-    "form a habit": false,
-    "decide": false,
-    "accustom oneself": false,
     "(passive) be noticed": true,
-    "observe": true,
+    "(passive) be seen": true,
     "catch sight of": true,
-    "stop": false,
-    "establish": false,
-    "(passive) be seen": true
+    "observe": true,
+    "spot": true
 }

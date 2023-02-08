@@ -1,7 +1,4 @@
 {
-    "already": false,
-    "again": false,
-    "immediately": true,
     "at once": true,
-    "therefore": false
+    "immediately": true
 }

@@ -1,14 +1,7 @@
 {
-    "what": false,
-    "mine": false,
-    "our(s)": false,
-    "whose": false,
-    "the very ___": true,
     "himself": true,
+    "herself": true,
     "itself": true,
-    "which": false,
-    "me": false,
-    "your(s)": false,
-    "that": false,
-    "whom": false
+    "themselves": true,
+    "the very ___": true
 }

@@ -1,12 +1,7 @@
 {
-    "force": true,
     "power": true,
-    "want": false,
-    "strong": false,
-    "effort": false,
-    "event": false,
-    "vigor": true,
-    "thing": false,
-    "wish": false,
-    "work": false
+    "strength": true,
+    "force": true,
+    "violence": true,
+    "vigor": true
 }

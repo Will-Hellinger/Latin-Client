@@ -1,4 +1,6 @@
 {
-    "highest": false,
-    "next": true
+    "next": true,
+    "closest": true,
+    "nearest": true,
+    "deepest": false
 }

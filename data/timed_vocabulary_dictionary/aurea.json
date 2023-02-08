@@ -1,9 +1,3 @@
 {
-    "golden": true,
-    "old": false,
-    "ancient": false,
-    "bronze": false,
-    "iron": false,
-    "angry": false,
-    "high": false
+    "golden": true
 }

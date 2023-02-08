@@ -1,10 +1,5 @@
 {
     "say": true,
-    "send out": false,
-    "announce": true,
-    "lead": false,
     "speak": true,
-    "divide": false,
-    "depart": false,
-    "withdraw": false
+    "announce": true
 }

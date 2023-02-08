@@ -1,6 +1,4 @@
 {
-    "defeat": false,
-    "want": false,
-    "force": false,
-    "turn": true
+    "turn": true,
+    "come": false
 }

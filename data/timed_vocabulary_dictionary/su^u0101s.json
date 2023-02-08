@@ -1,17 +1,8 @@
 {
-    "she": false,
-    "it": false,
-    "its": true,
-    "mine": false,
     "his": true,
-    "their": true,
+    "her": true,
     "hers": true,
-    "what": false,
-    "our(s)": false,
-    "them": true,
-    "him": false,
-    "he": false,
-    "you": false,
-    "they": false,
-    "your(s)": true
+    "its": true,
+    "their": true,
+    "theirs": true
 }

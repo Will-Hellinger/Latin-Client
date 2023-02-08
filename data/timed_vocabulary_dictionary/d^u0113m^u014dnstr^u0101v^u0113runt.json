@@ -1,4 +1,5 @@
 {
-    "honor": false,
-    "defeat": false
+    "point (out/at)": true,
+    "show": true,
+    "demonstrate": true
 }

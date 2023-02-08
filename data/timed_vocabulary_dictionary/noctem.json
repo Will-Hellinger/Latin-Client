@@ -1,4 +1,6 @@
 {
     "time": false,
-    "name": false
+    "name": false,
+    "day": false,
+    "noise": false
 }

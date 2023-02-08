@@ -1,10 +1,4 @@
 {
     "cross": true,
-    "go across": true,
-    "trouble": false,
-    "go back": false,
-    "enter (into)": false,
-    "calm": false,
-    "train": false,
-    "try": false
+    "go across": true
 }

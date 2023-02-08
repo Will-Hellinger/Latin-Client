@@ -1,6 +1,3 @@
 {
-    "wine": true,
-    "courage": false,
-    "escape": false,
-    "chain": false
+    "wine": true
 }

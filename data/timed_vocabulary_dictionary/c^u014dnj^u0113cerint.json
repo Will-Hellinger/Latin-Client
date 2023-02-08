@@ -1,5 +1,4 @@
 {
-    "break through": false,
-    "hurl": true,
-    "meet": false
+    "throw": true,
+    "hurl": true
 }

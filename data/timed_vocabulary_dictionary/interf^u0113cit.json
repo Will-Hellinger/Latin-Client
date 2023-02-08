@@ -1,3 +1,5 @@
 {
-    "kill": true
+    "kill": true,
+    "throw": false,
+    "affect": false
 }

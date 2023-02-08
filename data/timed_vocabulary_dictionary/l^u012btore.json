@@ -1,5 +1,4 @@
 {
-    "coast": true,
-    "freedom": false,
-    "sea": false
+    "shore": true,
+    "coast": true
 }

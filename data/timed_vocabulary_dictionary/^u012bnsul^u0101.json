@@ -1,6 +1,3 @@
 {
-    "iron": false,
-    "island": true,
-    "path": false,
-    "wrath": false
+    "island": true
 }

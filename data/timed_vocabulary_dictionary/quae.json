@@ -1,14 +1,8 @@
 {
-    "whom": true,
-    "your(s)": false,
-    "himself": false,
-    "what": true,
-    "which": true,
-    "themselves": false,
-    "because": false,
-    "I": false,
-    "itself": false,
-    "the very ___": false,
+    "that": true,
     "who": true,
-    "you": false
+    "whose": true,
+    "whom": true,
+    "which": true,
+    "(as an adjective) what": true
 }

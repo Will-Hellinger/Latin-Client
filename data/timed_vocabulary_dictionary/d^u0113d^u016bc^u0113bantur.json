@@ -1,11 +1,5 @@
 {
-    "select": false,
-    "drag": false,
-    "launch": true,
-    "draw off": false,
+    "(with n\u0101vis or linter) launch": true,
     "lead down": true,
-    "catch": false,
-    "choose": false,
-    "throw down": false,
-    "cease": false
+    "draw off": false
 }

@@ -1,5 +1,4 @@
 {
     "seize": true,
-    "compel": false,
-    "complete": false
+    "grasp": true
 }

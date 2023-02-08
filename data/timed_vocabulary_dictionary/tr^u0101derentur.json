@@ -1,3 +1,6 @@
 {
-    "lead": false
+    "report": true,
+    "surrender": true,
+    "hand over": true,
+    "deliver": true
 }

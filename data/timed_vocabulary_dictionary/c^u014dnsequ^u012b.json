@@ -1,6 +1,4 @@
 {
-    "spring up": false,
-    "advance": false,
     "follow": true,
-    "disembark": false
+    "struggle": false
 }

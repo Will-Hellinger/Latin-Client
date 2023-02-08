@@ -1,4 +1,16 @@
 {
+    "this": true,
     "that": true,
-    "the very ___": false
+    "he": true,
+    "she": true,
+    "it": true,
+    "his": true,
+    "her": true,
+    "hers": true,
+    "him": true,
+    "its": true,
+    "they": true,
+    "them": true,
+    "their": true,
+    "theirs": true
 }

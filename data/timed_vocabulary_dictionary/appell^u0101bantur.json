@@ -1,4 +1,5 @@
 {
     "call": true,
-    "cry": false
+    "name": true,
+    "shout": false
 }

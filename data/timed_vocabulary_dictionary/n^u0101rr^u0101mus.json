@@ -1,10 +1,4 @@
 {
-    "stumble upon": false,
-    "be born": false,
-    "poet": false,
-    "story": false,
-    "name": false,
-    "sail": false,
-    "nap": false,
-    "tell": true
+    "tell": true,
+    "stumble upon": false
 }

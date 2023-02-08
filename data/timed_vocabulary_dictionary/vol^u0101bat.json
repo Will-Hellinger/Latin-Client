@@ -1,5 +1,3 @@
 {
-    "run away": false,
-    "climb": false,
-    "run": false
+    "fly": true
 }

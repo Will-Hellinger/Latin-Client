@@ -1,4 +1,5 @@
 {
-    "sleep": false,
-    "teach": true
+    "teach": true,
+    "instruct": true,
+    "explain": true
 }

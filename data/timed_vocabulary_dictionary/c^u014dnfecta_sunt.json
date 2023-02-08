@@ -1,4 +1,6 @@
 {
+    "weaken": true,
+    "complete": true,
     "accomplish": true,
-    "throw": false
+    "finish": true
 }

@@ -1,7 +1,7 @@
 {
-    "since": false,
     "while": true,
     "until": true,
-    "after": false,
-    "before": false
+    "proceed": true,
+    "advance": true,
+    "lest": false
 }

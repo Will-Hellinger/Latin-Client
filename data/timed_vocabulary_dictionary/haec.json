@@ -1,11 +1,6 @@
 {
-    "these": true,
-    "herself": false,
-    "that": false,
-    "those": false,
-    "your(s)": false,
     "this": true,
-    "whose": false,
-    "our(s)": true,
-    "the same ____": false
+    "(plural: these)": true,
+    "your(s)": false,
+    "these": true
 }

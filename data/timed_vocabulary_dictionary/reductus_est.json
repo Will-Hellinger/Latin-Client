@@ -1,6 +1,4 @@
 {
-    "repeat": false,
     "bring back": true,
-    "abandon": false,
-    "respond": false
+    "lead back": true
 }

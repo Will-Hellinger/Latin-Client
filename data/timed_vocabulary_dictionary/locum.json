@@ -1,7 +1,3 @@
 {
-    "place": true,
-    "madness": false,
-    "bedroom": false,
-    "put": false,
-    "follow": false
+    "place": true
 }

@@ -1,6 +1,4 @@
 {
-    "love": false,
     "lead": true,
-    "prompt": false,
-    "say": false
+    "speak": false
 }

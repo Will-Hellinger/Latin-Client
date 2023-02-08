@@ -1,10 +1,4 @@
 {
     "cause": true,
-    "because": false,
-    "event": false,
-    "reason": true,
-    "because of": false,
-    "fact": false,
-    "head": false,
-    "crab": false
+    "reason": true
 }

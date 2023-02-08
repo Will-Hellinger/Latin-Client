@@ -1,4 +1,7 @@
 {
-    "fear": false,
-    "bravery": true
+    "courage": true,
+    "manliness": true,
+    "bravery": true,
+    "virtue": true,
+    "maiden": false
 }

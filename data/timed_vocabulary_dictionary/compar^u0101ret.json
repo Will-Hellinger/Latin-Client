@@ -1,5 +1,6 @@
 {
     "procure": true,
     "visit": false,
-    "purchase": true
+    "purchase": true,
+    "prepare": true
 }

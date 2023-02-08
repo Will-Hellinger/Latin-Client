@@ -1,9 +1,6 @@
 {
     "throw": true,
     "hurl": true,
-    "decide": false,
-    "kill": false,
-    "establish": false,
-    "stare": false,
-    "break through": false
+    "halt": false,
+    "look": false
 }

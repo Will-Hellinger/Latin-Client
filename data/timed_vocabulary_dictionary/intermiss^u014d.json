@@ -1,3 +1,4 @@
 {
-    "skip": true
+    "skip": true,
+    "omit": true
 }

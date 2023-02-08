@@ -1,4 +1,5 @@
 {
+    "honor": true,
     "decorate": true,
-    "store": false
+    "distinguish": true
 }

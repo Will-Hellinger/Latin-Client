@@ -1,5 +1,5 @@
 {
-    "jar": false,
     "friend": true,
-    "ambassador": false
+    "friendly": true,
+    "enemy": false
 }

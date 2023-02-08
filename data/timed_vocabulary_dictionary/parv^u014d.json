@@ -1,5 +1,6 @@
 {
     "first": false,
     "small": true,
-    "many": false
+    "many": false,
+    "little": true
 }

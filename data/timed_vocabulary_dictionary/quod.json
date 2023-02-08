@@ -1,9 +1,10 @@
 {
-    "although": false,
     "because": true,
-    "even though": false,
-    "after": false,
-    "when": false,
-    "himself": false,
-    "also": false
+    "that": true,
+    "who": true,
+    "whose": true,
+    "whom": true,
+    "which": true,
+    "(as an adjective) what": true,
+    "even though": false
 }

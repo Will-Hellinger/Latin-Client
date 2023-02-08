@@ -1,5 +1,3 @@
 {
-    "story": false,
-    "tell": false,
-    "poet": false
+    "tell": true
 }

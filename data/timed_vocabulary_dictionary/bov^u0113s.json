@@ -1,10 +1,6 @@
 {
-    "horse": false,
-    "cow": true,
-    "stag": false,
     "ox": true,
+    "cow": true,
     "cattle": true,
-    "boar": false,
-    "bird": false,
-    "deer": false
+    "boar": false
 }

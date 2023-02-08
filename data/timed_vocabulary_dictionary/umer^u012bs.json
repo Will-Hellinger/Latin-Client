@@ -1,8 +1,4 @@
 {
     "shoulder": true,
-    "leg": false,
-    "shape": false,
-    "neck": false,
-    "rain": false,
-    "wife": false
+    "neck": false
 }

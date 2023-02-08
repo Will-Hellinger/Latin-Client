@@ -1,4 +1,4 @@
 {
-    "strive": false,
-    "join": false
+    "consult": true,
+    "allow": false
 }

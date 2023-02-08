@@ -1,9 +1,6 @@
 {
+    "spend": true,
     "consume": true,
     "pass": true,
-    "throw": false,
-    "establish": false,
-    "contend": false,
-    "attempt": false,
-    "struggle": false
+    "contend": false
 }

@@ -1,9 +1,5 @@
 {
-    "leave behind": false,
-    "flee": false,
-    "bring back": true,
-    "hold back": false,
+    "[idiomatic meanings vary]": true,
     "bring": true,
-    "abandon": false,
-    "run away": false
+    "bring back": true
 }

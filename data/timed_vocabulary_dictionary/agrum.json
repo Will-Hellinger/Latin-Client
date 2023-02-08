@@ -1,4 +1,5 @@
 {
     "farm": true,
-    "border": false
+    "border": false,
+    "field": true
 }

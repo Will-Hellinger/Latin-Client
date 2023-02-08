@@ -1,3 +1,4 @@
 {
-    "bind": true
+    "bind": true,
+    "tie": true
 }

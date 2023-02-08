@@ -1,4 +1,5 @@
 {
-    "defend": true,
-    "greed": false
+    "guard": true,
+    "protect": true,
+    "defend": true
 }

@@ -1,10 +1,6 @@
 {
-    "reward": false,
-    "propose": false,
-    "hasten": false,
-    "advise": true,
-    "throw down": false,
-    "proceed": false,
     "instruct": true,
-    "depart": false
+    "advise": true,
+    "propose": false,
+    "hasten": false
 }

@@ -1,10 +1,6 @@
 {
-    "lead": false,
-    "fame": false,
-    "lead across": false,
-    "break through": false,
-    "deliver": true,
     "report": true,
-    "reputation": false,
-    "hand over": true
+    "surrender": true,
+    "hand over": true,
+    "deliver": true
 }

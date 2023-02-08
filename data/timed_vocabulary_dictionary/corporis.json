@@ -1,7 +1,3 @@
 {
-    "head": false,
-    "neck": false,
-    "body": true,
-    "cow": false,
-    "combat": false
+    "body": true
 }

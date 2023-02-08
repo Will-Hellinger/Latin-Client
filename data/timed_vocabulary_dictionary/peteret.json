@@ -1,4 +1,4 @@
 {
-    "lead": false,
-    "seek": true
+    "seek": true,
+    "attack": true
 }

@@ -1,9 +1,4 @@
 {
-    "(plural: thanks)": true,
-    "type": false,
-    "guitar": false,
     "gratitude": true,
-    "pleasing": false,
-    "grateful": false,
-    "game": false
+    "(plural: thanks)": true
 }

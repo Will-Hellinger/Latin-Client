@@ -1,9 +1,5 @@
 {
-    "supply": false,
+    "take up": true,
     "undergo": true,
-    "conquer": false,
-    "overcome": false,
-    "defeat": false,
-    "hand over": false,
-    "surrender": false
+    "cut down": false
 }

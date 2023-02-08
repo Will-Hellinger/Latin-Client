@@ -1,4 +1,8 @@
 {
+    "rouse": true,
+    "arouse": true,
+    "wake": true,
     "awake": true,
-    "rouse": true
+    "excite": true,
+    "exclaim": false
 }

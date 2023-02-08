@@ -1,3 +1,4 @@
 {
-    "reward": false
+    "plan": true,
+    "advice": true
 }

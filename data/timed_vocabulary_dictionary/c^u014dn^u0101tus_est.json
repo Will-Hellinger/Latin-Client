@@ -1,8 +1,4 @@
 {
-    "follow": false,
     "attempt": true,
-    "try": true,
-    "test": false,
-    "encourage": false,
-    "halt": false
+    "try": true
 }

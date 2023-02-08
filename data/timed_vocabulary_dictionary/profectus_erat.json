@@ -1,5 +1,8 @@
 {
     "use": false,
     "attempt": false,
-    "pursue": false
+    "pursue": false,
+    "disembark": false,
+    "set out": true,
+    "start out": true
 }

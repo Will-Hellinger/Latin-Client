@@ -1,10 +1,4 @@
 {
-    "suddenly": false,
-    "immediately": false,
     "for a long time": true,
-    "at last": false,
-    "once": false,
-    "soon": false,
-    "at once": false,
-    "daily": false
+    "soon": false
 }

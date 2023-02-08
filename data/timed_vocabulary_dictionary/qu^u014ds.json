@@ -1,13 +1,10 @@
 {
+    "that": true,
+    "who": true,
+    "whose": true,
+    "whom": true,
     "which": true,
-    "hour": false,
-    "every year": false,
-    "itself": false,
-    "you": false,
-    "nap": false,
-    "certainly": false,
-    "mine": false,
-    "my": false,
-    "what": true,
-    "sleep": false
+    "(as an adjective) what": true,
+    "proceed": true,
+    "advance": true
 }

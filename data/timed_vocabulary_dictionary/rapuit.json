@@ -1,4 +1,6 @@
 {
-    "flee": false,
-    "seize": true
+    "seize": true,
+    "take": true,
+    "grab": true,
+    "snatch": true
 }

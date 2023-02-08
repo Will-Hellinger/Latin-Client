@@ -1,12 +1,4 @@
 {
-    "command": false,
-    "journey": true,
-    "blow": false,
-    "strike": false,
-    "attack": false,
-    "inconvenience": false,
-    "anger": false,
-    "disadvantage": false,
-    "baby": false,
-    "path": true
+    "path": true,
+    "journey": true
 }

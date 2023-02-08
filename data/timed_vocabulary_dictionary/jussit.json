@@ -1,3 +1,5 @@
 {
-    "join": false
+    "command": true,
+    "order": true,
+    "instruct": false
 }

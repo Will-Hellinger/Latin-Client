@@ -1,3 +1,8 @@
 {
-    "leave": false
+    "withdraw": true,
+    "release": true,
+    "draw out": true,
+    "drag out": true,
+    "leave": false,
+    "exercise": false
 }

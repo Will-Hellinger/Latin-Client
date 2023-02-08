@@ -1,5 +1,6 @@
 {
-    "disappear": false,
+    "avoid": true,
+    "escape": true,
     "evade": true,
-    "approach": true
+    "visit": false
 }

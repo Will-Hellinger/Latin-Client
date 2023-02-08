@@ -1,9 +1,6 @@
 {
-    "fasten": false,
-    "seem": true,
-    "hear": false,
-    "tie": false,
     "see": true,
-    "bind": false,
-    "sense": false
+    "(passive) seem": true,
+    "tie": false,
+    "hear": false
 }

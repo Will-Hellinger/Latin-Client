@@ -1,10 +1,4 @@
 {
-    "struggle": false,
-    "reward": false,
-    "advice": true,
-    "support": false,
     "plan": true,
-    "allow": false,
-    "spend": false,
-    "grain": false
+    "advice": true
 }

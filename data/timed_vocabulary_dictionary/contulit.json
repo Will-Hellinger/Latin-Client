@@ -1,12 +1,11 @@
 {
-    "throw": false,
     "bring together": true,
-    "hurl": false,
-    "convene": false,
     "gather": true,
-    "follow": false,
-    "decide": false,
     "collect": true,
-    "try": false,
-    "struggle": false
+    "(with s\u0113) take oneself": true,
+    "(with s\u0113) go": true,
+    "himself": true,
+    "herself": true,
+    "itself": true,
+    "themselves": true
 }

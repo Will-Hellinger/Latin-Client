@@ -1,12 +1,9 @@
 {
-    "whose": false,
-    "itself": true,
-    "herself": true,
-    "this": false,
-    "these": false,
     "himself": true,
-    "our(s)": false,
-    "which": false,
+    "herself": true,
+    "itself": true,
+    "themselves": true,
     "the very ___": true,
-    "mine": false
+    "my": false,
+    "this": true
 }

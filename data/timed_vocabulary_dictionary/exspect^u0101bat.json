@@ -1,9 +1,5 @@
 {
-    "set on shore": false,
-    "explain": false,
-    "atone (for)": false,
-    "wait": true,
-    "expect": true,
+    "wait (for)": true,
     "await": true,
-    "expose": false
+    "expect": true
 }

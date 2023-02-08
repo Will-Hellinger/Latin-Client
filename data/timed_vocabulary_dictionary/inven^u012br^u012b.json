@@ -1,7 +1,4 @@
 {
-    "throw in": false,
-    "cast": false,
-    "find": true,
-    "lose": false,
-    "look": false
+    "discover": true,
+    "find": true
 }

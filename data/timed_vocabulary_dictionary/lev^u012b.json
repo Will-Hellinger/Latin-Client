@@ -1,5 +1,5 @@
 {
-    "big": false,
+    "small": true,
     "light": true,
-    "small": true
+    "large": false
 }

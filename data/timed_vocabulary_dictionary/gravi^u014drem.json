@@ -1,9 +1,4 @@
 {
     "heavy": true,
-    "short": false,
-    "grateful": false,
-    "light": false,
-    "brave": false,
-    "serious": true,
-    "strong": false
+    "serious": true
 }

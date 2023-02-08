@@ -1,9 +1,5 @@
 {
-    "just as": false,
-    "neither... nor... (correlative)": true,
-    "but": false,
-    "indeed": false,
     "and... not...": true,
-    "lest": false,
-    "even though": false
+    "(correlative: neither... nor...)": true,
+    "neither... nor... (correlative)": true
 }

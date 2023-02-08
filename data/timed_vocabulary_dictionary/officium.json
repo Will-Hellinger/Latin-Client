@@ -1,4 +1,5 @@
 {
-    "affair": false,
-    "office": true
+    "job": true,
+    "office": true,
+    "duty": true
 }

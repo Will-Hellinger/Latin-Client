@@ -1,10 +1,4 @@
 {
-    "strong": false,
-    "be able": true,
-    "be away": false,
-    "want": false,
-    "get": false,
-    "wish": false,
     "can": true,
-    "possess": false
+    "be able": true
 }

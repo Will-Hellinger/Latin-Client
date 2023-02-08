@@ -1,7 +1,5 @@
 {
-    "remain": false,
+    "hand": true,
     "sea": false,
-    "leg": false,
-    "neck": false,
-    "hand": true
+    "arm": false
 }

@@ -1,4 +1,5 @@
 {
-    "deceive": false,
-    "run away": true
+    "run away": true,
+    "flee": true,
+    "make": false
 }

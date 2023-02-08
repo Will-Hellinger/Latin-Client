@@ -1,11 +1,4 @@
 {
-    "supply": false,
-    "undergo": true,
-    "defeat": false,
-    "cut down": false,
-    "overcome": false,
-    "summon": false,
-    "surrender": false,
-    "at the same time": false,
-    "previously": false
+    "at once": true,
+    "suddenly": true
 }

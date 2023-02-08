@@ -1,11 +1,3 @@
 {
-    "kind": false,
-    "happy": false,
-    "warlike": true,
-    "blessed": false,
-    "handsome": false,
-    "savage": false,
-    "studious": false,
-    "friendly": false,
-    "barbarian": false
+    "warlike": true
 }

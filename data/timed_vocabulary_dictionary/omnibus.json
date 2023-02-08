@@ -1,8 +1,4 @@
 {
-    "open": false,
     "all": true,
-    "no": false,
-    "old": false,
-    "few": false,
-    "not any": false
+    "every": true
 }

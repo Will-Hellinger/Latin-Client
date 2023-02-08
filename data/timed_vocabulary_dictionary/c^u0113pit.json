@@ -1,9 +1,6 @@
 {
-    "reason": false,
-    "happen": false,
+    "[idiomatic meanings vary]": true,
     "seize": true,
     "take": true,
-    "grab": false,
-    "fall": false,
-    "grasp": false
+    "fall": false
 }

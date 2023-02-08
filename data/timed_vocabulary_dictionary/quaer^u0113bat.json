@@ -1,11 +1,6 @@
 {
-    "discover": false,
-    "find": false,
-    "look for": true,
-    "seek": true,
-    "stare": false,
-    "inquire": true,
-    "attack": false,
     "ask": true,
-    "look (at)": false
+    "inquire": true,
+    "seek": true,
+    "look for": true
 }

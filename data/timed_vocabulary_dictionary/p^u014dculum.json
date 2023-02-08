@@ -1,5 +1,5 @@
 {
-    "apple": false,
     "cup": true,
-    "point": false
+    "wine": false,
+    "demand": false
 }

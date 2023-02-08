@@ -1,5 +1,5 @@
 {
-    "join": false,
+    "command": true,
     "order": true,
-    "pray": false
+    "beg": false
 }

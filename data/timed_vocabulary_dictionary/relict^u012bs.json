@@ -1,4 +1,5 @@
 {
     "bring": false,
-    "leave": true
+    "leave": true,
+    "repeat": false
 }

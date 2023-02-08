@@ -1,5 +1,4 @@
 {
-    "test": false,
     "storm": true,
-    "terror": false
+    "weather": true
 }

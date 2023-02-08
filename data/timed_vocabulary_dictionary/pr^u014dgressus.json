@@ -2,5 +2,7 @@
     "hasten": false,
     "proceed": true,
     "advance": true,
-    "depart": false
+    "depart": false,
+    "keep away": false,
+    "start out": false
 }

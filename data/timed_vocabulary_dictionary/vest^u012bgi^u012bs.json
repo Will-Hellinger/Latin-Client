@@ -1,9 +1,3 @@
 {
-    "bravery": false,
-    "footprint": true,
-    "poison": false,
-    "manliness": false,
-    "clothes": false,
-    "victim": false,
-    "courage": false
+    "footprint": true
 }

@@ -1,4 +1,4 @@
 {
-    "arm": false,
-    "head": false
+    "foot": true,
+    "person": false
 }
