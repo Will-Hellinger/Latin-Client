@@ -15,7 +15,6 @@ def debugger_tool():
     layout = [[sg.Text('Module:'), sg.Combo(['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings'], default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
             [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")]]
-
     window = sg.Window('debugger', layout, resizable=True)
 
     while True:
@@ -148,8 +147,8 @@ mode = 'launchpad'
 assignment = 'Latin Launchpad'
 print(f'[+] Successfully Started Client v{version}')
 
-if discordFound:
-    rpc_start()
+#if discordFound:
+#    rpc_start()
 
 #load plugins
 pluginFiles = glob.glob(f'.{subDirectory}data{subDirectory}plugins{subDirectory}*.plg')
@@ -235,9 +234,8 @@ while True:
                 doAction = False
     elif mode == 'synopsis':
         if doAction:
-            #Finds latin conjugation type
             try:
-                synopsis.find_chart()
+                synopsis.solve()
             except Exception as error:
                 print(f'error: {error}')
             doAction = False

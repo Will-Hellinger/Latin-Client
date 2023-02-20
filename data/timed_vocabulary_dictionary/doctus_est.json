@@ -2,5 +2,6 @@
     "be quiet": false,
     "explain": true,
     "set on shore": false,
-    "exercise": false
+    "exercise": false,
+    "sleep": false
 }

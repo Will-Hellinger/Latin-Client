@@ -1,4 +1,5 @@
 {
     "it": false,
-    "them": false
+    "them": false,
+    "theirs": true
 }

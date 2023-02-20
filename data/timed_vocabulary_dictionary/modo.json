@@ -1,3 +1,5 @@
 {
-    "only": true
+    "only": true,
+    "moreover": false,
+    "never": false
 }

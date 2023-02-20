@@ -1,4 +1,5 @@
 {
     "part": true,
-    "region": true
+    "region": true,
+    "foot": false
 }

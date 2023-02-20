@@ -1,4 +1,6 @@
 {
     "that": true,
-    "themselves": false
+    "themselves": false,
+    "the very ___": false,
+    "my": false
 }

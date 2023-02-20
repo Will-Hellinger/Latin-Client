@@ -1,4 +1,5 @@
 {
     "run": true,
-    "course": true
+    "course": true,
+    "protect": false
 }

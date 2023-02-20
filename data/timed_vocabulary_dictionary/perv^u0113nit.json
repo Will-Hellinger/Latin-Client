@@ -1,5 +1,6 @@
 {
     "arrive (at)": true,
     "reach": true,
-    "feel": false
+    "feel": false,
+    "arrive": true
 }

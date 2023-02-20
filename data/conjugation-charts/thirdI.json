@@ -1,0 +1,210 @@
+{
+    "PARTICIPLE" : {
+        "ACTIVE" : {
+            "PRESENT" : "iens",
+            "FUTURE" : "urus"
+        },
+        "PASSIVE" : {
+            "FUTURE" : "iendus",
+            "PERFECT" : "us"
+        }
+    },
+
+    "INFINITIVE" : {
+        "ACTIVE" : {
+            "PRESENT" : "ere",
+            "FUTURE" : "urus esse",
+            "PERFECT" : "isse"
+        },
+        "PASSIVE" : {
+            "PRESENT" : "i",
+            "FUTURE" : "um iri",
+            "PERFECT" : "us esse"
+        }
+    },
+
+    "INDICATIVE" : {
+        "ACTIVE" : {
+            "PRESENT" : {
+                "1st singular" : "io",
+                "2nd singular" : "is",
+                "3rd singular" : "it",
+                "1st plural" : "imus",
+                "2nd plural" : "itis",
+                "3rd plural" : "iunt"
+            },
+            "IMPERFECT" : {
+                "1st singular" : "iebam",
+                "2nd singular" : "iebas",
+                "3rd singular" : "iebat",
+                "1st plural" : "iebamus",
+                "2nd plural" : "iebatis",
+                "3rd plural" : "iebant"
+            },
+            "FUTURE" : {
+                "1st singular" : "iam",
+                "2nd singular" : "ies",
+                "3rd singular" : "iet",
+                "1st plural" : "iemus",
+                "2nd plural" : "ietis",
+                "3rd plural" : "ient"
+            },
+            "PERFECT" : {
+                "1st singular" : "i",
+                "2nd singular" : "isti",
+                "3rd singular" : "it",
+                "1st plural" : "imus",
+                "2nd plural" : "istis",
+                "3rd plural" : "erunt"
+            },
+            "PLUPERFECT" : {
+                "1st singular" : "eram",
+                "2nd singular" : "eras",
+                "3rd singular" : "erat",
+                "1st plural" : "eramus",
+                "2nd plural" : "eratis",
+                "3rd plural" : "erant"
+            },
+            "FUTURE-PERFECT" : {
+                "1st singular" : "ero",
+                "2nd singular" : "eris",
+                "3rd singular" : "erit",
+                "1st plural" : "erimus",
+                "2nd plural" : "eritis",
+                "3rd plural" : "erint"
+            }
+        },
+        "PASSIVE" : {
+            "PRESENT" : {
+                "1st singular" : "ior",
+                "2nd singular" : "eris",
+                "3rd singular" : "itur",
+                "1st plural" : "imur",
+                "2nd plural" : "imini",
+                "3rd plural" : "iuntur"
+            },
+            "IMPERFECT" : {
+                "1st singular" : "iebar",
+                "2nd singular" : "iebaris",
+                "3rd singular" : "iebatur",
+                "1st plural" : "iebamur",
+                "2nd plural" : "iebamini",
+                "3rd plural" : "iebantur"
+            },
+            "FUTURE" : {
+                "1st singular" : "iar",
+                "2nd singular" : "ieris",
+                "3rd singular" : "ietur",
+                "1st plural" : "iemur",
+                "2nd plural" : "iemini",
+                "3rd plural" : "ientur"
+            },
+            "PERFECT" : {
+                "1st singular" : "us sum",
+                "2nd singular" : "us es",
+                "3rd singular" : "us est",
+                "1st plural" : "i sumus",
+                "2nd plural" : "i estis",
+                "3rd plural" : "i sunt"
+            },
+            "PLUPERFECT" : {
+                "1st singular" : "us eram",
+                "2nd singular" : "us eras",
+                "3rd singular" : "us erat",
+                "1st plural" : "i eramus",
+                "2nd plural" : "i eratis",
+                "3rd plural" : "i erant"
+            },
+            "FUTURE-PERFECT" : {
+                "1st singular" : "us ero",
+                "2nd singular" : "us eris",
+                "3rd singular" : "us erit",
+                "1st plural" : "i erimus",
+                "2nd plural" : "i eritis",
+                "3rd plural" : "i erunt"
+            }
+        }
+    },
+
+    "SUBJUNCTIVE" : {
+        "ACTIVE" : {
+            "PRESENT" : {
+                "1st singular" : "iam",
+                "2nd singular" : "ias",
+                "3rd singular" : "iat",
+                "1st plural" : "iamus",
+                "2nd plural" : "iatis",
+                "3rd plural" : "iant"
+            },
+            "IMPERFECT" : {
+                "1st singular" : "erem",
+                "2nd singular" : "eres",
+                "3rd singular" : "eret",
+                "1st plural" : "eremus",
+                "2nd plural" : "eretis",
+                "3rd plural" : "erent"
+            },
+            "PERFECT" : {
+                "1st singular" : "erim",
+                "2nd singular" : "eris",
+                "3rd singular" : "erit",
+                "1st plural" : "erimus",
+                "2nd plural" : "eritis",
+                "3rd plural" : "erint"
+            },
+            "PLUPERFECT" : {
+                "1st singular" : "issem",
+                "2nd singular" : "isses",
+                "3rd singular" : "isset",
+                "1st plural" : "issemus",
+                "2nd plural" : "issetis",
+                "3rd plural" : "issent"
+            }
+        },
+        "PASSIVE" : {
+            "PRESENT" : {
+                "1st singular" : "iar",
+                "2nd singular" : "iaris",
+                "3rd singular" : "iatur",
+                "1st plural" : "iamur",
+                "2nd plural" : "iamini",
+                "3rd plural" : "iantur"
+            },
+            "IMPERFECT" : {
+                "1st singular" : "erer",
+                "2nd singular" : "ereris",
+                "3rd singular" : "eretur",
+                "1st plural" : "eremur",
+                "2nd plural" : "eremini",
+                "3rd plural" : "erentur"
+            },
+            "PERFECT" : {
+                "1st singular" : "us sim",
+                "2nd singular" : "us sis",
+                "3rd singular" : "us sit",
+                "1st plural" : "i simus",
+                "2nd plural" : "i sitis",
+                "3rd plural" : "i sint"
+            },
+            "PLUPERFECT" : {
+                "1st singular" : "us essem",
+                "2nd singular" : "us esses",
+                "3rd singular" : "us esset",
+                "1st plural" : "i essemus",
+                "2nd plural" : "i essetis",
+                "3rd plural" : "i essent"
+            }
+        }
+    },
+
+    "IMPERATIVE" : {
+        "ACTIVE" : {
+            "SINGULAR" : "e",
+            "PLURAL" : "ite"
+        },
+        "PASSIVE" : {
+            "SINGULAR" : "ere",
+            "PLURAL" : "imini"
+        }
+    }
+}

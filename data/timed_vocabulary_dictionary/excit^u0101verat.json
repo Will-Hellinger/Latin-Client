@@ -4,5 +4,6 @@
     "wake": true,
     "awake": true,
     "excite": true,
-    "depart": false
+    "depart": false,
+    "yell": false
 }

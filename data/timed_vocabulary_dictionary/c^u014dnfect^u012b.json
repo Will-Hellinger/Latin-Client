@@ -2,5 +2,6 @@
     "reinforce": false,
     "accomplish": true,
     "grasp": false,
-    "weaken": true
+    "weaken": true,
+    "throw": false
 }

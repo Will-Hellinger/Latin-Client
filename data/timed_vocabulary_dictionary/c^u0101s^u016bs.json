@@ -1,5 +1,6 @@
 {
     "downfall": true,
     "slaughter": false,
-    "possibility": true
+    "possibility": true,
+    "body": false
 }

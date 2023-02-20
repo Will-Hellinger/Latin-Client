@@ -2,5 +2,6 @@
     "want": true,
     "wish": true,
     "will": false,
-    "have": false
+    "have": false,
+    "can": false
 }

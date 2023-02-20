@@ -1,5 +1,7 @@
 {
     "hit": true,
     "beat": true,
-    "strike": true
+    "strike": true,
+    "blow": false,
+    "confuse": false
 }

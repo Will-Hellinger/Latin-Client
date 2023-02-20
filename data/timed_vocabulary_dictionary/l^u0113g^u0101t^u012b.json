@@ -1,5 +1,6 @@
 {
     "legate": true,
     "envoy": true,
-    "ambassador": true
+    "ambassador": true,
+    "lion": false
 }

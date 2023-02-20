@@ -1,5 +1,6 @@
 {
     "block": false,
     "possess": true,
-    "fill": false
+    "fill": false,
+    "throw to": false
 }

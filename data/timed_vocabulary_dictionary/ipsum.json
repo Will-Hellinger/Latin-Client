@@ -3,5 +3,6 @@
     "herself": true,
     "itself": true,
     "themselves": true,
-    "the very ___": true
+    "the very ___": true,
+    "my": false
 }

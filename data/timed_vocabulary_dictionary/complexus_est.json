@@ -3,5 +3,6 @@
     "enclose": true,
     "surround": true,
     "embrace": true,
-    "shake": false
+    "shake": false,
+    "entrust": false
 }

@@ -1,5 +1,6 @@
 {
     "rock": true,
     "cliff": true,
-    "rattle": false
+    "rattle": false,
+    "run": false
 }

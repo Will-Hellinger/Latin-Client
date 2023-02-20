@@ -2,5 +2,6 @@
     "bear": true,
     "give back": false,
     "afflict": false,
-    "bring back": false
+    "bring back": false,
+    "carry": true
 }

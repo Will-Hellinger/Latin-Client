@@ -1,4 +1,5 @@
 {
     "scythe": true,
-    "sickle": true
+    "sickle": true,
+    "knife": false
 }

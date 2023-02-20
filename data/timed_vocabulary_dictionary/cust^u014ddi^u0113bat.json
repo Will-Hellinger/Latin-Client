@@ -1,5 +1,6 @@
 {
     "guard": true,
     "protect": true,
-    "defend": true
+    "defend": true,
+    "rest": false
 }

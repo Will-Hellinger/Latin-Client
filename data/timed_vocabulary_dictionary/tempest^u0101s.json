@@ -1,5 +1,6 @@
 {
     "storm": true,
     "weather": true,
-    "terror": false
+    "terror": false,
+    "time": false
 }

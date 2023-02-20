@@ -2,5 +2,6 @@
     "obtain": true,
     "meet with": true,
     "stumble upon": true,
-    "kill": false
+    "kill": false,
+    "hold": false
 }

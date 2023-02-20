@@ -1,4 +1,5 @@
 {
     "back": true,
-    "time": false
+    "time": false,
+    "test": false
 }

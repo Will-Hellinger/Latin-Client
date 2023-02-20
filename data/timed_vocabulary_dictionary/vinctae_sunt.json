@@ -2,5 +2,6 @@
     "bind": true,
     "tie": true,
     "fasten": true,
-    "overcome": true
+    "overcome": true,
+    "fly": false
 }

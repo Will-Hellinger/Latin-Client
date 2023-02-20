@@ -1,5 +1,6 @@
 {
     "can": true,
     "be able": true,
-    "obtain": false
+    "obtain": false,
+    "possess": false
 }

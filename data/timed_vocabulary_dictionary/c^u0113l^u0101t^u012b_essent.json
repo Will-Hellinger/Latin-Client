@@ -1,3 +1,4 @@
 {
-    "conceal": true
+    "conceal": true,
+    "distinguish": false
 }

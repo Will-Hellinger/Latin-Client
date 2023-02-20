@@ -2,5 +2,6 @@
     "amphora": true,
     "jar": true,
     "pitcher": true,
-    "love": false
+    "love": false,
+    "wine": false
 }

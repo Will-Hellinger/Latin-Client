@@ -1,3 +1,4 @@
 {
-    "name": true
+    "name": true,
+    "call": false
 }

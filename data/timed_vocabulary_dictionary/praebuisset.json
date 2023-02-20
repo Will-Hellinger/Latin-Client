@@ -1,3 +1,5 @@
 {
-    "show": true
+    "show": true,
+    "exhibit": true,
+    "advise": false
 }

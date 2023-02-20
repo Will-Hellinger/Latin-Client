@@ -1,5 +1,6 @@
 {
     "drag": true,
     "draw": true,
-    "cross": false
+    "cross": false,
+    "surrender": false
 }

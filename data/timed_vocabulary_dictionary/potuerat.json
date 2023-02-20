@@ -1,5 +1,7 @@
 {
     "can": true,
     "be able": true,
-    "be absent": false
+    "be absent": false,
+    "get ready": false,
+    "wish": false
 }

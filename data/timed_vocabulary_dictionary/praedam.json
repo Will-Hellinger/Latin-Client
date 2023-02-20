@@ -8,5 +8,6 @@
     "herself": true,
     "itself": true,
     "themselves": true,
-    "rumor": true
+    "rumor": true,
+    "help": false
 }

@@ -2,5 +2,6 @@
     "opinion": true,
     "appreciation": true,
     "prophecy": false,
-    "expectation": true
+    "expectation": true,
+    "opportunity": false
 }

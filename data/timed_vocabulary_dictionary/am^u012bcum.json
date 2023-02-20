@@ -2,5 +2,6 @@
     "enemy": false,
     "jar": false,
     "desire": true,
-    "love": false
+    "love": false,
+    "ambassador": false
 }

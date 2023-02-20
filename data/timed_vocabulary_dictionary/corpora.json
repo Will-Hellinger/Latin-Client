@@ -1,4 +1,5 @@
 {
     "body": true,
-    "command": false
+    "command": false,
+    "cow": false
 }

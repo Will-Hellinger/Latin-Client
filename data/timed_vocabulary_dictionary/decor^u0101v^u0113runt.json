@@ -1,5 +1,6 @@
 {
     "honor": true,
     "decorate": true,
-    "distinguish": true
+    "distinguish": true,
+    "lower": false
 }

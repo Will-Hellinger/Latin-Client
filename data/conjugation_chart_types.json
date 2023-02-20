@@ -1,0 +1,7 @@
+{
+    "first" : ["ō", "āre", "ī", "us"],
+    "second" : ["eō", "ēre", "ī", "us"],
+    "third" : ["ō", "ere", "ī", "us"],
+    "thirdI" : ["iō", "ere", "ī", "us"],
+    "fourth" : ["iō", "īre", "ī", "us"]
+}

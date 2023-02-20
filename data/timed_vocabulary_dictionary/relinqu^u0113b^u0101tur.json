@@ -1,5 +1,6 @@
 {
     "leave": true,
     "leave behind": true,
-    "abandon": true
+    "abandon": true,
+    "bring": false
 }
