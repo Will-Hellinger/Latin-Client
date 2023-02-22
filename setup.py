@@ -20,7 +20,7 @@ def save_file(data, file):
 def run():
     try:
         if not os.path.exists('settings.json'):
-            shutil.copyfile(f'.{subDirectory}data{subDirectory}backup{subDirectory}base_settings.json', f'.{subDirectory}settings.json')
+            shutil.copyfile(f'.{subDirectory}data{subDirectory}backup{subDirectory}base_settings.json', f'.{subDirectory}data{subDirectory}settings.json')
     
         if str(json.load(open('settings.json'))['configuration']['browser-type']) == "none":
             webbrowserTypes = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera']

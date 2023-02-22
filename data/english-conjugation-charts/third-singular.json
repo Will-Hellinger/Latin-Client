@@ -1,0 +1,48 @@
+{
+    "PARTICIPLE" : {
+        "ACTIVE" : {
+            "PRESENT" : "*VBG*",
+            "FUTURE" : "about to *VB*"
+        },
+        "PASSIVE" : {
+            "PERFECT" : "*VBN*",
+            "FUTURE" : "about to be *VBN*"
+        }
+    },
+
+    "INFINITIVE" : {
+        "ACTIVE" : {
+            "PRESENT" : "to *VB*",
+            "FUTURE" : "to be about to *VB*",
+            "PERFECT" : "to have *VBN*"
+        },
+        "PASSIVE" : {
+            "PRESENT" : "to be *VBN*",
+            "PERFECT" : "to have been *VBN*"
+        }
+    },
+
+    "INDICATIVE" : {
+        "ACTIVE" : {
+            "PRESENT" : "She *VBZ*",
+            "IMPERFECT" : "She was *VBG*",
+            "FUTURE" : "She will *VB*",
+            "PERFECT" : "She *VBD*",
+            "PLUPERFECT" : "She had *VBN*",
+            "FUTURE-PERFECT" : "She will have *VBN*"
+        },
+        "PASSIVE" : {
+            "PRESENT" : "She is being *VBN*",
+            "IMPERFECT" : "She was *VBN*",
+            "FUTURE" : "She will be *VBN*",
+            "PERFECT" : "She was *VBN*",
+            "PLUPERFECT" : "She had been *VBN*",
+            "FUTURE-PERFECT" : "She will have been *VBN*"
+        }
+    },
+
+    "IMPERATIVE" : {
+        "ACTIVE" : "*VB*",
+        "PASSIVE" : "be *VBN*"
+    }
+}
