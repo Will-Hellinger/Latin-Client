@@ -7,5 +7,6 @@
     "event": true,
     "fact": true,
     "consideration": true,
-    "duty": false
+    "duty": false,
+    "king": false
 }

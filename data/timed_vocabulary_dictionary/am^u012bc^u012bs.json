@@ -2,5 +2,6 @@
     "pitcher": false,
     "friendly": true,
     "ambassador": false,
-    "friend": true
+    "friend": true,
+    "jar": false
 }

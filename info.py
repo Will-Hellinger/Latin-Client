@@ -56,3 +56,17 @@ try:
         schoologyPass = str(json.load(open(f'{path}settings.json'))['schoology']['password'])
 except:
     setup.run()
+
+
+def encodeFilename(file_name: str):
+    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
+    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
+    for a in range(len(removeList)):
+        file_name = file_name.replace(str(removeList[a]), str(replaceList[a]))
+    return file_name
+
+
+def save_file(file: bytes, data: dict):
+    file.seek(0)
+    json.dump(data, file, indent=4)
+    file.truncate()

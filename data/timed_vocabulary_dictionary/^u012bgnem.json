@@ -1,4 +1,6 @@
 {
     "fire": true,
-    "blow": false
+    "blow": false,
+    "hit": false,
+    "island": false
 }

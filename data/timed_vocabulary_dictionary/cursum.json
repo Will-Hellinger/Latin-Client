@@ -1,5 +1,7 @@
 {
     "run": true,
     "course": true,
-    "protect": false
+    "protect": false,
+    "greed": false,
+    "desire": false
 }

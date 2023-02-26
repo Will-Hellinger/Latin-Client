@@ -1,4 +1,5 @@
 {
     "night": true,
-    "day": false
+    "day": false,
+    "time": false
 }

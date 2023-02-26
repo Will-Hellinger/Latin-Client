@@ -1,8 +1,10 @@
 from web_driver import *
-import json, time
+import json
+import time
 from info import *
 
 dictionary = 'latin_dictionary'
+keysDictionary = 'reading_keys'
 
 def save_file(file: bytes, data: dict):
     file.seek(0)
@@ -94,3 +96,30 @@ def learn_words():
             save_file(file, data)
 
     print('Done Scanning        ')
+
+
+def build_key():
+    global keysDictionary
+
+    user = str(str(str(driver.find_element(By.ID, 'graspHead').text).split("'s")[0]).upper())
+    readingName = str(driver.find_element(By.ID, 'graspHead').text).replace(f"{user}'s ", '')
+    print(f'Building key for: {readingName}')
+    readingName = encodeFilename(readingName)
+
+    if not os.path.exists(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json'):
+        with open(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json', mode='w') as file:
+            file.write('{\n"percentage" : "0%",\n"answers" : {}}')
+
+    with open(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json', encoding='utf-8', mode='r+') as file:
+        data = json.load(file)
+        graspLength = driver.execute_script('var denom = $("[data-grasp]").length; return denom;')
+
+        data['percentage'] = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text).replace(' correct', '')
+
+        for a in range(graspLength):
+            textbox = driver.find_element(By.XPATH, f'// textarea[@data-grasp="{a+1}"]')
+            driver.execute_script("arguments[0].scrollIntoView();", textbox)
+
+            if 'rgb(0, 128, 0)' in str(textbox.get_attribute('style')): #rgb(0, 128, 0) is the correct color indicator (green)
+                data['answers'][a+1] = str(textbox.text)
+        save_file(file, data)

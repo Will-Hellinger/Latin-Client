@@ -2,5 +2,6 @@
     "land": true,
     "with orbis: earth": true,
     "with orbis: world": true,
-    "with orbis: universe": true
+    "with orbis: universe": true,
+    "terrify": false
 }

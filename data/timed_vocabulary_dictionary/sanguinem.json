@@ -1,4 +1,5 @@
 {
     "snake": false,
-    "blood": true
+    "blood": true,
+    "wound": false
 }

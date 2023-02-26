@@ -1,4 +1,5 @@
 {
     "return": false,
-    "accept": true
+    "accept": true,
+    "abandon": false
 }

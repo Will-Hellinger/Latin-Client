@@ -1,4 +1,6 @@
 {
     "beginning": true,
-    "weaken": false
+    "weaken": false,
+    "give": false,
+    "do": true
 }

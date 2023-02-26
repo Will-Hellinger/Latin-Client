@@ -1,4 +1,5 @@
 {
     "contest": true,
-    "competition": true
+    "competition": true,
+    "deer": false
 }

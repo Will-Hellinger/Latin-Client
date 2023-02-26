@@ -1,4 +1,5 @@
 {
     "decide": false,
-    "hurl": false
+    "hurl": false,
+    "yield": false
 }

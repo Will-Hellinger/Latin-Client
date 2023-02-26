@@ -1,4 +1,5 @@
 {
     "command": true,
-    "order": true
+    "order": true,
+    "attack": false
 }

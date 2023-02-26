@@ -1,5 +1,6 @@
 {
     "set free": true,
     "free": true,
-    "wooden": false
+    "wooden": false,
+    "wood": false
 }

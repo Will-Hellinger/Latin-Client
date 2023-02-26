@@ -1,4 +1,5 @@
 {
     "attempt": true,
-    "try": true
+    "try": true,
+    "follow": false
 }

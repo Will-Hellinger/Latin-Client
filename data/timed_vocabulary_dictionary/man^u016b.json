@@ -1,4 +1,5 @@
 {
     "hand": true,
-    "foot": true
+    "foot": true,
+    "stay": false
 }

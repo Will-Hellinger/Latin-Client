@@ -2,5 +2,6 @@
     "learn": true,
     "change": false,
     "collect": false,
-    "command": false
+    "command": false,
+    "cover": false
 }

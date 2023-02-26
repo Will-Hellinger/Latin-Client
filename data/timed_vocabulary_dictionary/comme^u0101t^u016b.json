@@ -1,5 +1,6 @@
 {
     "supplies": true,
     "passage": true,
-    "provisions": true
+    "provisions": true,
+    "visit": true
 }

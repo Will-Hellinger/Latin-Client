@@ -2,5 +2,6 @@
     "time": false,
     "name": false,
     "day": false,
-    "noise": false
+    "noise": false,
+    "night": true
 }

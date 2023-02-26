@@ -4,5 +4,6 @@
     "drive": false,
     "do": true,
     "know": false,
-    "wear": true
+    "wear": true,
+    "understand": false
 }

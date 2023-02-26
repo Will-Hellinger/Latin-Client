@@ -1,4 +1,5 @@
 {
     "grain": true,
-    "fodder": true
+    "fodder": true,
+    "gym": false
 }

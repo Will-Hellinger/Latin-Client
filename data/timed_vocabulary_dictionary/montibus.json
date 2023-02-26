@@ -1,4 +1,5 @@
 {
     "mountain": true,
-    "hill": true
+    "hill": true,
+    "monster": false
 }

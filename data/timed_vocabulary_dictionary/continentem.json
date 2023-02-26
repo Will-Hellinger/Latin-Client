@@ -3,5 +3,7 @@
     "bound": true,
     "surround": true,
     "(continenter) continuously": true,
-    "(continens, -ntis) mainland": true
+    "(continens, -ntis) mainland": true,
+    "contest": false,
+    "grasp": false
 }

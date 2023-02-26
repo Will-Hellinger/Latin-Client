@@ -1,3 +1,4 @@
 {
-    "sit": true
+    "sit": true,
+    "follow": false
 }

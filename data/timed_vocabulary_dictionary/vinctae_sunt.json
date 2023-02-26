@@ -3,5 +3,6 @@
     "tie": true,
     "fasten": true,
     "overcome": true,
-    "fly": false
+    "fly": false,
+    "avoid": false
 }

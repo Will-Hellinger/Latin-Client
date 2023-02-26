@@ -1,5 +1,6 @@
 {
     "throw": true,
     "hurl": true,
-    "halt": false
+    "halt": false,
+    "decide": false
 }

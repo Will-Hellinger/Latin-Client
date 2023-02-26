@@ -1,5 +1,6 @@
 {
     "appear": true,
     "be visible": true,
-    "[with dat.] obey": true
+    "[with dat.] obey": true,
+    "fear": false
 }

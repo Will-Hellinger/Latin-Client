@@ -1,5 +1,7 @@
 {
     "occupy": false,
     "cut down": true,
-    "destroy": false
+    "destroy": false,
+    "slay": true,
+    "kill": true
 }

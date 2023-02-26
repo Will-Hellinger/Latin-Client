@@ -1,5 +1,6 @@
 {
     "instruct": true,
     "advise": true,
-    "throw down": false
+    "throw down": false,
+    "hurry": false
 }

@@ -2,5 +2,6 @@
     "report": true,
     "surrender": true,
     "hand over": true,
-    "deliver": true
+    "deliver": true,
+    "lead across": false
 }

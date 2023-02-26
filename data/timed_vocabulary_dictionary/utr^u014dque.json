@@ -2,5 +2,6 @@
     "each": true,
     "either": true,
     "both": true,
-    "rest": false
+    "rest": false,
+    "first": false
 }

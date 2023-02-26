@@ -2,5 +2,6 @@
     "first": false,
     "small": true,
     "many": false,
-    "little": true
+    "little": true,
+    "large": false
 }

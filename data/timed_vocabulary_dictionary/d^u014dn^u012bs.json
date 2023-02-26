@@ -1,5 +1,6 @@
 {
     "gift": true,
     "pain": false,
-    "torture": false
+    "torture": false,
+    "punishment": true
 }

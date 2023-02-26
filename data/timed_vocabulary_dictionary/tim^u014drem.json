@@ -1,4 +1,6 @@
 {
     "fear": true,
-    "dread": true
+    "dread": true,
+    "fury": false,
+    "consideration": false
 }

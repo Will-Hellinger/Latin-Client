@@ -1,4 +1,7 @@
 {
     "city": true,
-    "box": false
+    "box": false,
+    "chest": false,
+    "wave": false,
+    "art": false
 }

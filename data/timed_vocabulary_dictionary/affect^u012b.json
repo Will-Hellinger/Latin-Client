@@ -1,4 +1,5 @@
 {
     "flee": false,
-    "offer": false
+    "offer": false,
+    "escape": false
 }

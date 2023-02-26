@@ -1,4 +1,5 @@
 {
     "town": true,
-    "job": false
+    "job": false,
+    "work": false
 }

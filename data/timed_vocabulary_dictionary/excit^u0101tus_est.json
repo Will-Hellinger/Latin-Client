@@ -3,5 +3,6 @@
     "arouse": true,
     "wake": true,
     "awake": true,
-    "excite": true
+    "excite": true,
+    "teach": false
 }

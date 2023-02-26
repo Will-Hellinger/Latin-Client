@@ -1,5 +1,6 @@
 {
     "forest": true,
     "woods": true,
-    "sickle": false
+    "sickle": false,
+    "lap": false
 }

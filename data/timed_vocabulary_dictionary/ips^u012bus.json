@@ -5,5 +5,6 @@
     "themselves": true,
     "the very ___": true,
     "my": false,
-    "this": true
+    "this": true,
+    "those": false
 }

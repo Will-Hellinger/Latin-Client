@@ -51,6 +51,8 @@ def find_details():
     global conjugationNames, totalConjugations, blocks
     #Finds latin conjugation type
     chart = 'first' # temp
+    chartBackup = []
+    chartFound = False
 
     latinWords = []
     for a in range(len(blocks)):
@@ -60,12 +62,20 @@ def find_details():
             latinWords.append(f'unable to get word {a}')
 
     for a in range(len(totalConjugations)):
-        chartFound = True
+        tempchartFound = True
+        count = 0
         for b in range(len(totalConjugations[a])):
-            if not latinWords[b].endswith(totalConjugations[a][b]):
-                chartFound = False
-        if chartFound == True:
+            if latinWords[b].endswith(totalConjugations[a][b]):
+                count += 1
+            elif not latinWords[b].endswith(totalConjugations[a][b]):
+                tempchartFound = False
+        if tempchartFound == True:
             chart = conjugationNames[a]
+            chartFound = True
+        chartBackup.append(count)
+    
+    if chartFound == False:
+        chart = conjugationNames[chartBackup.index(max(chartBackup))] #this is a fallback in case it cant find the chart regularly
 
     english_word = find_word(driver.find_elements(By.XPATH, f"// li[@class='ui-block-e']")).split(' |')[0]
     tense = find_word(driver.find_elements(By.XPATH, f"// li[@class='ui-block-e']")).split('| ')[1]

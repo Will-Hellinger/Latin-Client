@@ -1,5 +1,8 @@
 {
     "bring": false,
     "leave": true,
-    "repeat": false
+    "repeat": false,
+    "arrive": false,
+    "remind": true,
+    "receive": false
 }

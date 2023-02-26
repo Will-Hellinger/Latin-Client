@@ -1,4 +1,5 @@
 {
     "light": true,
-    "approach": false
+    "approach": false,
+    "fill": false
 }

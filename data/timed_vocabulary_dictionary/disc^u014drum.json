@@ -1,4 +1,5 @@
 {
     "discus": true,
-    "contest": false
+    "contest": false,
+    "place": false
 }

@@ -45,7 +45,7 @@ def debugger_tool():
     window.close()
 
 
-update = True
+update = False
 
 ## DEV TOOL
 if len(sys.argv) >= 2:
@@ -202,6 +202,12 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
             doAction = False
+        if enterKey == True:
+            try:
+                readings.build_key()
+            except Exception as error:
+                print(f'error: {error}')
+            enterKey = False
     elif mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you

@@ -2,5 +2,6 @@
     "abandon": false,
     "disappear": false,
     "learn": false,
-    "disembark": false
+    "disembark": false,
+    "dismiss": false
 }

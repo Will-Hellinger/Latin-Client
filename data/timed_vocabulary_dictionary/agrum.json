@@ -1,5 +1,6 @@
 {
     "farm": true,
     "border": false,
-    "field": true
+    "field": true,
+    "skill": false
 }

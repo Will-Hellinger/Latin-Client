@@ -12,5 +12,6 @@
     "they": true,
     "them": true,
     "their": true,
-    "theirs": true
+    "theirs": true,
+    "the same ____": false
 }

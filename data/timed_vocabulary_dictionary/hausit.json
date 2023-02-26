@@ -3,5 +3,6 @@
     "drink": true,
     "drain": true,
     "draw": true,
-    "dine": false
+    "dine": false,
+    "inhabit": false
 }

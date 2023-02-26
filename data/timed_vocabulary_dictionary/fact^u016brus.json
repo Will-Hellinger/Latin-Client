@@ -2,5 +2,6 @@
     "make": true,
     "work": false,
     "do": true,
-    "complete": false
+    "complete": false,
+    "weaken": false
 }

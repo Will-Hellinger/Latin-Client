@@ -1,4 +1,5 @@
 {
     "stone": true,
-    "jaws": false
+    "jaws": false,
+    "torture": false
 }

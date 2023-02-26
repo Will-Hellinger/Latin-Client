@@ -1,4 +1,5 @@
 {
     "seek": true,
-    "attack": true
+    "attack": true,
+    "push": false
 }

@@ -1,3 +1,5 @@
 {
-    "body": true
+    "body": true,
+    "cow": false,
+    "combat": false
 }

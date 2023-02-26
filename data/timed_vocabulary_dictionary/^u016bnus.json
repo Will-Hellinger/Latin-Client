@@ -1,5 +1,6 @@
 {
     "one": true,
     "proceed": true,
-    "advance": true
+    "advance": true,
+    "good": false
 }

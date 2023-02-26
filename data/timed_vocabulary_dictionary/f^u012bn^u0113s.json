@@ -3,5 +3,6 @@
     "border": true,
     "end": true,
     "(plural: territory)": true,
-    "(with facere) finish": true
+    "(with facere) finish": true,
+    "scythe": true
 }

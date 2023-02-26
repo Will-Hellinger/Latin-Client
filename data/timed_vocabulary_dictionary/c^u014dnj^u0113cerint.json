@@ -1,4 +1,6 @@
 {
     "throw": true,
-    "hurl": true
+    "hurl": true,
+    "stop": false,
+    "meet": true
 }

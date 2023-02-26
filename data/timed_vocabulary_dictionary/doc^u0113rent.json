@@ -1,5 +1,6 @@
 {
     "teach": true,
     "expose": false,
-    "do": false
+    "do": false,
+    "be quiet": false
 }

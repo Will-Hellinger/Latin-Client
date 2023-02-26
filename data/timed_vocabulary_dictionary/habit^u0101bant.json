@@ -3,5 +3,6 @@
     "dwell (in)": true,
     "inhabit": true,
     "live": true,
-    "have": false
+    "have": false,
+    "dwell": true
 }

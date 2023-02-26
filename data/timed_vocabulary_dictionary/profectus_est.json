@@ -1,5 +1,6 @@
 {
     "depart": true,
     "start out": true,
-    "set out": true
+    "set out": true,
+    "labor": false
 }

@@ -1,5 +1,6 @@
 {
     "say": true,
     "speak": true,
-    "announce": true
+    "announce": true,
+    "divide": false
 }

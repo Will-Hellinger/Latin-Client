@@ -1,4 +1,5 @@
 {
     "column": false,
-    "enormous": false
+    "enormous": false,
+    "dangerous": false
 }

@@ -1,5 +1,6 @@
 {
     "friend": true,
     "friendly": true,
-    "enemy": false
+    "enemy": false,
+    "love": false
 }

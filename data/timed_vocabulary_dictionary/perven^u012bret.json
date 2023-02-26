@@ -1,4 +1,6 @@
 {
     "aim": false,
-    "arrive": true
+    "arrive": true,
+    "stretch": false,
+    "lead": false
 }

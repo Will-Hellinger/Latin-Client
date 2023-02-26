@@ -1,5 +1,6 @@
 {
     "kill": true,
     "cut down": true,
-    "slay": true
+    "slay": true,
+    "cut off": false
 }

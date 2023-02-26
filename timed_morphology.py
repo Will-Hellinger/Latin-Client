@@ -1,5 +1,6 @@
 from web_driver import *
-import time, json, random
+import time
+import json
 from info import *
 
 form_element = 'timedMorph_form'
@@ -56,11 +57,6 @@ def wait_reload(word1: str, word2: str, choice: bool):
             elif choice == False:
                 driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
 
-def save_file(file: bytes, data: dict):
-    file.seek(0)
-    json.dump(data, file, indent=4)
-    file.truncate()
-
 
 def solver():
     word = str(driver.find_element(By.XPATH, f"// p[@id='{form_element}']").text).split('\n')[0]
@@ -68,10 +64,7 @@ def solver():
     file_name = (str(word.replace(" ", "_")).encode("unicode-escape")).decode("utf-8").replace("\\", "^")
 
     #This is honestly only for windows
-    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
-    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
-    for a in range(len(removeList)):
-        file_name = file_name.replace(str(removeList[a]), str(replaceList[a]))
+    file_name = encodeFilename(file_name)
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}{morphology_dictionary}{subDirectory}{file_name}.json'):
         print(f'{word} not found, creating entry.', end='\r')

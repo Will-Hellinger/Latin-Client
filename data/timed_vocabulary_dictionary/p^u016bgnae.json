@@ -1,5 +1,6 @@
 {
     "battle": true,
     "fight": true,
-    "combat": true
+    "combat": true,
+    "wood": false
 }

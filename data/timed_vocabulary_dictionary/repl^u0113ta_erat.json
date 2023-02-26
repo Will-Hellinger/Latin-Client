@@ -1,4 +1,5 @@
 {
     "fill": true,
-    "refill": true
+    "refill": true,
+    "exhaust": false
 }

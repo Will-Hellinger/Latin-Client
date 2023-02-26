@@ -4,5 +4,7 @@
     "(plural) troops": true,
     "supplies": true,
     "supply": true,
-    "body": false
+    "body": false,
+    "plan": false,
+    "sight": false
 }

@@ -1,5 +1,6 @@
 {
     "quick": true,
     "swift": true,
-    "certain": false
+    "certain": false,
+    "light": false
 }

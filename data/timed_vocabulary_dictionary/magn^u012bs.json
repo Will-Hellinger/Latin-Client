@@ -2,5 +2,6 @@
     "big": true,
     "large": true,
     "great": true,
-    "good": false
+    "good": false,
+    "small": false
 }

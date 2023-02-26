@@ -1,3 +1,4 @@
 {
-    "board": true
+    "board": true,
+    "gaze": false
 }

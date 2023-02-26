@@ -1,4 +1,5 @@
 {
     "grasp": false,
-    "reinforce": false
+    "reinforce": false,
+    "finish": true
 }

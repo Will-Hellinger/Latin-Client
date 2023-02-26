@@ -1,4 +1,5 @@
 {
     "fail": false,
-    "kill": false
+    "kill": false,
+    "make": true
 }

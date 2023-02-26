@@ -3,5 +3,6 @@
     "repeat": true,
     "give back": true,
     "render": true,
-    "run away": false
+    "run away": false,
+    "abandon": false
 }

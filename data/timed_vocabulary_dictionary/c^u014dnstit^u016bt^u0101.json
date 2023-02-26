@@ -2,5 +2,7 @@
     "hurl": false,
     "consult": false,
     "spend": false,
-    "consume": false
+    "consume": false,
+    "throw": false,
+    "resolve": true
 }

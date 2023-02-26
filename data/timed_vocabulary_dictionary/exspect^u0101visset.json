@@ -1,5 +1,6 @@
 {
     "wait (for)": true,
     "await": true,
-    "expect": true
+    "expect": true,
+    "expose": false
 }

@@ -1,4 +1,5 @@
 {
     "demand": true,
-    "pray": false
+    "pray": false,
+    "request": false
 }

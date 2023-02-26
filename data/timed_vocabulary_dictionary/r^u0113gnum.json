@@ -3,5 +3,7 @@
     "kingdom": true,
     "(with obtin\u0113re) rule": true,
     "queen": false,
-    "palace": false
+    "palace": false,
+    "king": false,
+    "strength": false
 }
