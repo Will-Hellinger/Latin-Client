@@ -1,4 +1,6 @@
 {
     "find": false,
-    "understand": false
+    "understand": false,
+    "wage": true,
+    "carry on": true
 }

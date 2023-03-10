@@ -3,5 +3,7 @@
     "grasp": true,
     "grab": true,
     "display": false,
-    "plunder": false
+    "plunder": false,
+    "keep away": false,
+    "reward": false
 }

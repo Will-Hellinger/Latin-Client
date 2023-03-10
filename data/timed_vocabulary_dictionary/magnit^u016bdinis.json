@@ -1,3 +1,4 @@
 {
-    "size": true
+    "size": true,
+    "magic": false
 }

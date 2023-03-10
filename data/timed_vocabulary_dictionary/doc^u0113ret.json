@@ -2,5 +2,6 @@
     "teach": true,
     "instruct": true,
     "explain": true,
-    "be quiet": false
+    "be quiet": false,
+    "set on shore": false
 }

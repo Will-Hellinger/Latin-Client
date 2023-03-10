@@ -1,5 +1,6 @@
 {
     "mind": true,
     "soul": true,
-    "year": false
+    "year": false,
+    "snake": false
 }

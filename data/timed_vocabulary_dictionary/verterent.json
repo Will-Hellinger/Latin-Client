@@ -1,5 +1,6 @@
 {
     "turn": true,
     "escape": false,
-    "wish": false
+    "wish": false,
+    "want": false
 }

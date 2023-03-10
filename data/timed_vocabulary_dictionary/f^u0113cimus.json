@@ -4,5 +4,7 @@
     "make": true,
     "(with certior) inform": true,
     "complete": false,
-    "fail": false
+    "fail": false,
+    "weaken": false,
+    "drive": false
 }

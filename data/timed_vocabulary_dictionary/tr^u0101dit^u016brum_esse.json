@@ -1,5 +1,6 @@
 {
     "report": true,
     "break through": false,
-    "lead": false
+    "lead": false,
+    "lead across": false
 }

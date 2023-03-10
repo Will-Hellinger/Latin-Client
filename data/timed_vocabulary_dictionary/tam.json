@@ -1,5 +1,6 @@
 {
     "so": true,
     "next": false,
-    "finally": false
+    "finally": false,
+    "then": false
 }

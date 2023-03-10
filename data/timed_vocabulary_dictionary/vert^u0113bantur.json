@@ -1,3 +1,5 @@
 {
-    "turn": true
+    "turn": true,
+    "want": false,
+    "force": false
 }

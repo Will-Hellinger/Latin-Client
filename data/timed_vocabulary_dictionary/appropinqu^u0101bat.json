@@ -1,5 +1,7 @@
 {
     "approach": true,
     "draw near": true,
-    "affect": false
+    "affect": false,
+    "open": false,
+    "accept": false
 }

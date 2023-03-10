@@ -4,5 +4,7 @@
     "return": true,
     "repeat": true,
     "give back": true,
-    "render": true
+    "render": true,
+    "for": false,
+    "out of": false
 }

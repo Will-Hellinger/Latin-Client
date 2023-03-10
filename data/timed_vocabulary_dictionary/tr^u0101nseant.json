@@ -1,3 +1,6 @@
 {
-    "hand over": false
+    "hand over": false,
+    "cross": true,
+    "train": false,
+    "go across": true
 }

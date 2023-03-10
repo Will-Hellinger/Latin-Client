@@ -1,3 +1,5 @@
 {
-    "time": true
+    "time": true,
+    "weather": false,
+    "long": false
 }

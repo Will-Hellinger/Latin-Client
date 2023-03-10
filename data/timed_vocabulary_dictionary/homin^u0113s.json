@@ -1,4 +1,5 @@
 {
     "man": true,
-    "person": true
+    "person": true,
+    "girl": false
 }

@@ -3,5 +3,7 @@
     "grasp": false,
     "finish": true,
     "accomplish": true,
-    "strengthen": false
+    "strengthen": false,
+    "weaken": true,
+    "complete": true
 }

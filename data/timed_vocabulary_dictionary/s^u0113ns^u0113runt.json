@@ -1,5 +1,8 @@
 {
     "feel": true,
     "realize": true,
-    "sense": true
+    "sense": true,
+    "follow": false,
+    "sit": false,
+    "talk": false
 }

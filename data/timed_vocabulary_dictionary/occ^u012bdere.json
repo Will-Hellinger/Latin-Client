@@ -3,5 +3,6 @@
     "cut down": true,
     "slay": true,
     "destroy": false,
-    "occupy": true
+    "occupy": true,
+    "divide": false
 }

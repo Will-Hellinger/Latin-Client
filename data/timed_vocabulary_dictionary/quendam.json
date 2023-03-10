@@ -1,5 +1,7 @@
 {
     "some": true,
     "certain ___": true,
-    "the very ___": false
+    "the very ___": false,
+    "certain ___, a certain ___": true,
+    "whose": false
 }

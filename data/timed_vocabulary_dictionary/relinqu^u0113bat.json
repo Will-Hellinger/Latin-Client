@@ -2,5 +2,7 @@
     "leave": true,
     "leave behind": true,
     "abandon": true,
-    "hold back": false
+    "hold back": false,
+    "receive": false,
+    "approach": false
 }

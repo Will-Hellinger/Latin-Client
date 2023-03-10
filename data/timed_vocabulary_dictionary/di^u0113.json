@@ -1,3 +1,5 @@
 {
-    "day": true
+    "day": true,
+    "home": false,
+    "god": false
 }

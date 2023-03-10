@@ -1,4 +1,5 @@
 {
     "one": true,
-    "good": false
+    "good": false,
+    "next": false
 }

@@ -3,5 +3,6 @@
     "until": true,
     "proceed": true,
     "advance": true,
-    "lest": false
+    "lest": false,
+    "since": false
 }

@@ -2,5 +2,7 @@
     "this": true,
     "(plural: these)": true,
     "your(s)": false,
-    "these": true
+    "these": true,
+    "whom": false,
+    "those": false
 }

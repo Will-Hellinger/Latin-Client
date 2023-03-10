@@ -4,5 +4,7 @@
     "spend": false,
     "consume": false,
     "throw": false,
-    "resolve": true
+    "resolve": true,
+    "erect": true,
+    "set up": true
 }

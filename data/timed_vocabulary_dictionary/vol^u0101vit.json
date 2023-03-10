@@ -1,5 +1,6 @@
 {
     "escape": false,
     "climb": false,
-    "fly": true
+    "fly": true,
+    "land": false
 }

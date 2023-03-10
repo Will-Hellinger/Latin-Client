@@ -3,5 +3,6 @@
     "jar": false,
     "desire": true,
     "love": false,
-    "ambassador": false
+    "ambassador": false,
+    "friendly": true
 }

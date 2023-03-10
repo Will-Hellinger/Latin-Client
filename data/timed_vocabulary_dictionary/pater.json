@@ -1,4 +1,6 @@
 {
     "father": true,
-    "dread": false
+    "dread": false,
+    "fear": false,
+    "son": false
 }

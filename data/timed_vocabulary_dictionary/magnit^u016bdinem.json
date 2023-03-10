@@ -1,3 +1,5 @@
 {
-    "size": true
+    "size": true,
+    "madness": false,
+    "magic": false
 }

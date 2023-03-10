@@ -1,5 +1,6 @@
 {
     "job": true,
     "duty": true,
-    "task": true
+    "task": true,
+    "struggle": false
 }

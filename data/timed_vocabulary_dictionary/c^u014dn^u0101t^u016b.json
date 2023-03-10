@@ -1,5 +1,7 @@
 {
     "effort": true,
     "struggle": true,
-    "exertion": true
+    "exertion": true,
+    "task": false,
+    "yield": false
 }

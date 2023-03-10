@@ -1,3 +1,5 @@
 {
-    "boy": true
+    "boy": true,
+    "man": false,
+    "girl": false
 }

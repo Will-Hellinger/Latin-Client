@@ -1,4 +1,6 @@
 {
     "send": true,
-    "show": false
+    "show": false,
+    "hurry": false,
+    "hasten": false
 }

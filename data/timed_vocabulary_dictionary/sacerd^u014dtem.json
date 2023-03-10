@@ -1,3 +1,6 @@
 {
-    "priest": true
+    "priest": true,
+    "blood": false,
+    "sacrifice": false,
+    "honor": false
 }

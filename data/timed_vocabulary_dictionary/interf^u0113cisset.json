@@ -1,4 +1,7 @@
 {
     "kill": true,
-    "aim": false
+    "aim": false,
+    "afflict": false,
+    "affect": false,
+    "weaken": false
 }

@@ -2,5 +2,6 @@
     "priest": false,
     "safety": true,
     "deliverance": true,
-    "sanity": false
+    "sanity": false,
+    "arrow": false
 }

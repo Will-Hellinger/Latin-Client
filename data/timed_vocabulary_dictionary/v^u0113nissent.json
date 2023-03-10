@@ -3,5 +3,6 @@
     "come": true,
     "wind": false,
     "see": false,
-    "poison": false
+    "poison": false,
+    "go": false
 }

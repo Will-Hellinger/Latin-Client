@@ -2,5 +2,6 @@
     "help": false,
     "dare": false,
     "aid": false,
-    "hear": true
+    "hear": true,
+    "carry away": false
 }

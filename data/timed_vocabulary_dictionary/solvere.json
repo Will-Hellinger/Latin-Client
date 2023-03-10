@@ -1,5 +1,7 @@
 {
     "pay": true,
     "loosen": true,
-    "(with n\u0101vis) set sail": true
+    "(with n\u0101vis) set sail": true,
+    "sustain": false,
+    "remain": false
 }

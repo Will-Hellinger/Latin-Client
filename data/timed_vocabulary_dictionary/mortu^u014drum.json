@@ -1,5 +1,6 @@
 {
     "die": true,
     "point (out/at)": false,
-    "bite": false
+    "bite": false,
+    "move": false
 }

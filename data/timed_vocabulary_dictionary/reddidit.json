@@ -3,5 +3,7 @@
     "repeat": true,
     "give back": true,
     "render": true,
-    "flee": false
+    "flee": false,
+    "abandon": false,
+    "leave": false
 }

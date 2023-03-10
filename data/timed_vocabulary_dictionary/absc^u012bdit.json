@@ -1,4 +1,5 @@
 {
     "remove": true,
-    "cut off": true
+    "cut off": true,
+    "obey": false
 }

@@ -2,5 +2,7 @@
     "beginning": true,
     "weaken": false,
     "give": false,
-    "do": true
+    "do": true,
+    "stain": false,
+    "kill": false
 }

@@ -1,5 +1,6 @@
 {
     "drive": true,
     "collect": true,
-    "drive together": true
+    "drive together": true,
+    "place": false
 }

@@ -1,5 +1,7 @@
 {
     "here": true,
     "in this place": true,
-    "from here": false
+    "from here": false,
+    "to that place": false,
+    "hardly": false
 }

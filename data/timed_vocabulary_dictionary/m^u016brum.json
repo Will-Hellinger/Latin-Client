@@ -1,4 +1,5 @@
 {
     "wall": true,
-    "way": false
+    "way": false,
+    "mountain": false
 }

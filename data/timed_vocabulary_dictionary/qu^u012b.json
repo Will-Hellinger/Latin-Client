@@ -4,5 +4,6 @@
     "whose": true,
     "whom": true,
     "which": true,
-    "(as an adjective) what": true
+    "(as an adjective) what": true,
+    "since": false
 }

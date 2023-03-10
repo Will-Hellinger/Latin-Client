@@ -1,5 +1,7 @@
 {
     "receive": true,
     "accept": true,
-    "incur": true
+    "incur": true,
+    "advise": false,
+    "surrender": false
 }

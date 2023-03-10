@@ -1,4 +1,6 @@
 {
     "enemy": true,
-    "horse": false
+    "horse": false,
+    "horn": false,
+    "honor": false
 }

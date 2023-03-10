@@ -3,5 +3,6 @@
     "be visible": true,
     "[with dat.] obey": true,
     "divide": false,
-    "obey": true
+    "obey": true,
+    "get": false
 }

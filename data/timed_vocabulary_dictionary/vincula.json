@@ -1,4 +1,5 @@
 {
     "chain": true,
-    "room": false
+    "room": false,
+    "poison": false
 }

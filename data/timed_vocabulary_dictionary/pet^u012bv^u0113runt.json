@@ -1,5 +1,7 @@
 {
     "attack": true,
     "reach": false,
-    "lead": false
+    "lead": false,
+    "seek": true,
+    "arrive": false
 }

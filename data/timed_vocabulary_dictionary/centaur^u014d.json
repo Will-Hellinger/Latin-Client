@@ -1,5 +1,7 @@
 {
     "centaur": true,
     "horse": false,
-    "man": false
+    "man": false,
+    "competition": false,
+    "dog": false
 }

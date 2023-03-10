@@ -2,5 +2,8 @@
     "stop": true,
     "stand firm": true,
     "halt": true,
-    "consist (of)": true
+    "consist (of)": true,
+    "spend": false,
+    "hold back": false,
+    "attempt": false
 }

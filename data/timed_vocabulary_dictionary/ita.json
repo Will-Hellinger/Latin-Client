@@ -2,5 +2,7 @@
     "thus": true,
     "so": true,
     "(with ut) in such a way that": true,
-    "long since": false
+    "long since": false,
+    "still": false,
+    "immediately": false
 }

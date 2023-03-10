@@ -2,5 +2,6 @@
     "above": true,
     "earlier": true,
     "previously": true,
-    "at once": false
+    "at once": false,
+    "always": false
 }

@@ -1,3 +1,5 @@
 {
-    "god": true
+    "god": true,
+    "discus": false,
+    "district": false
 }

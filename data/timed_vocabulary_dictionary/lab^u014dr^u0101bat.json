@@ -1,5 +1,6 @@
 {
     "work": true,
     "labor": true,
-    "try": false
+    "try": false,
+    "task": false
 }

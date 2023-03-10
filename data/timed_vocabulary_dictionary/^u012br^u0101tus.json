@@ -5,5 +5,6 @@
     "enraged": true,
     "angered": true,
     "violent": true,
-    "ignorant": false
+    "ignorant": false,
+    "unlucky": false
 }

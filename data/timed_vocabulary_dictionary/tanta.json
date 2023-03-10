@@ -1,5 +1,7 @@
 {
     "so great": true,
     "such great": true,
-    "(adverbial: so much)": true
+    "(adverbial: so much)": true,
+    "many": false,
+    "moreover": false
 }

@@ -1,5 +1,7 @@
 {
     "repeat": false,
     "respond": false,
-    "receive": false
+    "receive": false,
+    "discover": true,
+    "bring": true
 }

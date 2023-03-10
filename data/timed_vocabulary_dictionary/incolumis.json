@@ -1,5 +1,7 @@
 {
     "column": false,
     "enormous": false,
-    "dangerous": false
+    "dangerous": false,
+    "hostile": false,
+    "unhappy": true
 }

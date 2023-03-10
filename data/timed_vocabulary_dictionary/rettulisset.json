@@ -1,4 +1,5 @@
 {
     "bring": true,
-    "flee": false
+    "flee": false,
+    "receive": false
 }

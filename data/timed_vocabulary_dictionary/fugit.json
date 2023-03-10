@@ -1,5 +1,6 @@
 {
     "run away": true,
     "flee": true,
-    "make": false
+    "make": false,
+    "do": false
 }

@@ -1,4 +1,5 @@
 {
     "arm": true,
-    "bravery": false
+    "bravery": false,
+    "hand": false
 }

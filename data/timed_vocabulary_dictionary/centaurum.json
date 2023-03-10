@@ -1,5 +1,8 @@
 {
     "centaur": true,
     "contest": false,
-    "horse": false
+    "horse": false,
+    "deer": false,
+    "competition": false,
+    "stag": false
 }

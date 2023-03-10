@@ -2,5 +2,6 @@
     "air": true,
     "breeze": true,
     "storm": false,
-    "age": false
+    "age": false,
+    "stone": false
 }

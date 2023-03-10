@@ -2,5 +2,6 @@
     "skill": false,
     "army": false,
     "field": true,
-    "border": false
+    "border": false,
+    "cow": false
 }

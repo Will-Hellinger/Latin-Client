@@ -1,4 +1,6 @@
 {
     "kill": true,
-    "cut off": false
+    "cut off": false,
+    "happen": false,
+    "run into": false
 }

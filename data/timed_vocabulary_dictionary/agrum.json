@@ -2,5 +2,6 @@
     "farm": true,
     "border": false,
     "field": true,
-    "skill": false
+    "skill": false,
+    "beach": false
 }

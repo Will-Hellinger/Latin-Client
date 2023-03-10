@@ -1,5 +1,7 @@
 {
     "meet with": true,
     "stumble upon": true,
-    "kill": false
+    "kill": false,
+    "possess": false,
+    "nap": false
 }

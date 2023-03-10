@@ -1,3 +1,6 @@
 {
-    "boat": true
+    "boat": true,
+    "life": false,
+    "light": false,
+    "slime": false
 }

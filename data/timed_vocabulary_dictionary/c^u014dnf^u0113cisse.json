@@ -1,3 +1,5 @@
 {
-    "weaken": true
+    "weaken": true,
+    "strengthen": false,
+    "accomplish": true
 }

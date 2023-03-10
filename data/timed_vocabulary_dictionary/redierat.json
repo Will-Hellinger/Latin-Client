@@ -1,5 +1,7 @@
 {
     "return": true,
     "go back": true,
-    "get back": false
+    "get back": false,
+    "discover": false,
+    "give back": false
 }

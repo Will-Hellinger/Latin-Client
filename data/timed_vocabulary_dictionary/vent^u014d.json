@@ -1,4 +1,5 @@
 {
     "poison": false,
-    "come": false
+    "come": true,
+    "turn": false
 }

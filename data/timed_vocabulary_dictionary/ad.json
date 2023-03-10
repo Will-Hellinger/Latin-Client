@@ -2,5 +2,6 @@
     "to": true,
     "toward": true,
     "near": true,
-    "at": true
+    "at": true,
+    "away from": false
 }

@@ -1,5 +1,6 @@
 {
     "flight": true,
     "retreat": true,
-    "fury": false
+    "fury": false,
+    "fly": false
 }

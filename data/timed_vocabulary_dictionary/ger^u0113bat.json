@@ -4,5 +4,8 @@
     "wage": true,
     "wear": true,
     "carry on": true,
-    "drive": false
+    "drive": false,
+    "make": true,
+    "find": false,
+    "come": false
 }

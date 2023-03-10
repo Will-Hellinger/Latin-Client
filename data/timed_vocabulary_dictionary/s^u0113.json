@@ -5,5 +5,7 @@
     "themselves": true,
     "proceed": true,
     "advance": true,
-    "his": false
+    "his": false,
+    "theirs": false,
+    "me": false
 }

@@ -1,3 +1,5 @@
 {
-    "rest": true
+    "rest": true,
+    "room": false,
+    "nap": true
 }

@@ -1,5 +1,6 @@
 {
     "bank": true,
     "woods": false,
-    "island": false
+    "island": false,
+    "tax": false
 }

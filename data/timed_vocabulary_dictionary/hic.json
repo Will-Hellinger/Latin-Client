@@ -1,5 +1,6 @@
 {
     "this": true,
     "(plural: these)": true,
-    "which": false
+    "which": false,
+    "those": false
 }

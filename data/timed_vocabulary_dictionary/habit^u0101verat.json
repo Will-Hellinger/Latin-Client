@@ -1,5 +1,8 @@
 {
     "live (in)": true,
     "dwell (in)": true,
-    "inhabit": true
+    "inhabit": true,
+    "dwell": true,
+    "home": false,
+    "have": false
 }

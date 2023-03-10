@@ -14,5 +14,6 @@
     "their": true,
     "theirs": true,
     "neither": false,
-    "each": false
+    "each": false,
+    "these": true
 }

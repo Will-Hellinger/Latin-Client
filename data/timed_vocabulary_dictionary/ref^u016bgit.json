@@ -2,5 +2,6 @@
     "run away": true,
     "flee": true,
     "go back": false,
-    "give back": false
+    "give back": false,
+    "attack": false
 }

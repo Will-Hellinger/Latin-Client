@@ -1,4 +1,5 @@
 {
     "offer": true,
-    "kill": false
+    "kill": false,
+    "take": false
 }

@@ -1,5 +1,7 @@
 {
     "from": true,
     "down from": true,
-    "about": true
+    "about": true,
+    "at": false,
+    "above": false
 }

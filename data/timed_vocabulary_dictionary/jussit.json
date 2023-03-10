@@ -1,5 +1,6 @@
 {
     "command": true,
     "order": true,
-    "instruct": false
+    "instruct": false,
+    "beg": false
 }

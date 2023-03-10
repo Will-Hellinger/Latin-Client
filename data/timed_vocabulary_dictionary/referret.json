@@ -3,5 +3,6 @@
     "bring": true,
     "bring back": true,
     "abandon": false,
-    "run away": false
+    "run away": false,
+    "leave behind": true
 }

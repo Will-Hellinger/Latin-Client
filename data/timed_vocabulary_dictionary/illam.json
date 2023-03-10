@@ -1,4 +1,6 @@
 {
     "that": true,
-    "(plural: those)": true
+    "(plural: those)": true,
+    "our(s)": false,
+    "himself": false
 }

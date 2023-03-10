@@ -1,4 +1,6 @@
 {
     "hear": true,
-    "listen": true
+    "listen": true,
+    "carry away": false,
+    "help": false
 }

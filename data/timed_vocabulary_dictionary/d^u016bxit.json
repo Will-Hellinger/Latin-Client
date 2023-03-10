@@ -1,4 +1,5 @@
 {
     "lead": true,
-    "announce": false
+    "announce": false,
+    "say": false
 }

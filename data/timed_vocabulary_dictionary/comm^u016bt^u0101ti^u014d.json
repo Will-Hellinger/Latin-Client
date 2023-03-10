@@ -1,5 +1,6 @@
 {
     "change": true,
     "reversal": true,
-    "command": false
+    "command": false,
+    "contest": false
 }

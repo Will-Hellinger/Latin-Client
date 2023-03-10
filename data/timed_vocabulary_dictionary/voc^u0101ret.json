@@ -1,4 +1,5 @@
 {
     "call": true,
-    "summon": true
+    "summon": true,
+    "invite": true
 }

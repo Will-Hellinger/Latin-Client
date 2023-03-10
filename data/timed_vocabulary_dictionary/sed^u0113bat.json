@@ -1,4 +1,5 @@
 {
     "sit": true,
-    "follow": false
+    "follow": false,
+    "realize": false
 }

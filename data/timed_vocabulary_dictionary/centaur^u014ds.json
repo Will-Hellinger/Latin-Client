@@ -1,3 +1,5 @@
 {
-    "centaur": true
+    "centaur": true,
+    "contest": false,
+    "horse": false
 }

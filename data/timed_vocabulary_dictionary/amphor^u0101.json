@@ -3,5 +3,6 @@
     "jar": true,
     "pitcher": true,
     "love": false,
-    "wine": false
+    "wine": false,
+    "cup": false
 }

@@ -1,5 +1,6 @@
 {
     "anyone": true,
     "anything": true,
-    "certain": false
+    "certain": false,
+    "some": false
 }

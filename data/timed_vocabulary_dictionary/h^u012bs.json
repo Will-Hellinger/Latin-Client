@@ -1,5 +1,6 @@
 {
     "this": true,
     "(plural: these)": true,
-    "themselves": false
+    "themselves": false,
+    "these": true
 }

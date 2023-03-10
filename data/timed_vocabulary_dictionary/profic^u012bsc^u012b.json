@@ -4,5 +4,7 @@
     "set out": true,
     "proceed": true,
     "advance": true,
-    "delay": false
+    "delay": false,
+    "labor": false,
+    "pursue": false
 }

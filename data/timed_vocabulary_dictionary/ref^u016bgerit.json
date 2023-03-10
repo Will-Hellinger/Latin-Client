@@ -1,4 +1,5 @@
 {
     "flee": true,
-    "attack": true
+    "attack": true,
+    "confuse": false
 }

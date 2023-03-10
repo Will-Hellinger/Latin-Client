@@ -1,4 +1,7 @@
 {
     "this": true,
-    "(plural: these)": true
+    "(plural: these)": true,
+    "whose": false,
+    "whom": false,
+    "me": false
 }

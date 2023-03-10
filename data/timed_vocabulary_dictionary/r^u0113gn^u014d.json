@@ -1,5 +1,7 @@
 {
     "power": true,
     "kingdom": true,
-    "(with obtin\u0113re) rule": true
+    "(with obtin\u0113re) rule": true,
+    "king": false,
+    "strength": false
 }

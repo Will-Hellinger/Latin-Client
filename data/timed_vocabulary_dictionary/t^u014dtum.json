@@ -1,5 +1,8 @@
 {
     "all": true,
     "whole": true,
-    "entire": true
+    "entire": true,
+    "every": true,
+    "such great": false,
+    "so great": false
 }

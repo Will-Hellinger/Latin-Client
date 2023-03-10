@@ -2,5 +2,6 @@
     "[idiomatic meanings vary]": true,
     "do": true,
     "drive": true,
-    "carry on": false
+    "carry on": false,
+    "push": false
 }

@@ -1,3 +1,5 @@
 {
-    "victim": true
+    "victim": true,
+    "plan": false,
+    "escape": false
 }

@@ -1,3 +1,6 @@
 {
-    "reward": false
+    "reward": false,
+    "sacrifice": true,
+    "temple": false,
+    "danger": false
 }

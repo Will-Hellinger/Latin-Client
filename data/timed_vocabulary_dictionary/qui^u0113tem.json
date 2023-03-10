@@ -2,5 +2,7 @@
     "sleep": true,
     "rest": true,
     "nap": true,
-    "room": false
+    "room": false,
+    "bedroom": false,
+    "whom": false
 }

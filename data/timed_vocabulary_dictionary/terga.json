@@ -1,5 +1,7 @@
 {
     "back": true,
     "time": false,
-    "test": false
+    "test": false,
+    "type": false,
+    "land": false
 }

@@ -4,5 +4,7 @@
     "fasten": true,
     "overcome": true,
     "fly": false,
-    "avoid": false
+    "avoid": false,
+    "escape": false,
+    "conquer": false
 }

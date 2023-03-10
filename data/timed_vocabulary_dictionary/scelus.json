@@ -1,5 +1,7 @@
 {
     "sin": true,
     "crime": true,
-    "sickle": false
+    "sickle": false,
+    "scythe": false,
+    "task": false
 }

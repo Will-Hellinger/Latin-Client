@@ -1,5 +1,6 @@
 {
     "teach": true,
     "instruct": true,
-    "explain": true
+    "explain": true,
+    "set on shore": false
 }

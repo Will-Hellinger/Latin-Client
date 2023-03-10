@@ -1,5 +1,6 @@
 {
     "name": false,
     "job": false,
-    "task": false
+    "task": false,
+    "duty": false
 }

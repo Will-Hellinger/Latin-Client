@@ -1,3 +1,4 @@
 {
-    "thousand": true
+    "thousand": true,
+    "one": false
 }

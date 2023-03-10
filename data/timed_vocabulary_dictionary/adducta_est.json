@@ -2,5 +2,6 @@
     "lead": true,
     "influence": true,
     "prompt": true,
-    "induce": true
+    "induce": true,
+    "permit": false
 }

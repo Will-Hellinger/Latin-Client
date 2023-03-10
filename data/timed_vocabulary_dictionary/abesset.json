@@ -1,4 +1,6 @@
 {
     "be away": true,
-    "be absent": true
+    "be absent": true,
+    "go to": false,
+    "send": false
 }

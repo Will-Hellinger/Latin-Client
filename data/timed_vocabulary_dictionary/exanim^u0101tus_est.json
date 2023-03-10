@@ -3,5 +3,8 @@
     "wear out": true,
     "tire out": true,
     "await": false,
-    "awake": false
+    "awake": false,
+    "wait": false,
+    "explain": false,
+    "arouse": false
 }

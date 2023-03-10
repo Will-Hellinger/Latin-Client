@@ -1,4 +1,5 @@
 {
     "kill": true,
-    "weaken": false
+    "weaken": false,
+    "stain": false
 }

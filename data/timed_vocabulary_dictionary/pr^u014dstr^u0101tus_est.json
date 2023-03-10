@@ -1,5 +1,6 @@
 {
     "throw down": true,
     "throw to the ground": true,
-    "loot": false
+    "loot": false,
+    "hasten": false
 }

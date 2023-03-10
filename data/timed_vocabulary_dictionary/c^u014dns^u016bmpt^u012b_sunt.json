@@ -1,4 +1,6 @@
 {
     "pass": true,
-    "consume": true
+    "consume": true,
+    "establish": false,
+    "spend": true
 }

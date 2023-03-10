@@ -3,5 +3,6 @@
     "wear out": true,
     "yell": false,
     "explain": false,
-    "awake": false
+    "awake": false,
+    "tire out": true
 }

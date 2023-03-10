@@ -1,5 +1,6 @@
 {
     "man": true,
     "person": true,
-    "soldier": false
+    "soldier": false,
+    "boy": false
 }

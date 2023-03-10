@@ -1,4 +1,6 @@
 {
     "stag": true,
-    "deer": true
+    "deer": true,
+    "competition": false,
+    "centaur": false
 }

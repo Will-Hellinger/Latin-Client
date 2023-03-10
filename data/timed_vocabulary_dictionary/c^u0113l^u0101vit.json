@@ -1,4 +1,5 @@
 {
     "conceal": true,
-    "distinguish": false
+    "distinguish": false,
+    "withdraw": false
 }

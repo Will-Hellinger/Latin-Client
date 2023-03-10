@@ -1,4 +1,6 @@
 {
     "return": true,
-    "go back": true
+    "go back": true,
+    "arrive": false,
+    "keep": false
 }

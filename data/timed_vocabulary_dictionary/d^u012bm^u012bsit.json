@@ -3,5 +3,6 @@
     "send away": true,
     "send out": true,
     "learn": false,
-    "depart": true
+    "depart": true,
+    "withdraw": false
 }

@@ -1,3 +1,5 @@
 {
-    "hope": true
+    "hope": true,
+    "appearance": false,
+    "spoil": false
 }

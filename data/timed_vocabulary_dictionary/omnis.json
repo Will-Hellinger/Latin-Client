@@ -1,4 +1,5 @@
 {
     "every": true,
-    "other": true
+    "other": true,
+    "all": true
 }

@@ -4,5 +4,7 @@
     "plunder": true,
     "prey": true,
     "spoil": true,
-    "reward": false
+    "reward": false,
+    "advice": false,
+    "help": false
 }

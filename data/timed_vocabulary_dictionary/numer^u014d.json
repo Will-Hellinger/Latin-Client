@@ -1,3 +1,5 @@
 {
-    "number": true
+    "number": true,
+    "messenger": false,
+    "job": false
 }

@@ -1,4 +1,5 @@
 {
     "light": true,
-    "receive": false
+    "receive": false,
+    "grab": false
 }

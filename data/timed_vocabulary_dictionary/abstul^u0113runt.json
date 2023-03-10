@@ -1,4 +1,6 @@
 {
     "remove": true,
-    "launch": false
+    "launch": false,
+    "dare": false,
+    "hear": false
 }

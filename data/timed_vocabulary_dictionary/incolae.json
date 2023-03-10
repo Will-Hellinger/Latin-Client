@@ -1,5 +1,6 @@
 {
     "city": false,
     "tail": false,
-    "island": false
+    "island": false,
+    "inhabitant": true
 }

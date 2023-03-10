@@ -4,5 +4,6 @@
     "surround": true,
     "embrace": true,
     "shake": false,
-    "entrust": false
+    "entrust": false,
+    "contain": false
 }

@@ -1,4 +1,6 @@
 {
     "select": false,
-    "deserve": false
+    "deserve": false,
+    "point (out/at)": true,
+    "demonstrate": true
 }

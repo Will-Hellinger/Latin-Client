@@ -1,4 +1,5 @@
 {
     "army": true,
-    "battle": false
+    "battle": false,
+    "expectation": false
 }

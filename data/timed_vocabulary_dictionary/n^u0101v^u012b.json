@@ -1,3 +1,6 @@
 {
-    "ship": true
+    "ship": true,
+    "nature": false,
+    "task": false,
+    "name": false
 }

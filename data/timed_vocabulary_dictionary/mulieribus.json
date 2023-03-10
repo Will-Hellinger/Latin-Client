@@ -1,4 +1,6 @@
 {
     "woman": true,
-    "crowd": false
+    "crowd": false,
+    "lowing": false,
+    "military": false
 }

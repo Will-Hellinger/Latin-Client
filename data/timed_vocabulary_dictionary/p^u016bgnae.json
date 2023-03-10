@@ -2,5 +2,8 @@
     "battle": true,
     "fight": true,
     "combat": true,
-    "wood": false
+    "wood": false,
+    "war": false,
+    "enemy": false,
+    "power": false
 }

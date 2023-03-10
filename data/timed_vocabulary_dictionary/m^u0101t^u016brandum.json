@@ -1,5 +1,6 @@
 {
     "hasten": true,
     "be silent": false,
-    "make amends (for)": false
+    "make amends (for)": false,
+    "command": false
 }

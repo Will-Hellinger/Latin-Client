@@ -13,5 +13,6 @@
     "them": true,
     "their": true,
     "theirs": true,
-    "the same ____": false
+    "the same ____": false,
+    "either": false
 }

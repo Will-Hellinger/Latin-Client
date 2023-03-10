@@ -1,4 +1,5 @@
 {
     "cause": true,
-    "reason": true
+    "reason": true,
+    "because of": false
 }

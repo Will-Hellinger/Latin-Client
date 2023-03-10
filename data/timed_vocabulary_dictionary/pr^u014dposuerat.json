@@ -1,3 +1,4 @@
 {
-    "propose": true
+    "propose": true,
+    "prohibit": false
 }

@@ -1,3 +1,5 @@
 {
-    "head": true
+    "head": true,
+    "carcass": false,
+    "reason": false
 }

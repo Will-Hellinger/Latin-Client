@@ -1,5 +1,6 @@
 {
     "other": true,
     "(correlative: one... the other...)": true,
-    "high": false
+    "high": false,
+    "alive": false
 }

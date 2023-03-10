@@ -1,5 +1,6 @@
 {
     "attempt": true,
     "try": true,
-    "follow": false
+    "follow": false,
+    "delay": false
 }

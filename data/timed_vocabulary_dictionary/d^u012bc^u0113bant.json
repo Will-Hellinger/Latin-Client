@@ -2,5 +2,6 @@
     "say": true,
     "speak": true,
     "announce": true,
-    "divide": false
+    "divide": false,
+    "depart": false
 }

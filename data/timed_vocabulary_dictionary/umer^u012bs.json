@@ -1,4 +1,6 @@
 {
     "shoulder": true,
-    "neck": false
+    "neck": false,
+    "shape": false,
+    "shower": false
 }

@@ -1,4 +1,5 @@
 {
     "sleep": true,
-    "display": false
+    "display": false,
+    "live": false
 }

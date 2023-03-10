@@ -1,5 +1,7 @@
 {
     "that": true,
     "(plural: those)": true,
-    "what": false
+    "what": false,
+    "our(s)": false,
+    "those": true
 }

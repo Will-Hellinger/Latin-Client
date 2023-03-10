@@ -2,5 +2,6 @@
     "instruct": true,
     "advise": true,
     "propose": false,
-    "hasten": false
+    "hasten": false,
+    "depart": false
 }

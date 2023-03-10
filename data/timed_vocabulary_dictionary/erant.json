@@ -2,5 +2,6 @@
     "be\n(am, is, are, was, were, be, being, been)": true,
     "summon": false,
     "decide": false,
-    "make": false
+    "make": false,
+    "be": true
 }

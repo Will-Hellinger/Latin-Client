@@ -1,4 +1,6 @@
 {
     "bridge": false,
-    "hill": true
+    "hill": true,
+    "habit": false,
+    "way": false
 }

@@ -1,4 +1,6 @@
 {
     "put on": true,
-    "depart": true
+    "depart": true,
+    "send": false,
+    "strip off": false
 }

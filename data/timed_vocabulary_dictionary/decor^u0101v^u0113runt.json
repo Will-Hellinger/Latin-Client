@@ -2,5 +2,6 @@
     "honor": true,
     "decorate": true,
     "distinguish": true,
-    "lower": false
+    "lower": false,
+    "dishonor": false
 }

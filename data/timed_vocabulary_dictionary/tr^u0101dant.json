@@ -2,5 +2,7 @@
     "report": true,
     "surrender": true,
     "hand over": true,
-    "deliver": true
+    "deliver": true,
+    "pierce": false,
+    "reputation": true
 }

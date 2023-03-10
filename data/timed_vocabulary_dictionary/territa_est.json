@@ -1,4 +1,6 @@
 {
     "frighten": true,
-    "scare": true
+    "scare": true,
+    "teach": false,
+    "test": false
 }

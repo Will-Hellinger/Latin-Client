@@ -4,5 +4,6 @@
     "cattle": true,
     "proceed": true,
     "advance": true,
-    "horse": false
+    "horse": false,
+    "deer": false
 }

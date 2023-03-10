@@ -1,4 +1,6 @@
 {
     "grain": true,
-    "fodder": true
+    "fodder": true,
+    "passage": false,
+    "swamp": false
 }

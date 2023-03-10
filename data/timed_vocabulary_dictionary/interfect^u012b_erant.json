@@ -1,4 +1,6 @@
 {
     "kill": true,
-    "throw": false
+    "throw": false,
+    "stain": false,
+    "affect": false
 }

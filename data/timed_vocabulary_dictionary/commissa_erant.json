@@ -1,4 +1,6 @@
 {
     "entrust": true,
-    "engage in": true
+    "engage in": true,
+    "combat": false,
+    "compress": false
 }

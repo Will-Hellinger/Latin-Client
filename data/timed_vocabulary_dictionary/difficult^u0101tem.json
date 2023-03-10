@@ -1,5 +1,6 @@
 {
     "trouble": true,
     "difficulty": true,
-    "despair": false
+    "despair": false,
+    "sleep": false
 }

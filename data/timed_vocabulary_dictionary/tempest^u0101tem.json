@@ -1,4 +1,5 @@
 {
     "storm": true,
-    "weather": true
+    "weather": true,
+    "land": false
 }

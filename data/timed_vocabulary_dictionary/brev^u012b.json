@@ -1,4 +1,5 @@
 {
     "short": true,
-    "brave": false
+    "brave": false,
+    "large": false
 }

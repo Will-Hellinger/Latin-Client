@@ -1,3 +1,5 @@
 {
-    "brother": true
+    "brother": true,
+    "son": false,
+    "father": false
 }

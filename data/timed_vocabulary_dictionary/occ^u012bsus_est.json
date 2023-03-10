@@ -3,5 +3,6 @@
     "cut down": true,
     "destroy": false,
     "slay": true,
-    "kill": true
+    "kill": true,
+    "come to pass": false
 }

@@ -1,4 +1,5 @@
 {
     "death": true,
-    "delay": false
+    "delay": false,
+    "terror": false
 }

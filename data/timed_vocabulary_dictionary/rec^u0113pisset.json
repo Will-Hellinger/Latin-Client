@@ -1,5 +1,7 @@
 {
     "return": false,
     "accept": true,
-    "abandon": false
+    "abandon": false,
+    "flee": false,
+    "answer": false
 }

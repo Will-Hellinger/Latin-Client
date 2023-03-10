@@ -1,5 +1,7 @@
 {
     "[idiomatic meanings vary]": true,
     "seize": true,
-    "take": true
+    "take": true,
+    "grasp": false,
+    "grab": false
 }

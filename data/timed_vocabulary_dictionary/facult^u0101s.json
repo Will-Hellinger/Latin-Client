@@ -1,4 +1,6 @@
 {
     "opportunity": true,
-    "fact": false
+    "fact": false,
+    "report": false,
+    "action": false
 }

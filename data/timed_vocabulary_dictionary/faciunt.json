@@ -1,4 +1,6 @@
 {
     "make": true,
-    "accomplish": false
+    "accomplish": false,
+    "stain": false,
+    "do": true
 }

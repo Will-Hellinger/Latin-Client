@@ -1,4 +1,5 @@
 {
     "run away": true,
-    "flee": true
+    "flee": true,
+    "attack": false
 }

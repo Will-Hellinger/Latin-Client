@@ -1,5 +1,6 @@
 {
     "find": false,
     "lose": true,
-    "move away": false
+    "move away": false,
+    "send into": true
 }

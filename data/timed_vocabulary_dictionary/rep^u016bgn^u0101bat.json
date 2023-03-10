@@ -1,4 +1,5 @@
 {
     "resist": true,
-    "fight back": true
+    "fight back": true,
+    "discover": false
 }

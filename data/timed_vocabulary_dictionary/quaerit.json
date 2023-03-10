@@ -2,5 +2,6 @@
     "ask": true,
     "inquire": true,
     "seek": true,
-    "look for": true
+    "look for": true,
+    "stare": false
 }

@@ -1,4 +1,5 @@
 {
     "this": true,
-    "(plural: these)": true
+    "(plural: these)": true,
+    "the same ____": false
 }

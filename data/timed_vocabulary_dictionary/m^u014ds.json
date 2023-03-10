@@ -1,4 +1,6 @@
 {
     "custom": true,
-    "habit": true
+    "habit": true,
+    "death": false,
+    "mother": false
 }

@@ -2,5 +2,6 @@
     "possess": true,
     "throw to": false,
     "block": false,
-    "chide": false
+    "chide": false,
+    "hold": true
 }

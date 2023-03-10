@@ -1,4 +1,5 @@
 {
     "heavy": true,
-    "serious": true
+    "serious": true,
+    "light": false
 }

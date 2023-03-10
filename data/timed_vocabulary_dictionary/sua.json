@@ -10,5 +10,6 @@
     "your(s)": false,
     "mine": false,
     "her": true,
-    "these": false
+    "these": false,
+    "its": true
 }
