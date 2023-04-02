@@ -1,5 +1,6 @@
 {
     "snake": false,
     "blood": true,
-    "wound": false
+    "wound": false,
+    "stain": false
 }

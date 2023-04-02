@@ -9,5 +9,6 @@
     "itself": true,
     "themselves": true,
     "rumor": true,
-    "help": false
+    "help": false,
+    "plan": false
 }

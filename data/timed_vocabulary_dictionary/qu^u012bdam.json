@@ -1,5 +1,7 @@
 {
     "some": true,
     "certain ___": true,
-    "this": false
+    "this": false,
+    "that": false,
+    "certain": true
 }

@@ -2,5 +2,6 @@
     "arrive (at)": true,
     "reach": true,
     "feel": false,
-    "arrive": true
+    "arrive": true,
+    "beat": false
 }

@@ -5,5 +5,6 @@
     "do": true,
     "know": false,
     "wear": true,
-    "understand": false
+    "understand": false,
+    "come": false
 }

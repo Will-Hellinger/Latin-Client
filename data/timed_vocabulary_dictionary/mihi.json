@@ -1,4 +1,6 @@
 {
     "I": true,
-    "me": true
+    "me": true,
+    "they": false,
+    "her": false
 }

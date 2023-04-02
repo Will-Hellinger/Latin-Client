@@ -1,5 +1,6 @@
 {
     "neck": true,
     "column": false,
-    "dog": false
+    "dog": false,
+    "head": true
 }

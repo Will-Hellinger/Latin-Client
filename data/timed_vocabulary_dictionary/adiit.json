@@ -2,5 +2,6 @@
     "approach": true,
     "draw near": true,
     "go to": true,
-    "apply": false
+    "apply": false,
+    "undergo": false
 }

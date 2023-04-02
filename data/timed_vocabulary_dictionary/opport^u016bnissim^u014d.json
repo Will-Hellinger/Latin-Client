@@ -1,4 +1,7 @@
 {
     "advantageous": true,
-    "suitable": false
+    "suitable": false,
+    "special": false,
+    "old": false,
+    "proper": false
 }

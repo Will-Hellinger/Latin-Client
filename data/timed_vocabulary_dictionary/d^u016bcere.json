@@ -1,4 +1,5 @@
 {
     "lead": true,
-    "speak": false
+    "speak": false,
+    "write": false
 }

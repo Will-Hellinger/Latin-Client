@@ -1,3 +1,4 @@
 {
-    "clean": true
+    "clean": true,
+    "attack": false
 }

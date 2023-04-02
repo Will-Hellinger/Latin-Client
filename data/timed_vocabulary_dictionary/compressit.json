@@ -3,5 +3,7 @@
     "press": true,
     "compress": true,
     "squeeze": true,
-    "choke": true
+    "choke": true,
+    "collect": false,
+    "surround": false
 }

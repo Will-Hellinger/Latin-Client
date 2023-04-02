@@ -1,4 +1,6 @@
 {
     "lake": true,
-    "lament": false
+    "lament": false,
+    "land": false,
+    "river": false
 }

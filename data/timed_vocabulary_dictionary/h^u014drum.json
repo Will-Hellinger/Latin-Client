@@ -1,4 +1,8 @@
 {
     "this": true,
-    "(plural: these)": true
+    "(plural: these)": true,
+    "our(s)": false,
+    "what": false,
+    "herself": false,
+    "these": true
 }

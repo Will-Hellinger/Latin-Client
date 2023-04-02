@@ -2,5 +2,7 @@
     "so great": true,
     "such great": true,
     "(adverbial: so much)": true,
-    "such": false
+    "such": false,
+    "large": false,
+    "finally": false
 }

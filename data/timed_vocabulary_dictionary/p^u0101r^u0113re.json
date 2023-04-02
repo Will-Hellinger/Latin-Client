@@ -2,5 +2,7 @@
     "appear": true,
     "be visible": true,
     "[with dat.] obey": true,
-    "fear": false
+    "fear": false,
+    "get ready": false,
+    "obey": true
 }

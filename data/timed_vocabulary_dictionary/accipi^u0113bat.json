@@ -2,5 +2,6 @@
     "receive": true,
     "accept": true,
     "incur": true,
-    "get back": false
+    "get back": false,
+    "deliver": false
 }

@@ -6,5 +6,6 @@
     "whom": true,
     "which": true,
     "(as an adjective) what": true,
-    "even though": false
+    "even though": false,
+    "sleep": false
 }

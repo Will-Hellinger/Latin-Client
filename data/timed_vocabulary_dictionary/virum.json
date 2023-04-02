@@ -1,3 +1,6 @@
 {
-    "man": true
+    "man": true,
+    "vigor": false,
+    "courage": false,
+    "violence": false
 }

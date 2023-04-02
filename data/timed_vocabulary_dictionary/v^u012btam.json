@@ -1,4 +1,6 @@
 {
     "life": true,
-    "force": false
+    "force": false,
+    "street": false,
+    "wine": false
 }

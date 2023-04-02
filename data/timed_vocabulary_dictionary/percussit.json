@@ -3,5 +3,7 @@
     "beat": true,
     "strike": true,
     "blow": false,
-    "confuse": false
+    "confuse": false,
+    "disturb": false,
+    "report": false
 }

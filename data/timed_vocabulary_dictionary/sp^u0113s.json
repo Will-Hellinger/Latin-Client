@@ -1,4 +1,6 @@
 {
     "appearance": false,
-    "span (of time)": false
+    "span (of time)": false,
+    "cave": false,
+    "hope": true
 }

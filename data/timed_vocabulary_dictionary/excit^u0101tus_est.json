@@ -4,5 +4,7 @@
     "wake": true,
     "awake": true,
     "excite": true,
-    "teach": false
+    "teach": false,
+    "calm": false,
+    "depart": false
 }

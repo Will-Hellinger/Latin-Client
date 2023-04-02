@@ -1,3 +1,5 @@
 {
-    "memory": true
+    "memory": true,
+    "soul": false,
+    "prophecy": false
 }

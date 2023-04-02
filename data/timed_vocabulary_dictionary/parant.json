@@ -1,5 +1,6 @@
 {
     "prepare": true,
     "give": false,
-    "get ready": true
+    "get ready": true,
+    "disturb": false
 }

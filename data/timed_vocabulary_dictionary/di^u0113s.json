@@ -1,4 +1,6 @@
 {
     "day": true,
-    "leader": false
+    "leader": false,
+    "home": false,
+    "god": false
 }

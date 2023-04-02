@@ -1,4 +1,6 @@
 {
     "see": true,
-    "(passive) seem": true
+    "(passive) seem": true,
+    "hear": false,
+    "smell": false
 }

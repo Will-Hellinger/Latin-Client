@@ -2,5 +2,7 @@
     "come together": true,
     "meet": true,
     "convene": true,
-    "decide": false
+    "decide": false,
+    "complete": false,
+    "establish": false
 }

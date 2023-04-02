@@ -1,4 +1,5 @@
 {
     "kill": false,
-    "give": false
+    "give": false,
+    "make": true
 }

@@ -1,3 +1,5 @@
 {
-    "sailor": true
+    "sailor": true,
+    "poet": false,
+    "priest": false
 }

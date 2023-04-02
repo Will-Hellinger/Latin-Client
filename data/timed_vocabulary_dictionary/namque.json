@@ -1,4 +1,6 @@
 {
     "for": true,
-    "indeed": true
+    "indeed": true,
+    "or": false,
+    "if": false
 }

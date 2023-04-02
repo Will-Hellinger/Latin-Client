@@ -1,4 +1,6 @@
 {
     "when": true,
-    "where": true
+    "where": true,
+    "ever": false,
+    "at once": false
 }

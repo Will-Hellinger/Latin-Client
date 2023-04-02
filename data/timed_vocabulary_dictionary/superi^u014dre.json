@@ -2,5 +2,8 @@
     "superior": true,
     "higher": true,
     "(in poetry) the gods": true,
-    "short": false
+    "short": false,
+    "heavy": false,
+    "pleasant": false,
+    "lower": false
 }

@@ -6,5 +6,6 @@
     "not allow": true,
     "stop": true,
     "hurry": false,
-    "protect": false
+    "protect": false,
+    "hasten": false
 }

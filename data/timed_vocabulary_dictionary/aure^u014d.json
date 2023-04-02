@@ -1,3 +1,5 @@
 {
-    "friendly": false
+    "friendly": false,
+    "old": false,
+    "bronze": false
 }

@@ -1,4 +1,5 @@
 {
     "divide": false,
-    "dismiss": false
+    "dismiss": false,
+    "speak": true
 }

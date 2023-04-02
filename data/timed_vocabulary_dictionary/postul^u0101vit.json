@@ -1,5 +1,6 @@
 {
     "demand": true,
     "pray": false,
-    "request": false
+    "request": false,
+    "follow": false
 }

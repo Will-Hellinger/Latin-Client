@@ -1,5 +1,6 @@
 {
     "scythe": true,
     "sickle": true,
-    "knife": false
+    "knife": false,
+    "torch": false
 }

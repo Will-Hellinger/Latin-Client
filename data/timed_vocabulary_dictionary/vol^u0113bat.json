@@ -1,5 +1,8 @@
 {
     "want": true,
     "wish": true,
-    "do": false
+    "do": false,
+    "be able": false,
+    "give": false,
+    "can": false
 }

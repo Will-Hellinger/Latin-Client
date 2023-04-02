@@ -1,3 +1,6 @@
 {
-    "get": true
+    "get": true,
+    "pace": false,
+    "prepare": true,
+    "confuse": false
 }

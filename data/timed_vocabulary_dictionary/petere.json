@@ -1,4 +1,6 @@
 {
     "weigh": false,
-    "seek": true
+    "seek": true,
+    "push": false,
+    "attack": true
 }

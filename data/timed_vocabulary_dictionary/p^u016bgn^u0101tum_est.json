@@ -1,3 +1,6 @@
 {
-    "fight": true
+    "fight": true,
+    "destroy": false,
+    "kill": false,
+    "devour": false
 }

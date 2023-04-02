@@ -2,5 +2,6 @@
     "one": true,
     "proceed": true,
     "advance": true,
-    "good": false
+    "good": false,
+    "night": false
 }

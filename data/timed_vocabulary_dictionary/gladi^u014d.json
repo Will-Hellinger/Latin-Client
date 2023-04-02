@@ -1,3 +1,5 @@
 {
-    "sword": true
+    "sword": true,
+    "girdle": false,
+    "helmet": false
 }

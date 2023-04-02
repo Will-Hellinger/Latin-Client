@@ -2,5 +2,7 @@
     "avoid": true,
     "escape": true,
     "evade": true,
-    "visit": false
+    "visit": false,
+    "bind": false,
+    "defeat": false
 }

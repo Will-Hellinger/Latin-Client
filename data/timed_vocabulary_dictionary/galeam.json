@@ -1,3 +1,4 @@
 {
-    "helmet": true
+    "helmet": true,
+    "joy": false
 }

@@ -1,4 +1,5 @@
 {
     "few": true,
-    "small": false
+    "small": false,
+    "particular": false
 }

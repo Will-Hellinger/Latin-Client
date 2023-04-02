@@ -4,5 +4,6 @@
     "force": true,
     "violence": true,
     "vigor": true,
-    "effort": false
+    "effort": false,
+    "event": false
 }

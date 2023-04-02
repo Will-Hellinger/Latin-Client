@@ -1,5 +1,6 @@
 {
     "away from": true,
     "from": true,
-    "by": true
+    "by": true,
+    "under": false
 }

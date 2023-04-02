@@ -1,4 +1,5 @@
 {
     "sleep": true,
-    "instruct": false
+    "instruct": false,
+    "dwell": false
 }

@@ -1,5 +1,6 @@
 {
     "(with n\u0101vis or linter) launch": true,
     "lead down": true,
-    "draw off": false
+    "draw off": false,
+    "throw down": true
 }

@@ -1,4 +1,5 @@
 {
     "name": true,
-    "call": false
+    "call": false,
+    "prophecy": false
 }

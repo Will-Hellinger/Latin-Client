@@ -1,4 +1,6 @@
 {
     "bank": true,
-    "land": false
+    "land": false,
+    "sand": false,
+    "sea": false
 }

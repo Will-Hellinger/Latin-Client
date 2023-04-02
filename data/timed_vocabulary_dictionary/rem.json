@@ -9,5 +9,6 @@
     "consideration": true,
     "nothing": false,
     "king": false,
-    "cliff": false
+    "cliff": false,
+    "job": false
 }

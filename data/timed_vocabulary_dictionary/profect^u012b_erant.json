@@ -1,4 +1,5 @@
 {
     "use": false,
-    "follow": false
+    "follow": false,
+    "start out": true
 }

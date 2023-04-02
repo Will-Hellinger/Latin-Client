@@ -8,5 +8,6 @@
     "fact": true,
     "consideration": true,
     "duty": false,
-    "king": false
+    "king": false,
+    "day": false
 }

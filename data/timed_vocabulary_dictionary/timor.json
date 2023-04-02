@@ -1,4 +1,5 @@
 {
     "fear": true,
-    "dread": true
+    "dread": true,
+    "event": false
 }

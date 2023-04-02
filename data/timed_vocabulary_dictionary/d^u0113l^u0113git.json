@@ -1,5 +1,6 @@
 {
     "choose": true,
     "select": true,
-    "catch": false
+    "catch": false,
+    "cease": false
 }

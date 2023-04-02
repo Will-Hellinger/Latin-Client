@@ -1,5 +1,7 @@
 {
     "enclose": true,
     "confine": true,
-    "imprison": true
+    "imprison": true,
+    "grasp": false,
+    "inhabit": false
 }

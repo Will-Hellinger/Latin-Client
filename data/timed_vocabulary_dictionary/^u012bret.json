@@ -1,4 +1,5 @@
 {
     "go": true,
-    "live": false
+    "live": false,
+    "dwell": false
 }

@@ -1,3 +1,5 @@
 {
-    "manner": true
+    "manner": true,
+    "journey": false,
+    "path": false
 }

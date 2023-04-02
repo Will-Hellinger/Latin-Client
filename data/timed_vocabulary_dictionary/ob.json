@@ -1,4 +1,5 @@
 {
     "because of": true,
-    "on account of": true
+    "on account of": true,
+    "by": false
 }

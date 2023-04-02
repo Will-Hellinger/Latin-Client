@@ -1,3 +1,5 @@
 {
-    "mirror": true
+    "mirror": true,
+    "spear": false,
+    "cave": false
 }

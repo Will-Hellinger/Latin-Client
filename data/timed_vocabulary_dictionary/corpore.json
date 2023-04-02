@@ -1,5 +1,7 @@
 {
     "combat": false,
     "coast": false,
-    "body": true
+    "body": true,
+    "column": false,
+    "neck": false
 }

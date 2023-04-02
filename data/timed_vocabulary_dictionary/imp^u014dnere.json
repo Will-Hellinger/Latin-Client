@@ -1,4 +1,7 @@
 {
     "put on": true,
-    "impose": true
+    "impose": true,
+    "command": false,
+    "attack": false,
+    "imprison": false
 }

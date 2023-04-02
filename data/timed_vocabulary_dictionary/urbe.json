@@ -3,5 +3,6 @@
     "box": false,
     "chest": false,
     "wave": false,
-    "art": false
+    "art": false,
+    "rain": false
 }

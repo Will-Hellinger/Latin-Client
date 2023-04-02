@@ -1,4 +1,7 @@
 {
     "kill": true,
-    "harm": true
+    "harm": true,
+    "deny": false,
+    "say... not...": false,
+    "ravage": false
 }

@@ -2,5 +2,7 @@
     "set free": true,
     "free": true,
     "wooden": false,
-    "wood": false
+    "wood": false,
+    "(plural) children": false,
+    "willing": false
 }

@@ -2,5 +2,6 @@
     "fasten": false,
     "sense": false,
     "tie": false,
-    "see": true
+    "see": true,
+    "bind": false
 }

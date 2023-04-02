@@ -1,3 +1,5 @@
 {
-    "wound": true
+    "wound": true,
+    "attack": true,
+    "ravage": false
 }

@@ -13,5 +13,7 @@
     "them": true,
     "their": true,
     "theirs": true,
-    "some": false
+    "some": false,
+    "these": true,
+    "either": false
 }

@@ -7,5 +7,7 @@
     "event": true,
     "fact": true,
     "consideration": true,
-    "day": false
+    "day": false,
+    "nothing": false,
+    "king": false
 }

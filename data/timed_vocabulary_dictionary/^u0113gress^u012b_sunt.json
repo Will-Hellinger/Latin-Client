@@ -1,5 +1,7 @@
 {
     "release": false,
     "disembark": true,
-    "go out": true
+    "go out": true,
+    "spring up": false,
+    "enter (into)": false
 }

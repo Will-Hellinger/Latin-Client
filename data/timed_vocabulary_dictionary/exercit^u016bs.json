@@ -3,5 +3,7 @@
     "big": true,
     "large": true,
     "great": true,
-    "fear": false
+    "fear": false,
+    "army": true,
+    "effort": false
 }

@@ -1,4 +1,5 @@
 {
     "body": true,
-    "carcass": true
+    "carcass": true,
+    "slaughter": false
 }

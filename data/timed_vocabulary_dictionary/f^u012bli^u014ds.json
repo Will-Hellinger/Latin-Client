@@ -1,5 +1,6 @@
 {
     "brother": false,
     "father": false,
-    "son": true
+    "son": true,
+    "fight": false
 }

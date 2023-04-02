@@ -1,4 +1,5 @@
 {
     "river": true,
-    "sea": false
+    "sea": false,
+    "jaws": false
 }

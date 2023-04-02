@@ -2,5 +2,6 @@
     "throw": true,
     "hurl": true,
     "stop": false,
-    "meet": true
+    "meet": true,
+    "struggle": false
 }

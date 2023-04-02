@@ -1,3 +1,5 @@
 {
-    "break through": true
+    "break through": true,
+    "build": false,
+    "terrify": false
 }

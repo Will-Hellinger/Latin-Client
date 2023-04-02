@@ -1,3 +1,6 @@
 {
-    "willing": true
+    "willing": true,
+    "little": false,
+    "long": false,
+    "lazy": false
 }

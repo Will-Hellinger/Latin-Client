@@ -3,5 +3,6 @@
     "defeat": true,
     "overcome": true,
     "surround": false,
-    "cut down": true
+    "cut down": true,
+    "undergo": false
 }

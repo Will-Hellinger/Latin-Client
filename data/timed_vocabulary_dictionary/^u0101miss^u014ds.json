@@ -1,3 +1,5 @@
 {
-    "lose": true
+    "lose": true,
+    "find": false,
+    "permit": false
 }

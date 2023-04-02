@@ -2,5 +2,7 @@
     "receive": true,
     "accept": true,
     "incur": true,
-    "surrender": false
+    "surrender": false,
+    "instruct": false,
+    "take up": false
 }

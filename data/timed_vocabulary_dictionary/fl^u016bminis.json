@@ -1,4 +1,6 @@
 {
     "river": true,
-    "throat": false
+    "throat": false,
+    "iron": false,
+    "land": false
 }

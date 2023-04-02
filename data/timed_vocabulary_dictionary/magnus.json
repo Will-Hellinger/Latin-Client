@@ -3,5 +3,6 @@
     "large": true,
     "great": true,
     "kind": false,
-    "bad": true
+    "bad": true,
+    "small": false
 }

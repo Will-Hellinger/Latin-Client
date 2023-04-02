@@ -2,5 +2,6 @@
     "lead forth": true,
     "draw out": true,
     "run away": false,
-    "disappear": false
+    "disappear": false,
+    "reveal": false
 }

@@ -1,3 +1,5 @@
 {
-    "bow": true
+    "bow": true,
+    "ark": false,
+    "sand": false
 }

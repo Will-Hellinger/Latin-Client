@@ -1,5 +1,7 @@
 {
     "point (out/at)": true,
     "show": true,
-    "demonstrate": true
+    "demonstrate": true,
+    "deserve": false,
+    "disgrace": false
 }

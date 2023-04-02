@@ -2,5 +2,7 @@
     "approach": true,
     "draw near": true,
     "lead": false,
-    "open": false
+    "open": false,
+    "accept": false,
+    "prompt": false
 }

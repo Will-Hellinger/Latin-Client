@@ -1,5 +1,6 @@
 {
     "weaken": true,
     "accomplish": true,
-    "finish": true
+    "finish": true,
+    "hurl": false
 }

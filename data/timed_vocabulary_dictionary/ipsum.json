@@ -4,5 +4,8 @@
     "itself": true,
     "themselves": true,
     "the very ___": true,
-    "my": false
+    "my": false,
+    "the same ____": false,
+    "our(s)": false,
+    "who": false
 }

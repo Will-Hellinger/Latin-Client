@@ -1,4 +1,5 @@
 {
     "send": true,
-    "entrust": false
+    "entrust": false,
+    "stay": false
 }

@@ -1,3 +1,5 @@
 {
-    "horn": true
+    "horn": true,
+    "weapon": false,
+    "noise": false
 }

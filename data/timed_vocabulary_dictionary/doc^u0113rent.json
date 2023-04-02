@@ -2,5 +2,6 @@
     "teach": true,
     "expose": false,
     "do": false,
-    "be quiet": false
+    "be quiet": false,
+    "instruct": true
 }

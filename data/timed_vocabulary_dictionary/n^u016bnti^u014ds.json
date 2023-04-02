@@ -1,3 +1,6 @@
 {
-    "messenger": true
+    "messenger": true,
+    "number": false,
+    "harm": false,
+    "task": false
 }

@@ -1,3 +1,5 @@
 {
-    "disturb": true
+    "disturb": true,
+    "calm": false,
+    "take up": false
 }

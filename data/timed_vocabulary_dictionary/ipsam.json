@@ -4,5 +4,7 @@
     "itself": true,
     "themselves": true,
     "the very ___": true,
-    "your(s)": false
+    "your(s)": false,
+    "what": false,
+    "the same ____": false
 }

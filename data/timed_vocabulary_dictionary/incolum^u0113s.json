@@ -1,4 +1,6 @@
 {
     "safe": true,
-    "unharmed": true
+    "unharmed": true,
+    "unhappy": false,
+    "column": false
 }

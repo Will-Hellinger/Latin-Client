@@ -1,3 +1,5 @@
 {
-    "temple": true
+    "temple": true,
+    "weather": false,
+    "fear": false
 }

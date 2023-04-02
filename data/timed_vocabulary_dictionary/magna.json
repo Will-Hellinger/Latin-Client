@@ -1,3 +1,5 @@
 {
-    "army": true
+    "army": true,
+    "large": true,
+    "amazing": false
 }

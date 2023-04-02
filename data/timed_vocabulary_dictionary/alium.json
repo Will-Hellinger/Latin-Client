@@ -1,3 +1,5 @@
 {
-    "other": true
+    "other": true,
+    "old": false,
+    "rest": false
 }

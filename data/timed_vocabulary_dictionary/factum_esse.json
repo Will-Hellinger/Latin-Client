@@ -1,4 +1,5 @@
 {
     "kill": false,
-    "make": true
+    "make": true,
+    "weaken": false
 }

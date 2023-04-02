@@ -1,3 +1,5 @@
 {
-    "offer": true
+    "offer": true,
+    "harm": false,
+    "seize": false
 }

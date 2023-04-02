@@ -3,5 +3,6 @@
     "crowded": true,
     "frequented": true,
     "visited": true,
-    "certain": false
+    "certain": false,
+    "rumor": false
 }

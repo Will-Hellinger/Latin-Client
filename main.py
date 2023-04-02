@@ -194,15 +194,10 @@ while True:
         if doAction == True:
             try:
                 readings.learn_words()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
-        if enterKey == True:
-            try:
                 readings.build_key()
             except Exception as error:
                 print(f'error: {error}')
-            enterKey = False
+            doAction = False
     elif mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you

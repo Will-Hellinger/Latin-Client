@@ -4,5 +4,6 @@
     "put down": true,
     "store": true,
     "give up": true,
-    "put on": false
+    "put on": false,
+    "explain": false
 }

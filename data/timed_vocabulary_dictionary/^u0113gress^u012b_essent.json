@@ -3,5 +3,6 @@
     "give out": false,
     "go out": true,
     "enter (into)": false,
-    "wait": false
+    "wait": false,
+    "disembark": true
 }

@@ -1,4 +1,5 @@
 {
     "place": true,
-    "room": true
+    "room": true,
+    "space": false
 }

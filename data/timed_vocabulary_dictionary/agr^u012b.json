@@ -3,5 +3,6 @@
     "tree": false,
     "territory": true,
     "farm": true,
-    "field": true
+    "field": true,
+    "cow": false
 }

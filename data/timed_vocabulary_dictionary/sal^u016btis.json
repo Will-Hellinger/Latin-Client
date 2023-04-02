@@ -2,5 +2,6 @@
     "health": true,
     "safety": true,
     "deliverance": true,
-    "blood": false
+    "blood": false,
+    "sanity": false
 }

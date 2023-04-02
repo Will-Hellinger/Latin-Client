@@ -1,4 +1,5 @@
 {
     "spear": true,
-    "test": false
+    "test": false,
+    "cover": false
 }

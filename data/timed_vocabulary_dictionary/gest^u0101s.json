@@ -3,5 +3,8 @@
     "do": true,
     "wage": true,
     "wear": true,
-    "carry on": true
+    "carry on": true,
+    "drive": false,
+    "come": false,
+    "know": false
 }

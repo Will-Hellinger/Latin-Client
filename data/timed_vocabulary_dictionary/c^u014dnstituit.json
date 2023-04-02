@@ -6,5 +6,6 @@
     "erect": true,
     "proceed": true,
     "advance": true,
-    "pass": false
+    "pass": false,
+    "hurl": false
 }

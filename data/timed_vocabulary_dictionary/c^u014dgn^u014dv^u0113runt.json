@@ -2,5 +2,6 @@
     "learn": true,
     "command": false,
     "complete": false,
-    "encourage": false
+    "encourage": false,
+    "collect": false
 }

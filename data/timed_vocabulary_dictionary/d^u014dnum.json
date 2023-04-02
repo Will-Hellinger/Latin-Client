@@ -1,4 +1,6 @@
 {
     "gift": true,
-    "sadness": false
+    "sadness": false,
+    "home": false,
+    "pain": false
 }

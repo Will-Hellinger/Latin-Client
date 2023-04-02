@@ -3,5 +3,7 @@
     "seize": true,
     "grasp": true,
     "hasten": false,
-    "reward": false
+    "reward": false,
+    "hold back": false,
+    "hurry": false
 }

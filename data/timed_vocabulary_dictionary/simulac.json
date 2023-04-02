@@ -1,5 +1,6 @@
 {
     "as soon as": true,
     "suddenly": false,
-    "earlier": false
+    "earlier": false,
+    "always": false
 }

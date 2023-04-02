@@ -1,5 +1,7 @@
 {
     "(with n\u0101vis or linter) launch": true,
     "lead down": true,
-    "select": false
+    "select": false,
+    "draw off": false,
+    "drag": false
 }

@@ -2,5 +2,6 @@
     "get back": true,
     "accept": true,
     "answer": false,
-    "go back": false
+    "go back": false,
+    "give back": false
 }

@@ -3,5 +3,7 @@
     "possess": true,
     "fill": false,
     "throw to": false,
-    "scold": false
+    "scold": false,
+    "chide": false,
+    "hold": true
 }

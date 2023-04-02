@@ -1,3 +1,5 @@
 {
-    "come": true
+    "come": true,
+    "wind": false,
+    "poison": false
 }

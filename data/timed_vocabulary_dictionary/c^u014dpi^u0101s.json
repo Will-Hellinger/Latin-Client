@@ -3,5 +3,7 @@
     "plenty": true,
     "(plural) troops": true,
     "supplies": true,
-    "supply": true
+    "supply": true,
+    "gaze": false,
+    "ox": false
 }

@@ -3,5 +3,6 @@
     "small": true,
     "many": false,
     "little": true,
-    "large": false
+    "large": false,
+    "big": false
 }

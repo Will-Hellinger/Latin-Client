@@ -3,5 +3,6 @@
     "tie": false,
     "sense": false,
     "bind": false,
-    "smell": false
+    "smell": false,
+    "see": true
 }

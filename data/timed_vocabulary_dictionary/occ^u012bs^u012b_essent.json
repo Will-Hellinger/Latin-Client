@@ -2,5 +2,7 @@
     "cut down": true,
     "happen": false,
     "slay": true,
-    "seize": false
+    "seize": false,
+    "destroy": false,
+    "divide": false
 }

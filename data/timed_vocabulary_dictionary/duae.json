@@ -2,5 +2,6 @@
     "first": false,
     "thousand": false,
     "two": true,
-    "twelve": false
+    "twelve": false,
+    "hundred": false
 }

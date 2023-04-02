@@ -1,5 +1,8 @@
 {
     "away from": true,
     "from": true,
-    "by": true
+    "by": true,
+    "into": false,
+    "against": false,
+    "out of": false
 }

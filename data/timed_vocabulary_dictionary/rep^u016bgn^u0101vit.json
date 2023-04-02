@@ -1,5 +1,6 @@
 {
     "resist": true,
     "fight back": true,
-    "repeat": false
+    "repeat": false,
+    "hold back": false
 }

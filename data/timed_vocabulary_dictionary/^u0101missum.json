@@ -1,4 +1,5 @@
 {
     "destroy": false,
-    "lose": true
+    "lose": true,
+    "permit": false
 }

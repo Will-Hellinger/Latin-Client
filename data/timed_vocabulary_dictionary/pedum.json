@@ -1,4 +1,5 @@
 {
     "foot": true,
-    "person": false
+    "person": false,
+    "head": false
 }

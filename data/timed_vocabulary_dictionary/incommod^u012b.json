@@ -1,5 +1,6 @@
 {
     "harm": true,
     "inconvenience": true,
-    "disadvantage": true
+    "disadvantage": true,
+    "distance": false
 }

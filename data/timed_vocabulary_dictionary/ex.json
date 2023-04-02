@@ -1,5 +1,6 @@
 {
     "from": true,
     "out": true,
-    "out of": true
+    "out of": true,
+    "away from": false
 }

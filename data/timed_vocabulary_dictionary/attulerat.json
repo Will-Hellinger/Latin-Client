@@ -3,5 +3,6 @@
     "bear": true,
     "carry": true,
     "surrender": false,
-    "bring back": false
+    "bring back": false,
+    "give back": false
 }

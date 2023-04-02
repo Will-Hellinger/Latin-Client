@@ -2,5 +2,6 @@
     "discover": true,
     "find": true,
     "bring": false,
-    "repeat": false
+    "repeat": false,
+    "respond": false
 }

@@ -1,5 +1,6 @@
 {
     "begin": true,
     "compel": true,
-    "force": false
+    "force": false,
+    "tend": false
 }

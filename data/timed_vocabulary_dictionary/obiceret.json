@@ -1,4 +1,5 @@
 {
     "throw to": true,
-    "scold": false
+    "scold": false,
+    "obtain": false
 }

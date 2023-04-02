@@ -1,5 +1,6 @@
 {
     "at once": true,
     "immediately": true,
-    "meanwhile": false
+    "meanwhile": false,
+    "therefore": false
 }

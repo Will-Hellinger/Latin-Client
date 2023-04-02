@@ -3,5 +3,6 @@
     "work": false,
     "do": true,
     "complete": false,
-    "weaken": false
+    "weaken": false,
+    "stain": false
 }

@@ -1,3 +1,6 @@
 {
-    "sentiment": true
+    "sentiment": true,
+    "plan": true,
+    "thought": true,
+    "opinion": true
 }

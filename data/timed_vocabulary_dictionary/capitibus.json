@@ -1,4 +1,5 @@
 {
     "head": true,
-    "cattle": false
+    "cattle": false,
+    "body": false
 }

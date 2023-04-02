@@ -1,5 +1,6 @@
 {
     "drag": true,
     "draw": true,
-    "break through": false
+    "break through": false,
+    "surrender": false
 }

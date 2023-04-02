@@ -1,4 +1,5 @@
 {
     "messenger": true,
-    "nap": false
+    "nap": false,
+    "task": false
 }

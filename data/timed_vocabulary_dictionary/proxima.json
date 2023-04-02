@@ -1,5 +1,6 @@
 {
     "next": true,
     "closest": true,
-    "nearest": true
+    "nearest": true,
+    "highest": false
 }

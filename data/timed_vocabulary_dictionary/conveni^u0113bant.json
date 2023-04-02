@@ -2,5 +2,6 @@
     "establish": false,
     "run into": false,
     "complete": false,
-    "connect": false
+    "connect": false,
+    "collect": false
 }

@@ -1,5 +1,6 @@
 {
     "explain": true,
     "expose": true,
-    "set on shore": true
+    "set on shore": true,
+    "train": false
 }

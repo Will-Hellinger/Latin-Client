@@ -2,5 +2,6 @@
     "affect": true,
     "flee": false,
     "run away": false,
-    "offend": false
+    "offend": false,
+    "escape": false
 }

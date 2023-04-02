@@ -2,5 +2,6 @@
     "depart": true,
     "withdraw": true,
     "leave": true,
-    "disembark": false
+    "disembark": false,
+    "learn": false
 }

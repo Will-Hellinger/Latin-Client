@@ -4,5 +4,6 @@
     "draw out": true,
     "drag out": true,
     "leave": false,
-    "exercise": false
+    "exercise": false,
+    "depart": false
 }

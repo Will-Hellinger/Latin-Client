@@ -1,5 +1,6 @@
 {
     "attempt": true,
     "try": true,
-    "halt": false
+    "halt": false,
+    "encourage": false
 }

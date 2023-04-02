@@ -1,4 +1,5 @@
 {
     "then": true,
-    "next": true
+    "next": true,
+    "immediately": false
 }

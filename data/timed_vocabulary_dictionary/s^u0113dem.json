@@ -1,5 +1,6 @@
 {
     "home": true,
     "dwelling": true,
-    "conversation": false
+    "conversation": false,
+    "sea": false
 }

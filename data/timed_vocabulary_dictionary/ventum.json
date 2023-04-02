@@ -1,4 +1,5 @@
 {
     "weather": true,
-    "wind": true
+    "wind": true,
+    "word": false
 }

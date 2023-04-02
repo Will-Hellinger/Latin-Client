@@ -1,4 +1,5 @@
 {
     "dog": true,
-    "meat": false
+    "meat": false,
+    "tail": false
 }

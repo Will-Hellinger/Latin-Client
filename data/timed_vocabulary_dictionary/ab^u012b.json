@@ -1,4 +1,6 @@
 {
     "go away": true,
-    "err": false
+    "err": false,
+    "seize": false,
+    "cut off": false
 }

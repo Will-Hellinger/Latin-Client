@@ -2,5 +2,7 @@
     "hurl": false,
     "weaken": true,
     "complete": true,
-    "accomplish": true
+    "accomplish": true,
+    "reinforce": false,
+    "decide": false
 }

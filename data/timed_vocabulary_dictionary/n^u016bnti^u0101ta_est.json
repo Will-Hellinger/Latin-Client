@@ -1,3 +1,5 @@
 {
-    "announce": true
+    "announce": true,
+    "say": false,
+    "harm": false
 }

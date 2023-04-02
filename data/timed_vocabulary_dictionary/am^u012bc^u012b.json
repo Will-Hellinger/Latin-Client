@@ -2,5 +2,6 @@
     "friend": true,
     "friendly": true,
     "enemy": false,
-    "love": false
+    "love": false,
+    "pitcher": false
 }

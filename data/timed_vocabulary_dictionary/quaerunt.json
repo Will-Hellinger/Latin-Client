@@ -1,5 +1,6 @@
 {
     "ask": true,
     "seek": true,
-    "look for": true
+    "look for": true,
+    "inquire": true
 }

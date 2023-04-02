@@ -2,5 +2,6 @@
     "rumor": false,
     "rock": true,
     "rattle": false,
-    "run": false
+    "run": false,
+    "race": false
 }

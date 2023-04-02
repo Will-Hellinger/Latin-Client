@@ -5,5 +5,7 @@
     "whom": true,
     "which": true,
     "(as an adjective) what": true,
-    "rest": false
+    "rest": false,
+    "in fact": false,
+    "my": false
 }

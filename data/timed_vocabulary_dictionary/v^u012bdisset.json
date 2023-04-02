@@ -1,3 +1,5 @@
 {
-    "see": true
+    "see": true,
+    "tie": false,
+    "bind": false
 }

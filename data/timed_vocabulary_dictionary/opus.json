@@ -1,3 +1,5 @@
 {
-    "work": true
+    "work": true,
+    "time": false,
+    "open": false
 }

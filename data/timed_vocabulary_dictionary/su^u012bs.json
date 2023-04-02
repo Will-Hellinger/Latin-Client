@@ -5,5 +5,8 @@
     "its": true,
     "their": true,
     "theirs": true,
-    "me": false
+    "me": false,
+    "them": false,
+    "whose": false,
+    "it": false
 }

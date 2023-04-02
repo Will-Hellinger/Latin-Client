@@ -1,5 +1,7 @@
 {
     "pain": true,
     "grief": true,
-    "sadness": true
+    "sadness": true,
+    "squalor": false,
+    "noise": false
 }

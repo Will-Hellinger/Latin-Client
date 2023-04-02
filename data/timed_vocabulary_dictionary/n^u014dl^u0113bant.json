@@ -1,4 +1,5 @@
 {
     "not want": true,
-    "not wish": true
+    "not wish": true,
+    "wish": false
 }

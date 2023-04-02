@@ -1,4 +1,6 @@
 {
     "boat": true,
-    "shore": false
+    "shore": false,
+    "wood": false,
+    "mud": false
 }

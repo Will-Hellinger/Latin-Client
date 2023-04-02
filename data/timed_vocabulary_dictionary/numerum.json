@@ -1,4 +1,6 @@
 {
     "number": true,
-    "messenger": false
+    "messenger": false,
+    "duty": false,
+    "task": false
 }

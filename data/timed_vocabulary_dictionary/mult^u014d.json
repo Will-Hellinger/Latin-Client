@@ -2,5 +2,7 @@
     "much": true,
     "small": false,
     "large": false,
-    "strong": false
+    "strong": false,
+    "crowd": false,
+    "so great": false
 }

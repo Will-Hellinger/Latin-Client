@@ -2,5 +2,6 @@
     "aim": false,
     "arrive": true,
     "stretch": false,
-    "lead": false
+    "lead": false,
+    "feel": false
 }

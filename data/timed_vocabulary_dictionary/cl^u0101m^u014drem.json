@@ -2,5 +2,6 @@
     "call": true,
     "shout": true,
     "noise": true,
-    "cry": true
+    "cry": true,
+    "cliff": false
 }

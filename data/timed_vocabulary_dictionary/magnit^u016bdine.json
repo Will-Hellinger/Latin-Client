@@ -1,4 +1,5 @@
 {
     "size": true,
-    "teacher": false
+    "teacher": false,
+    "hand": false
 }

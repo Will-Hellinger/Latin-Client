@@ -2,5 +2,6 @@
     "bull": true,
     "dread": false,
     "boar": true,
-    "jaws": false
+    "jaws": false,
+    "throat": false
 }

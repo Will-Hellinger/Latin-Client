@@ -1,3 +1,5 @@
 {
-    "lead down": true
+    "lead down": true,
+    "choose": false,
+    "select": false
 }

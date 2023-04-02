@@ -1,4 +1,5 @@
 {
     "draw near": true,
-    "summon": false
+    "summon": false,
+    "open": false
 }

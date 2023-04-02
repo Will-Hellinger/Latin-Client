@@ -1,3 +1,5 @@
 {
-    "delay": true
+    "delay": true,
+    "way": false,
+    "grain": false
 }

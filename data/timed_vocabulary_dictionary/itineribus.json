@@ -1,5 +1,6 @@
 {
     "path": true,
     "journey": true,
-    "inconvenience": false
+    "inconvenience": false,
+    "attack": false
 }

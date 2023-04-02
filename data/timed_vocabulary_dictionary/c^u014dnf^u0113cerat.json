@@ -1,5 +1,7 @@
 {
     "grasp": false,
     "reinforce": false,
-    "finish": true
+    "finish": true,
+    "decide": false,
+    "throw": true
 }

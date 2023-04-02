@@ -1,5 +1,7 @@
 {
     "snake": true,
     "serpent": true,
-    "burial": true
+    "burial": true,
+    "cave": false,
+    "monster": false
 }

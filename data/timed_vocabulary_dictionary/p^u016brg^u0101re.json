@@ -1,5 +1,6 @@
 {
     "clean": true,
     "fill": false,
-    "fight": false
+    "fight": false,
+    "dirty": false
 }

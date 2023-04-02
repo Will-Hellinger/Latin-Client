@@ -1,5 +1,6 @@
 {
     "rise": true,
     "climb": true,
-    "ascend": true
+    "ascend": true,
+    "light": false
 }

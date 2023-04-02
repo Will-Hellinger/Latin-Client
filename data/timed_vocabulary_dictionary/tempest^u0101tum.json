@@ -3,5 +3,6 @@
     "territory": false,
     "temple": false,
     "storm": true,
-    "test": false
+    "test": false,
+    "land": false
 }
