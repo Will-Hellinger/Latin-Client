@@ -12,7 +12,9 @@ except Exception as error:
     exit()
 
 def debugger_tool():
-    layout = [[sg.Text('Module:'), sg.Combo(['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings'], default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
+    module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings']
+
+    layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
             [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")]]
     window = sg.Window('debugger', layout, resizable=True)
@@ -22,18 +24,11 @@ def debugger_tool():
         if event == 'Reload':
             module = values['_MODULE_INPUT_']
 
-            if module == 'infinitive_morphology':
-                importlib.reload(infinitive_morphology)
-            elif module == 'noun_adj':
-                importlib.reload(noun_adj)
-            elif module == 'synopsis':
-                importlib.reload(synopsis)
-            elif module == 'timed_morphology':
-                importlib.reload(timed_morphology)
-            elif module == 'timed_vocabulary':
-                importlib.reload(timed_vocabulary)
-            elif module == 'readings':
-                importlib.reload(readings)
+            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings)
+            
+            if module_strings.index(module) != -1:
+                importlib.reload(modules[module_strings.index(module)])
+            
         elif event == 'Inject':
             driver.execute_script(f'document.cookie = "PHPSESSID={values["_TOKEN_INPUT_"]}"')
             time.sleep(.5)

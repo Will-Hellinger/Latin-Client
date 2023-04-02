@@ -57,9 +57,9 @@ def check_timout(word: str, definition: str, data: dict):
         return True
 
 
-def wait_reload(word1: str, word2: str, choice: bool):
+def wait_reload(word1: str, word2: str):
     while True:
-        if word1 == str(driver.find_element(By.XPATH, f"// p[@id='{vocab_element}']").text).split('\n')[0] and word2 == str(driver.find_element(By.XPATH, f"// p[@id='{definition_element}']").text):
+        if word1 == str(driver.find_element(By.ID, vocab_element).text).split('\n')[0] and word2 == str(driver.find_element(By.ID, definition_element).text):
             time.sleep(.5)
         else:
             time.sleep(1)
@@ -103,9 +103,7 @@ def solver():
     
     with open(f'.{subDirectory}data{subDirectory}{vocab_dictionary}{subDirectory}{file_name}.json', encoding='utf-8', mode='r+') as file:
         data = json.load(file)
-        items = []
-        for item in data:
-            items.append(item)
+        items = list(data.keys())
 
         if definition in items:
             print('Found in dictionary: ...', end='\r')
@@ -125,7 +123,7 @@ def solver():
                 data[definition] = not data[definition]
                 save_file(file, data)
             elif check_true() == None:
-                print('inactivity or invalid security label')
+                print('Inactivity or invalid security label')
                 
 
         elif definition not in items:
@@ -176,5 +174,5 @@ def solver():
                 data[definition] = True
                 print(f'Guess - False: {word} - {definition}: Inorrect')
             elif check_true() == None:
-                print('inactivity or invalid security label')
+                print('Inactivity or invalid security label')
             save_file(file, data)

@@ -31,14 +31,15 @@ def solver():
             for c in range(len(allEndings)):
                 if words[b].endswith(allEndings[c][0]):
                     tempList.append(allEndings[c][0])
-            availableEndings.append(tempList)
+            if tempList != []:
+                availableEndings.append(tempList)
 
         try:
             for b in range(len(availableEndings)):
-                if len(availableEndings[b]) >= 2:
+                if len(availableEndings[b]) != 0:
                     availableEndings[b] = max(availableEndings[b], key=len)
                 else:
-                    availableEndings[b] = availableEndings[b][0]
+                    unknownWord = True
         except:
             unknownWord = True
                 
@@ -65,10 +66,9 @@ def solver():
         if 'noun' not in str(driver.title).lower():
             break
 
+        choice = 'no'
         if output == True:
             choice = 'yes'
-        else:
-            choice = 'no'
         
         try:
             if loadWait(By.XPATH, f'// label[@for="{choice}{a+1}"]'):
@@ -77,7 +77,7 @@ def solver():
             print(f'unable to press {choice}{a+1}')
 
 
-        if human_mode:
+        if human_mode == True:
             time.sleep(int(random.randint(100, 500))/100)
 
 

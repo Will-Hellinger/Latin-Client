@@ -37,25 +37,13 @@ def check_timout(word: str, definition: str, data: dict):
         return True
 
 
-def wait_reload(word1: str, word2: str, choice: bool):
-    timer = str(driver.find_element(By.XPATH, f"// p[@id='{timer_element}']").text)
-    if timer == '(untimed)':
-        start_time = time.time()
-    else:
-        start_time = int(timer.split(":")[1])
-
+def wait_reload(word1: str, word2: str):
     while True:
         if word1 == str(driver.find_element(By.XPATH, f"// p[@id='{form_element}']").text).split('\n')[0] and word2 == str(driver.find_element(By.XPATH, f"// p[@id='{stimuli_element}']").text):
             time.sleep(.5)
         else:
             time.sleep(1)
             break
-        timer = str(driver.find_element(By.XPATH, f"// p[@id='{timer_element}']").text)
-        if (timer == '(untimed)' and time.time() - start_time >= 3) or (timer != '(untimed)' and -1 * (int(timer.split(":")[1]) - start_time) >= 2):
-            if choice == True:
-                driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
-            elif choice == False:
-                driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
 
 
 def solver():
@@ -73,9 +61,7 @@ def solver():
     
     with open(f'.{subDirectory}data{subDirectory}{morphology_dictionary}{subDirectory}{file_name}.json', encoding='utf-8', mode='r+') as file:
         data = json.load(file)
-        items = []
-        for item in data:
-            items.append(item)
+        items = list(data.keys())
 
         if definition in items:
             print('Found in dictionary: ...', end='\r')
@@ -84,7 +70,7 @@ def solver():
                 driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
             elif data[definition] == False:
                 driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
-            wait_reload(word, definition, data[definition])
+            wait_reload(word, definition)
 
             if check_true() == True:
                 print(f'Found in dictionary: {word} - {definition} - {data[definition]}: Correct')
@@ -93,19 +79,20 @@ def solver():
             elif check_true() == False and check_timout(word, definition, data) == False:
                 print(f'Found in dictionary: {word} - {definition} - {data[definition]}: Incorrect, switching now...')
                 data[definition] = not data[definition]
-                save_file(file, data)
             elif check_true() == None:
-                print('inactivity or invalid security label')
+                print('Inactivity or invalid security label')
 
 
         elif definition not in items:
             print(f'no entry for {definition} within {word}', end='\r')
+            driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
 
-            wait_reload(word, definition, False)
+            wait_reload(word, definition)
             if check_true() == True:
                 data[definition] = False
                 print(f'Guess - False: {word} - {definition}: Correct')
             elif check_true() == False:
                 data[definition] = True
                 print(f'Guess - False: {word} - {definition}: Inorrect')
-            save_file(file, data)
+        
+        save_file(file, data)

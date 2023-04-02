@@ -6,23 +6,6 @@ from info import *
 dictionary = 'latin_dictionary'
 keysDictionary = 'reading_keys'
 
-def save_file(file: bytes, data: dict):
-    file.seek(0)
-    json.dump(data, file, indent=4)
-    file.truncate()
-
-
-def encode_word(word: str):
-    encodedWord = (str(word.replace(" ", "_")).encode("unicode-escape")).decode("utf-8").replace("\\", "^")
-
-    #This is honestly only for windows
-    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
-    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
-    for b in range(len(removeList)):
-        encodedWord = encodedWord.replace(str(removeList[b]), str(replaceList[b]))
-    
-    return encodedWord
-
 
 def scanforWord(list: list, word: str):
     for a in range(len(list)):
@@ -40,7 +23,7 @@ def scan_words():
         latinWordTexts.append([a, str(latinWordElements[a].text)])
     
     for a in range(len(latinWordTexts)):
-        file_name = encode_word(latinWordTexts[a][1])
+        file_name = encodeFilename(latinWordTexts[a][1])
 
         if not os.path.exists(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json'):
             tempLatinWords.append(latinWordTexts[a])
@@ -72,7 +55,7 @@ def learn_words():
         print(f'Scanning: {round((100/latinWordsLength)*(a+1))}%        ', end='\r')
 
         driver.execute_script("arguments[0].scrollIntoView();", latinWords[a])
-        file_name = encode_word(latinWords[a].text)
+        file_name = encodeFilename(latinWords[a].text)
 
         if not os.path.exists(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json'):
             with open(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json', mode='w') as file:

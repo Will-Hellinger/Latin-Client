@@ -7,15 +7,10 @@ import re
 
 
 conjugationChartKey = json.load(open(f'.{subDirectory}data{subDirectory}conjugation_chart_types.json'))
-blocks = ['e', 'b', 'c', 'd']
+blocks = ('e', 'b', 'c', 'd')
 
-conjugationNames = []
-for item in conjugationChartKey:
-    conjugationNames.append(str(item))
-
-totalConjugations = []
-for item in conjugationChartKey:
-    totalConjugations.append(conjugationChartKey[str(item)])
+conjugationNames = list(conjugationChartKey.keys())
+totalConjugations = list(conjugationChartKey.values())
 
 
 def showHiddenDropdowns():
@@ -199,9 +194,7 @@ def solve():
         answer = re.sub(f'{strip_accents(wordEnding)}$', newEnding, strip_accents(word))
 
         if 'rgb(255, 0, 0)' in str(latinInput.get_attribute('style')):
-            for a in range(100): #just in case lol
-                latinInput.send_keys(Keys.BACKSPACE)
-            latinInput.send_keys(Keys.RETURN)
+            latinInput.clear()
 
         if loadWait(By.XPATH, f"// input[@id='{latinInputDict[item]}']") and 'rgb(0, 128, 0)' not in str(latinInput.get_attribute('style')):
             latinInput.send_keys(answer)
@@ -229,9 +222,7 @@ def solve():
             answer = answer.replace(replaceVerbs[a], verbs[replaceVerbs[a].replace('*', '')])
 
         if 'rgb(255, 0, 0)' in str(englishInput.get_attribute('style')):
-            for a in range(100): #just in case lol
-                englishInput.send_keys(Keys.BACKSPACE)
-            englishInput.send_keys(Keys.RETURN)
+            englishInput.clear()
 
         if loadWait(By.XPATH, f"// input[@id='{englishInputDict[item]}']") and 'rgb(0, 128, 0)' not in str(englishInput.get_attribute('style')):
             englishInput.send_keys(answer)
