@@ -2,7 +2,7 @@
 try:
     import time, pynput, sys, playsound, threading, random
     import glob
-    import check_update
+    import updater
     from info import *
     from discord_rpc import *
     from web_driver import *
@@ -39,9 +39,6 @@ def debugger_tool():
             break
     window.close()
 
-
-update = False
-
 ## DEV TOOL
 if len(sys.argv) >= 2:
     if str(sys.argv[1]) == '--debugger':
@@ -55,8 +52,8 @@ if len(sys.argv) >= 2:
 
 
 try:
-    if update:
-        check_update.run()
+    if updater.check_update():
+        updater.run()
 except Exception as error:
     print(f'unable to update due to {error}')
 
