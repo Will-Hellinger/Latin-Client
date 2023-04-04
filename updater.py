@@ -49,8 +49,8 @@ def create_chksms(print_filenames: bool = False):
 
     if os.path.exists(f'{path}{checksum_filename}'):
         os.remove(f'{path}{checksum_filename}')
-    if os.path.exists(f'{path}main.chksm'):
-        os.remove(f'{path}main.chksm')
+    if os.path.exists(f'{path}{main_checksum_filename}'):
+        os.remove(f'{path}{main_checksum_filename}')
     
     filelist = []
     for root, dirs, files in os.walk('.'):
@@ -78,7 +78,7 @@ def create_chksms(print_filenames: bool = False):
         save_file(file, data)
 
     chksm = hashlib.md5(str(open(f'{path}{checksum_filename}', encoding='utf-8', mode='r').read()).encode('utf-8')).hexdigest()
-    with open(f'{path}main.chksm', encoding='utf-8', mode='w') as file:
+    with open(f'{path}{main_checksum_filename}', encoding='utf-8', mode='w') as file:
         file.write(str(chksm))
 
 
@@ -97,7 +97,7 @@ def check_update():
         return False
 
     create_chksms()
-    chksm = open(f'{path}main.chksm', mode='r').read()
+    chksm = open(f'{path}{main_checksum_filename}', mode='r').read()
     
     if chksm != server_chksm:
         return True
@@ -169,13 +169,13 @@ def build_chksm():
     create_chksms()
 
     try:
-        server_chksm = ((requests.get(f'{checksumURL}main.chksm').content)).decode("utf-8").replace('\n', '')
+        server_chksm = ((requests.get(f'{checksumURL}{main_checksum_filename}').content)).decode("utf-8").replace('\n', '')
         if 'repository' in server_chksm or "The site configured at this address does not" in server_chksm:
             server_chksm = 'unavailable'
     except:
         server_chksm = 'unavailable'
     
-    chksm = open(f'{path}main.chksm', mode='r').read()
+    chksm = open(f'{path}{main_checksum_filename}', mode='r').read()
     
     print(f'[+] Building chksms: {server_chksm} -> {chksm}')
 
