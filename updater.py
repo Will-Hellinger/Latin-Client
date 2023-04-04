@@ -155,10 +155,9 @@ def update():
                         temp_client_data[item] = temp_server_data[item]
                 save_file(temp_file, temp_client_data)
             
-            elif not os.path.exists(item.replace("(sub)", subDirectory)):
+            elif (os.path.exists(item.replace("(sub)", subDirectory)) and user_updatable_file == False) or not os.path.exists(item.replace("(sub)", subDirectory)):
                 with open(str(item).replace('(sub)', subDirectory), encoding='utf-8', mode='w') as file:
                     file.write(newData)
-
 
 def build_chksm():
     global path
