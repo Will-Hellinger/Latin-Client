@@ -3,5 +3,6 @@
     "certain ___": true,
     "the very ___": false,
     "certain ___, a certain ___": true,
-    "whose": false
+    "whose": false,
+    "certain": true
 }

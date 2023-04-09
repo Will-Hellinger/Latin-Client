@@ -9,5 +9,6 @@
     "plural": false,
     "active": true,
     "3rd person": false,
-    "subjunctive": false
+    "subjunctive": false,
+    "imperative": false
 }

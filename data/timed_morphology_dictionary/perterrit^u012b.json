@@ -6,5 +6,6 @@
     "infinitive": false,
     "dative": false,
     "masculine": true,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "not deponent": true
 }

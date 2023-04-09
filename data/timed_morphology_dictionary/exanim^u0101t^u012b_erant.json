@@ -6,5 +6,6 @@
     "subjunctive": false,
     "masculine": true,
     "active": false,
-    "2nd person": false
+    "2nd person": false,
+    "passive": true
 }

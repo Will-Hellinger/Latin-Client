@@ -1,4 +1,5 @@
 {
     "city": true,
-    "rain": false
+    "rain": false,
+    "skill": false
 }

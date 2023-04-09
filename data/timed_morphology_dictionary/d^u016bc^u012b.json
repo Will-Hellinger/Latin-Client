@@ -3,5 +3,6 @@
     "active": false,
     "passive": true,
     "future": false,
-    "not deponent": true
+    "not deponent": true,
+    "gerund": false
 }

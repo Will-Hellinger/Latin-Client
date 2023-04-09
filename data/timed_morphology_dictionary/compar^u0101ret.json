@@ -3,5 +3,6 @@
     "imperfect": true,
     "semi-deponent": false,
     "plural": false,
-    "not deponent": true
+    "not deponent": true,
+    "active": true
 }

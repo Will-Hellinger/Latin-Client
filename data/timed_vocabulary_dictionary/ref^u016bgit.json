@@ -3,5 +3,6 @@
     "flee": true,
     "go back": false,
     "give back": false,
-    "attack": false
+    "attack": false,
+    "approach": false
 }

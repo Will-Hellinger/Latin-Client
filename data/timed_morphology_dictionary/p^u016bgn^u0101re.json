@@ -8,5 +8,6 @@
     "infinitive": true,
     "semi-deponent": false,
     "3rd person": false,
-    "participle": false
+    "participle": false,
+    "future": false
 }

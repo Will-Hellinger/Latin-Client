@@ -6,5 +6,6 @@
     "positive": true,
     "genitive": true,
     "dative": false,
-    "comparative": false
+    "comparative": false,
+    "ablative": false
 }

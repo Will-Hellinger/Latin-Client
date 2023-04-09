@@ -1,5 +1,6 @@
 {
     "bordering": false,
     "neighboring": false,
-    "next": true
+    "next": true,
+    "closest": true
 }

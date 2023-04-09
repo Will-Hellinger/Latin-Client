@@ -49,7 +49,6 @@ def wait_reload(word1: str, word2: str):
 def solver():
     word = str(driver.find_element(By.XPATH, f"// p[@id='{form_element}']").text).split('\n')[0]
     definition = str(driver.find_element(By.XPATH, f"// p[@id='{stimuli_element}']").text)
-    file_name = (str(word.replace(" ", "_")).encode("unicode-escape")).decode("utf-8").replace("\\", "^")
 
     #This is honestly only for windows
     file_name = encodeFilename(file_name)

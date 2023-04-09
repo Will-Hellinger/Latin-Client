@@ -4,5 +4,6 @@
     "nap": true,
     "room": false,
     "bedroom": false,
-    "whom": false
+    "whom": false,
+    "what": false
 }

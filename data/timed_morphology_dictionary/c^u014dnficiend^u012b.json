@@ -5,5 +5,6 @@
     "accusative": false,
     "feminine": false,
     "infinitive": false,
-    "gerund": true
+    "gerund": true,
+    "positive": true
 }

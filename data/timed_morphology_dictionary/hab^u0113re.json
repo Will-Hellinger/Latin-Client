@@ -6,5 +6,6 @@
     "participle": false,
     "deponent": false,
     "infinitive": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "semi-deponent": false
 }

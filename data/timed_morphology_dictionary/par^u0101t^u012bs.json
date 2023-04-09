@@ -8,5 +8,6 @@
     "gerund": false,
     "positive": true,
     "ablative": true,
-    "infinitive": false
+    "infinitive": false,
+    "deponent": false
 }

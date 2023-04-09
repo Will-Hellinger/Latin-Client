@@ -8,5 +8,6 @@
     "passive": true,
     "singular": true,
     "feminine": true,
-    "not deponent": true
+    "not deponent": true,
+    "deponent": false
 }

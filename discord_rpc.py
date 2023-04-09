@@ -1,93 +1,66 @@
-import requests, time, json, threading
-
+import time
 from info import *
 from web_driver import *
-
 from pypresence import Presence
 
-try:
-    client_id = '993019974253822034'
-    RPC = Presence(client_id)
-    discordFound = False
-    if discord_rpc == True:
-        RPC.connect()
-        discordFound = True
-        RPCTime = int(time.time())
-        RPC.update(large_image = "logo1", state = 'Starting up...', start = RPCTime)
-except:
-    discordFound = False
+RPC = 0
+RPCTime = 0
 
-def get_mode(mode: str):
-    global modes
-    if loadWait(By.CLASS_NAME, 'ui-title'):
-        title_elements = driver.find_elements(By.CLASS_NAME, 'ui-title')
-        for a in range(len(title_elements)):
-            for b in range(len(modes)):
-                try:
-                    if modes[b] in str(title_elements[a].text).lower() and mode != modes[b]:
-                        return mode
-                except:
-                    pass
-    else:
-        if 'latin' not in str(driver.title):
-            return mode
+def check_discord():
+    global RPC, RPCTime
 
-def get_assignment():
-    global modes
-    if loadWait(By.CLASS_NAME, 'ui-title'):
-        title_elements = driver.find_elements(By.CLASS_NAME, 'ui-title')
-        for a in range(len(title_elements)):
-            for b in range(len(modes)):
-                try:
-                    if modes[b] in str(title_elements[a].text).lower():
-                        return (str(str(driver.find_elements(By.CLASS_NAME, 'ui-title')[a].text).lower()).title()).split("'S ")[1]
-                except:
-                    pass
-    else:
-        if 'latin' not in str(driver.title):
-            return None
+    discord_found = False
 
-def update_rpc():
-    global discordFound
-    mode = 'anything'
+    try:
+        client_id = '993019974253822034'
+        RPC = Presence(client_id)
 
-    while True:
-        mode = get_mode(mode)
-        try:
-            assignment = get_assignment()
-        except:
-            continue
-        RPCdetails = 'none'
-        if mode == 'synopsis':
-            if loadWait(By.XPATH, f"// h1[@class='showScore ui-title']"):
-                score = driver.find_element(By.XPATH, f"// h1[@class='showScore ui-title']")
-                if 'score' not in str(score.text):
-                    RPCdetails = str(score.text)
+        if discord_rpc == True:
+            RPC.connect()
 
-        elif mode == '(grasp)' or mode == 'reading' or mode == 'composition':
-            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
-                RPCdetails = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+            discord_found = True
 
-        elif mode == 'ciples' or mode == 'infinitive morphology':
-            if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
-                RPCdetails = '(' + str(assignment.split('(')[1])
-                showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+            RPCTime = int(time.time())
+            RPC.update(large_image = "logo1", state = 'Starting up...', start = RPCTime)
+    except:
+        discord_found = False
+    
+    return discord_found
 
-                if str(showScore.text) != 'your score will appear here':
-                    RPCdetails += ' / ' + str(showScore.text)
-                assignment = str(assignment.split('(')[0])
-        elif mode == 'noun-adj':
-            if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
-                showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+def update_rpc(mode: str, assignment: str):
+    global RPC
+    global RPCTime
+    
+    RPC_details = None
 
-                if 'will appear here' not in str(showScore.text):
-                    RPCdetails = str(str(showScore.text).split('\n')[0]).split('correctly. ')[1]
+    if mode == 'synopsis':
+        if loadWait(By.XPATH, f"// h1[@class='showScore ui-title']"):
+            score = driver.find_element(By.XPATH, f"// h1[@class='showScore ui-title']")
+            if 'score' not in str(score.text):
+                RPC_details = str(score.text)
 
-        if RPCdetails != 'none':
-            RPC.update(large_image = "logo1", details = assignment, state = RPCdetails, start = RPCTime)
-        elif RPCdetails == 'none':
-            RPC.update(large_image = "logo1", details = assignment, start = RPCTime)
-        time.sleep(1)
+    elif mode == '(grasp)' or mode == 'reading' or mode == 'composition' or mode == 'translation':
+        if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+            RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
 
-def rpc_start():
-    threading.Thread(target=update_rpc).start()
+    elif mode == 'ciples' or mode == 'infinitive morphology':
+        if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
+            RPC_details = '(' + str(assignment.split('(')[1])
+            showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+
+            if str(showScore.text) != 'your score will appear here':
+                RPC_details += ' / ' + str(showScore.text)
+            assignment = str(assignment.split('(')[0])
+
+    elif mode == 'noun-adj':
+        if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
+            showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+
+            if 'will appear here' not in str(showScore.text):
+                RPC_details = str(str(showScore.text).split('\n')[0]).split('correctly. ')[1]
+    
+
+    if RPC_details != None:
+        RPC.update(large_image = "logo1", details = assignment, state = RPC_details, start = RPCTime)
+    elif RPC_details == None:
+        RPC.update(large_image = "logo1", details = assignment, start = RPCTime)

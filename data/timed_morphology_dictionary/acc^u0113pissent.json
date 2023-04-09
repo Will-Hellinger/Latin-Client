@@ -9,5 +9,6 @@
     "1st person": false,
     "perfect": false,
     "singular": false,
-    "passive": false
+    "passive": false,
+    "imperfect": false
 }

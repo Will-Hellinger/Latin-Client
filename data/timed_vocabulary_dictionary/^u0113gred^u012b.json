@@ -2,5 +2,6 @@
     "go out": true,
     "disembark": true,
     "release": false,
-    "enter (into)": false
+    "enter (into)": false,
+    "give out": false
 }

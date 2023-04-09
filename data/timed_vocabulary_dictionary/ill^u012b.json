@@ -3,5 +3,6 @@
     "(plural: those)": true,
     "what": false,
     "our(s)": false,
-    "those": true
+    "those": true,
+    "which": false
 }

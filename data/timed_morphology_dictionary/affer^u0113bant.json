@@ -12,5 +12,6 @@
     "indicative": true,
     "semi-deponent": false,
     "active": true,
-    "singular": false
+    "singular": false,
+    "deponent": false
 }

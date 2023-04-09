@@ -9,5 +9,6 @@
     "imperfect": false,
     "2nd person": false,
     "3rd person": true,
-    "future perfect": true
+    "future perfect": true,
+    "indicative": true
 }

@@ -11,5 +11,6 @@
     "pluperfect": true,
     "perfect": false,
     "3rd person": true,
-    "masculine": true
+    "masculine": true,
+    "indicative": true
 }

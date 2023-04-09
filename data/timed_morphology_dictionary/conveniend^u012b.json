@@ -4,5 +4,6 @@
     "gerund": true,
     "feminine": false,
     "nominative": true,
-    "future": true
+    "future": true,
+    "comparative": false
 }

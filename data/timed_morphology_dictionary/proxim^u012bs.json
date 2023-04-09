@@ -7,5 +7,6 @@
     "plural": true,
     "positive": false,
     "ablative": true,
-    "superlative": true
+    "superlative": true,
+    "genitive": false
 }

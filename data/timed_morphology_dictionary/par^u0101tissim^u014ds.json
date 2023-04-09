@@ -5,5 +5,6 @@
     "nominative": false,
     "not deponent": true,
     "superlative": true,
-    "ablative": false
+    "ablative": false,
+    "masculine": true
 }

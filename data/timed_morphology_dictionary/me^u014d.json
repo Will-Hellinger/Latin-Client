@@ -8,5 +8,6 @@
     "masculine": true,
     "dative": true,
     "neuter": true,
-    "feminine": false
+    "feminine": false,
+    "1st person": true
 }

@@ -5,5 +5,8 @@
     "indicative": true,
     "future": true,
     "active": true,
-    "imperative": false
+    "imperative": false,
+    "passive": false,
+    "imperfect": false,
+    "plural": true
 }

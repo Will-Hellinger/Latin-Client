@@ -7,5 +7,6 @@
     "feminine": false,
     "accusative": false,
     "neuter": true,
-    "superlative": false
+    "superlative": false,
+    "perfect": true
 }

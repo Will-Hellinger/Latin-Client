@@ -2,5 +2,6 @@
     "enemy": true,
     "horse": false,
     "horn": false,
-    "honor": false
+    "honor": false,
+    "home": false
 }

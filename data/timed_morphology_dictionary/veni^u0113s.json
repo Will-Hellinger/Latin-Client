@@ -8,5 +8,6 @@
     "singular": true,
     "3rd person": false,
     "1st person": false,
-    "not deponent": true
+    "not deponent": true,
+    "future": true
 }

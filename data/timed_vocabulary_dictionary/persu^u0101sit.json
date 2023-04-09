@@ -2,5 +2,6 @@
     "persuade": true,
     "command": false,
     "demand": true,
-    "plead": false
+    "plead": false,
+    "beg": false
 }

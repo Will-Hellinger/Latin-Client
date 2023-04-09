@@ -7,5 +7,6 @@
     "not deponent": true,
     "semi-deponent": false,
     "perfect": true,
-    "plural": true
+    "plural": true,
+    "subjunctive": false
 }

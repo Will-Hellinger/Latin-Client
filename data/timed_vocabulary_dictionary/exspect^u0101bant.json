@@ -1,3 +1,4 @@
 {
-    "await": true
+    "await": true,
+    "explain": false
 }

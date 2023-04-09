@@ -9,5 +9,6 @@
     "imperfect": true,
     "deponent": false,
     "imperative": false,
-    "perfect": false
+    "perfect": false,
+    "indicative": true
 }

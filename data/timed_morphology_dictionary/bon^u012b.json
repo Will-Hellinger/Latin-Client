@@ -4,5 +4,6 @@
     "positive": true,
     "genitive": true,
     "feminine": false,
-    "accusative": false
+    "accusative": false,
+    "dative": false
 }

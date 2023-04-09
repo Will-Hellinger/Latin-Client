@@ -8,5 +8,7 @@
     "1st person": false,
     "3rd person": true,
     "indicative": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "passive": true,
+    "neuter": false
 }

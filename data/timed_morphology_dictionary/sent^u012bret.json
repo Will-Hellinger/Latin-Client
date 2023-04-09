@@ -3,5 +3,6 @@
     "semi-deponent": false,
     "imperfect": true,
     "3rd person": true,
-    "1st person": false
+    "1st person": false,
+    "not deponent": true
 }

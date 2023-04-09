@@ -7,5 +7,6 @@
     "passive": false,
     "future perfect": false,
     "deponent": false,
-    "subjunctive": false
+    "subjunctive": false,
+    "imperative": false
 }

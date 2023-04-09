@@ -6,13 +6,15 @@ try:
     from info import *
     from discord_rpc import *
     from web_driver import *
-    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings
+    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions
 except Exception as error:
     input(error)
     exit()
 
+update = True
+
 def debugger_tool():
-    module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings']
+    module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions']
 
     layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
@@ -24,7 +26,7 @@ def debugger_tool():
         if event == 'Reload':
             module = values['_MODULE_INPUT_']
 
-            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings)
+            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions)
             
             if module_strings.index(module) != -1:
                 importlib.reload(modules[module_strings.index(module)])
@@ -52,7 +54,7 @@ if len(sys.argv) >= 2:
 
 
 try:
-    if updater.check_update():
+    if updater.check_update() and update == True:
         updater.run()
 except Exception as error:
     print(f'unable to update due to {error}')
@@ -75,6 +77,8 @@ def on_press(key):
             doAction = not doAction
     except:
         pass
+
+#best to keep this on a seperate thread lol
 listener = pynput.keyboard.Listener(on_press=on_press)
 listener.start()
 
@@ -139,8 +143,7 @@ mode = 'launchpad'
 assignment = 'Latin Launchpad'
 print(f'[+] Successfully Started Client v{version}')
 
-#if discordFound:
-#    rpc_start()
+discord_found = check_discord()
 
 #load plugins
 pluginFiles = glob.glob(f'.{subDirectory}data{subDirectory}plugins{subDirectory}*.plg')
@@ -169,11 +172,17 @@ for a in range(len(pluginFiles)):
 while True:
     if loadWait(By.CLASS_NAME, 'ui-title'):
         title_elements = driver.find_elements(By.CLASS_NAME, 'ui-title')
-        for a in range(len(title_elements)):
-            for b in range(len(modes)):
+
+        for element in title_elements:
+            for available_mode in modes:
                 try:
-                    if modes[b] in str(title_elements[a].text).lower() and mode != modes[b]:
-                        mode = modes[b]
+                    if available_mode in str(element.text).lower():
+                        assignment = str(element.text).lower().replace(f"{user.lower()}'s ", "")
+                        if available_mode != mode:
+                            mode = available_mode
+                        
+                        if discord_found:
+                            update_rpc(mode, assignment)
                 except:
                     pass
     else:
@@ -187,6 +196,7 @@ while True:
     if mode == 'launchpad':
         doAction = False
         enterKey = False
+    
     elif mode == '(grasp)' or mode == 'reading':
         if doAction == True:
             try:
@@ -195,6 +205,23 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
             doAction = False
+            
+    elif mode == 'translation':
+        if doAction == True:
+            try:
+                readings.learn_words()
+            except Exception as error:
+                print(f'error: {error}')
+            doAction = False
+    
+    elif mode == 'composition':
+        if doAction == True:
+            try:
+                compositions.solve()
+            except Exception as error:
+                print(f'error: {error}')
+            doAction = False
+    
     elif mode == 'noun-adj':
         if doAction == True:
             #Solves latin for you
@@ -203,6 +230,7 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
                 doAction = False
+    
     elif mode == 'infinitive morphology' or mode == 'ciples':
         if enterKey == True:
             #Adds enter key back
@@ -211,6 +239,7 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
             enterKey = False
+    
     elif mode == 'timed morphology':
         if doAction == True:
             try:
@@ -218,6 +247,7 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
                 doAction = False
+    
     elif mode == 'timed vocabulary':
         if doAction == True:
             try:
@@ -225,6 +255,7 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
                 doAction = False
+    
     elif mode == 'synopsis':
         if doAction:
             try:
@@ -232,5 +263,6 @@ while True:
             except Exception as error:
                 print(f'error: {error}')
             doAction = False
+    
     time.sleep(.1)
 driver.close()

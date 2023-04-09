@@ -1,5 +1,6 @@
 {
     "spend": true,
     "consume": true,
-    "pass": true
+    "pass": true,
+    "throw": false
 }

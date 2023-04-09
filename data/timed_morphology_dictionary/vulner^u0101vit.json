@@ -5,5 +5,6 @@
     "plural": false,
     "imperfect": false,
     "2nd person": false,
-    "subjunctive": false
+    "subjunctive": false,
+    "indicative": true
 }

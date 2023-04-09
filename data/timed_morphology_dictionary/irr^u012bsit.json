@@ -4,5 +4,6 @@
     "subjunctive": false,
     "2nd person": false,
     "imperative": false,
-    "3rd person": true
+    "3rd person": true,
+    "not deponent": true
 }

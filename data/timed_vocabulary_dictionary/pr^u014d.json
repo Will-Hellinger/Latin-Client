@@ -1,5 +1,6 @@
 {
     "for": true,
     "on behalf of": true,
-    "through": false
+    "through": false,
+    "on account of": false
 }

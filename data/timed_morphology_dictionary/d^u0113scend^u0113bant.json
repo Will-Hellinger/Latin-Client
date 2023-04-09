@@ -7,5 +7,6 @@
     "active": true,
     "semi-deponent": false,
     "plural": true,
-    "deponent": false
+    "deponent": false,
+    "not deponent": true
 }

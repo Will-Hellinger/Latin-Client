@@ -8,5 +8,6 @@
     "accusative": true,
     "plural": false,
     "masculine": false,
-    "feminine": true
+    "feminine": true,
+    "dative": false
 }

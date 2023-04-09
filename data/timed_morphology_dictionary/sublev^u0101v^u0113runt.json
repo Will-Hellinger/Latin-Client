@@ -8,5 +8,6 @@
     "semi-deponent": false,
     "3rd person": true,
     "not deponent": true,
-    "pluperfect": false
+    "pluperfect": false,
+    "passive": false
 }

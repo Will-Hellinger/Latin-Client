@@ -7,5 +7,6 @@
     "not deponent": true,
     "active": false,
     "subjunctive": true,
-    "singular": true
+    "singular": true,
+    "future": false
 }

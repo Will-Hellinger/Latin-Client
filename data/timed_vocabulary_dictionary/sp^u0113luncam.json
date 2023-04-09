@@ -1,5 +1,6 @@
 {
     "cave": true,
     "watch": false,
-    "hope": true
+    "hope": true,
+    "spectator": false
 }

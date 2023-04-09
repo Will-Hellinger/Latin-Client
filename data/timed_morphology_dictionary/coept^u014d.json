@@ -9,5 +9,6 @@
     "comparative": false,
     "future perfect": false,
     "positive": true,
-    "present": false
+    "present": false,
+    "participle": true
 }

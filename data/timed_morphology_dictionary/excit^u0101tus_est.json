@@ -8,5 +8,6 @@
     "feminine": false,
     "perfect": true,
     "3rd person": true,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "deponent": false
 }

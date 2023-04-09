@@ -4,5 +4,6 @@
     "plural": true,
     "active": true,
     "singular": false,
-    "future": false
+    "future": false,
+    "imperative": false
 }

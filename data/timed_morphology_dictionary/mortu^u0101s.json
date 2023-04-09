@@ -10,5 +10,7 @@
     "perfect": true,
     "superlative": false,
     "participle": true,
-    "accusative": true
+    "accusative": true,
+    "future": false,
+    "masculine": false
 }

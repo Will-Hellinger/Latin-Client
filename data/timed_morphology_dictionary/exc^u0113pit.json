@@ -9,5 +9,6 @@
     "indicative": true,
     "passive": false,
     "future": false,
-    "imperative": false
+    "imperative": false,
+    "semi-deponent": false
 }

@@ -7,5 +7,6 @@
     "perfect": true,
     "feminine": false,
     "deponent": false,
-    "passive": true
+    "passive": true,
+    "gerund": false
 }

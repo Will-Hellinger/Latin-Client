@@ -2,5 +2,6 @@
     "seize": false,
     "throw": false,
     "weaken": true,
-    "hurl": false
+    "hurl": false,
+    "grasp": false
 }

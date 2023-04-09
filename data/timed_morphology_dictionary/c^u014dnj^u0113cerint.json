@@ -8,5 +8,7 @@
     "imperative": false,
     "perfect": true,
     "1st person": false,
-    "passive": false
+    "passive": false,
+    "not deponent": true,
+    "imperfect": false
 }

@@ -2,5 +2,6 @@
     "dative": true,
     "genitive": false,
     "accusative": false,
-    "neuter": false
+    "neuter": false,
+    "feminine": true
 }

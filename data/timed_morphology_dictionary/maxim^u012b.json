@@ -3,5 +3,6 @@
     "neuter": true,
     "feminine": false,
     "masculine": true,
-    "nominative": true
+    "nominative": true,
+    "accusative": false
 }

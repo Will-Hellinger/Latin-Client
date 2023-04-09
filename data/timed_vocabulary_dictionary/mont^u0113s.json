@@ -1,5 +1,6 @@
 {
     "mountain": true,
     "hill": true,
-    "wall": false
+    "wall": false,
+    "valley": false
 }

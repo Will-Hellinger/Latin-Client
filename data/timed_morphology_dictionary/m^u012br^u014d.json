@@ -5,5 +5,6 @@
     "masculine": true,
     "nominative": false,
     "feminine": false,
-    "dative": true
+    "dative": true,
+    "ablative": true
 }

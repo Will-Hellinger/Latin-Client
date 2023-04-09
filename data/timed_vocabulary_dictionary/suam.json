@@ -4,5 +4,6 @@
     "hers": true,
     "its": true,
     "their": true,
-    "theirs": true
+    "theirs": true,
+    "that": false
 }

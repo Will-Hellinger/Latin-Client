@@ -7,5 +7,6 @@
     "deponent": false,
     "2nd person": false,
     "active": true,
-    "1st person": false
+    "1st person": false,
+    "pluperfect": false
 }

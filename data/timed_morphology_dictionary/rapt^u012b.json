@@ -2,5 +2,6 @@
     "semi-deponent": false,
     "passive": true,
     "gerund": false,
-    "active": false
+    "active": false,
+    "participle": true
 }

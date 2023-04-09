@@ -1,5 +1,6 @@
 {
     "army": true,
     "battle": false,
-    "expectation": false
+    "expectation": false,
+    "explorer": true
 }

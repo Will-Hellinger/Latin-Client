@@ -5,7 +5,7 @@ import os
 version = 1.0
 user = 'none'
 
-modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
+modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
 
 doAction = False
 enterKey = False
@@ -59,10 +59,27 @@ except:
 
 
 def encodeFilename(file_name: str):
-    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>']
-    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)']
+    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>', ' ']
+    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)', '_']
     for a in range(len(removeList)):
         file_name = file_name.replace(str(removeList[a]), str(replaceList[a]))
+    
+    file_name = file_name.encode('unicode-escape')
+    file_name = file_name.decode('utf-8')
+    file_name = file_name.replace('\\', '^')
+
+    return file_name
+
+def decodeFilename(file_name: str):
+    removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>', ' ']
+    replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)', '_']
+    for a in range(len(removeList)):
+        file_name = file_name.replace(str(replaceList[a]), str(removeList[a]))
+    
+    file_name = file_name.replace('^', '\\')
+    file_name = file_name.encode('utf-8')
+    file_name = file_name.decode('unicode-escape')
+
     return file_name
 
 

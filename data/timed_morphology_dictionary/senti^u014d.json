@@ -10,5 +10,6 @@
     "2nd person": false,
     "1st person": true,
     "active": true,
-    "passive": false
+    "passive": false,
+    "imperative": false
 }

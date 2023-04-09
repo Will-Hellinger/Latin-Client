@@ -3,5 +3,6 @@
     "singular": false,
     "masculine": true,
     "ablative": true,
-    "genitive": false
+    "genitive": false,
+    "dative": true
 }

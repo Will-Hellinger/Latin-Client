@@ -1,5 +1,6 @@
 {
     "3rd person": true,
     "singular": false,
-    "active": true
+    "active": true,
+    "semi-deponent": false
 }

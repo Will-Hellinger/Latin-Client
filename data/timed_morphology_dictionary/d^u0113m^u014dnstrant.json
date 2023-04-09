@@ -4,5 +4,7 @@
     "pluperfect": false,
     "active": true,
     "plural": true,
-    "indicative": true
+    "indicative": true,
+    "imperative": false,
+    "2nd person": false
 }

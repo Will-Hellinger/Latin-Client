@@ -1,5 +1,6 @@
 {
     "path": true,
     "journey": true,
-    "rain": false
+    "rain": false,
+    "anger": false
 }

@@ -8,5 +8,6 @@
     "future": false,
     "deponent": false,
     "plural": true,
-    "passive": false
+    "passive": false,
+    "present": true
 }

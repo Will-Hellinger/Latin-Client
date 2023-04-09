@@ -4,5 +4,6 @@
     "singular": false,
     "plural": true,
     "passive": false,
-    "deponent": false
+    "deponent": false,
+    "present": false
 }

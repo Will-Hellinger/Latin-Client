@@ -3,5 +3,6 @@
     "demonstrative": false,
     "interrogative": true,
     "reflexive": false,
-    "singular": false
+    "singular": false,
+    "adjective": true
 }

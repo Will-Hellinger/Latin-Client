@@ -8,5 +8,6 @@
     "active": true,
     "2nd person": false,
     "perfect": true,
-    "present": false
+    "present": false,
+    "subjunctive": false
 }

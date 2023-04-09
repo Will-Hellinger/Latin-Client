@@ -8,5 +8,6 @@
     "not deponent": true,
     "active": true,
     "3rd person": true,
-    "imperfect": true
+    "imperfect": true,
+    "passive": false
 }

@@ -8,5 +8,6 @@
     "1st person": false,
     "indicative": false,
     "active": true,
-    "not deponent": true
+    "not deponent": true,
+    "plural": false
 }

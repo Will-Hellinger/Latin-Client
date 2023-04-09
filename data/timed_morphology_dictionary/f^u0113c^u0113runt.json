@@ -6,5 +6,6 @@
     "imperfect": false,
     "deponent": false,
     "imperative": false,
-    "singular": false
+    "singular": false,
+    "pluperfect": false
 }

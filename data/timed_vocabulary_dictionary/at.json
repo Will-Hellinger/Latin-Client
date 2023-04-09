@@ -6,5 +6,6 @@
     "herself": true,
     "itself": true,
     "themselves": true,
-    "and... not...": false
+    "and... not...": false,
+    "before": false
 }

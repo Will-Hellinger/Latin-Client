@@ -1,5 +1,6 @@
 {
     "feed on": true,
     "drink": false,
-    "drain": false
+    "drain": false,
+    "ravage": false
 }

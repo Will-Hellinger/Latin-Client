@@ -7,5 +7,7 @@
     "active": false,
     "positive": true,
     "gerund": false,
-    "singular": false
+    "singular": false,
+    "comparative": false,
+    "dative": true
 }

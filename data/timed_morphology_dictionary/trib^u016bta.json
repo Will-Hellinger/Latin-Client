@@ -7,5 +7,6 @@
     "masculine": false,
     "singular": false,
     "plural": true,
-    "nominative": true
+    "nominative": true,
+    "ablative": false
 }

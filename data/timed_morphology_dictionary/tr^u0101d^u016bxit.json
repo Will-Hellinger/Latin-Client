@@ -16,5 +16,6 @@
     "future": false,
     "3rd person": true,
     "indicative": true,
-    "1st person": false
+    "1st person": false,
+    "present": false
 }

@@ -4,5 +4,6 @@
     "drain": true,
     "draw": true,
     "dine": false,
-    "inhabit": false
+    "inhabit": false,
+    "halt": false
 }

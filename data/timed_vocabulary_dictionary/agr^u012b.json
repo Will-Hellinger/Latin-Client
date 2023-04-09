@@ -4,5 +4,6 @@
     "territory": true,
     "farm": true,
     "field": true,
-    "cow": false
+    "cow": false,
+    "district": true
 }

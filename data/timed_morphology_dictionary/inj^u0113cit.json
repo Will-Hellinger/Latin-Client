@@ -8,5 +8,6 @@
     "singular": true,
     "passive": false,
     "perfect": true,
-    "future perfect": false
+    "future perfect": false,
+    "semi-deponent": false
 }

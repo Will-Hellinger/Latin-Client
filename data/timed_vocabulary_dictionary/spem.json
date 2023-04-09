@@ -1,5 +1,6 @@
 {
     "hope": true,
     "appearance": false,
-    "spoil": false
+    "spoil": false,
+    "mirror": false
 }

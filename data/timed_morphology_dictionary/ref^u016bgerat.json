@@ -8,5 +8,7 @@
     "singular": true,
     "active": true,
     "pluperfect": true,
-    "2nd person": false
+    "2nd person": false,
+    "passive": false,
+    "deponent": false
 }

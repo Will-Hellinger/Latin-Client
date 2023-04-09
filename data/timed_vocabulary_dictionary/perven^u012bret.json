@@ -3,5 +3,6 @@
     "arrive": true,
     "stretch": false,
     "lead": false,
-    "feel": false
+    "feel": false,
+    "beat": false
 }

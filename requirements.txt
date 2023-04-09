@@ -6,6 +6,6 @@ pynput==1.7.6
 pypresence==4.2.1
 PySimpleGUI==4.60.4
 requests==2.25.1
-selenium==4.8.2
+selenium==4.8.3
 validators==0.20.0
 webdriver_manager==3.8.4

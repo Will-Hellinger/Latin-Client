@@ -91,7 +91,6 @@ def solver():
     word = str(driver.find_element(By.XPATH, f"// p[@id='{vocab_element}']").text).split('\n')[0]
     definition = str(driver.find_element(By.XPATH, f"// p[@id='{definition_element}']").text)
     predicted_guess = "none"
-    file_name = (str(word.replace(" ", "_")).encode("unicode-escape")).decode("utf-8").replace("\\", "^")
 
     #This is honestly only for windows
     file_name = encodeFilename(file_name)
@@ -112,7 +111,7 @@ def solver():
                 driver.find_element(By.XPATH, f"// label[@for='{true_element}']").click()
             elif data[definition] == False:
                 driver.find_element(By.XPATH, f"// label[@for='{false_element}']").click()
-            wait_reload(word, definition, data[definition])
+            wait_reload(word, definition)
 
             if check_true() == True:
                 print(f'Found in dictionary: {word} - {definition} - {data[definition]}: Correct')
@@ -160,7 +159,7 @@ def solver():
             if predicted_guess == "none":
                 choice = False
 
-            wait_reload(word, definition, choice)
+            wait_reload(word, definition)
             if check_true() == True and predicted_guess != "none":
                 data[definition] = predicted_guess
                 print(f'Predicted Guess - {predicted_guess}: {word} - {definition}: Correct')

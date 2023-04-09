@@ -6,5 +6,6 @@
     "feminine": true,
     "dative": false,
     "masculine": false,
-    "accusative": false
+    "accusative": false,
+    "nominative": false
 }
