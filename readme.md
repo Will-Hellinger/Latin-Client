@@ -1,13 +1,6 @@
 # LTHS Latin Client
 
-This is a Python script designed to aid &| automate certain tasks in LTHS Latin Schoology. It can help you with vocabulary, morphology, and translations. This program uses Selenium WebDriver to interact with the website.
-
-## Prerequisites
-
-- Python 3
-- Chromedriver
-- Selenium
-- PySimpleGUI
+This is a Python script designed to aid and or automate certain tasks in LTHS Latin Schoology. It can help you with vocabulary, morphology, and translations. This program uses Selenium WebDriver to interact with the website.
 
 ## Setup
 
