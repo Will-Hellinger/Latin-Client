@@ -22,6 +22,10 @@ updateURL = 'https://will-hellinger.github.io/Latin-Client/'
 checksumURL = f'{updateURL}{str(str(path[1:]).replace(subDirectory, "/")[1:])}'
 exclude_list = ['.pyc', '.DS_Store', 'settings.json', checksum_filename, main_checksum_filename, '.git']
 user_updated_folders = ['latin_dictionary', 'timed_morphology_dictionary', 'timed_vocab_dictionary']
+settings_file_dir = f'.{subDirectory}data{subDirectory}'
+backup_settings_dir = f'.{subDirectory}data{subDirectory}backup{subDirectory}'
+settings_file_name = 'settings.json'
+backup_settings_name = 'base_settings.json'
 
 build_commands = ['-b', '--b', '-build', '--build']
 run_commands = ['-r', '--r', '-run', '--run']
@@ -158,6 +162,18 @@ def update():
             elif (os.path.exists(item.replace("(sub)", subDirectory)) and user_updatable_file == False) or not os.path.exists(item.replace("(sub)", subDirectory)):
                 with open(str(item).replace('(sub)', subDirectory), encoding='utf-8', mode='w') as file:
                     file.write(newData)
+    
+    #allows for settings to be updated as well
+    base_settings = json.load(open(f'{backup_settings_dir}{backup_settings_name}', mode='r'))
+    with open(f'{settings_file_dir}{settings_file_name}', mode='r+') as file:
+        settings = json.load(file)
+
+        for item in base_settings:
+            if settings.get(item) == None:
+                settings[item] = base_settings[item]
+    
+    save_file(file, settings)
+
 
 def build_chksm():
     global path

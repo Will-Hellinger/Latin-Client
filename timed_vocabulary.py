@@ -10,7 +10,7 @@ try:
     translator.translate('le tit', src='fr', dest='en')
     translater_delay = time.time() - translater_delay
 
-    if translater_delay < 0:
+    if translater_delay < 0: #disabled for now cause im lazy
         runPrediction = True
         import nltk
         nltk.download('wordnet')

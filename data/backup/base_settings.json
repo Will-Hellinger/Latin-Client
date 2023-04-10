@@ -4,9 +4,10 @@
         "sound" : true,
         "discord_rpc" : true,
         "icon" : "icon.ico",
-        "browser-type" : "none",
+        "browser-type" : "Chrome",
         "timeout-delay" : "5",
-	    "fake-human" : false
+	    "fake-human" : false,
+        "google-trans-timed_vocab-fallback" : false
     },
     "schoology": {
         "latin-link": "none",

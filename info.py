@@ -24,36 +24,36 @@ path = f'.{subDirectory}data{subDirectory}'
 def clear_console():
     os.system(clear)
 
-try:
-    try:
-        actionButton = str(json.load(open(f'{path}settings.json'))['configuration']['action-button'])
-    except:
+def load_settings():
+    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass
+    settings = json.load(open(f'{path}settings.json', mode='r'))
+
+    actionButton = settings['configuration'].get('action-button')
+    if actionButton == None:
         actionButton = '`'
-    
-    webbrowserType = str(json.load(open(f'{path}settings.json'))['configuration']['browser-type'])
-    delay = int(json.load(open(f'{path}settings.json'))['configuration']['timeout-delay'])
 
-    discord_rpc = json.load(open(f'{path}settings.json'))['configuration']['discord_rpc']
+    webbrowserType = settings['configuration'].get('browser-type')
+    delay = settings['configuration'].get('timeout-delay')
+    human_mode = settings['configuration'].get('fake-human')
+    timed_vocab_fallback = settings['configuration'].get('google-trans-timed_vocab-fallback')
 
-    funnySound = json.load(open(f'{path}settings.json'))['configuration']['sound']
+    discord_rpc = settings['configuration'].get('discord_rpc')
+    funnySound = settings['configuration'].get('sound')
 
-    latinLink = str(json.load(open(f'{path}settings.json'))['schoology']['latin-link'])
-    schoologyUser = str(json.load(open(f'{path}settings.json'))['schoology']['username'])
-    schoologyPass = str(json.load(open(f'{path}settings.json'))['schoology']['password'])
-    human_mode = json.load(open(f'{path}settings.json'))['configuration']['fake-human']
+    latinLink = settings['schoology'].get('latin-link')
+    schoologyUser = settings['schoology'].get('username')
+    schoologyPass = settings['schoology'].get('password')
 
-    check_modified = [latinLink, schoologyPass, schoologyUser, webbrowserType]
-    modified = True
-    for a in range(len(check_modified)):
-        if check_modified[a] == "none":
-            modified = False
+try:
+    load_settings()
+
+    settings_list = (webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass)
+    for setting in settings_list:
+        if setting == None or setting == "none":
             setup.run()
     
-    if modified == False:
-        webbrowserType = str(json.load(open(f'{path}settings.json'))['configuration']['browser-type'])
-        latinLink = str(json.load(open(f'{path}settings.json'))['schoology']['latin-link'])
-        schoologyUser = str(json.load(open(f'{path}settings.json'))['schoology']['username'])
-        schoologyPass = str(json.load(open(f'{path}settings.json'))['schoology']['password'])
+    load_settings()
+
 except:
     setup.run()
 
