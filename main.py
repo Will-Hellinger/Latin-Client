@@ -55,7 +55,7 @@ if len(sys.argv) >= 2:
 
 try:
     if updater.check_update() and update == True:
-        updater.run()
+        updater.update()
 except Exception as error:
     print(f'unable to update due to {error}')
 

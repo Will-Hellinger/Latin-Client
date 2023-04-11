@@ -50,20 +50,3 @@ def get_dictionary():
 def translate(word: str, language: str, dictionary: dict = get_dictionary()):
     
     return dictionary[language.lower()].get(word)
-
-def test_latin_output(words: str):
-    latin_words = []
-    word_list = words.split()
-    
-    for i in range(len(word_list)):
-        for j in range(i+1, len(word_list)+1):
-            combined_word = ''.join(word_list[i:j])
-            if translate(combined_word, 'english') != None:
-                latin_words.append(str(translate(combined_word, 'english')))
-    
-    if latin_words:
-        print("Latin words found:", ', '.join(latin_words))
-    else:
-        print("No Latin words found.")
-
-print(test_latin_output('They differ from each other in courage but surpass the rest of the Germans in greed.'))

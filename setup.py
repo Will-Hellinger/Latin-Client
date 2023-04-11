@@ -12,12 +12,6 @@ else:
     pip = 'pip3'
     clear = 'clear'
 
-settings_file_dir = f'.{subDirectory}data{subDirectory}'
-backup_settings_dir = f'.{subDirectory}data{subDirectory}backup{subDirectory}'
-settings_file_name = 'settings.json'
-backup_settings_name = 'base_settings.json'
-
-
 def save_file(data, file):
     file.seek(0)
     json.dump(data, file, indent=4)

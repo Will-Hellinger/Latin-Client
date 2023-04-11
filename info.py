@@ -24,6 +24,9 @@ path = f'.{subDirectory}data{subDirectory}'
 def clear_console():
     os.system(clear)
 
+actionButton = "`"
+
+
 def load_settings():
     global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass
     settings = json.load(open(f'{path}settings.json', mode='r'))
