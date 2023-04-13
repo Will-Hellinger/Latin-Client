@@ -27,3 +27,38 @@ def solve():
         
         
         all_inputs.append(inputs)
+    
+    for latin_input in latin_inputs:
+        default_color = 'red'
+        answers = []
+
+        if str(latin_input.get_attribute('style')) != 'color:red;white-space:pre-wrap;margin-right:2em;padding:3%':
+            default_color = 'green'
+        
+        span_texts = latin_input.find_elements(By.TAG_NAME, 'span')
+        text = latin_input.text
+
+        if default_color == 'green' and len(span_texts) == 0:
+            answers.extend(text.split(' '))
+
+        elif default_color == 'green' and len(span_texts) != 0:
+            for span_text in span_texts:
+                if 'red' in str(span_text.get_attribute('style')):
+                    text.replace(span_text.text, '')
+            
+            answers.extend(text.split(' '))
+        
+        elif default_color == 'red' and len(span_texts) != 0:
+            temp_answers = []
+            for span_text in span_texts:
+                if 'green' in str(span_text.get_attribute('style')):
+                    temp_answers.append(span_text.text)
+                
+            answers.extend(temp_answers)
+
+        print(answers)
+
+    question = 1
+    for input in all_inputs:
+        print(f'{question}. {input}\n\n')
+        question += 1
