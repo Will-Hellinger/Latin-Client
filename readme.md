@@ -12,7 +12,7 @@ This is a Python script designed to aid and or automate certain tasks in LTHS La
 ## Features
 
 - Automatically logs in to your LTHS Latin Schoology account.
-- Supports multiple modes such as Vocabulary, Noun Adjective Agreement, Infinitive Morphology, Timed Vocabulary, and Timed Morphology.
+- Supports multiple assignment types such as, Synopsis, Compositions, Noun Adjective Agreement, Infinitive Morphology, Timed Vocabulary, and Timed Morphology.
 - Plugins: the bot can load small javascript plugins.
 - Discord Rich Presence: display the current mode and assignment on your Discord profile.
 
