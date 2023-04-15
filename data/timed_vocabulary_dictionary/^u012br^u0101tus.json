@@ -6,5 +6,6 @@
     "angered": true,
     "violent": true,
     "ignorant": false,
-    "unlucky": false
+    "unlucky": false,
+    "huge": false
 }

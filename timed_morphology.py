@@ -51,7 +51,7 @@ def solver():
     definition = str(driver.find_element(By.XPATH, f"// p[@id='{stimuli_element}']").text)
 
     #This is honestly only for windows
-    file_name = encodeFilename(file_name)
+    file_name = encodeFilename(str(word))
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}{morphology_dictionary}{subDirectory}{file_name}.json'):
         print(f'{word} not found, creating entry.', end='\r')

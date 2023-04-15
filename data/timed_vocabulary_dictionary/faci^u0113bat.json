@@ -3,5 +3,6 @@
     "do": true,
     "make": true,
     "(with certior) inform": true,
-    "weaken": false
+    "weaken": false,
+    "accomplish": false
 }

@@ -4,5 +4,6 @@
     "accusative": true,
     "neuter": true,
     "plural": true,
-    "singular": false
+    "singular": false,
+    "nominative": true
 }

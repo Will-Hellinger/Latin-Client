@@ -8,5 +8,6 @@
     "perfect": true,
     "2nd person": false,
     "active": true,
-    "passive": false
+    "passive": false,
+    "not deponent": true
 }

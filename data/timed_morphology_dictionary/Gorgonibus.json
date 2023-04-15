@@ -1,3 +1,5 @@
 {
-    "neuter": true
+    "neuter": true,
+    "singular": true,
+    "dative": true
 }

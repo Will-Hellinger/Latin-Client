@@ -6,5 +6,6 @@
     "singular": false,
     "nominative": false,
     "ablative": true,
-    "comparative": false
+    "comparative": false,
+    "positive": true
 }

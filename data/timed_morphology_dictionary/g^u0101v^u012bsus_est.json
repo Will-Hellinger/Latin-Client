@@ -9,5 +9,6 @@
     "perfect": true,
     "not deponent": false,
     "3rd person": true,
-    "semi-deponent": true
+    "semi-deponent": true,
+    "future perfect": false
 }

@@ -6,5 +6,6 @@
     "singular": false,
     "2nd person": false,
     "indicative": true,
-    "active": true
+    "active": true,
+    "passive": false
 }

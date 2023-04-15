@@ -9,5 +9,6 @@
     "participle": true,
     "not deponent": false,
     "superlative": false,
-    "dative": true
+    "dative": true,
+    "infinitive": false
 }

@@ -1,4 +1,6 @@
 {
     "positive": false,
-    "nominative": true
+    "nominative": true,
+    "neuter": false,
+    "plural": false
 }

@@ -1,4 +1,5 @@
 {
     "masculine": true,
-    "singular": true
+    "singular": true,
+    "ablative": false
 }

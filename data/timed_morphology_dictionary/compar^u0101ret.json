@@ -4,5 +4,6 @@
     "semi-deponent": false,
     "plural": false,
     "not deponent": true,
-    "active": true
+    "active": true,
+    "deponent": false
 }

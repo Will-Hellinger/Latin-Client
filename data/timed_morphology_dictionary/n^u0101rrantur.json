@@ -4,5 +4,7 @@
     "passive": true,
     "imperfect": false,
     "not deponent": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "indicative": true,
+    "deponent": false
 }

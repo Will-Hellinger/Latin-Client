@@ -8,5 +8,6 @@
     "subjunctive": false,
     "semi-deponent": false,
     "singular": false,
-    "deponent": false
+    "deponent": false,
+    "passive": false
 }

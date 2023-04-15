@@ -8,5 +8,6 @@
     "accusative": true,
     "passive": false,
     "plural": false,
-    "infinitive": false
+    "infinitive": false,
+    "singular": true
 }

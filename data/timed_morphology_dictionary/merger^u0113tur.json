@@ -7,5 +7,6 @@
     "imperative": false,
     "imperfect": true,
     "not deponent": true,
-    "singular": true
+    "singular": true,
+    "active": false
 }

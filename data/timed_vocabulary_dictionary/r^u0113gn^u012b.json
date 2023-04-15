@@ -2,5 +2,6 @@
     "region": false,
     "rule": true,
     "power": true,
-    "queen": false
+    "queen": false,
+    "kingdom": true
 }

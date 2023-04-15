@@ -2,5 +2,6 @@
     "go away": true,
     "err": false,
     "seize": false,
-    "cut off": false
+    "cut off": false,
+    "wander": false
 }

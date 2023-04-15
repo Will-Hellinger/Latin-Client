@@ -3,5 +3,6 @@
     "stumble upon": true,
     "kill": false,
     "possess": false,
-    "nap": false
+    "nap": false,
+    "obtain": true
 }

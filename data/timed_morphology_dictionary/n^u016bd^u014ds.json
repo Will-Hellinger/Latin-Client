@@ -7,5 +7,6 @@
     "positive": true,
     "genitive": false,
     "comparative": false,
-    "superlative": false
+    "superlative": false,
+    "ablative": false
 }

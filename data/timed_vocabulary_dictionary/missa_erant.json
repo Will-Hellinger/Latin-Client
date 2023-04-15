@@ -3,5 +3,6 @@
     "hurry": true,
     "stay": false,
     "meet": false,
-    "hasten": false
+    "hasten": false,
+    "entrust": false
 }

@@ -8,5 +8,6 @@
     "singular": true,
     "dative": false,
     "demonstrative": false,
-    "positive": true
+    "positive": true,
+    "ordinal": false
 }

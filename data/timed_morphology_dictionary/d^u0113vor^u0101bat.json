@@ -9,5 +9,6 @@
     "semi-deponent": false,
     "future perfect": false,
     "indicative": true,
-    "singular": true
+    "singular": true,
+    "imperfect": true
 }

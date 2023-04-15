@@ -2,5 +2,6 @@
     "nominative": true,
     "feminine": true,
     "accusative": true,
-    "positive": true
+    "positive": true,
+    "neuter": true
 }

@@ -1,4 +1,5 @@
 {
     "wound": true,
-    "destroy": false
+    "destroy": false,
+    "force": false
 }

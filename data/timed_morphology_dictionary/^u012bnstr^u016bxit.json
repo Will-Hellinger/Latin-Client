@@ -7,5 +7,6 @@
     "pluperfect": false,
     "singular": true,
     "imperfect": false,
-    "1st person": true
+    "1st person": true,
+    "3rd person": true
 }

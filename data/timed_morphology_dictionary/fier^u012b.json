@@ -3,5 +3,6 @@
     "active": false,
     "deponent": false,
     "semi-deponent": false,
-    "infinitive": true
+    "infinitive": true,
+    "passive": true
 }

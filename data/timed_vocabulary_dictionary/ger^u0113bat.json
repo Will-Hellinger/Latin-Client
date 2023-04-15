@@ -7,5 +7,6 @@
     "drive": false,
     "make": true,
     "find": false,
-    "come": false
+    "come": false,
+    "understand": false
 }

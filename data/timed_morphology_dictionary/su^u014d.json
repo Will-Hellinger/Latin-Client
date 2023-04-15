@@ -12,5 +12,6 @@
     "demonstrative": false,
     "possessive": true,
     "genitive": false,
-    "reflexive": true
+    "reflexive": true,
+    "accusative": false
 }

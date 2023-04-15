@@ -3,5 +3,6 @@
     "subjunctive": false,
     "plural": false,
     "perfect": true,
-    "3rd person": true
+    "3rd person": true,
+    "pluperfect": false
 }

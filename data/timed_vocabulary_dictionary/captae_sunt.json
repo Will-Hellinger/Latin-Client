@@ -3,5 +3,6 @@
     "seize": true,
     "take": true,
     "happen": false,
-    "grasp": false
+    "grasp": false,
+    "reason": false
 }

@@ -7,5 +7,6 @@
     "masculine": true,
     "singular": true,
     "superlative": false,
-    "neuter": true
+    "neuter": true,
+    "positive": true
 }

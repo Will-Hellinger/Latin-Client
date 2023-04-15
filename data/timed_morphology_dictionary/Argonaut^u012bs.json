@@ -2,5 +2,6 @@
     "ablative": true,
     "singular": false,
     "dative": true,
-    "plural": true
+    "plural": true,
+    "feminine": false
 }

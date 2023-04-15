@@ -1,3 +1,5 @@
 {
-    "indicative": true
+    "indicative": true,
+    "pluperfect": false,
+    "perfect": false
 }

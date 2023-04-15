@@ -97,15 +97,12 @@ def solve():
 
                 if default_color == 'red' and len(span_texts) != 0 and latin_word not in temp_answers:
                     temp_answers.append(latin_word)
-                    print('correct')
 
                 elif default_color == 'green' and len(span_texts) == 0 and latin_word not in temp_answers:
                     temp_answers.append(latin_word)
-                    print('correct')
 
                 all_answers[a] = temp_answers
 
-    print(all_answers)
     for a in range(0, len(all_answers)):
         (latin_inputs[a]).clear()
         time.sleep(.5)

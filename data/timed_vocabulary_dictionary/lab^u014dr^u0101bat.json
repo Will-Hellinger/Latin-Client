@@ -2,5 +2,6 @@
     "work": true,
     "labor": true,
     "try": false,
-    "task": false
+    "task": false,
+    "finish": false
 }

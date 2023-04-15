@@ -7,5 +7,6 @@
     "positive": true,
     "not deponent": true,
     "passive": true,
-    "gerund": true
+    "gerund": true,
+    "masculine": true
 }

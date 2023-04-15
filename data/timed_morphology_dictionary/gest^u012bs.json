@@ -9,5 +9,6 @@
     "gerund": false,
     "comparative": false,
     "deponent": false,
-    "participle": true
+    "participle": true,
+    "active": true
 }

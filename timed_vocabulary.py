@@ -93,7 +93,7 @@ def solver():
     predicted_guess = "none"
 
     #This is honestly only for windows
-    file_name = encodeFilename(file_name)
+    file_name = encodeFilename(str(word))
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}{vocab_dictionary}{subDirectory}{file_name}.json'):
         print(f'{word} not found, creating entry.', end='\r')

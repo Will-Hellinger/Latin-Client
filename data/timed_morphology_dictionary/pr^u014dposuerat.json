@@ -7,5 +7,6 @@
     "deponent": false,
     "indicative": true,
     "semi-deponent": false,
-    "future perfect": false
+    "future perfect": false,
+    "singular": true
 }

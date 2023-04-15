@@ -11,5 +11,6 @@
     "infinitive": false,
     "semi-deponent": false,
     "participle": true,
-    "not deponent": false
+    "not deponent": false,
+    "future": false
 }

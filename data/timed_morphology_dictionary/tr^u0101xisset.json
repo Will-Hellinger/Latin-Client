@@ -7,5 +7,6 @@
     "1st person": false,
     "future": false,
     "indicative": false,
-    "deponent": false
+    "deponent": false,
+    "plural": false
 }

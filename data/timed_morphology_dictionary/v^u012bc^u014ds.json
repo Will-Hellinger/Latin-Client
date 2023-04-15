@@ -3,5 +3,6 @@
     "neuter": false,
     "singular": false,
     "genitive": false,
-    "masculine": true
+    "masculine": true,
+    "dative": false
 }

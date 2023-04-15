@@ -4,5 +4,6 @@
     "hand over": true,
     "deliver": true,
     "pierce": false,
-    "reputation": true
+    "reputation": true,
+    "lead across": false
 }

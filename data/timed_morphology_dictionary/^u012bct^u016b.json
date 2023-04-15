@@ -2,5 +2,6 @@
     "singular": true,
     "masculine": true,
     "ablative": true,
-    "feminine": false
+    "feminine": false,
+    "dative": false
 }

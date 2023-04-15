@@ -3,5 +3,6 @@
     "inquire": true,
     "seek": true,
     "look for": true,
-    "stare": false
+    "stare": false,
+    "attack": false
 }

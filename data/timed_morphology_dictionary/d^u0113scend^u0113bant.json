@@ -8,5 +8,6 @@
     "semi-deponent": false,
     "plural": true,
     "deponent": false,
-    "not deponent": true
+    "not deponent": true,
+    "singular": false
 }

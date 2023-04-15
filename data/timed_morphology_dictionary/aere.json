@@ -1,3 +1,4 @@
 {
-    "singular": true
+    "singular": true,
+    "plural": false
 }

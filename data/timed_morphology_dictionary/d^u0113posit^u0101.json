@@ -8,5 +8,6 @@
     "perfect": true,
     "neuter": false,
     "gerund": false,
-    "feminine": true
+    "feminine": true,
+    "comparative": false
 }

@@ -1,4 +1,5 @@
 {
     "singular": true,
-    "positive": true
+    "positive": true,
+    "ablative": false
 }

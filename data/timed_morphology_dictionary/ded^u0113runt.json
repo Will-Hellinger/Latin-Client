@@ -8,5 +8,6 @@
     "3rd person": true,
     "2nd person": false,
     "plural": true,
-    "active": true
+    "active": true,
+    "subjunctive": false
 }

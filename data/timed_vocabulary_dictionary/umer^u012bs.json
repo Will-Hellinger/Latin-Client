@@ -2,5 +2,6 @@
     "shoulder": true,
     "neck": false,
     "shape": false,
-    "shower": false
+    "shower": false,
+    "hand": true
 }

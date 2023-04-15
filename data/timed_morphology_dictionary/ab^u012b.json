@@ -6,5 +6,6 @@
     "plural": false,
     "indicative": false,
     "active": true,
-    "imperative": true
+    "imperative": true,
+    "present": true
 }

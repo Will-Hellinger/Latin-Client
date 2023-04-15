@@ -1,5 +1,6 @@
 {
     "infinitive": true,
     "gerund": false,
-    "present": true
+    "present": true,
+    "future": false
 }

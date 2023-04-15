@@ -4,5 +4,6 @@
     "ablative": false,
     "singular": false,
     "not deponent": false,
-    "nominative": false
+    "nominative": false,
+    "deponent": true
 }

@@ -5,5 +5,6 @@
     "2nd person": false,
     "subjunctive": true,
     "imperative": false,
-    "passive": false
+    "passive": false,
+    "active": true
 }

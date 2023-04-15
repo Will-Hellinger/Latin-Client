@@ -4,5 +4,6 @@
     "genitive": true,
     "dative": false,
     "plural": true,
-    "feminine": false
+    "feminine": false,
+    "ablative": false
 }

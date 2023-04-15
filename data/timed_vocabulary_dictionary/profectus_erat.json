@@ -4,5 +4,6 @@
     "pursue": false,
     "disembark": false,
     "set out": true,
-    "start out": true
+    "start out": true,
+    "advance": false
 }

@@ -8,5 +8,6 @@
     "indicative": true,
     "3rd person": true,
     "deponent": false,
-    "future": false
+    "future": false,
+    "plural": false
 }

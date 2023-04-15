@@ -6,5 +6,6 @@
     "genitive": false,
     "dative": false,
     "neuter": false,
-    "ablative": false
+    "ablative": false,
+    "feminine": false
 }

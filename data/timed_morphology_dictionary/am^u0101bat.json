@@ -6,5 +6,6 @@
     "singular": true,
     "1st person": false,
     "perfect": false,
-    "passive": false
+    "passive": false,
+    "semi-deponent": false
 }

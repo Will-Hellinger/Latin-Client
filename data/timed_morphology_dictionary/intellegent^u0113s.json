@@ -8,5 +8,6 @@
     "feminine": true,
     "positive": true,
     "accusative": true,
-    "nominative": true
+    "nominative": true,
+    "neuter": false
 }

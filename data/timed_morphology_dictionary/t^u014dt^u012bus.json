@@ -3,5 +3,6 @@
     "comparative": false,
     "plural": false,
     "nominative": false,
-    "singular": true
+    "singular": true,
+    "demonstrative": false
 }

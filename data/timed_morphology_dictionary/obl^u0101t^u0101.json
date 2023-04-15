@@ -9,5 +9,6 @@
     "singular": true,
     "feminine": true,
     "not deponent": true,
-    "deponent": false
+    "deponent": false,
+    "semi-deponent": false
 }

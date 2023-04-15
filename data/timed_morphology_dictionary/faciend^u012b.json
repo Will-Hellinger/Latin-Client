@@ -9,5 +9,6 @@
     "participle": true,
     "passive": true,
     "masculine": true,
-    "infinitive": false
+    "infinitive": false,
+    "genitive": true
 }

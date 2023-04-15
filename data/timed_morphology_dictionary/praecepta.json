@@ -1,3 +1,5 @@
 {
-    "masculine": false
+    "masculine": false,
+    "positive": true,
+    "feminine": true
 }

@@ -4,5 +4,6 @@
     "tire out": true,
     "explain": false,
     "wake": false,
-    "shout": false
+    "shout": false,
+    "wait": false
 }

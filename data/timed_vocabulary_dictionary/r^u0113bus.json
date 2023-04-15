@@ -6,5 +6,6 @@
     "circumstance": true,
     "event": true,
     "fact": true,
-    "consideration": true
+    "consideration": true,
+    "job": false
 }

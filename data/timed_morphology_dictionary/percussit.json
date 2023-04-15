@@ -1,4 +1,6 @@
 {
     "imperative": false,
-    "singular": true
+    "singular": true,
+    "3rd person": true,
+    "deponent": false
 }

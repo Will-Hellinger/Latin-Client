@@ -7,5 +7,6 @@
     "present": true,
     "2nd person": false,
     "indicative": true,
-    "subjunctive": false
+    "subjunctive": false,
+    "plural": true
 }

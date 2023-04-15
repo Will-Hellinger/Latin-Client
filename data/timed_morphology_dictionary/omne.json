@@ -1,4 +1,5 @@
 {
     "accusative": true,
-    "plural": false
+    "plural": false,
+    "neuter": true
 }

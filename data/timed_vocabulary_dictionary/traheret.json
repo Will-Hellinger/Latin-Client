@@ -2,5 +2,6 @@
     "drag": true,
     "draw": true,
     "break through": false,
-    "surrender": false
+    "surrender": false,
+    "deliver": false
 }
