@@ -3,64 +3,91 @@ import validators
 import os
 import shutil
 
+
 if os.name == 'nt':
-    subDirectory = '\\'
+    subdirectory = '\\'
     pip = 'pip'
     clear = 'cls'
 else:
-    subDirectory = '/'
+    subdirectory = '/'
     pip = 'pip3'
     clear = 'clear'
 
-def save_file(data, file):
+settings_path = f'.{subdirectory}data{subdirectory}settings.json'
+
+
+def save_file(file: bytes, data: dict):
     file.seek(0)
     json.dump(data, file, indent=4)
     file.truncate()
 
+
+def load_settings():
+    if not os.path.exists(settings_path):
+        shutil.copyfile(f'.{subdirectory}data{subdirectory}backup{subdirectory}base_settings.json', settings_path)
+    with open(settings_path, 'r') as f:
+        return json.load(f)
+
+
+def get_browser_type():
+    while True:
+        browser_types = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera']
+
+        print('Browser Types:\n------------')
+        for a, browser_type in enumerate(browser_types):
+            print(f'{a + 1}. {browser_type}')
+        print('------------')
+
+        choice = input('Please enter the number of your browser: ')
+
+        try:
+            index = int(choice) - 1
+            if index >= 0 and index < len(browser_types):
+                return browser_types[index]
+        except:
+            pass
+
+        print('Invalid choice, please try again.')
+
+
+def get_latin_link():
+    while True:
+        link = input('Please enter the Schoology link for the Latin app: ')
+        
+        if validators.url(link) == True:
+            return link
+        else:
+            print('Invalid URL, please try again.')
+
+
+def get_schoology_credentials():
+    username = input('Please enter your Schoology username: ')
+    password = input('Please enter your Schoology password: ')
+
+    return {"username" : username, "password" : password}
+
+
 def run():
     try:
-        if not os.path.exists('settings.json'):
-            shutil.copyfile(f'.{subDirectory}data{subDirectory}backup{subDirectory}base_settings.json', f'.{subDirectory}data{subDirectory}settings.json')
-    
-        if str(json.load(open('settings.json'))['configuration']['browser-type']) == "none":
-            webbrowserTypes = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera']
-            print('Browser Types:\n------------')
-            for a in range(len(webbrowserTypes)):
-                print(webbrowserTypes[a])
-            print('------------')
-            while True:
-                webbrowserType = str(input('please enter your browser: '))
-                if webbrowserType in webbrowserTypes:
-                    break
-                else:
-                    print('please enter a valid browser type')
-            with open('settings.json', 'r+') as f:
-                data = json.load(f)
-                data['configuration']['browser-type'] = webbrowserType
-                save_file(data, f)
-    
-        if str(json.load(open('settings.json'))['schoology']['latin-link']) == "none":
-            print('please enter the schoology link for the latin app')
-            while True:
-                latinLink = str(input('link: '))
-                if validators.url(latinLink) == True:
-                    break
-                else:
-                    print('invalid url')
-            with open('settings.json', 'r+') as f:
-                data = json.load(f)
-                data['schoology']['latin-link'] = latinLink
-                save_file(data, f)
+        settings = load_settings()
+        with open(settings_path, 'w') as file:
+        
+            if settings['configuration']['browser-type'] == 'none':
+                browser_type = get_browser_type()
+                settings['configuration']['browser-type'] = browser_type
+                save_file(file, settings)
 
-        if str(json.load(open('settings.json'))['schoology']['username']) == "none":
-            username = str(input('please enter schoology username: '))
-            password = str(input('please enter schoology password: '))
-            os.system(clear)
-            with open('settings.json', 'r+') as f:
-                data = json.load(f)
-                data['schoology']['username'] = username
-                data['schoology']['password'] = password
-                save_file(data, f)
+            if settings['schoology']['latin-link'] == 'none':
+                latin_link = get_latin_link()
+                settings['schoology']['latin-link'] = latin_link
+                save_file(file, settings)
+
+            if settings['schoology']['username'] == 'none':
+                creds = get_schoology_credentials()
+                settings['schoology']['username'] = creds["username"]
+                settings['schoology']['password'] = creds["password"]
+                save_file(file, settings)
+
     except Exception as error:
-        print(f'error: {error}')
+        print(f'Error: {error}')
         exit()
