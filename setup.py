@@ -31,7 +31,7 @@ def load_settings():
 
 def get_browser_type():
     while True:
-        browser_types = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera']
+        browser_types = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera', 'Safari']
 
         print('Browser Types:\n------------')
         for a, browser_type in enumerate(browser_types):
@@ -53,7 +53,7 @@ def get_browser_type():
 def get_latin_link():
     while True:
         link = input('Please enter the Schoology link for the Latin app: ')
-        
+
         if validators.url(link) == True:
             return link
         else:

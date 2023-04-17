@@ -48,5 +48,11 @@ def get_dictionary():
 
 
 def translate(word: str, language: str, dictionary: dict = get_dictionary()):
+    language_dict = dictionary.get(language.lower())
     
-    return dictionary[language.lower()].get(word)
+    if language_dict is None:
+        raise ValueError(f'Unsupported language: {language}')
+
+    return language_dict.get(word)
+
+print(translate('poet', 'english'))

@@ -1,13 +1,10 @@
-try:
-    from info import *
-    from selenium import webdriver
-    from selenium.webdriver.common.keys import Keys
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
-    from selenium.common.exceptions import TimeoutException
-except:
-    exit()
+from info import *
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
 try:
     if webbrowserType == 'Chrome' or webbrowserType == 'Chromium' or webbrowserType == 'Brave':
@@ -23,11 +20,9 @@ try:
             driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install(), options=options)
         elif webbrowserType == 'Brave':
             driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install(), options=options)
-
     elif webbrowserType == 'Firefox':
         from webdriver_manager.firefox import GeckoDriverManager
-        driver = webdriver.Firefox(GeckoDriverManager().install())
-
+        driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     elif webbrowserType == 'Internet Explorer':
         from webdriver_manager.microsoft import IEDriverManager
         driver = webdriver.Ie(IEDriverManager().install())
@@ -39,6 +34,10 @@ try:
     elif webbrowserType == 'Opera':
         from webdriver_manager.opera import OperaDriverManager
         driver = webdriver.Opera(OperaDriverManager().install())
+    elif webbrowserType == 'Safari':
+        driver = webdriver.Safari()
+    else:
+        raise ValueError(f'Unsupported browser: {webbrowserType}')
 except Exception as error:
     input(f'\033[1;31;40m[-] Failed to Start Client error: {error}')
     exit()

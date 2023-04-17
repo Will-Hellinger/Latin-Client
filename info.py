@@ -2,7 +2,7 @@ import json
 import setup
 import os
 
-version = 1.0
+version = 2.0
 user = 'none'
 
 modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
@@ -28,7 +28,7 @@ actionButton = "`"
 
 
 def load_settings():
-    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass
+    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass, actionButton
     settings = json.load(open(f'{path}settings.json', mode='r'))
 
     actionButton = settings['configuration'].get('action-button')

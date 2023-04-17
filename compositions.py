@@ -8,6 +8,10 @@ from info import *
 def strip_accents(text):
     return str(''.join(char for char in unicodedata.normalize('NFKD', text) if unicodedata.category(char) != 'Mn')).lower()
 
+def learn():
+    """
+        thinking over how this is going to work?
+    """
 
 def solve():
     parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
