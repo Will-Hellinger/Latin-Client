@@ -9,9 +9,99 @@ def strip_accents(text):
     return str(''.join(char for char in unicodedata.normalize('NFKD', text) if unicodedata.category(char) != 'Mn')).lower()
 
 def learn():
+    english_words = []
+
+    parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
+    dictBlock = driver.find_element(By.CLASS_NAME, 'ui-block-b')
+
+    dict_input = dictBlock.find_element(By.XPATH, "// input[@data-type='search']")
+    listview = dictBlock.find_element(By.XPATH, "// ul[@data-role='listview']")
+
     """
-        thinking over how this is going to work?
+    english_texts = parentElement.find_elements(By.XPATH, "// p[@style='white-space:pre-wrap;margin-right:2em;font-size:1em']")
+
+    for english_text in english_texts:
+        driver.execute_script("arguments[0].scrollIntoView();", english_text)
+
+        temp_words = str(english_text.text).split(' ')
+        for word in temp_words:
+            if word not in english_words:
+                english_words.append(word)
     """
+
+    english_vocab = listview.find_elements(By.XPATH, "// h4[@style='text-align:left;font-weight:400']")
+    latin_vocab = listview.find_elements(By.XPATH, "// p[@class='latin']")
+
+    path = f'.{subDirectory}data{subDirectory}temp_dictionary{subDirectory}'
+
+    for a in range(0, len(english_vocab)):
+        term_element = english_vocab[a]
+        latin_words = []
+        
+        latin_words_elements = latin_vocab[a].find_elements(By.TAG_NAME, "span")
+
+        for latin_word_element in latin_words_elements:
+            latin_words.append(str(latin_word_element.text))        
+        
+        if len(latin_words) == 0:
+            latin_words = str(latin_vocab[a].text).split(', ')
+        
+        for b in range(0, len(latin_words)):
+            latin_words[b] = latin_words[b].replace(',', '')
+            if '(' in latin_words[b]:
+                latin_words[b] = latin_words[b].split(' (')[0]
+
+        english_word = ''
+        term = str(term_element.text).replace('\n',' ')
+
+        if ')' in term and ':' not in term and term.startswith('('):
+            english_word = term.split(') ')[1]
+        elif ')' in term and ': ' in term and term.startswith('('):
+            english_word = term.split(': ')[1]
+            english_word = english_word.split(')')[0]
+        elif not term.startswith('(') and ')' in term:
+            english_word = term.split(' (')[0]
+        elif ')' not in term and 'note:' not in term:
+            english_word = term
+        elif ')' not in term and 'note:' in term:
+            english_word = term.split('\n')[0]
+        
+        english_word = english_word.replace(':', '')
+        english_word = strip_accents(english_word)
+
+        if '...' in english_word:
+            english_word = english_word.split('... ')
+        elif ',' in english_word:
+            english_word = english_word.split(', ')
+
+        print(latin_words)
+
+        for latin_word in latin_words:
+            if '-' in latin_word or latin_word == 'f.' or latin_word == 'm.' or latin_word == 'n.':
+                pass
+
+            filename = encodeFilename(latin_word)
+
+            if not os.path.exists(f'{path}{filename}.json'):
+                with open(f'{path}{filename}.json', mode='w') as file:
+                    file.write('{\n}')
+            
+            with open(f'{path}{filename}.json', mode='r+') as file:
+                data = json.load(file)
+
+                if isinstance(english_word, list):
+                    for word in english_word:
+                        word = word.replace('...', '')
+                        word = word.replace(':', '')
+
+                        data[word] = True
+                else:
+                    english_word = english_word.replace('...', '')
+                    english_word = english_word.replace(':', '')
+
+                    data[english_word] = True
+                
+                save_file(file, data)
 
 def solve():
     parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
@@ -26,7 +116,6 @@ def solve():
         english_text = english_text.split(' ')
 
         inputs = []
-
         for i in range(len(english_text)):
             for j in range(i+1, len(english_text)+1):
                 combined_word = ''.join(english_text[i:j])
@@ -86,8 +175,8 @@ def solve():
                 latin_inputs[a].send_keys(latin_word)
                 latin_inputs[a].send_keys(Keys.ENTER + ' a')
 
-                while len(str(latin_inputs[i].text).split('\n')) != 1:
-                    time.sleep(.1)
+                while len(str(latin_inputs[a].text).split('\n')) != 1:
+                    time.sleep(.5)
 
                 time.sleep(.25)
 
