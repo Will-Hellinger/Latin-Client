@@ -3,9 +3,9 @@
     "in order that": true,
     "just as": true,
     "with the result that": true,
-    "(exclamatory) how!": true,
     "himself": true,
     "herself": true,
     "itself": true,
-    "themselves": true
+    "themselves": true,
+    "how!": true
 }

@@ -1,7 +1,7 @@
 {
     "abundance": true,
     "plenty": true,
-    "(plural) troops": true,
+    "troops": true,
     "supplies": true,
     "supply": true
 }

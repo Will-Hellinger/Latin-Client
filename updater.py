@@ -3,6 +3,7 @@ import hashlib
 import os
 import json
 import sys
+import time
 
 #This is here to verify that this is not a github page lol
 
@@ -198,7 +199,9 @@ def build_chksm():
 
 if len(sys.argv) >= 2:
     if str(sys.argv[1]) in build_commands:
+        start_time = time.time()
         build_chksm()
+        print(f'finished in {time.time() - start_time}')
     elif str(sys.argv[1]) in run_commands:
         if check_update() == True:
             update()

@@ -2,6 +2,6 @@
     "boundary": true,
     "border": true,
     "end": true,
-    "(plural: territory)": true,
-    "(with facere) finish": true
+    "territory": true,
+    "finish": true
 }

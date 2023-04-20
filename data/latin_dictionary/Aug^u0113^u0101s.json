@@ -1,3 +1,4 @@
 {
-    "Augeas": true
+    "Augeas": true,
+    "augeas": true
 }

@@ -1,3 +1,6 @@
 {
-    "sovereignty": true
+    "sovereignty": true,
+    "authority": true,
+    "command": true,
+    "power": true
 }

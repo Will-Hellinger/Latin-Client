@@ -1,3 +1,4 @@
 {
-    "(plural: these)": true
+    "this": true,
+    "these": true
 }

@@ -26,12 +26,16 @@ def get_dictionary():
         latin_word = decodeFilename(latin_word).replace('.json', '')
         latin_word = latin_word.replace(',', '') #just in case
 
+        latin_word = latin_word.lower()
+
         latin_dictionary[latin_word] = temp_latin_values
     
     for item in latin_dictionary:
         english_words = latin_dictionary[item]
 
         for english_word in english_words:
+
+            english_word = english_word.lower()
 
             if english_dictionary.get(english_word) == None:
                 english_dictionary[english_word] = [item]
@@ -54,4 +58,4 @@ def translate(word: str, language: str, dictionary: dict = get_dictionary()):
     if language_dict is None:
         raise ValueError(f'Unsupported language: {language}')
 
-    return language_dict.get(word)
+    return language_dict.get(word.lower())

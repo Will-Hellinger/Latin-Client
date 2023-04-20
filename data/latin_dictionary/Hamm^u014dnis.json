@@ -1,5 +1,6 @@
 {
     "Hammon": true,
     "command": true,
-    "order": true
+    "order": true,
+    "hammon": true
 }

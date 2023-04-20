@@ -1,3 +1,4 @@
 {
-    "(correlative: one... the other...)": true
+    "one" : true,
+    "the other": true
 }

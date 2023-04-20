@@ -1,3 +1,10 @@
 {
-    "be\n(am, is, are, was, were, be, being, been)": true
+    "am" : true,
+    "is" : true,
+    "are" : true,
+    "was" : true,
+    "were" : true,
+    "be" : true,
+    "being" : true,
+    "been": true
 }

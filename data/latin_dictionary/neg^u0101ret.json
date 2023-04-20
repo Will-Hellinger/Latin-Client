@@ -1,4 +1,5 @@
 {
-    "say... not...": true,
+    "say" : true,
+    "not": true,
     "deny": true
 }

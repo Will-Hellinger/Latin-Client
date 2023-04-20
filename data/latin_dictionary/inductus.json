@@ -1,3 +1,6 @@
 {
-    "persuade": true
+    "persuade": true,
+    "influence": true,
+    "mislead": true,
+    "seduce": true
 }

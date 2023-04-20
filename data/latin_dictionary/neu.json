@@ -1,4 +1,5 @@
 {
-    "so that... not...": true,
-    "lest": true
+    "lest": true,
+    "so that": true,
+    "not": true
 }

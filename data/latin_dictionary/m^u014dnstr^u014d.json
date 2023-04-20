@@ -1,3 +1,5 @@
 {
-    "monster": true
+    "monster": true,
+    "point": true,
+    "show": true
 }

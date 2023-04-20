@@ -1,3 +1,7 @@
 {
-    "the very ___": true
+    "the very": true,
+    "herself": true,
+    "himself": true,
+    "itself": true,
+    "themselves": true
 }

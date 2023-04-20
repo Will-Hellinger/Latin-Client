@@ -1,3 +1,5 @@
 {
-    ") rule": true
+    "rule": true,
+    "kingdom": true,
+    "power": true
 }

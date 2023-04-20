@@ -1,3 +1,7 @@
 {
-    "supply": true
+    "supply": true,
+    "troops": true,
+    "abundance": true,
+    "plenty": true,
+    "supplies": true
 }

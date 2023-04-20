@@ -2,5 +2,10 @@
     "gaze": true,
     "stare": true,
     "glance": true,
-    "sight": true
+    "sight": true,
+    "be noticed": true,
+    "be seen": true,
+    "catch sight of": true,
+    "observe": true,
+    "spot": true
 }

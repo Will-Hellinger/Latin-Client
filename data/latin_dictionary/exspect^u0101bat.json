@@ -1,5 +1,5 @@
 {
-    "wait (for)": true,
+    "wait": true,
     "await": true,
     "expect": true
 }

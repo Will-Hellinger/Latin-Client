@@ -1,4 +1,6 @@
 {
-    "(with superlative) as ___ as possible": true,
-    "(with comparative) than": true
+    "than": true,
+    "as soon as possible": true,
+    "as quickly as possible": true,
+    "as fast as possible": true
 }

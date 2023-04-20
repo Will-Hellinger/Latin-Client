@@ -1,3 +1,6 @@
 {
-    ") rule": true
+    "rule": true,
+    "hold": true,
+    "obtain": true,
+    "possess": true
 }

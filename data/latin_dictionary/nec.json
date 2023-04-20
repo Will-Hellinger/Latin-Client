@@ -1,4 +1,6 @@
 {
-    "and... not...": true,
-    "(correlative: neither... nor...)": true
+    "and" : true,
+    "not": true,
+    "neither" : true,
+    "nor": true
 }
