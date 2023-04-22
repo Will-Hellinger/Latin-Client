@@ -152,6 +152,7 @@ def update():
 
             if os.path.exists(item.replace("(sub)", subDirectory)) and user_updatable_file == True:
                 temp_file = open(item.replace("(sub)", subDirectory), encoding='utf-8', mode='r+')
+
                 temp_server_data = json.loads(newData)
                 temp_client_data = json.load(temp_file)
 

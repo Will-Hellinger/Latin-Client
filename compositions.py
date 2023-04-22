@@ -3,6 +3,7 @@ from web_driver import *
 import time
 import unicodedata
 from info import *
+from googletrans import Translator
 
 
 def strip_accents(text):
@@ -16,18 +17,6 @@ def learn():
 
     dict_input = dictBlock.find_element(By.XPATH, "// input[@data-type='search']")
     listview = dictBlock.find_element(By.XPATH, "// ul[@data-role='listview']")
-
-    """
-    english_texts = parentElement.find_elements(By.XPATH, "// p[@style='white-space:pre-wrap;margin-right:2em;font-size:1em']")
-
-    for english_text in english_texts:
-        driver.execute_script("arguments[0].scrollIntoView();", english_text)
-
-        temp_words = str(english_text.text).split(' ')
-        for word in temp_words:
-            if word not in english_words:
-                english_words.append(word)
-    """
 
     english_vocab = listview.find_elements(By.XPATH, "// h4[@style='text-align:left;font-weight:400']")
     latin_vocab = listview.find_elements(By.XPATH, "// p[@class='latin']")
@@ -111,20 +100,46 @@ def solve():
 
     all_inputs = []
 
+    if compositions_fallback == True:
+        print('google trans enabled')
+        translator = Translator()
+    else:
+        print('google trans disabled')
+
     for english_text in english_texts:
         english_text = english_text.text
+        english_text = english_text.lower()
+        english_text = english_text.replace('.', '')
+        english_text = english_text.replace(',', '')
+
+        if compositions_fallback == True:
+            trans_words = str(translator.translate(english_text, dest='la', src='en').text)
+
+            trans_words = trans_words.split(' ')
+            
         english_text = english_text.split(' ')
+
+        processed_words = []
 
         inputs = []
         for i in range(len(english_text)):
             for j in range(i+1, len(english_text)+1):
                 combined_word = ''.join(english_text[i:j])
 
-                output = custom_translator.translate(combined_word, 'english', dictionary)
+                if combined_word in processed_words:
+                    continue
+                    
+                processed_words.append(combined_word)
+
+                output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=False)
+                if output == None:
+                    output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=True)
 
                 if output != None:
                     inputs.append(output)
         
+        if compositions_fallback == True:
+            inputs.append(trans_words)
         
         all_inputs.append(inputs)
     all_answers = []
@@ -176,9 +191,9 @@ def solve():
                 latin_inputs[a].send_keys(Keys.ENTER + ' a')
 
                 while len(str(latin_inputs[a].text).split('\n')) != 1:
-                    time.sleep(.5)
+                    time.sleep(.05)
 
-                time.sleep(.25)
+                time.sleep(.05)
 
                 default_color = 'green'
                 if 'color:red' in str(latin_inputs[a].get_attribute('style')).replace(' ', ''):

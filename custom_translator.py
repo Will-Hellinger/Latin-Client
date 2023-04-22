@@ -1,6 +1,9 @@
 import json
 import os
 from info import *
+import nltk #used to tell if word is verb or noun
+import inflect #best for verbs
+import pyinflect #best for nouns
 
 def get_dictionary():
     file_list = []
@@ -52,10 +55,47 @@ def get_dictionary():
     return dictionary
 
 
-def translate(word: str, language: str, dictionary: dict = get_dictionary()):
+def convert_to_base(word):
+    backup = word
+
+    try:
+        if len(word.split(' ')) >= 2:
+            word = word.split(' ')
+        else:
+            word = [word, '']
+        
+        temp = ''
+        for a in range(len(word)):
+            if word[a] == '':
+                continue
+            
+            word_type = nltk.pos_tag(nltk.word_tokenize(word[a]))[0][1]
+            p = inflect.engine()
+
+            if word_type.startswith("N") and p.singular_noun(word[a]) != False:
+                word[a] = p.singular_noun(word[a])
+            elif word_type.startswith("V") and pyinflect.getInflection(word[a], 'VB')[0] != False:
+                word[a] = pyinflect.getInflection(word[a], 'VB')[0]
+
+            if a != 0:
+                temp += ' '
+            
+            temp += word[a]
+        
+        word = temp
+    except:
+        word = backup
+
+    return word
+
+
+def translate(word: str, language: str, dictionary: dict = get_dictionary(), use_base = False):
     language_dict = dictionary.get(language.lower())
     
     if language_dict is None:
         raise ValueError(f'Unsupported language: {language}')
-
+    
+    if use_base == True:
+        word = convert_to_base(word)
+        
     return language_dict.get(word.lower())

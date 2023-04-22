@@ -7,9 +7,6 @@ user = 'none'
 
 modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
 
-doAction = False
-enterKey = False
-
 if os.name == 'nt':
     subDirectory = '\\'
     pip = 'pip'
@@ -28,7 +25,7 @@ actionButton = "`"
 
 
 def load_settings():
-    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass, actionButton
+    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass, actionButton, compositions_fallback
     settings = json.load(open(f'{path}settings.json', mode='r'))
 
     actionButton = settings['configuration'].get('action-button')
@@ -39,6 +36,7 @@ def load_settings():
     delay = settings['configuration'].get('timeout-delay')
     human_mode = settings['configuration'].get('fake-human')
     timed_vocab_fallback = settings['configuration'].get('google-trans-timed_vocab-fallback')
+    compositions_fallback = settings['configuration'].get('google-trans-comopositions-fallback')
 
     discord_rpc = settings['configuration'].get('discord_rpc')
     funnySound = settings['configuration'].get('sound')
@@ -50,7 +48,7 @@ def load_settings():
 try:
     load_settings()
 
-    settings_list = (webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass)
+    settings_list = (webbrowserType, delay, human_mode, timed_vocab_fallback, compositions_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass)
     for setting in settings_list:
         if setting == None or setting == "none":
             setup.run()
