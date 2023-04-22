@@ -45,6 +45,11 @@ def debugger_tool():
 if len(sys.argv) >= 2:
     if str(sys.argv[1]) == '--debugger':
         update = False
+        
+        start_time = time.time()
+        updater.build_chksm()
+        print(f'finished in {time.time() - start_time}')
+
         try:
             import PySimpleGUI as sg
             import importlib
