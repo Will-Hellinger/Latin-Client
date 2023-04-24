@@ -95,3 +95,5 @@ def solver():
                 print(f'Guess - False: {word} - {definition}: Inorrect')
         
         save_file(file, data)
+    
+    human_timeout(1000, 2000)

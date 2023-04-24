@@ -1,6 +1,8 @@
 from web_driver import *
 from info import *
-import time, random, json
+import time
+import random
+import json
 
 def load_chart():
     with open(f".{subDirectory}data{subDirectory}noun-adj_chart.json", encoding='utf-8') as file:
@@ -42,6 +44,9 @@ def solver():
                     unknownWord = True
         except:
             unknownWord = True
+        
+        if len(availableEndings) <= 1:
+            unknownWord = True
                 
         if unknownWord == False:
             endingNumbers = []
@@ -76,27 +81,23 @@ def solver():
         except:
             print(f'unable to press {choice}{a+1}')
 
+        human_timeout(1000, 5000)
 
-        if human_mode == True:
-            time.sleep(int(random.randint(100, 500))/100)
+    selections = ['agreeSubmit', 'agreeMore']
 
+    for selection in selections:
+        while True:
+            if 'noun' not in str(driver.title).lower():
+                break
 
-    selection = 'agreeSubmit'
-
-    while True:
-        if 'noun' not in str(driver.title).lower():
-            break
-
-        try:
-            if loadWait(By.ID, selection):
-                driver.find_element(By.ID, selection).click()
-                if selection != 'agreeMore':
-                    selection = 'agreeMore'
-                else:
+            try:
+                if not loadWait(By.ID, selection):
                     break
-        except:
-            print(f'unable to press get {selection}')
-            time.sleep(2)
+                    
+                driver.find_element(By.ID, selection).click()
+            except:
+                print(f'unable to press get {selection}')
+                time.sleep(2)
 
     time.sleep(5)
 

@@ -3,9 +3,6 @@ from info import *
 from web_driver import *
 from pypresence import Presence
 
-RPC = 0
-RPCTime = 0
-
 def check_discord():
     global RPC, RPCTime
 
@@ -53,7 +50,7 @@ def update_rpc(mode: str, assignment: str):
             assignment = str(assignment.split('(')[0])
 
     elif mode == 'noun-adj':
-        if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
+        if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
             showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 
             if 'will appear here' not in str(showScore.text):

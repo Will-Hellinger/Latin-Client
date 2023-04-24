@@ -199,6 +199,8 @@ def solve():
         if loadWait(By.XPATH, f"// input[@id='{latinInputDict[item]}']") and 'rgb(0, 128, 0)' not in str(latinInput.get_attribute('style')):
             latinInput.send_keys(answer)
             latinInput.send_keys(Keys.RETURN)
+        
+        human_timeout(1000, 5000)
     
     hideShownDropdowns()
     showHiddenDropdowns()
@@ -227,3 +229,5 @@ def solve():
         if loadWait(By.XPATH, f"// input[@id='{englishInputDict[item]}']") and 'rgb(0, 128, 0)' not in str(englishInput.get_attribute('style')):
             englishInput.send_keys(answer)
             englishInput.send_keys(Keys.RETURN)
+        
+        human_timeout(1000, 5000)

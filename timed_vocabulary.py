@@ -175,3 +175,5 @@ def solver():
             elif check_true() == None:
                 print('Inactivity or invalid security label')
             save_file(file, data)
+    
+    human_timeout(1000, 2000)

@@ -262,7 +262,7 @@ while True:
                 doAction = False
     
     elif mode == 'synopsis':
-        if doAction:
+        if doAction == True:
             try:
                 synopsis.solve()
             except Exception as error:

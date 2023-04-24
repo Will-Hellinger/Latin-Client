@@ -211,6 +211,8 @@ def solve():
 
                 all_answers[a] = temp_answers
 
+                human_timeout(1000, 5000)
+
     for a in range(0, len(all_answers)):
         (latin_inputs[a]).clear()
         time.sleep(.5)

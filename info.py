@@ -1,6 +1,8 @@
 import json
 import setup
 import os
+import time
+import random
 
 version = 2.0
 user = 'none'
@@ -71,6 +73,7 @@ def encodeFilename(file_name: str):
 
     return file_name
 
+
 def decodeFilename(file_name: str):
     removeList = ['\\', '?', '%', '*', ':', '|', '"', '<', '>', ' ']
     replaceList = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)', '_']
@@ -88,3 +91,12 @@ def save_file(file: bytes, data: dict):
     file.seek(0)
     json.dump(data, file, indent=4)
     file.truncate()
+
+
+def human_timeout(min = 1000, max = 5000):
+    global human_mode
+
+    #min and max are in miliseconds
+
+    if human_mode == True:
+        time.sleep(int(random.randint(min, max))/1000)
