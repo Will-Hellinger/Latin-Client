@@ -8,11 +8,16 @@
         "timeout-delay" : "5",
 	    "fake-human" : false,
         "google-trans-timed_vocab-fallback" : false,
-        "google-trans-comopositions-fallback" : false
+        "google-trans-compositions-fallback" : false,
+        "openai-catullus" : false
     },
     "schoology": {
         "latin-link": "none",
         "username": "none",
         "password": "none"
+    },
+    "open-ai" : {
+        "token" : "none",
+        "model" : "gpt-3.5-turbo"
     }
 }

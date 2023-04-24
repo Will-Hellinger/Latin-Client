@@ -1,12 +1,18 @@
 # ---------->SETUP START<----------
 try:
-    import time, pynput, sys, playsound, threading, random
+    import time
+    import pynput
+    import sys
+    import playsound
+    import threading
+    import random
     import glob
     import updater
     from info import *
     from discord_rpc import *
     from web_driver import *
-    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions
+
+    import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus #custom modules
 except Exception as error:
     input(error)
     exit()
@@ -14,7 +20,7 @@ except Exception as error:
 update = True
 
 def debugger_tool():
-    module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions']
+    module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions', 'catullus']
 
     layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
@@ -24,12 +30,16 @@ def debugger_tool():
     while True:
         event, values = window.read()
         if event == 'Reload':
-            module = values['_MODULE_INPUT_']
+            start_time = time.time()
 
-            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions)
+            module = values['_MODULE_INPUT_']
+            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus)
             
             if module_strings.index(module) != -1:
                 importlib.reload(modules[module_strings.index(module)])
+            
+            updater.build_chksm()
+            print(f'finished in {time.time() - start_time}')
             
         elif event == 'Inject':
             driver.execute_script(f'document.cookie = "PHPSESSID={values["_TOKEN_INPUT_"]}"')
@@ -66,12 +76,14 @@ except Exception as error:
 
 print(f'[+] Starting Client v{version}')
 
+
 def get_token():
     cookies = driver.get_cookies()
     for cookie in cookies:
         if cookie['domain'] == 'lthslatin.org':
             token = cookie['value']
     return token
+
 
 def on_press(key):
     global doAction, actionButton, enterKey
@@ -82,6 +94,7 @@ def on_press(key):
             doAction = not doAction
     except:
         pass
+
 
 #best to keep this on a seperate thread lol
 listener = pynput.keyboard.Listener(on_press=on_press)
@@ -140,7 +153,10 @@ while True:
         print('[-] Failed to load LTHS Latin, retying')
 
 if loadWait(By.CLASS_NAME, 'ui-title'):
-    user = str(str(str(driver.find_element(By.CLASS_NAME, 'ui-title').text).split("'s")[0]).lower()).title()
+    user = str(driver.find_element(By.CLASS_NAME, 'ui-title').text)
+    user = user.split("'s")[0]
+    user = str(user.lower()).title()
+
     print(f'[+] Located user: {user}')
 else:
     print('[-] Unable to Find User')
@@ -188,6 +204,7 @@ while True:
                         
                         if discord_found:
                             update_rpc(mode, assignment)
+                        break #once it's found the mode it immediately stops to continue with the rest of the while loop, make sure to order modes correctly if they're name dependent
                 except:
                     pass
     else:
@@ -265,6 +282,14 @@ while True:
         if doAction == True:
             try:
                 synopsis.solve()
+            except Exception as error:
+                print(f'error: {error}')
+            doAction = False
+    
+    elif mode == 'catullus':
+        if doAction == True:
+            try:
+                catullus.solve()
             except Exception as error:
                 print(f'error: {error}')
             doAction = False

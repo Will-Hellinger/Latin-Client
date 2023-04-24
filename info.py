@@ -4,10 +4,10 @@ import os
 import time
 import random
 
-version = 2.0
+version = 3.0
 user = 'none'
 
-modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
+modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'catullus', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
 
 if os.name == 'nt':
     subDirectory = '\\'
@@ -27,7 +27,10 @@ actionButton = "`"
 
 
 def load_settings():
-    global webbrowserType, delay, human_mode, timed_vocab_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass, actionButton, compositions_fallback
+    global human_mode, discord_rpc, funnySound
+    global latinLink, schoologyUser, schoologyPass, delay, webbrowserType, actionButton
+    global compositions_fallback, timed_vocab_fallback, openai_enabled, openai_token, openai_model
+
     settings = json.load(open(f'{path}settings.json', mode='r'))
 
     actionButton = settings['configuration'].get('action-button')
@@ -38,7 +41,11 @@ def load_settings():
     delay = settings['configuration'].get('timeout-delay')
     human_mode = settings['configuration'].get('fake-human')
     timed_vocab_fallback = settings['configuration'].get('google-trans-timed_vocab-fallback')
-    compositions_fallback = settings['configuration'].get('google-trans-comopositions-fallback')
+    compositions_fallback = settings['configuration'].get('google-trans-compositions-fallback')
+
+    openai_enabled = settings['configuration'].get('')
+    openai_token = settings['open-ai'].get('token')
+    openai_model = settings['open-ai'].get('model')
 
     discord_rpc = settings['configuration'].get('discord_rpc')
     funnySound = settings['configuration'].get('sound')
@@ -46,6 +53,7 @@ def load_settings():
     latinLink = settings['schoology'].get('latin-link')
     schoologyUser = settings['schoology'].get('username')
     schoologyPass = settings['schoology'].get('password')
+
 
 try:
     load_settings()

@@ -149,6 +149,7 @@ def solve():
                           "PASSIVE PLURAL" : "temp"}
         englishInputDict = {"ACTIVE" : "temp",
                             "PASSIVE" : "temp"}
+        #none of the temp values are required, just helps to visualize where the data will be sorted to
 
     latinTemp = []
     englishTemp = []
