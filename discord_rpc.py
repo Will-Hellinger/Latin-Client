@@ -30,32 +30,53 @@ def update_rpc(mode: str, assignment: str):
     
     RPC_details = None
 
-    if mode == 'synopsis':
-        if loadWait(By.XPATH, f"// h1[@class='showScore ui-title']"):
-            score = driver.find_element(By.XPATH, f"// h1[@class='showScore ui-title']")
-            if 'score' not in str(score.text):
-                RPC_details = str(score.text)
+    match mode:
+        case 'synopsis':
+            if loadWait(By.XPATH, f"// h1[@class='showScore ui-title']"):
+                score = driver.find_element(By.XPATH, f"// h1[@class='showScore ui-title']")
+                if 'score' not in str(score.text):
+                    RPC_details = str(score.text)
+        
+        case '(grasp)':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+                RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+        
+        case 'reading':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+                RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+        
+        case 'composition':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+                RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+        
+        case 'translation':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+                RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+        
+        case 'ciples':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
+                RPC_details = '(' + str(assignment.split('(')[1])
+                showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 
-    elif mode == '(grasp)' or mode == 'reading' or mode == 'composition' or mode == 'translation':
-        if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
-            RPC_details = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text)
+                if str(showScore.text) != 'your score will appear here':
+                    RPC_details += ' / ' + str(showScore.text)
+                assignment = str(assignment.split('(')[0])
+        
+        case 'infinitive morphology':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
+                RPC_details = '(' + str(assignment.split('(')[1])
+                showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 
-    elif mode == 'ciples' or mode == 'infinitive morphology':
-        if loadWait(By.XPATH, f"// h3[@class='showScore ui-title']"):
-            RPC_details = '(' + str(assignment.split('(')[1])
-            showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+                if str(showScore.text) != 'your score will appear here':
+                    RPC_details += ' / ' + str(showScore.text)
+                assignment = str(assignment.split('(')[0])
 
-            if str(showScore.text) != 'your score will appear here':
-                RPC_details += ' / ' + str(showScore.text)
-            assignment = str(assignment.split('(')[0])
+        case 'noun-adj':
+            if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
+                showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 
-    elif mode == 'noun-adj':
-        if loadWait(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']"):
-            showScore = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
-
-            if 'will appear here' not in str(showScore.text):
-                RPC_details = str(str(showScore.text).split('\n')[0]).split('correctly. ')[1]
-    
+                if 'will appear here' not in str(showScore.text):
+                    RPC_details = str(str(showScore.text).split('\n')[0]).split('correctly. ')[1]
 
     if RPC_details != None:
         RPC.update(large_image = "logo1", details = assignment, state = RPC_details, start = RPCTime)

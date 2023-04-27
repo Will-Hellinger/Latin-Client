@@ -25,8 +25,13 @@ def save_file(file: bytes, data: dict):
 def load_settings():
     if not os.path.exists(settings_path):
         shutil.copyfile(f'.{subdirectory}data{subdirectory}backup{subdirectory}base_settings.json', settings_path)
-    with open(settings_path, 'r') as f:
-        return json.load(f)
+    
+    try:
+        return json.load(open(settings_path, 'r'))
+    except:
+        shutil.copyfile(f'.{subdirectory}data{subdirectory}backup{subdirectory}base_settings.json', settings_path)
+    
+    return json.load(open(settings_path, 'r'))
 
 
 def get_browser_type():

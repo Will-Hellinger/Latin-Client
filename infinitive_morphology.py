@@ -9,7 +9,10 @@ def enter_addon():
     
     while True:
         if 'morphology' not in str(driver.title).lower():
-            time.sleep(.25)
-        elif 'morphology' in str(driver.title).lower():
+            break
+
+        try:
             selected.click()
             break
+        except:
+            time.sleep(.1)

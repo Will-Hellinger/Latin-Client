@@ -95,6 +95,7 @@ def solver():
                     break
                     
                 driver.find_element(By.ID, selection).click()
+                break
             except:
                 print(f'unable to press get {selection}')
                 time.sleep(2)

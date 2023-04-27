@@ -210,7 +210,7 @@ while True:
     else:
         if 'latin' not in str(driver.title):
             break
-
+    
     for a in range(len(plugins)):
         if mode == plugins[a][0]:
             driver.execute_script(plugins[a][1])
@@ -219,80 +219,60 @@ while True:
         doAction = False
         enterKey = False
     
-    elif mode == '(grasp)' or mode == 'reading':
+
+    try:
         if doAction == True:
-            try:
-                readings.learn_words()
-                readings.build_key()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
+            match mode:
+                case '(grasp)':
+                    readings.learn_words()
+                    readings.build_key()
+                    doAction = False
             
-    elif mode == 'translation':
-        if doAction == True:
-            try:
-                readings.learn_words()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
+                case 'reading':
+                    readings.learn_words()
+                    readings.build_key()
+                    doAction = False
+
+                case 'translation':
+                    readings.learn_words()
+                    doAction = False
+            
+                case 'composition':
+                    compositions.solve()
+                    doAction = False
+            
+                case 'noun-adj':
+                    noun_adj.solver()
+            
+                case 'timed_morphology':
+                    timed_morphology.solver()
+            
+                case 'timed_vocabulary':
+                    timed_vocabulary.solver()
+            
+                case 'synopsis':
+                    synopsis.solve()
+                    doAction = False
+            
+                case 'catullus':
+                    catullus.solve()
+                    doAction = False
     
-    elif mode == 'composition':
-        if doAction == True:
-            try:
-                compositions.solve()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
-    
-    elif mode == 'noun-adj':
-        if doAction == True:
-            #Solves latin for you
-            try:
-                noun_adj.solver()
-            except Exception as error:
-                print(f'error: {error}')
-                doAction = False
-    
-    elif mode == 'infinitive morphology' or mode == 'ciples':
+
         if enterKey == True:
-            #Adds enter key back
-            try:
-                infinitive_morphology.enter_addon()
-            except Exception as error:
-                print(f'error: {error}')
-            enterKey = False
-    
-    elif mode == 'timed morphology':
-        if doAction == True:
-            try:
-                timed_morphology.solver()
-            except Exception as error:
-                print(f'error: {error}')
-                doAction = False
-    
-    elif mode == 'timed vocabulary':
-        if doAction == True:
-            try:
-                timed_vocabulary.solver()
-            except Exception as error:
-                print(f'error: {error}')
-                doAction = False
-    
-    elif mode == 'synopsis':
-        if doAction == True:
-            try:
-                synopsis.solve()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
-    
-    elif mode == 'catullus':
-        if doAction == True:
-            try:
-                catullus.solve()
-            except Exception as error:
-                print(f'error: {error}')
-            doAction = False
+            match mode:
+                case 'infinitive morphology':
+                    infinitive_morphology.enter_addon()
+                    enterKey = False
+            
+                case 'ciples':
+                    infinitive_morphology.enter_addon()
+                    enterKey = False
+
+
+    except Exception as error:
+        print(f'error: {error}')
+
     
     time.sleep(.1)
 driver.close()

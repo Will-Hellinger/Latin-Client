@@ -1,51 +1,73 @@
 import json
 import os
+import glob
 from info import *
 import nltk #used to tell if word is verb or noun
 import inflect #best for verbs
 import pyinflect #best for nouns
 
+dict_path = f'.{subDirectory}data{subDirectory}'
+
+
 def get_dictionary():
-    file_list = []
     dictionary = {}
     latin_dictionary = {}
     english_dictionary = {}
 
-    for root, dirs, files in os.walk('.'):
-        for file in files:
-            if str(os.path.join(root,file)).endswith('.json') and ('latin_dictionary' in str(os.path.join(root,file)) or 'temp_latin_dictionary'in str(os.path.join(root,file)) or 'timed_vocabulary_dictionary'in str(os.path.join(root,file))):
-                file_list.append(os.path.join(root,file))
-    
+    file_list = []
+
+    dictionary_directory_names = ['latin_dictionary', 'timed_vocabulary_dictionary']
+    morphology_directory_names = ['timed_morphology_dictionary']
+
+    for dictionary_name in dictionary_directory_names:
+        file_list.extend(glob.glob(f'{dict_path}{dictionary_name}{subDirectory}*.json'))
+
     for file in file_list:
         temp_data = json.load(open(file, mode='r', encoding='utf-8'))
-        temp_latin_values = []
+        english_words = []
+        morph_values = []
 
         for item in temp_data:
             if temp_data[item] == True:
-                temp_latin_values.append(item)
+                english_words.append(item)
         
         latin_word = file.split(subDirectory)
         latin_word = latin_word[len(latin_word) - 1]
+
+        for dictionary_name in morphology_directory_names:
+            morph_dict = {}
+
+            try:
+                if os.path.exists(f'{dict_path}{dictionary_name}{subDirectory}{latin_word.lower()}'):
+                    morph_dict = json.load(open(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}', mode='r', encoding='utf-8'))
+
+                if os.path.exists(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}'):
+                    morph_dict = json.load(open(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}', mode='r', encoding='utf-8'))
+
+                for morph_value in morph_dict:
+                    if morph_dict[morph_value] == True:
+                        morph_values.append(morph_value)
+            except:
+                morph_dict = {} # just in case file is broken
+
         latin_word = decodeFilename(latin_word).replace('.json', '')
         latin_word = latin_word.replace(',', '') #just in case
 
         latin_word = latin_word.lower()
 
-        latin_dictionary[latin_word] = temp_latin_values
-    
-    for item in latin_dictionary:
-        english_words = latin_dictionary[item]
+        latin_dictionary[latin_word] = {"english" : english_words, "morphology" : morph_values}
 
         for english_word in english_words:
-
             english_word = english_word.lower()
 
             if english_dictionary.get(english_word) == None:
-                english_dictionary[english_word] = [item]
-
+                english_dictionary[english_word] = [latin_word]
+            
             elif item not in english_dictionary.get(english_word):
                 latin_words = list(english_dictionary[english_word])
-                latin_words.append(item)
+
+                if latin_word not in latin_words:
+                    latin_words.append(latin_word)
 
                 english_dictionary[english_word] = latin_words
     
@@ -54,21 +76,21 @@ def get_dictionary():
 
     return dictionary
 
-
 def convert_to_base(word):
-    backup = word
 
-    try:
-        if len(word.split(' ')) >= 2:
-            word = word.split(' ')
-        else:
-            word = [word, '']
+    if len(word.split(' ')) >= 2:
+        word = word.split(' ')
+    else:
+        word = [word, '']
         
-        temp = ''
-        for a in range(len(word)):
-            if word[a] == '':
-                continue
+    temp = ''
+    for a in range(len(word)):
+        if word[a] == '':
+            continue
+        
+        backup = word[a]
             
+        try:
             word_type = nltk.pos_tag(nltk.word_tokenize(word[a]))[0][1]
             p = inflect.engine()
 
@@ -81,12 +103,13 @@ def convert_to_base(word):
                 temp += ' '
             
             temp += word[a]
-        
-        word = temp
-    except:
-        word = backup
+        except:
+            if a != 0:
+                temp += ' '
+            
+            temp += backup
 
-    return word
+    return temp
 
 
 def translate(word: str, language: str, dictionary: dict = get_dictionary(), use_base = False):
@@ -97,5 +120,8 @@ def translate(word: str, language: str, dictionary: dict = get_dictionary(), use
     
     if use_base == True:
         word = convert_to_base(word)
+    
+    if word == "":
+        return None
         
     return language_dict.get(word.lower())
