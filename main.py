@@ -29,26 +29,29 @@ def debugger_tool():
 
     while True:
         event, values = window.read()
-        if event == 'Reload':
-            start_time = time.time()
+        match event:
+            case 'Reload':
+                start_time = time.time()
 
-            module = values['_MODULE_INPUT_']
-            modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus)
+                module = values['_MODULE_INPUT_']
+                modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus)
             
-            if module_strings.index(module) != -1:
-                importlib.reload(modules[module_strings.index(module)])
+                if module_strings.index(module) != -1:
+                    importlib.reload(modules[module_strings.index(module)])
             
-            updater.build_chksm()
-            print(f'finished in {time.time() - start_time}')
+                updater.build_chksm()
+                print(f'finished in {time.time() - start_time}')
             
-        elif event == 'Inject':
-            driver.execute_script(f'document.cookie = "PHPSESSID={values["_TOKEN_INPUT_"]}"')
-            time.sleep(.5)
-            driver.get("https://lthslatin.org/")
-        elif event == 'Get Token':
-            window.Element('_TOKEN_OUTPUT_').Update(str(get_token()))
-        elif event == sg.WIN_CLOSED:
-            break
+            case 'Inject':
+                driver.execute_script(f'document.cookie = "PHPSESSID={values["_TOKEN_INPUT_"]}"')
+                time.sleep(.5)
+                driver.get("https://lthslatin.org/")
+            
+            case 'Get Token':
+                window.Element('_TOKEN_OUTPUT_').Update(str(get_token()))
+            
+            case sg.WIN_CLOSED:
+                break
     window.close()
 
 ## DEV TOOL

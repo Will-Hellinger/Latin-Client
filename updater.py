@@ -71,7 +71,7 @@ def create_chksms(print_filenames: bool = False):
             useFile = True
 
             for a in range(len(exclude_list)):
-                if name.endswith(exclude_list[a]) or '.git' in name:
+                if name.endswith(exclude_list[a]) or '.git' in name or 'cache' in name:
                     useFile = False
                     break
 

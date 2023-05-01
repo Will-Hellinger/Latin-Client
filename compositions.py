@@ -96,6 +96,7 @@ def solve():
     parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
     english_texts = parentElement.find_elements(By.XPATH, "// p[@style='white-space:pre-wrap;margin-right:2em;font-size:1em']")
     latin_inputs = parentElement.find_elements(By.XPATH, "// div[@class='latin composition ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all ui-textinput-autogrow']")
+    assignment_header = driver.find_element(By.ID, 'assessHead')
     dictionary = custom_translator.get_dictionary()
 
     all_inputs = []
@@ -105,15 +106,18 @@ def solve():
         translator = Translator()
     else:
         print('google trans disabled')
+    
+    for a in range(0, len(english_texts)):
+        english_texts[a] = english_texts[a].text
+        english_texts[a] = english_texts[a].lower()
+        english_texts[a] = english_texts[a].replace(',', '')
+        english_texts[a] = english_texts[a].replace('.', '')
 
     for english_text in english_texts:
-        english_text = english_text.text
-        english_text = english_text.lower()
-        english_text = english_text.replace('.', '')
-        english_text = english_text.replace(',', '')
-
         if compositions_fallback == True:
             trans_words = str(translator.translate(english_text, dest='la', src='en').text)
+            trans_words = trans_words.replace('.', '')
+            trans_words = trans_words.replace(',', '')
 
             trans_words = trans_words.split(' ')
             
@@ -131,11 +135,18 @@ def solve():
                     
                 processed_words.append(combined_word)
 
-                output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=False)
-                if output == None:
-                    output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=True)
+                output = []
 
-                if output != None:
+                translation_output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=False)
+                base_translation_output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=True)
+
+                if translation_output is not None:
+                    output.extend(translation_output)
+                
+                if base_translation_output is not None:
+                    output.extend(base_translation_output)
+
+                if output is not None:
                     inputs.append(output)
         
         if compositions_fallback == True:
@@ -143,6 +154,12 @@ def solve():
         
         all_inputs.append(inputs)
     all_answers = []
+
+    assignment_name = encodeFilename(str(assignment_header.text))
+
+    if not os.path.exists(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json'):
+        with open(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json', mode='w', encoding='utf-8') as file:
+            file.write('{\n}')
 
     for latin_input in latin_inputs:
         driver.execute_script("arguments[0].scrollIntoView();", latin_input)
@@ -178,6 +195,17 @@ def solve():
 
         all_answers.append(answers)
 
+    cache_file = open(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json', mode='r+', encoding='utf-8')
+    data = json.load(cache_file)
+
+    for english_text in english_texts:
+        if data.get(english_text) is not None:
+            continue
+        
+        temp_dicionary = {'correct' : [], 'incorrect' : []}
+        data[english_text] = temp_dicionary
+    
+    save_file(cache_file, data)
 
     for a in range(0, len(all_inputs)):
         for b in range(0, len(all_inputs[a])):
@@ -185,6 +213,15 @@ def solve():
                 latin_word = strip_accents(all_inputs[a][b][c])
 
                 driver.execute_script("arguments[0].scrollIntoView();", latin_inputs[a])
+
+                if latin_word in data[english_texts[a]]['incorrect']:
+                    continue
+                
+                elif latin_word in data[english_texts[a]]['correct']:
+                    if latin_word not in all_answers[a]:
+                        all_answers[a].append(latin_word)
+                    
+                    continue
 
                 latin_inputs[a].clear()
                 latin_inputs[a].send_keys(latin_word)
@@ -199,30 +236,39 @@ def solve():
                 if 'color:red' in str(latin_inputs[a].get_attribute('style')).replace(' ', ''):
                     default_color = 'red'
 
-                temp_answers = []
-                temp_answers.extend(all_answers[a])
                 span_texts = latin_inputs[a].find_elements(By.TAG_NAME, 'span')
 
-                if default_color == 'red' and len(span_texts) != 0 and latin_word not in temp_answers:
-                    temp_answers.append(latin_word)
+                if default_color == 'red' and len(span_texts) != 0 and latin_word not in all_answers[a]:
+                    all_answers[a].append(latin_word)
 
-                elif default_color == 'green' and len(span_texts) == 0 and latin_word not in temp_answers:
-                    temp_answers.append(latin_word)
-
-                all_answers[a] = temp_answers
+                elif default_color == 'green' and len(span_texts) == 0 and latin_word not in all_answers[a]:
+                    all_answers[a].append(latin_word)
+                
+                else:
+                    temp_list = data[english_texts[a]]['incorrect']
+                    temp_list.append(latin_word)
+                    data[english_texts[a]]['incorrect'] = temp_list
 
                 human_timeout(1000, 5000)
 
-    for a in range(0, len(all_answers)):
+        data[english_texts[a]]['correct'] = all_answers[a]
+        save_file(cache_file, data)
+
         (latin_inputs[a]).clear()
         time.sleep(.5)
 
+        used_words = [] #backup repitition check
         driver.execute_script("arguments[0].scrollIntoView();", latin_inputs[a])
 
         for b in range(0, len(all_answers[a])):
+            if all_answers[a][b] in used_words:
+                continue
+            
             latin_inputs[a].send_keys(all_answers[a][b])
-
             if b != len(all_answers[a]) - 1:
                 latin_inputs[a].send_keys(' ')
-        
+            
+            used_words.append(all_answers[a][b])
         latin_inputs[a].send_keys(Keys.ENTER)
+
+    cache_file.close()

@@ -28,7 +28,7 @@ def clear_console():
 
 #great terminal commands
 def get_file_count(directory: str):
-    directory.replace('(sub)', subDirectory)
+    directory = directory.replace('(sub)', subDirectory)
 
     if not directory.endswith(subDirectory):
         directory += subDirectory
@@ -41,16 +41,27 @@ def find_file(file_name: str, ignore_case = False):
 
     for root, dirs, files in os.walk('.'):
         for file in files:
+
+            if '.git' in root or '__pycache__' in root:
+                continue
+
+            file_original_name = file
             
             if ignore_case == True:
-                if file_name.lower() in file.lower() and '.git' not in root and '__pycache__' not in root:
-                    output.append(os.path.join(root,file))
-            
-            else:
-                if file_name in file and '.git' not in root and '__pycache__' not in root:
-                    output.append(os.path.join(root,file))
+                file_name = file_name.lower()
+                file = file.lower()
+
+            if file_name in file:
+                output.append(os.path.join(root, file_original_name))
     
     return output
+
+
+def show_contents(file_name: str):
+    file_name = file_name.replace('(sub)', subDirectory)
+
+    with open(file_name, mode='r', encoding='utf-8') as file:
+        print(file.read())
 
 
 def load_settings():
@@ -201,6 +212,9 @@ def setup():
 
 try:
     load_settings()
+
+    if not os.path.exists(f'.{subDirectory}data{subDirectory}cache{subDirectory}'):
+        os.mkdir(f'.{subDirectory}data{subDirectory}cache')
 
     settings_list = (webbrowserType, delay, human_mode, timed_vocab_fallback, compositions_fallback, discord_rpc, funnySound, latinLink, schoologyUser, schoologyPass)
     for setting in settings_list:
