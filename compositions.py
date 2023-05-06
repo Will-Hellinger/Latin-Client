@@ -99,11 +99,17 @@ def solve():
     assignment_header = driver.find_element(By.ID, 'assessHead')
     dictionary = custom_translator.get_dictionary()
 
+
     all_inputs = []
 
     if compositions_fallback == True:
-        print('google trans enabled')
-        translator = Translator()
+        try:
+            translator = Translator()
+            translator.translate('le tit', src='fr', dest='en')
+            print('google trans enabled')
+        except:
+            translator = None
+            print('google trans disabled')
     else:
         print('google trans disabled')
     
@@ -114,7 +120,7 @@ def solve():
         english_texts[a] = english_texts[a].replace('.', '')
 
     for english_text in english_texts:
-        if compositions_fallback == True:
+        if compositions_fallback == True and translator is not None:
             trans_words = str(translator.translate(english_text, dest='la', src='en').text)
             trans_words = trans_words.replace('.', '')
             trans_words = trans_words.replace(',', '')
@@ -130,6 +136,9 @@ def solve():
             for j in range(i+1, len(english_text)+1):
                 combined_word = ''.join(english_text[i:j])
 
+                if compositions_synonyms_enabled == True:
+                    synonyms = synonym_extractor(combined_word)
+
                 if combined_word in processed_words:
                     continue
                     
@@ -137,19 +146,32 @@ def solve():
 
                 output = []
 
+                if synonyms is not None or synonyms != [] and compositions_synonyms_enabled == True:
+                    for synonym in synonyms:
+                        processed_words.append(synonym)
+
+                        synonym_translation = custom_translator.translate(word=synonym, language='english', dictionary=dictionary, use_base=False)
+                        base_synonym_translation = custom_translator.translate(word=synonym, language='english', dictionary=dictionary, use_base=False)
+
+                        if synonym_translation is not None and synonym_translation not in output:
+                            output.extend(synonym_translation)
+
+                        if base_synonym_translation is not None and base_synonym_translation not in output:
+                            output.extend(base_synonym_translation)
+
                 translation_output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=False)
                 base_translation_output = custom_translator.translate(word=combined_word, language='english', dictionary=dictionary, use_base=True)
 
-                if translation_output is not None:
+                if translation_output is not None and translation_output not in output:
                     output.extend(translation_output)
                 
-                if base_translation_output is not None:
+                if base_translation_output is not None and base_translation_output not in output:
                     output.extend(base_translation_output)
 
                 if output is not None:
                     inputs.append(output)
         
-        if compositions_fallback == True:
+        if compositions_fallback == True and translator is not None:
             inputs.append(trans_words)
         
         all_inputs.append(inputs)

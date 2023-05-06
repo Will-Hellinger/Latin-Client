@@ -1,5 +1,5 @@
 from web_driver import *
-import time, json, random
+import time, json
 from info import *
 
 try:
@@ -64,27 +64,6 @@ def wait_reload(word1: str, word2: str):
         else:
             time.sleep(1)
             break
-
-
-def synonym_extractor(phrase: str):
-    synonyms = []
-
-    for syn in wordnet.synsets(phrase):
-        for l in syn.lemmas():
-            synonyms.append(l.name())
-
-    return synonyms
-
-
-def antonym_extractor(phrase: str):
-    antonyms = []
-    
-    for syn in wordnet.synsets(phrase):
-        for l in syn.lemmas():
-            if l.antonyms():
-                antonyms.append(l.antonyms()[0].name())
-    
-    return antonyms
 
 
 def solver():

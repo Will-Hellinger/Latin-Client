@@ -9,7 +9,9 @@
 	    "fake-human" : false,
         "google-trans-timed_vocab-fallback" : false,
         "google-trans-compositions-fallback" : false,
-        "openai-catullus" : false
+        "openai-catullus" : false,
+        "tracking" : false,
+        "synonyms-compositions-fallback" : false
     },
     "schoology": {
         "latin-link": "none",

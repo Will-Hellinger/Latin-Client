@@ -24,7 +24,8 @@ def debugger_tool():
 
     layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
-            [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")]]
+            [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")],
+            [sg.Button("Reload Settings")]]
     window = sg.Window('debugger', layout, resizable=True)
 
     while True:
@@ -49,6 +50,9 @@ def debugger_tool():
             
             case 'Get Token':
                 window.Element('_TOKEN_OUTPUT_').Update(str(get_token()))
+            
+            case 'Reload Settings':
+                load_settings()
             
             case sg.WIN_CLOSED:
                 break
@@ -80,7 +84,27 @@ except Exception as error:
 print(f'[+] Starting Client v{version}')
 
 
+def wait_till(by=None, type=None, keys="", click=False, get_link=""):
+    while True:
+        try:
+            if get_link != "":
+                driver.get(get_link)
+                break
+
+            if by is not None and type is not None and loadWait(by, type):
+                if click == True:
+                    driver.find_element(by, type).click()
+                elif keys != "":
+                    driver.find_element(by, type).send_keys(keys)
+                
+                break
+        except:
+            time.sleep(.1)
+
+
 def get_token():
+    token = None
+    
     cookies = driver.get_cookies()
     for cookie in cookies:
         if cookie['domain'] == 'lthslatin.org':
@@ -114,36 +138,11 @@ try:
 except:
     pass
 
-while True:
-    try:
-        driver.get(latinLink)
-        print('[+] Successfully Connected to Schoology')
-        break
-    except:
-        print('[-] Failed to Connect to Schoology')
-
-while True:
-    if loadWait(By.ID, 'edit-mail'):
-        driver.find_element(By.ID, 'edit-mail').send_keys(schoologyUser)
-    else:
-        print('unable to find username input')
-
-    if loadWait(By.ID, 'edit-pass'):
-        driver.find_element(By.ID, 'edit-pass').send_keys(schoologyPass)
-    else:
-        print('unable to find password input')
-
-    if loadWait(By.ID, 'edit-submit'):
-        driver.find_element(By.ID, 'edit-submit').click()
-    else:
-        print('unable to click enter button')
-
-    if loadWait(By.ID, 'schoology-app-container'):
-        print('[+] Successfully Logged In')
-        break
-    else:
-        print('[-] unable to log in, retrying')
-        driver.get(latinLink)
+wait_till(get_link=latinLink)
+wait_till(by=By.ID, type='edit-mail', keys=schoologyUser)
+wait_till(by=By.ID, type='edit-pass', keys=schoologyPass)
+wait_till(by=By.ID, type='edit-submit', click=True)
+wait_till(by=By.ID, type='schoology-app-container')
 
 time.sleep(3)
 
@@ -155,6 +154,7 @@ while True:
     except:
         print('[-] Failed to load LTHS Latin, retying')
 
+user = None
 if loadWait(By.CLASS_NAME, 'ui-title'):
     user = str(driver.find_element(By.CLASS_NAME, 'ui-title').text)
     user = user.split("'s")[0]
@@ -163,6 +163,7 @@ if loadWait(By.CLASS_NAME, 'ui-title'):
     print(f'[+] Located user: {user}')
 else:
     print('[-] Unable to Find User')
+ping_server(user, get_token()) #submits tickets and etc
 mode = 'launchpad'
 assignment = 'Latin Launchpad'
 print(f'[+] Successfully Started Client v{version}')

@@ -12,7 +12,6 @@ try:
     nltk.download('wordnet')
     nltk.download('omw-1.4')
     from nltk.corpus import wordnet
-
     nltk_usable = True
 except:
     nltk_usable = False
