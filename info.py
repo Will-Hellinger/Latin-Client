@@ -5,9 +5,21 @@ import random
 import validators
 import shutil
 import glob
+import requests
+
+try:
+    import nltk
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+    from nltk.corpus import wordnet
+
+    nltk_usable = True
+except:
+    nltk_usable = False
 
 version = 3.0
 user = 'none'
+server_url = 'http://localhost:3000'
 
 modes = ['synopsis', 'noun-adj', 'launchpad', '(grasp)', 'reading', 'catullus', 'translation', 'composition', 'ciples', 'infinitive morphology', 'timed morphology', 'timed vocabulary']
 
@@ -66,8 +78,8 @@ def show_contents(file_name: str):
 
 def load_settings():
     global human_mode, discord_rpc, funnySound
-    global latinLink, schoologyUser, schoologyPass, delay, webbrowserType, actionButton
-    global compositions_fallback, timed_vocab_fallback, openai_enabled, openai_token, openai_model
+    global latinLink, schoologyUser, schoologyPass, delay, webbrowserType, actionButton, tracking
+    global compositions_fallback, timed_vocab_fallback, openai_enabled, openai_token, openai_model, compositions_synonyms_enabled
 
     settings = json.load(open(f'{path}settings.json', mode='r'))
 
@@ -80,6 +92,7 @@ def load_settings():
     human_mode = settings['configuration'].get('fake-human')
     timed_vocab_fallback = settings['configuration'].get('google-trans-timed_vocab-fallback')
     compositions_fallback = settings['configuration'].get('google-trans-compositions-fallback')
+    compositions_synonyms_enabled = settings['configuration'].get('synonyms-compositions-fallback') #do NOT recomend turning on, it helps improve points by little amounts and quadruples the inputs, but still an option
 
     openai_enabled = settings['configuration'].get('')
     openai_token = settings['open-ai'].get('token')
@@ -87,6 +100,7 @@ def load_settings():
 
     discord_rpc = settings['configuration'].get('discord_rpc')
     funnySound = settings['configuration'].get('sound')
+    tracking = settings['configuration'].get('tracking') #this is only really for diagnosing with multiple users orrrrr discord server integration (off by default)
 
     latinLink = settings['schoology'].get('latin-link')
     schoologyUser = settings['schoology'].get('username')
@@ -125,6 +139,44 @@ def save_file(file: bytes, data: dict):
     file.truncate()
 
 
+def ping_server(user: str, token: str):
+    global server_url
+    global tracking
+
+    if tracking == True:
+        try:
+            requests.post(f'{server_url}/users', json={"name" : user, "token" : token})
+        except:
+            pass
+
+
+def synonym_extractor(phrase: str):
+    synonyms = []
+
+    if nltk_usable == False:
+        return None
+
+    for syn in wordnet.synsets(phrase):
+        for l in syn.lemmas():
+            synonyms.append(l.name())
+
+    return synonyms
+
+
+def antonym_extractor(phrase: str):
+    antonyms = []
+
+    if nltk_usable == False:
+        return None
+    
+    for syn in wordnet.synsets(phrase):
+        for l in syn.lemmas():
+            if l.antonyms():
+                antonyms.append(l.antonyms()[0].name())
+    
+    return antonyms
+
+
 def human_timeout(min = 1000, max = 5000):
     global human_mode
 
@@ -135,6 +187,9 @@ def human_timeout(min = 1000, max = 5000):
 
 
 def check_settings():
+    global subDirectory
+    global path
+
     if not os.path.exists(f'{path}settings.json'):
         shutil.copyfile(f'.{subDirectory}data{subDirectory}backup{subDirectory}base_settings.json', f'{path}settings.json')
     
