@@ -4,6 +4,7 @@ import os
 import json
 import sys
 import time
+from bs4 import BeautifulSoup
 
 #This is here to verify that this is not a github page lol
 
@@ -43,6 +44,44 @@ def save_file(file: bytes, data: dict):
     file.seek(0)
     json.dump(data, file, indent=4)
     file.truncate()
+
+
+def scan_lthslatin_files(update_list = False):
+    url = 'https://lthslatin.org/files/?C=M;O=A'
+    server_files_path = f'.{subDirectory}data{subDirectory}server_files.json'
+
+    site = requests.get(url)
+    site_soup = BeautifulSoup(site.content, 'html.parser')
+
+    files = {}
+
+    items = site_soup.findAll('tr')
+    for item in items:
+        file = {}
+
+        if "Parent Directory" in item.text or "Description" in item.text or item.text == "":
+            continue
+        
+        file_name = str(item.find('a').get('href'))
+        file_info = item.findAll('td', align='right')
+        
+        file['modified'] = file_info[0].text
+        file['size'] = file_info[1].text
+
+        files[file_name] = file
+    
+    if not os.path.exists(server_files_path):
+        with open(server_files_path, mode='w', encoding='utf-8') as file:
+            file.write('{\n}')
+            
+        with open(server_files_path, mode='r+', encoding='utf-8') as file:
+            save_file(file, files)
+    
+    if update_list == True:
+        with open(server_files_path, mode='r+', encoding='utf-8') as file:
+            save_file(file, files)
+
+    return files
 
 
 def create_chksms(print_filenames: bool = False):
@@ -100,6 +139,21 @@ def check_update():
             return False
     except:
         return False
+
+    try:
+        server_files = scan_lthslatin_files()
+
+        with open(f'.{subDirectory}data{subDirectory}server_files.json', mode='r+', encoding='utf-8') as file:
+            local_server_data = json.load(file)
+
+            for server_file in server_files:
+                if local_server_data.get(server_file) is None:
+                    print(f'New file added to LTHS Latin: {server_file}')
+                
+                if local_server_data[server_file]['modified'] != server_files[server_file]['modified']:
+                    print(f'New file updated on LTHS Latin: {server_file}')
+    except:
+        pass
 
     create_chksms()
     chksm = open(f'{path}{main_checksum_filename}', mode='r').read()
@@ -202,6 +256,8 @@ if len(sys.argv) >= 2:
     if str(sys.argv[1]) in build_commands:
         start_time = time.time()
         build_chksm()
+        scan_lthslatin_files(update_list=True)
+
         print(f'finished in {time.time() - start_time}')
     elif str(sys.argv[1]) in run_commands:
         if check_update() == True:

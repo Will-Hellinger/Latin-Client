@@ -1,3 +1,4 @@
+beautifulsoup4==4.12.2
 googletrans==3.1.0a0
 inflect==6.0.4
 nltk==3.8.1
@@ -8,6 +9,6 @@ pynput==1.7.6
 pypresence==4.2.1
 PySimpleGUI==4.60.4
 requests==2.25.1
-selenium==4.9.0
+selenium==4.9.1
 validators==0.20.0
 webdriver_manager==3.8.4

@@ -1,0 +1,482 @@
+{
+    "cookie_workaround.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "446 "
+    },
+    "forms_sum.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "9.2K"
+    },
+    "userauth.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "2.0K"
+    },
+    "jupiter_grasp_feedback.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": " 31K"
+    },
+    "travels_grasp_feedback.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": " 21K"
+    },
+    "verb_stems.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "4.3K"
+    },
+    "responses.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "2.1K"
+    },
+    "paper_glass.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": "1.6K"
+    },
+    "translation_feedback.php": {
+        "modified": "2016-03-23 16:45  ",
+        "size": " 12K"
+    },
+    "get_sum_feedback.php": {
+        "modified": "2016-03-28 12:06  ",
+        "size": "1.4K"
+    },
+    "processing_template.php": {
+        "modified": "2016-03-28 12:07  ",
+        "size": "262 "
+    },
+    "get_sum.php": {
+        "modified": "2016-03-28 12:07  ",
+        "size": "2.5K"
+    },
+    "coloresveri_stats.php": {
+        "modified": "2016-03-28 12:08  ",
+        "size": "1.0K"
+    },
+    "verbinizer_sum.php": {
+        "modified": "2016-04-04 16:23  ",
+        "size": "760 "
+    },
+    "verbinizer_facio.php": {
+        "modified": "2016-04-06 09:55  ",
+        "size": "9.5K"
+    },
+    "verbinizer_irreg.php": {
+        "modified": "2016-04-06 10:08  ",
+        "size": "781 "
+    },
+    "verbinizer_import.php": {
+        "modified": "2016-04-06 11:24  ",
+        "size": "9.0K"
+    },
+    "oppositeday.php": {
+        "modified": "2016-04-07 13:38  ",
+        "size": "2.4K"
+    },
+    "oppositeday_processing.php": {
+        "modified": "2016-04-07 17:27  ",
+        "size": "1.6K"
+    },
+    "dumb.php": {
+        "modified": "2016-05-24 13:31  ",
+        "size": "276 "
+    },
+    "clause_types.php": {
+        "modified": "2016-05-27 17:15  ",
+        "size": "9.3K"
+    },
+    "get_clause_feedback.php": {
+        "modified": "2016-05-27 17:19  ",
+        "size": "1.5K"
+    },
+    "get_clause.php": {
+        "modified": "2016-05-27 17:46  ",
+        "size": "1.0K"
+    },
+    "grasp_backup.php": {
+        "modified": "2016-08-21 16:32  ",
+        "size": "5.7K"
+    },
+    "translation_new.php": {
+        "modified": "2016-10-19 17:48  ",
+        "size": "3.8K"
+    },
+    "assess_new.php": {
+        "modified": "2016-10-19 22:49  ",
+        "size": "4.1K"
+    },
+    "assess.php": {
+        "modified": "2016-11-07 10:45  ",
+        "size": "4.1K"
+    },
+    "forest_getmorph.php": {
+        "modified": "2017-02-20 13:00  ",
+        "size": "651 "
+    },
+    "forest_edit.php": {
+        "modified": "2017-02-20 20:16  ",
+        "size": "962 "
+    },
+    "forest_getverb.php": {
+        "modified": "2017-02-21 00:21  ",
+        "size": "1.3K"
+    },
+    "forest_suggest.php": {
+        "modified": "2017-02-21 02:41  ",
+        "size": "1.4K"
+    },
+    "forest_confirm.php": {
+        "modified": "2017-02-21 03:38  ",
+        "size": "2.2K"
+    },
+    "forest_new.php": {
+        "modified": "2017-02-21 08:16  ",
+        "size": "1.6K"
+    },
+    "forest_branch.php": {
+        "modified": "2017-02-21 12:06  ",
+        "size": "3.4K"
+    },
+    "forest_resume.php": {
+        "modified": "2017-02-21 12:06  ",
+        "size": "2.9K"
+    },
+    "forest_processing.php": {
+        "modified": "2017-02-21 12:32  ",
+        "size": "2.2K"
+    },
+    "forest_collab.php": {
+        "modified": "2017-02-22 09:42  ",
+        "size": "7.9K"
+    },
+    "forest_getphraselatin.php": {
+        "modified": "2017-02-22 09:52  ",
+        "size": "4.2K"
+    },
+    "forest_refresh.php": {
+        "modified": "2017-02-22 14:10  ",
+        "size": "5.9K"
+    },
+    "forest.php": {
+        "modified": "2017-02-23 11:40  ",
+        "size": " 16K"
+    },
+    "forest_getgrasplatin.php": {
+        "modified": "2017-02-23 11:48  ",
+        "size": "7.1K"
+    },
+    "landing_demo.php": {
+        "modified": "2017-02-23 16:55  ",
+        "size": " 16K"
+    },
+    "landing_parent.php": {
+        "modified": "2017-02-23 16:55  ",
+        "size": "2.2K"
+    },
+    "purplepages.pdf": {
+        "modified": "2017-02-27 14:43  ",
+        "size": "559K"
+    },
+    "thesis_feedback.php": {
+        "modified": "2017-04-18 10:30  ",
+        "size": "6.3K"
+    },
+    "thesis_feedback_refresh.php": {
+        "modified": "2017-04-18 13:05  ",
+        "size": "4.8K"
+    },
+    "thesis_phrase_parser.php": {
+        "modified": "2017-04-19 07:56  ",
+        "size": "1.2K"
+    },
+    "detail_feedback.php": {
+        "modified": "2017-04-24 12:05  ",
+        "size": "5.5K"
+    },
+    "landing1A.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 34K"
+    },
+    "landing1B.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 34K"
+    },
+    "landing2A.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 37K"
+    },
+    "landing2B.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 37K"
+    },
+    "landing3A.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 34K"
+    },
+    "landing3B.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 34K"
+    },
+    "landing4A.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 28K"
+    },
+    "landing4B.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 28K"
+    },
+    "landing5A.php": {
+        "modified": "2017-05-18 11:19  ",
+        "size": " 67K"
+    },
+    "landing_admin.php": {
+        "modified": "2017-08-24 12:20  ",
+        "size": " 36K"
+    },
+    "landing_insertable.php": {
+        "modified": "2017-08-24 23:00  ",
+        "size": "1.1K"
+    },
+    "footer_insertable.php": {
+        "modified": "2017-08-24 23:02  ",
+        "size": " 15 "
+    },
+    "synopsis_lti.php": {
+        "modified": "2017-08-25 00:23  ",
+        "size": " 35K"
+    },
+    "coloresveri.php": {
+        "modified": "2017-08-25 14:27  ",
+        "size": " 30K"
+    },
+    "translation_lti.php": {
+        "modified": "2017-08-28 09:41  ",
+        "size": "9.2K"
+    },
+    "agreement_lti.php": {
+        "modified": "2017-08-28 10:07  ",
+        "size": "4.9K"
+    },
+    "grasp_lti.php": {
+        "modified": "2017-08-31 12:29  ",
+        "size": "9.8K"
+    },
+    "color_processing.php": {
+        "modified": "2017-10-01 14:19  ",
+        "size": "504 "
+    },
+    "synopsis_austin.php": {
+        "modified": "2017-10-30 15:03  ",
+        "size": " 40K"
+    },
+    "colors.php": {
+        "modified": "2017-12-15 08:35  ",
+        "size": "5.7K"
+    },
+    "get_passage.php": {
+        "modified": "2017-12-22 13:53  ",
+        "size": "3.0K"
+    },
+    "hendec.php": {
+        "modified": "2018-03-23 10:36  ",
+        "size": "3.5K"
+    },
+    "pacman.mp3": {
+        "modified": "2018-04-12 14:17  ",
+        "size": " 33K"
+    },
+    "get_pretty.php": {
+        "modified": "2018-05-17 09:02  ",
+        "size": "509 "
+    },
+    "get_grade_list.php": {
+        "modified": "2018-08-27 19:24  ",
+        "size": "1.6K"
+    },
+    "compose_bu.php": {
+        "modified": "2018-09-05 11:09  ",
+        "size": "4.6K"
+    },
+    "hexmap.php": {
+        "modified": "2018-11-06 14:41  ",
+        "size": "1.2K"
+    },
+    "grasp%20-%20Copy.php": {
+        "modified": "2019-03-26 13:58  ",
+        "size": " 11K"
+    },
+    "scansion.php": {
+        "modified": "2019-03-26 19:52  ",
+        "size": "7.9K"
+    },
+    "get_midterm.php": {
+        "modified": "2019-12-19 10:48  ",
+        "size": "821 "
+    },
+    "translation.php": {
+        "modified": "2020-02-06 12:56  ",
+        "size": "8.9K"
+    },
+    "apicalls.php": {
+        "modified": "2021-01-07 11:01  ",
+        "size": "711 "
+    },
+    "midterm.php": {
+        "modified": "2021-01-07 11:37  ",
+        "size": "901 "
+    },
+    "agreement.php": {
+        "modified": "2021-01-14 12:22  ",
+        "size": "4.3K"
+    },
+    "agreement_results.php": {
+        "modified": "2021-01-15 10:57  ",
+        "size": "2.5K"
+    },
+    "pollAttention.php": {
+        "modified": "2021-01-15 11:07  ",
+        "size": "1.0K"
+    },
+    "saperdae.php": {
+        "modified": "2021-05-18 10:36  ",
+        "size": "8.7K"
+    },
+    "get_saperdae_feedback.php": {
+        "modified": "2021-05-18 16:16  ",
+        "size": "3.2K"
+    },
+    "coloresveri_results.php": {
+        "modified": "2021-08-24 16:45  ",
+        "size": "1.2K"
+    },
+    "get_timed_morphology.php": {
+        "modified": "2021-10-06 11:15  ",
+        "size": "2.8K"
+    },
+    "get_timed_morphology_newtime.php": {
+        "modified": "2021-11-17 11:04  ",
+        "size": "423 "
+    },
+    "get_timed_vocab_newtime.php": {
+        "modified": "2022-01-24 11:08  ",
+        "size": "423 "
+    },
+    "set_compliance.php": {
+        "modified": "2022-02-11 14:09  ",
+        "size": "1.2K"
+    },
+    "comply.php": {
+        "modified": "2022-02-14 10:40  ",
+        "size": "2.2K"
+    },
+    "agreement_streak.php": {
+        "modified": "2022-02-22 15:08  ",
+        "size": "4.3K"
+    },
+    "timed_vocab.php": {
+        "modified": "2022-03-07 13:31  ",
+        "size": " 15K"
+    },
+    "get_compliance.php": {
+        "modified": "2022-03-08 08:51  ",
+        "size": "4.1K"
+    },
+    "sight.php": {
+        "modified": "2022-04-11 12:17  ",
+        "size": "6.4K"
+    },
+    "gloss.php": {
+        "modified": "2022-05-20 16:21  ",
+        "size": "4.4K"
+    },
+    "verbinizer.php": {
+        "modified": "2022-09-19 13:13  ",
+        "size": " 25K"
+    },
+    "infinite.php": {
+        "modified": "2022-10-06 16:10  ",
+        "size": " 41K"
+    },
+    "get_timed_morphology_correction.php": {
+        "modified": "2022-11-02 13:53  ",
+        "size": "873 "
+    },
+    "grades.php": {
+        "modified": "2022-12-02 08:56  ",
+        "size": "3.5K"
+    },
+    "timed_morphology.php": {
+        "modified": "2022-12-06 09:05  ",
+        "size": " 21K"
+    },
+    "party.php": {
+        "modified": "2022-12-16 11:37  ",
+        "size": " 54K"
+    },
+    "get_agreement.php": {
+        "modified": "2023-01-05 13:27  ",
+        "size": " 11K"
+    },
+    "get_timed_vocab_correction.php": {
+        "modified": "2023-01-10 13:12  ",
+        "size": "873 "
+    },
+    "get_timed_morphology_feedback.php": {
+        "modified": "2023-01-10 15:20  ",
+        "size": " 15K"
+    },
+    "get_timed_vocab_feedback.php": {
+        "modified": "2023-01-11 15:34  ",
+        "size": "9.1K"
+    },
+    "taskness.php": {
+        "modified": "2023-01-23 15:49  ",
+        "size": "3.6K"
+    },
+    "game_map.php": {
+        "modified": "2023-01-26 09:40  ",
+        "size": " 40K"
+    },
+    "synopsis.php": {
+        "modified": "2023-01-27 13:57  ",
+        "size": " 34K"
+    },
+    "get_grasp_feedback.php": {
+        "modified": "2023-02-08 15:27  ",
+        "size": "2.8K"
+    },
+    "grasp.php": {
+        "modified": "2023-02-08 15:58  ",
+        "size": " 11K"
+    },
+    "get_timed_vocab.php": {
+        "modified": "2023-03-03 14:49  ",
+        "size": "3.4K"
+    },
+    "compose.php": {
+        "modified": "2023-03-20 17:22  ",
+        "size": "9.1K"
+    },
+    "thesis.php": {
+        "modified": "2023-04-03 11:41  ",
+        "size": " 15K"
+    },
+    "get_taskness.php": {
+        "modified": "2023-04-05 16:34  ",
+        "size": " 15K"
+    },
+    "get_grades.php": {
+        "modified": "2023-04-24 08:29  ",
+        "size": " 31K"
+    },
+    "landing.php": {
+        "modified": "2023-04-28 12:58  ",
+        "size": " 59K"
+    },
+    "syllabification.php": {
+        "modified": "2023-05-08 16:06  ",
+        "size": " 25K"
+    },
+    "epigram.php": {
+        "modified": "2023-05-09 10:34  ",
+        "size": "3.6K"
+    }
+}

@@ -16,7 +16,14 @@ def solve():
     catullus_prompt = str(driver.find_element(By.XPATH, "// div[@class='ui-body ui-body-a']"))
     thesis_input = driver.find_element(By.ID, 'thesis_write')
 
-    response = openai.ChatCompletion.create(model=openai_model, messages=[{"role": "user", "content": f"Write a thesis using the following prompt(keep it at one sentence and short. Write in a formal manner while still highschooler like): {catullus_prompt}\n\nThe 85th poem: {catullus_poem}"}])
+    requirements = ['must be one sentence and kept short', 'use multiple verbs', 'include the name of the poem in the sentence']
+    question = f'Write a thesis using this poem: {catullus_poem}\n\n The following prompt: {catullus_prompt}\n\n and follow these requirements:'
+
+    for requirement in requirements:
+        question += f'{requirement}\n'
+
+
+    response = openai.ChatCompletion.create(model=openai_model, messages=[{"role": "user", "content": question}])
 
     thesis_input.clear()
     thesis_input.send_keys(str(response.choices[0].message.content))
