@@ -263,9 +263,33 @@ def setup():
         exit()
 
 
+def spoof_activity(driver, type: str, response = None, aid = None):
+    match type:
+        case 'translation':
+            cellID = 'translation_write'
+            if aid is None:
+                aid = '1100001016'
+            if response is None:
+                response = 'hi magistra'
+            
+            driver.execute_script('$.post("feedback.php", [{name:"why",value:"translation_score_initial"},{name:"aid",value:' + aid + '},{name:"cellID",value:' + cellID + '},{name:"response",value:' + response + '}],function(data){console.log(data)});')
+        case 'grasp':
+            score = '0'
+            gid = '1'
+            
+            if aid is None:
+                aid = '1100000001'
+            if response is None:
+                response = '"poet"'
+            
+            driver.execute_script('$.post("files/get_grasp_feedback.php", [{name:"aid", value:' + aid + '},{name:"score", value:' + score + '},{name:"gid", value:' + gid + '},{name:"response",value:' + response + '}], function(data){console.log(data)});')
+
 
 try:
     load_settings()
+
+    if not os.path.exists(f'.{subDirectory}data{subDirectory}noun_adjective_dictionary{subDirectory}'):
+        os.mkdir(f'.{subDirectory}data{subDirectory}noun_adjective_dictionary')
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}cache{subDirectory}'):
         os.mkdir(f'.{subDirectory}data{subDirectory}cache')

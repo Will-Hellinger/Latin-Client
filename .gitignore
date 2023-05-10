@@ -1,7 +1,7 @@
-
+__pycache__
 *.pyc
-settings.json
+data/settings.json
 *.DS_Store
 data/timed_dictionary/.DS_Store
 data/cache
-data/rebuilt
+data/misc_etc

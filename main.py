@@ -7,6 +7,8 @@ try:
     import threading
     import random
     import glob
+    from multiprocessing import Process
+    from multiprocessing import Event
     import updater
     from info import *
     from discord_rpc import *
@@ -18,14 +20,25 @@ except Exception as error:
     exit()
 
 update = True
+login_skip = False
+
+def spoofer():
+    while True:
+        delay = random.randint(1000, 1500)/100
+
+        spoof_activity(driver, 'grasp')
+        time.sleep(delay)
+
 
 def debugger_tool():
+    spoof_active = False
     module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions', 'catullus']
 
     layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
             [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")],
-            [sg.Button("Reload Settings")]]
+            [sg.Button("Reload Settings")], 
+            [sg.Button("Spoof Activity"), sg.Text('Active: False', key='_SPOOF_ACTIVITY_MONITOR_')]]
     window = sg.Window('debugger', layout, resizable=True)
 
     while True:
@@ -37,7 +50,7 @@ def debugger_tool():
                 module = values['_MODULE_INPUT_']
                 modules = (infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus)
             
-                if module_strings.index(module) != -1:
+                if module in module_strings:
                     importlib.reload(modules[module_strings.index(module)])
             
                 updater.build_chksm()
@@ -53,26 +66,43 @@ def debugger_tool():
             
             case 'Reload Settings':
                 load_settings()
+
+            case 'Spoof Activity':
+                spoof_active = not spoof_active
+
+                window.Element('_SPOOF_ACTIVITY_MONITOR_').Update(f'Active: {spoof_active}')
+
+                if spoof_active == True:
+                    process = Process(target=spoofer)
+                    process.start()
+                elif spoof_active == False:
+                    process.kill()
             
             case sg.WIN_CLOSED:
                 break
     window.close()
 
 ## DEV TOOL
-if len(sys.argv) >= 2:
-    if str(sys.argv[1]) == '--debugger':
-        update = False
+if '--debugger' in (sys.argv):
+    update = False
         
-        start_time = time.time()
-        updater.build_chksm()
-        print(f'finished in {time.time() - start_time}')
+    start_time = time.time()
+    updater.build_chksm()
+    print(f'finished in {time.time() - start_time}')
 
-        try:
-            import PySimpleGUI as sg
-            import importlib
-            threading.Thread(target=debugger_tool).start()
-        except Exception as error:
-            print(f'unable to launch debugger due to {error}')
+    try:
+        import PySimpleGUI as sg
+        import importlib
+        threading.Thread(target=debugger_tool).start()
+    except Exception as error:
+        print(f'unable to launch debugger due to {error}')
+    
+if '--login' in (sys.argv):
+    login_skip = True
+
+    driver.get("https://lthslatin.org/")
+    driver.execute_script(f'document.cookie = "PHPSESSID={str(sys.argv[sys.argv.index("--login") + 1])}"')
+    driver.get("https://lthslatin.org/")
 
 
 try:
@@ -138,11 +168,12 @@ try:
 except:
     pass
 
-wait_till(get_link=latinLink)
-wait_till(by=By.ID, type='edit-mail', keys=schoologyUser)
-wait_till(by=By.ID, type='edit-pass', keys=schoologyPass)
-wait_till(by=By.ID, type='edit-submit', click=True)
-wait_till(by=By.ID, type='schoology-app-container')
+if login_skip == False:
+    wait_till(get_link=latinLink)
+    wait_till(by=By.ID, type='edit-mail', keys=schoologyUser)
+    wait_till(by=By.ID, type='edit-pass', keys=schoologyPass)
+    wait_till(by=By.ID, type='edit-submit', click=True)
+    wait_till(by=By.ID, type='schoology-app-container')
 
 time.sleep(3)
 

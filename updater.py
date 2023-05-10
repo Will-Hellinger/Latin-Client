@@ -47,28 +47,34 @@ def save_file(file: bytes, data: dict):
 
 
 def scan_lthslatin_files(update_list = False):
-    url = 'https://lthslatin.org/files/?C=M;O=A'
+    base_url = 'https://lthslatin.org/'
+    urls = ['https://lthslatin.org/files/?C=M;O=A', 'https://lthslatin.org/scripts/?C=M;O=A', 'https://lthslatin.org/scripts/images/?C=M;O=A', 'https://lthslatin.org/scripts/images/gems/?C=M;O=A', 'https://lthslatin.org/scripts/images/icons-png/?C=M;O=A']
     server_files_path = f'.{subDirectory}data{subDirectory}server_files.json'
-
-    site = requests.get(url)
-    site_soup = BeautifulSoup(site.content, 'html.parser')
-
     files = {}
 
-    items = site_soup.findAll('tr')
-    for item in items:
-        file = {}
+    for url in urls:
+        server_directory = url.replace(base_url, '')
+        server_directory = server_directory.replace('?C=M;O=A', '')
+        site = requests.get(url)
+        site_soup = BeautifulSoup(site.content, 'html.parser')
 
-        if "Parent Directory" in item.text or "Description" in item.text or item.text == "":
-            continue
-        
-        file_name = str(item.find('a').get('href'))
-        file_info = item.findAll('td', align='right')
-        
-        file['modified'] = file_info[0].text
-        file['size'] = file_info[1].text
+        items = site_soup.findAll('tr')
+        for item in items:
+            file = {}
 
-        files[file_name] = file
+            if "Parent Directory" in item.text or "Description" in item.text or item.text == "":
+                continue
+        
+            file_name = str(item.find('a').get('href'))
+            file_info = item.findAll('td', align='right')
+
+            if file_name.endswith('/') == True:
+                continue
+        
+            file['modified'] = file_info[0].text
+            file['size'] = file_info[1].text
+
+            files[f'{server_directory}{file_name}'] = file
     
     if not os.path.exists(server_files_path):
         with open(server_files_path, mode='w', encoding='utf-8') as file:
@@ -110,7 +116,7 @@ def create_chksms(print_filenames: bool = False):
             useFile = True
 
             for a in range(len(exclude_list)):
-                if name.endswith(exclude_list[a]) or '.git' in name or 'cache' in name:
+                if name.endswith(exclude_list[a]) or '.git' in name or 'cache' in name or 'misc_etc' in name:
                     useFile = False
                     break
 
@@ -199,10 +205,10 @@ def update():
 
             if check_valid_url(newData) == False:
                 pass
-
-            for a in range(len(user_updated_folders)):
-                if user_updated_folders[a] in str(item):
-                    user_updated_file = True
+            
+            for user_updated_folder in user_updated_folders:
+                if user_updated_folder in str(item):
+                    user_updatable_file = True
 
             if os.path.exists(item.replace("(sub)", subDirectory)) and user_updatable_file == True:
                 temp_file = open(item.replace("(sub)", subDirectory), encoding='utf-8', mode='r+')
@@ -252,18 +258,27 @@ def build_chksm():
     print(f'[+] Building chksms: {server_chksm} -> {chksm}')
 
 
-if len(sys.argv) >= 2:
-    if str(sys.argv[1]) in build_commands:
+for build_command in build_commands:
+    if build_command in (sys.argv):
         start_time = time.time()
         build_chksm()
         scan_lthslatin_files(update_list=True)
 
         print(f'finished in {time.time() - start_time}')
-    elif str(sys.argv[1]) in run_commands:
+        break
+
+for run_command in run_commands:
+    if run_commands in (sys.argv):
         if check_update() == True:
             update()
-    elif str(sys.argv[1]) in check_update_commands:
+        
+        break
+        
+for check_update_command in check_update_commands:
+    if check_update_command in (sys.argv):
         if check_update() == True:
             print('Update found!')
         else:
             print('No updates found')
+        
+        break
