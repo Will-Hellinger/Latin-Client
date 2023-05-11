@@ -10,6 +10,7 @@ try:
     from multiprocessing import Process
     from multiprocessing import Event
     import updater
+    import node
     from info import *
     from discord_rpc import *
     from web_driver import *
@@ -39,6 +40,7 @@ def debugger_tool():
             [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")],
             [sg.Button("Reload Settings")], 
             [sg.Button("Spoof Activity"), sg.Text('Active: False', key='_SPOOF_ACTIVITY_MONITOR_')]]
+
     window = sg.Window('debugger', layout, resizable=True)
 
     while True:

@@ -135,6 +135,7 @@ def solve():
         for i in range(len(english_text)):
             for j in range(i+1, len(english_text)+1):
                 combined_word = ''.join(english_text[i:j])
+                synonyms = None
 
                 if compositions_synonyms_enabled == True:
                     synonyms = synonym_extractor(combined_word)
@@ -177,7 +178,10 @@ def solve():
         all_inputs.append(inputs)
     all_answers = []
 
-    assignment_name = encodeFilename(str(assignment_header.text))
+    assignment_name = str(assignment_header.text)
+    user = assignment_name.split("'s ")[0]
+    assignment_name = assignment_name.replace(f"{user}'s ", "")
+    assignment_name = encodeFilename(assignment_name)
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json'):
         with open(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json', mode='w', encoding='utf-8') as file:
