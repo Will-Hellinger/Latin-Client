@@ -1,13 +1,16 @@
 {
-    "percentage": "73%",
+    "percentage": "100%",
     "answers": {
-        "1": "Hercules greatly desired to make amends for such a great crime",
-        "2": "Therefore He decided to go to the Delphic oracle",
-        "3": "Therefore he decided to go to the Delphic oracle; for this oracle was the most visited of all",
-        "5": "In this Temple was sitting a certain woman named Pythia",
-        "6": "In this Temple was sitting a certain woman named Pythia and she was giving them advice",
-        "7": "In this Temple was sitting a certain woman named Pythia and she used to give advice to those who came to the oracle",
-        "8": "This woman was taught by Apollo himself",
-        "10": "Hercules therefore, who worshiped Apollo especially, came to this place"
+        "1": "hercules wished to atone for such a great sin",
+        "2": "therefore he decided to go to the delphic oracle",
+        "3": "therefore he decided to go to the delphic oracle ; for this oracle was the most visited of all",
+        "4": "in that place the temple of apollo had been\n decorated with very many gifts",
+        "5": "in this temple a certain woman was sitting, named pythia",
+        "6": "in this temple a certain woman was sitting, named pythia and she was giving advice to them",
+        "7": "in this temple a certain woman was sitting, named pythia and she was giving advice to those who came to the oracle",
+        "8": "this woman was taught these things by apollo himself",
+        "9": "however this woman was taught these things by apollo himself and she was revealing the will of the god to men",
+        "10": "therefore hercules, who particularly worshipped apollo, came to this place",
+        "11": "then he exposed the whole matter, and did not conceal his sin"
     }
 }

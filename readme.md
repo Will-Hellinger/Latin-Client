@@ -1,6 +1,6 @@
 # LTHS Latin Client
 
-This is a Python script designed to aid and or automate certain tasks in LTHS Latin Schoology. It can help you with vocabulary, morphology, and translations. This program uses Selenium WebDriver to interact with the website.
+This is a Python script designed to aid and or automate certain tasks in LTHS Latin Schoology. It can help you with vocabulary, morphology, translations and more.
 
 ## Setup
 
@@ -12,7 +12,7 @@ This is a Python script designed to aid and or automate certain tasks in LTHS La
 ## Features
 
 - Automatically logs in to your LTHS Latin Schoology account.
-- Supports multiple assignment types such as, Synopsis, Compositions, Noun Adjective Agreement, Infinitive Morphology, Timed Vocabulary, and Timed Morphology.
+- Supports multiple assignment types such as, Synopsis, Compositions, Noun Adjective Agreement, Infinitive Morphology, Timed Vocabulary, Timed Morphology, and Catullus.
 - Plugins: the bot can load small javascript plugins.
 - Discord Rich Presence: display the current mode and assignment on your Discord profile.
 
@@ -26,7 +26,7 @@ To use the tool, press the action button, it should be the ` key by default.
 
 ## Debugger Tool
 
-If you're developing a plugin or making changes to the code, you can use the debugger tool to reload modules and inject cookies into the browser. To launch the debugger tool, run `python main.py --debugger` or `python3 main.py --debugger`. 
+If you're developing a plugin or making changes to the code, you can use the debugger tool to reload modules, and inject tokens, spoof activity, and connect multiple clients together. To launch the debugger tool, run `python main.py --debugger` or `python3 main.py --debugger`. 
 
 ## Contributing
 

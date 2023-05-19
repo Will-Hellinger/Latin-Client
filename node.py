@@ -8,6 +8,9 @@ from info import *
 message_size = 2048
 approved_directories = ('cache', 'latin_dictionary', 'noun_adjective_dictionary', 'timed_vocabulary_dictionary', 'timed_morphology_dictionary', 'reading_keys')
 approved_directory_path = f'.{subDirectory}data{subDirectory}'
+run_server = True
+server_running = False
+
 
 def handle_connection(conn, addr):
     raw_data = conn.recv(1024)
@@ -74,15 +77,26 @@ def server(host: str, port: int):
 
     sock.bind((host, port))
     sock.listen()
+    print('starting server!')
 
-    while True:
+    server_running = True
+
+    while run_server == True:
         conn, addr = sock.accept()
         try:
             handle_connection(conn, addr)
         except Exception as error:
             print(error)
         time.sleep(.5)
+    server_running = False
 
+
+def stop_server():
+    while (server_running == True):
+        run_server = False
+        time.sleep(.5)
+    run_server = True
+    
 
 def connect_to_peer(peer_host, peer_port, message: dict):
     peer_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -100,3 +114,17 @@ def connect_to_peer(peer_host, peer_port, message: dict):
 
     print(f"Received response: {response.decode()}")
     peer_sock.close()
+
+
+def get_local_ip():
+    try:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        
+        sock.connect(("8.8.8.8", 80))
+        ip_address = sock.getsockname()[0]
+        
+        sock.close()
+        
+        return ip_address
+    except socket.error:
+        return None

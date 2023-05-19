@@ -1,17 +1,25 @@
 {
-    "percentage": "60%",
+    "percentage": "100%",
     "answers": {
-        "1": "These things also are reported",
-        "2": "about the fourth labor, these things also are reported",
-        "3": "About the fourth labor, which we told above, these things also are reported",
-        "4": "Hercules was making his journey into Arcadia",
-        "5": "he came to that region which the centaurs were inhabiting",
-        "6": "While Hercules was making his journey into Arcadia, he came to that region which the centaurs were inhabiting",
-        "7": "Night now drew near",
-        "11": "He received Hercules kindly and prepared dinner",
-        "12": "But after Hercules dined, he demanded wine from Pholus",
-        "16": "Pholus therefore did not want to give this wine, because he was afraid of the other centaurs",
-        "18": "This Wine, \"He said, has been entrusted to me",
-        "19": "If therefore I give this the centaurs will kill me"
+        "1": "these things are also reported",
+        "2": "about the fourth labor, these things are also reported",
+        "3": "about the fourth labor, which we told above, these things are also reported",
+        "4": "hercules was making a journey into arcadia",
+        "5": "he came to the region that the centaurs were living in",
+        "6": "while hercules was making a journey into arcadia he came to the region that the centaurs were living in",
+        "7": "night was now approaching",
+        "8": "since night was already drawing near, he turned in to a cave",
+        "9": "since night was already drawing near, he turned in to a cave in which a centaur was living",
+        "10": "since night was already drawing near, he turned in to a cave in which a certain centaur, named pholus, was living",
+        "11": "he received hercules kindly and prepared dinner",
+        "12": "but after hercules dined, he demanded wine from pholus",
+        "13": "moreover in the cave there was a large jar",
+        "14": "moreover in the cave there was a large jar which the centaurs had placed there",
+        "15": "moreover in the cave there was a large jar filled with the best wine which the centaurs had placed there",
+        "16": "therefore pholus did not want to give this wine, because he was afraid of the rest of the centaurs",
+        "17": "therefore pholus did not want to give this wine, because he was afraid of the rest of the centaurs; nevertheless he had no wine besides this in the cave",
+        "18": "this wine\", he said, \"was entrusted to me",
+        "19": "therefore if i give this, the centaurs will kill me",
+        "20": "nevertheless hercules laughed at him, and he himself drew a cup of wine from the jar"
     }
 }

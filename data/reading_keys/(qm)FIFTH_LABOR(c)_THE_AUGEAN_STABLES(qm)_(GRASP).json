@@ -1,11 +1,29 @@
 {
-    "percentage": "25%",
+    "percentage": "100%",
     "answers": {
-        "6": "These cattle were enclosed in a stable",
-        "7": "These cattle were enclosed in a stable of huge size",
-        "8": "These were enclosed in a stable of huge size",
-        "13": "Hercules was ordered to clean this stable",
-        "14": "Hercules was ordered to clean this",
-        "16": "He took up the job"
+        "1": "then eurystheus imposed this task\n on hercules",
+        "2": "then eurystheus imposed this heavier task on \nhercules",
+        "3": "a certain augeas had three thousand cows",
+        "4": "a certain augeas, who at that time ruled a\nkingdom, had three thousand cows",
+        "5": "a certain augeas, who at that time ruled a kingdom in Elis, had three thousand cows",
+        "6": "these cows were being confined in a stable",
+        "7": "these cows were being confined in a stable of enormous size",
+        "8": "these were being confined in a stable of enormous size",
+        "9": "the stable had been filled with filth and squalor",
+        "10": "the stable had been filled with filth and squalor, for it had never been cleaned",
+        "11": "the stable had been filled with filth and squalor, for it had never been cleaned up to this time",
+        "12": "however \nthe stable had been filled with filth and squalor, for it had never been cleaned to this time",
+        "13": "hercules was ordered to clean this\n stable",
+        "14": "hercules was ordered to clean it",
+        "15": "hercules was ordered to clean it within the span of one day",
+        "16": "he undertook the task",
+        "17": "although the affair was of much labor , he undertook the task",
+        "18": "at first with great effort he dug a ditch of eighteen feet",
+        "19": "at first with great effort he dug a ditch of eighteen feet, through which he led the water of a river",
+        "20": "at first with great effort he dug a ditch of eighteen feet, through which he led the water of a river from the mountains to the wall of the stable",
+        "21": "at first with great effort he dug a ditch of eighteen feet, through which he led the water of a river from the mountains to the wall of the stable",
+        "22": "then after he broke through the wall, he sent the water into the stable",
+        "23": "then after he broke through the wall, he sent the water into the stable and in such a way he completed the task",
+        "24": "then after he broke through the wall, he sent the water into the stable and in such a way contrary to the expectation of everyone he completed the task"
     }
 }

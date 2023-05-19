@@ -176,6 +176,21 @@ def antonym_extractor(phrase: str):
     return antonyms
 
 
+def add_definition(word: str, meaning: str, location: str = 'latin_dictionary'):
+    word = word.replace('.json', '')
+    file_path = f'.{subDirectory}data{subDirectory}{location}{subDirectory}{encodeFilename(word)}.json'
+
+    if not os.path.exists(file_path):
+        with open(file_path, mode='w', encoding='utf-8') as file:
+            file.write('{\n}')
+    
+    with open(file_path, mode='r+', encoding='utf-8') as file:
+        data = json.load(file)
+        data[meaning] = True
+
+        save_file(file, data)
+
+
 def human_timeout(min = 1000, max = 5000):
     global human_mode
 

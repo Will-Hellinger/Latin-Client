@@ -99,10 +99,14 @@ def build_key():
 
         data['percentage'] = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text).replace(' correct', '')
 
+        if data.get('answers') is None:
+            data['answers'] = {}
+        
         for a in range(graspLength):
             textbox = driver.find_element(By.XPATH, f'// textarea[@data-grasp="{a+1}"]')
             driver.execute_script("arguments[0].scrollIntoView();", textbox)
 
             if 'rgb(0, 128, 0)' in str(textbox.get_attribute('style')): #rgb(0, 128, 0) is the correct color indicator (green)
-                data['answers'][a+1] = str(textbox.text)
+                if data['answers'].get(a+1) is None:
+                    data['answers'][a+1] = str(textbox.text)
         save_file(file, data)

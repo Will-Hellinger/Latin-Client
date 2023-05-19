@@ -1,13 +1,16 @@
 {
-    "percentage": "57%",
+    "percentage": "79%",
     "answers": {
-        "1": "Hercules was ordered by Eurystheus",
-        "2": "Hercules was ordered by Eurystheus to kill the lion",
-        "3": "Hercules was ordered by Eurystheus to kill the lion who was rendering the Nemean valley unsafe",
-        "4": "Therefore into the woods in which the lion was living he took himself at once",
-        "11": "All rejoiced",
-        "12": "All that lived in the region rejoiced",
-        "13": "All that lived in the region, when they received the report about the death of the lion, rejoiced",
-        "14": "However all that lived in the region, when they received the report about the death of the lion, exceedingly rejoiced and held Hercules in great honor"
+        "1": "hercules was commanded by eurystheus",
+        "2": "hercules was commanded by eurystheus to kill the lion",
+        "3": "hercules was commanded by eurystheus to kill the lion that was rendering the nemean valley unsafe",
+        "4": "therefore into the woods in which the lion was living he at once took himself",
+        "5": "soon he saw the beast, and aimed the bow, that he had brought with him",
+        "8": "then at last he grasped the monster's neck with his arms and squeezed its throat \nwith all his strength",
+        "9": "in this way the lion was exhausted in a short time; for it was given no opportunity to breathe",
+        "11": "everyone rejoiced",
+        "12": "everyone who lived in that region rejoiced",
+        "13": "everyone who lived in that region, when they received the report about the death of the lion, rejoiced",
+        "14": "however everyone who lived in that region, when they received the report about the death of the lion, ardently rejoiced and held hercules in great honor"
     }
 }

@@ -33,13 +33,16 @@ def spoofer():
 
 def debugger_tool():
     spoof_active = False
+    node_active = False
     module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions', 'catullus']
 
     layout = [[sg.Text('Module:'), sg.Combo(module_strings, default_value='infinitive_morphology', key='_MODULE_INPUT_'), sg.Button("Reload")],
             [sg.Text('Injection Token:'), sg.Input(key='_TOKEN_INPUT_'), sg.Button("Inject")],
             [sg.Text('Token:'), sg.Input(key='_TOKEN_OUTPUT_'), sg.Button("Get Token")],
             [sg.Button("Reload Settings")], 
-            [sg.Button("Spoof Activity"), sg.Text('Active: False', key='_SPOOF_ACTIVITY_MONITOR_')]]
+            [sg.Button("Spoof Activity"), sg.Text('Active: False', key='_SPOOF_ACTIVITY_MONITOR_')],
+            [sg.Text('IP:'), sg.Input(node.get_local_ip(), key='_NODE_IP_'), sg.Text('PORT:'), sg.Input('8080', key='_NODE_PORT_'), sg.Button("Start/Stop Node"), sg.Text('Active: False', key='_NODE_ACTIVITY_MONITOR_')],
+            [sg.Button("Add Node")]]
 
     window = sg.Window('debugger', layout, resizable=True)
 
@@ -80,6 +83,16 @@ def debugger_tool():
                 elif spoof_active == False:
                     process.kill()
             
+            case 'Start/Stop Node':
+                node_active = not node_active
+
+                window.Element('_NODE_ACTIVITY_MONITOR_').Update(f'Active: {node_active}')
+
+                if node_active == True:
+                    threading.Thread(target=node.server, args=(values['_NODE_IP_'], int(values['_NODE_PORT_']))).start()
+                elif node_active == False:
+                    node.stop_server()
+
             case sg.WIN_CLOSED:
                 break
     window.close()
@@ -206,19 +219,18 @@ discord_found = check_discord()
 #load plugins
 pluginFiles = glob.glob(f'.{subDirectory}data{subDirectory}plugins{subDirectory}*.plg')
 plugins = []
+
 for a in range(len(pluginFiles)):
     loadPlugin = True
 
     with open(pluginFiles[a], encoding='utf-8', mode='r') as file:
-        try:
-            pluginCode = (str(file.read()).replace('\n', '')).split('<code>')[1]
-        except Exception as error:
-            print(f'[-] plugin {pluginFiles[a]} couldnt be loaded, error: {error}')
-            loadPlugin = False
+        plugin_file_read = str(file.read())
+        plugin_file_read = plugin_file_read.replace('\n', '')
 
-    with open(pluginFiles[a], encoding='utf-8', mode='r') as file:
         try:
-            pluginInfo = json.loads(str((str(file.read()).replace('\n', '')).split('<code>')[0]).replace('<info>', ''))
+            pluginCode = plugin_file_read.split('<code>')[1]
+            pluginInfo = str(plugin_file_read.split('<code>')[0]).replace('<info>', '')
+            pluginInfo = json.loads(pluginInfo)
         except Exception as error:
             print(f'[-] plugin {pluginFiles[a]} couldnt be loaded, error: {error}')
             loadPlugin = False
