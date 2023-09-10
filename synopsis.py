@@ -13,7 +13,15 @@ conjugationNames = list(conjugationChartKey.keys())
 totalConjugations = list(conjugationChartKey.values())
 
 
-def showHiddenDropdowns():
+def showHiddenDropdowns() -> None:
+    """
+    Show hidden dropdown elements on the web page.
+
+    This function identifies and reveals hidden dropdown elements on the web page by changing their class attributes.
+
+    :return: None
+    """
+
     nontoucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed']")
     toucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-heading ui-collapsible-content-collapsed']")
     dropDowns = nontoucheddropDowns + toucheddropDowns
@@ -22,7 +30,15 @@ def showHiddenDropdowns():
         driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropDowns[a])
 
 
-def hideShownDropdowns():
+def hideShownDropdowns() -> None:
+    """
+    Hide shown dropdown elements on the web page.
+
+    This function identifies and hides dropdown elements on the web page by changing their class attributes.
+
+    :return: None
+    """
+
     toucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-content ui-body-inherit']")
     nontoucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-heading']")
     dropDowns = nontoucheddropDowns + toucheddropDowns
@@ -31,18 +47,30 @@ def hideShownDropdowns():
         driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropDowns[a])
 
 
-def find_word(element_list: list):
+def find_word(element_list: list) -> str:
+    """
+    Find the first non-empty text element in a list of web page elements.
+
+    :param element_list: A list of web page elements.
+    :return: The text content of the first non-empty element in the list, or an empty string if none is found.
+    """
+
     for a in range(len(element_list)):
         if str(element_list[a].text) != '':
             return str(element_list[a].text)
     return ''
 
 
-def strip_accents(text):
-    return ''.join(char for char in unicodedata.normalize('NFKD', text) if unicodedata.category(char) != 'Mn')
+def find_details() -> dict:
+    """
+    Find and extract details about Latin words and their conjugations on a web page.
 
+    This function extracts information about Latin words, their conjugations, and related English words and tense from
+    a web page and returns the details as a dictionary.
 
-def find_details():
+    :return: A dictionary containing details about Latin and English words, conjugation chart, and tense.
+    """
+
     global conjugationNames, totalConjugations, blocks
     #Finds latin conjugation type
     chart = 'first' # temp
@@ -95,7 +123,17 @@ def find_details():
     return output
 
 
-def solve():
+def solve() -> None:
+    """
+    Automatically solve Latin language exercises on a web page.
+
+    This function automates the process of solving Latin language exercises on a web page. It extracts details about
+    Latin words and their conjugations, identifies input fields, and enters appropriate answers based on conjugation
+    charts and English translations.
+
+    :return: None
+    """
+    
     global blocks
 
     hideShownDropdowns()

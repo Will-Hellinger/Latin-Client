@@ -3,10 +3,19 @@ from info import *
 from web_driver import *
 from pypresence import Presence
 
-def check_discord():
-    global RPC, RPCTime
 
-    discord_found = False
+def check_discord() -> bool:
+    """
+    Check if Discord Rich Presence (RPC) can be enabled and establish a connection if possible.
+
+    This function initializes the Discord RPC client and attempts to connect to Discord. If successful, it returns True;
+    otherwise, it returns False.
+
+    :return: True if Discord RPC is successfully enabled, False otherwise.
+    """
+
+    global RPC
+    global RPCTime
 
     try:
         client_id = '993019974253822034'
@@ -15,16 +24,26 @@ def check_discord():
         if discord_rpc == True:
             RPC.connect()
 
-            discord_found = True
-
             RPCTime = int(time.time())
             RPC.update(large_image = "logo1", state = 'Starting up...', start = RPCTime)
-    except:
-        discord_found = False
-    
-    return discord_found
 
-def update_rpc(mode: str, assignment: str):
+            return True
+    except:
+        return False
+
+
+def update_rpc(mode: str, assignment: str) -> None:
+    """
+    Update Discord Rich Presence (RPC) status based on the current mode and assignment.
+
+    This function updates the Discord RPC status based on the provided mode and assignment. It displays relevant details
+    and states in the Discord RPC presence.
+
+    :param mode: The current mode, e.g., 'synopsis', '(grasp)', 'reading', etc.
+    :param assignment: The current assignment or task.
+    :return: None
+    """
+    
     global RPC
     global RPCTime
     
@@ -78,7 +97,9 @@ def update_rpc(mode: str, assignment: str):
                 if 'will appear here' not in str(showScore.text):
                     RPC_details = str(str(showScore.text).split('\n')[0]).split('correctly. ')[1]
 
-    if RPC_details != None:
+
+    if RPC_details is not None:
         RPC.update(large_image = "logo1", details = assignment, state = RPC_details, start = RPCTime)
-    elif RPC_details == None:
+    
+    elif RPC_details is None:
         RPC.update(large_image = "logo1", details = assignment, start = RPCTime)

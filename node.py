@@ -12,7 +12,15 @@ run_server = True
 server_running = False
 
 
-def handle_connection(conn, addr):
+def handle_connection(conn, addr) -> None:
+    """
+    Handles incoming connections from clients.
+
+    :param conn: The connection socket.
+    :param addr: The client's address.
+    :return: None
+    """
+
     raw_data = conn.recv(1024)
     data = json.loads(str(raw_data.decode()))
 
@@ -72,7 +80,15 @@ def handle_connection(conn, addr):
     conn.close()
 
 
-def server(host: str, port: int):
+def server(host: str, port: int) -> None:
+    """
+    Starts a server and listens for incoming connections.
+
+    :param host: The host address to bind to.
+    :param port: The port to listen on.
+    :return: None
+    """
+
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     sock.bind((host, port))
@@ -91,14 +107,29 @@ def server(host: str, port: int):
     server_running = False
 
 
-def stop_server():
+def stop_server() -> None:
+    """
+    Stops the server.
+
+    :return: None
+    """
+
     while (server_running == True):
         run_server = False
         time.sleep(.5)
     run_server = True
     
 
-def connect_to_peer(peer_host, peer_port, message: dict):
+def connect_to_peer(peer_host, peer_port, message: dict) -> None:
+    """
+    Connects to a peer and sends a message.
+
+    :param peer_host: The peer's host address.
+    :param peer_port: The peer's port.
+    :param message: The message to send.
+    :return: None
+    """
+
     peer_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     peer_sock.connect((peer_host, peer_port))
@@ -116,7 +147,13 @@ def connect_to_peer(peer_host, peer_port, message: dict):
     peer_sock.close()
 
 
-def get_local_ip():
+def get_local_ip() -> str:
+    """
+    Gets the local IP address of the machine.
+
+    :return: The local IP address as a string.
+    """
+    
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         

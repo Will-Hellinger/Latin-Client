@@ -42,7 +42,15 @@ except Exception as error:
     input(f'\033[1;31;40m[-] Failed to Start Client error: {error}')
     exit()
 
-def loadWait(by, type):
+def loadWait(by: type, type: str) -> bool:
+    """
+    Wait for an element to be present in the web page.
+
+    :param by: The type of locator (e.g., By.XPATH, By.ID).
+    :param type: The value of the locator (e.g., "//div[@class='example']").
+    :return: True if the element is found within the specified timeout, False otherwise.
+    """
+    
     try:
         WebDriverWait(driver, delay).until(EC.presence_of_element_located((by, type)))
         return True

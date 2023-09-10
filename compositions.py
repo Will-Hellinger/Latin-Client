@@ -1,15 +1,22 @@
 import custom_translator
 from web_driver import *
 import time
-import unicodedata
 from info import *
 from googletrans import Translator
 
 
-def strip_accents(text):
-    return str(''.join(char for char in unicodedata.normalize('NFKD', text) if unicodedata.category(char) != 'Mn')).lower()
+#TODO: Change way of formatting text from the site...
+def learn() -> None:
+    """
+    Learn Latin-English vocabulary from a web page and update a local dictionary.
 
-def learn():
+    This function scrapes Latin and English vocabulary from a web page and updates a local dictionary. It extracts
+    Latin words, their corresponding English translations, and morphological information from the web page and stores
+    them in JSON files for future reference.
+
+    :return: None
+    """
+
     english_words = []
 
     parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
@@ -69,7 +76,7 @@ def learn():
             if '-' in latin_word or latin_word == 'f.' or latin_word == 'm.' or latin_word == 'n.':
                 pass
 
-            filename = encodeFilename(latin_word)
+            filename = encode_file_name(latin_word)
 
             if not os.path.exists(f'{path}{filename}.json'):
                 with open(f'{path}{filename}.json', mode='w') as file:
@@ -92,7 +99,18 @@ def learn():
                 
                 save_file(file, data)
 
-def solve():
+
+def solve() -> None:
+    """
+    Solve Latin-English composition assignments.
+
+    This function solves Latin-English composition assignments by extracting English text, translating it to Latin, and
+    entering the Latin translations into text input fields on a web page. It also handles translation fallback using
+    Google Translate if enabled.
+
+    :return: None
+    """
+
     parentElement = driver.find_element(By.CLASS_NAME, 'ui-block-a')
     english_texts = parentElement.find_elements(By.XPATH, "// p[@style='white-space:pre-wrap;margin-right:2em;font-size:1em']")
     latin_inputs = parentElement.find_elements(By.XPATH, "// div[@class='latin composition ui-input-text ui-shadow-inset ui-body-inherit ui-corner-all ui-textinput-autogrow']")
@@ -181,7 +199,7 @@ def solve():
     assignment_name = str(assignment_header.text)
     user = assignment_name.split("'s ")[0]
     assignment_name = assignment_name.replace(f"{user}'s ", "")
-    assignment_name = encodeFilename(assignment_name)
+    assignment_name = encode_file_name(assignment_name)
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json'):
         with open(f'.{subDirectory}data{subDirectory}cache{subDirectory}{assignment_name}.json', mode='w', encoding='utf-8') as file:

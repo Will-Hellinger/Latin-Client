@@ -33,20 +33,42 @@ build_commands = ['-b', '--b', '-build', '--build']
 run_commands = ['-r', '--r', '-run', '--run']
 check_update_commands = ['-c', '--c', '-check', '--check']
 
-def check_valid_url(text: str):
+def check_valid_url(text: str) -> bool:
+    """
+    Check if the provided text contains a valid URL.
+
+    :param text: The text to check for a valid URL.
+    :return: True if the text contains a valid URL, False otherwise.
+    """
+
     if "#This is here to verify that this is not a github page lol" in text or "The site configured at this address does not" not in text:
         return True
     
     return False
 
 
-def save_file(file: bytes, data: dict):
+def save_file(file: bytes, data: dict) -> None:
+    """
+    Save data to a file.
+
+    :param file: The file object to write to.
+    :param data: The data to be written to the file.
+    :return: None
+    """
+    
     file.seek(0)
     json.dump(data, file, indent=4)
     file.truncate()
 
 
-def scan_lthslatin_files(update_list = False):
+def scan_lthslatin_files(update_list: bool = False) -> dict:
+    """
+    Scan LTHS Latin files and retrieve information about them.
+
+    :param update_list: A flag to update the list of files.
+    :return: A dictionary containing information about the scanned files.
+    """
+
     base_url = 'https://lthslatin.org/'
     urls = ['https://lthslatin.org/files/?C=M;O=A', 'https://lthslatin.org/scripts/?C=M;O=A', 'https://lthslatin.org/scripts/images/?C=M;O=A', 'https://lthslatin.org/scripts/images/gems/?C=M;O=A', 'https://lthslatin.org/scripts/images/icons-png/?C=M;O=A']
     server_files_path = f'.{subDirectory}data{subDirectory}server_files.json'
@@ -90,7 +112,14 @@ def scan_lthslatin_files(update_list = False):
     return files
 
 
-def create_chksms(print_filenames: bool = False):
+def create_chksms(print_filenames: bool = False) -> None:
+    """
+    Create checksum files for the current directory.
+
+    :param print_filenames: A flag to print filenames during the process.
+    :return: None
+    """
+
     global path
     global checksum_filename
     global updateURL
@@ -132,7 +161,13 @@ def create_chksms(print_filenames: bool = False):
         file.write(str(chksm))
 
 
-def check_update():
+def check_update(show_changes: bool = False) -> bool:
+    """
+    Check if an update is available.
+
+    :return: True if an update is available, False otherwise.
+    """
+
     global path
     global checksum_filename
     global updateURL
@@ -164,13 +199,28 @@ def check_update():
     create_chksms()
     chksm = open(f'{path}{main_checksum_filename}', mode='r').read()
     
+    output = False
     if chksm != server_chksm:
-        return True
+        output = True
 
-    return False
+    if show_changes == True:
+        server_chksms = json.loads(requests.get(f'{checksumURL}chksm.json').content)
+        data = json.load(open(f'{path}{checksum_filename}', encoding='utf-8', mode='r'))
+    
+        for item in server_chksms:
+            if data.get(item) != server_chksms.get(item):
+                print(f'{str(item).replace("(sub)", subDirectory)}: {data.get(item)} -> {server_chksms.get(item)}')
+
+    return output
 
 
-def update():
+def update() -> None:
+    """
+    Update the current system with the latest files and settings.
+
+    :return: None
+    """
+
     global path
     global checksum_filename
     global updateURL
@@ -237,7 +287,13 @@ def update():
     save_file(file, settings)
 
 
-def build_chksm():
+def build_chksm() -> None:
+    """
+    Build checksum files for the current directory.
+
+    :return: None
+    """
+    
     global path
     global checksum_filename
     global updateURL
@@ -276,7 +332,7 @@ for run_command in run_commands:
         
 for check_update_command in check_update_commands:
     if check_update_command in (sys.argv):
-        if check_update() == True:
+        if check_update(True) == True:
             print('Update found!')
         else:
             print('No updates found')

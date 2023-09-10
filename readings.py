@@ -4,58 +4,76 @@ import time
 from info import *
 
 dictionary = 'latin_dictionary'
-keysDictionary = 'reading_keys'
+keys_dictionary = 'reading_keys'
 
 
-def scanforWord(list: list, word: str):
+def scan_for_word(list: list, word: str) -> bool:
+    """
+    Check if a given word exists in a list of tuples.
+
+    :param list: The list of tuples to search.
+    :param word: The word to search for.
+    :return: True if the word is found, otherwise False.
+    """
+
     for a in range(len(list)):
         if list[a][1] == word:
             return True
     return False
 
 
-def scan_words():
-    latinWordElements = driver.find_elements(By.XPATH, '// span[@class="tappit latin"]')
-    latinWordTexts = []
-    tempLatinWords = []
+def scan_words() -> list:
+    """
+    Scan for Latin words on a web page and return a list of web elements.
 
-    for a in range(len(latinWordElements)):
-        latinWordTexts.append([a, str(latinWordElements[a].text)])
+    :return: A list of web elements containing Latin words.
+    """
+
+    latin_word_elements = driver.find_elements(By.XPATH, '// span[@class="tappit latin"]')
+    latin_word_texts = []
+    temp_latin_words = []
+
+    for a in range(len(latin_word_elements)):
+        latin_word_texts.append([a, str(latin_word_elements[a].text)])
     
-    for a in range(len(latinWordTexts)):
-        file_name = encodeFilename(latinWordTexts[a][1])
+    for a in range(len(latin_word_texts)):
+        file_name = encode_file_name(latin_word_texts[a][1])
 
         if not os.path.exists(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json'):
-            tempLatinWords.append(latinWordTexts[a])
+            temp_latin_words.append(latin_word_texts[a])
         else:
             with open(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json', mode='r+') as file:
                 wordData = json.load(file)
             if len(wordData) == 0:
-                tempLatinWords.append(latinWordTexts[a])
+                temp_latin_words.append(latin_word_texts[a])
     
-    latinWordTexts = []
-    for a in range(len(tempLatinWords)):
-        if not scanforWord(latinWordTexts, tempLatinWords[a]):
-            latinWordTexts.append(tempLatinWords[a])
+    latin_word_texts = []
+    for a in range(len(temp_latin_words)):
+        if not scan_for_word(latin_word_texts, temp_latin_words[a]):
+            latin_word_texts.append(temp_latin_words[a])
     
-    tempLatinWords = []
-    for a in range(len(latinWordTexts)):
-        tempLatinWords.append(latinWordElements[latinWordTexts[a][0]])
-    latinWordElements = tempLatinWords
+    temp_latin_words = []
+    for a in range(len(latin_word_texts)):
+        temp_latin_words.append(latin_word_elements[latin_word_texts[a][0]])
 
-    return latinWordElements
+    return temp_latin_words
 
 
-def learn_words():
+def learn_words() -> None:
+    """
+    Learn Latin words from a web page, save definitions, and manage data.
+
+    :return: None
+    """
+
     print('Prepping Elements...', end='\r')
-    latinWords = scan_words()
-    latinWordsLength = len(latinWords)
+    latin_words = scan_words()
 
-    for a in range(len(latinWords)):
-        print(f'Scanning: {round((100/latinWordsLength)*(a+1))}%        ', end='\r')
+    for a in range(len(latin_words)):
+        print(f'Scanning: {round((100/len(latin_words))*(a+1))}%        ', end='\r')
 
-        driver.execute_script("arguments[0].scrollIntoView();", latinWords[a])
-        file_name = encodeFilename(latinWords[a].text)
+        driver.execute_script("arguments[0].scrollIntoView();", latin_words[a])
+        file_name = encode_file_name(latin_words[a].text)
 
         if not os.path.exists(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json'):
             with open(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json', mode='w') as file:
@@ -64,15 +82,15 @@ def learn_words():
         with open(f'.{subDirectory}data{subDirectory}{dictionary}{subDirectory}{file_name}.json', mode='r+') as file:
             data = json.load(file)
 
-            latinWords[a].click()
+            latin_words[a].click()
             time.sleep(.5)
-            parentElement = driver.find_elements(By.TAG_NAME, 'ol')
+            parent_element = driver.find_elements(By.TAG_NAME, 'ol')
 
-            if len(parentElement) == 2:
-                definitions = parentElement[1].find_elements(By.TAG_NAME, "li")
+            if len(parent_element) == 2:
+                definitions = parent_element[1].find_elements(By.TAG_NAME, "li")
                 for b in range(len(definitions)):
                     data[definitions[b].text] = True
-            elif len(parentElement) == 1:
+            elif len(parent_element) == 1:
                 definition = driver.find_elements(By.TAG_NAME, 'em')
                 definition = definition[len(definition)-1].text
                 data[definition] = True
@@ -81,28 +99,36 @@ def learn_words():
     print('Done Scanning        ')
 
 
-def build_key():
-    global keysDictionary
+def build_key() -> None:
+    """
+    Build a key for a reading exercise and save it to a JSON file.
+
+    :return: None
+    """
+    
+    global keys_dictionary
 
     user = str(str(str(driver.find_element(By.ID, 'graspHead').text).split("'s")[0]).upper())
-    readingName = str(driver.find_element(By.ID, 'graspHead').text).replace(f"{user}'s ", '')
-    print(f'Building key for: {readingName}')
-    readingName = encodeFilename(readingName)
+    reading_name = str(driver.find_element(By.ID, 'graspHead').text).replace(f"{user}'s ", '')
+    
+    print(f'Building key for: {reading_name}')
 
-    if not os.path.exists(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json'):
-        with open(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json', mode='w') as file:
+    reading_name = encode_file_name(reading_name)
+
+    if not os.path.exists(f'.{subDirectory}data{subDirectory}{keys_dictionary}{subDirectory}{reading_name}.json'):
+        with open(f'.{subDirectory}data{subDirectory}{keys_dictionary}{subDirectory}{reading_name}.json', mode='w') as file:
             file.write('{\n"percentage" : "0%",\n"answers" : {}}')
 
-    with open(f'.{subDirectory}data{subDirectory}{keysDictionary}{subDirectory}{readingName}.json', encoding='utf-8', mode='r+') as file:
+    with open(f'.{subDirectory}data{subDirectory}{keys_dictionary}{subDirectory}{reading_name}.json', encoding='utf-8', mode='r+') as file:
         data = json.load(file)
-        graspLength = driver.execute_script('var denom = $("[data-grasp]").length; return denom;')
+        grasp_length = driver.execute_script('var denom = $("[data-grasp]").length; return denom;')
 
         data['percentage'] = str(driver.find_element(By.XPATH, f"// h3[@class='showScore ui-bar ui-bar-c ui-title']").text).replace(' correct', '')
 
         if data.get('answers') is None:
             data['answers'] = {}
         
-        for a in range(graspLength):
+        for a in range(grasp_length):
             textbox = driver.find_element(By.XPATH, f'// textarea[@data-grasp="{a+1}"]')
             driver.execute_script("arguments[0].scrollIntoView();", textbox)
 

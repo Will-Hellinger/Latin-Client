@@ -6,10 +6,19 @@ import nltk #used to tell if word is verb or noun
 import inflect #best for verbs
 import pyinflect #best for nouns
 
+
 dict_path = f'.{subDirectory}data{subDirectory}'
 
 
-def get_dictionary():
+def get_dictionary() -> dict:
+    """
+    Get the Latin-English dictionary.
+
+    This function retrieves and constructs a Latin-English dictionary from JSON files located in the specified directory.
+
+    :return: A dictionary containing Latin and English word mappings with morphology information.
+    """
+
     dictionary = {}
     latin_dictionary = {}
     english_dictionary = {}
@@ -50,7 +59,7 @@ def get_dictionary():
             except:
                 morph_dict = {} # just in case file is broken
 
-        latin_word = decodeFilename(latin_word).replace('.json', '')
+        latin_word = decode_file_name(latin_word).replace('.json', '')
         latin_word = latin_word.replace(',', '') #just in case
 
         latin_word = latin_word.lower()
@@ -76,7 +85,17 @@ def get_dictionary():
 
     return dictionary
 
-def convert_to_base(word):
+
+def convert_to_base(word: str) -> str:
+    """
+    Convert an English word to its base form.
+
+    This function takes an English word, analyzes its part of speech (noun or verb), and converts it to its base form
+    using linguistic libraries.
+
+    :param word: The English word to be converted.
+    :return: The base form of the English word.
+    """
 
     if len(word.split(' ')) >= 2:
         word = word.split(' ')
@@ -112,7 +131,20 @@ def convert_to_base(word):
     return temp
 
 
-def translate(word: str, language: str, dictionary: dict = get_dictionary(), use_base = False):
+def translate(word: str, language: str, dictionary: dict = get_dictionary(), use_base: bool = False) -> list:
+    """
+    Translate a word between Latin and English.
+
+    This function translates a given word between Latin and English. It can use the base form of English words for
+    improved translation accuracy.
+
+    :param word: The word to be translated.
+    :param language: The target language ('latin' or 'english') for translation.
+    :param dictionary: The Latin-English dictionary.
+    :param use_base: Whether to use the base form of English words for translation.
+    :return: A list of translations for the input word in the target language.
+    """
+
     language_dict = dictionary.get(language.lower())
     
     if language_dict is None:

@@ -2,7 +2,19 @@ import openai
 from info import *
 from web_driver import *
 
-def solve():
+
+def solve() -> None:
+    """
+    Use OpenAI to generate a thesis sentence for a Latin composition assignment.
+
+    This function uses OpenAI to generate a thesis sentence for a Latin composition assignment based on the content of a
+    web page. It retrieves a Latin poem, a prompt, and specific requirements from the web page and then constructs a
+    question to provide to OpenAI's model. After receiving a response from OpenAI, it enters the generated thesis
+    sentence into the web page.
+
+    :return: None
+    """
+    
     global openai_enabled
     global openai_token
     global openai_model

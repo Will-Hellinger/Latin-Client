@@ -10,7 +10,14 @@ true_element = 'timed_morphology_answer_true'
 timer_element = 'timed_morphology_timer'
 morphology_dictionary = 'timed_morphology_dictionary'
 
-def check_true():
+def check_true() -> bool:
+    """
+    Check if the current question is marked as true (correct).
+
+    :return: True if the question is marked as true, False if marked as false, or None if the question has expired or
+             has an invalid security label.
+    """
+
     ui_title = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
     if 'freak' in str(ui_title.text).lower():
         return True
@@ -23,7 +30,16 @@ def check_true():
     else:
         return False
 
-def check_timout(word: str, definition: str, data: dict):
+def check_timout(word: str, definition: str, data: dict) -> bool:
+    """
+    Check if a question has timed out or if its definition matches the expected one.
+
+    :param word: The word associated with the question.
+    :param definition: The expected definition of the word.
+    :param data: A dictionary containing definitions and their correctness status.
+    :return: True if the question has timed out or if its definition does not match the expected one, False otherwise.
+    """
+
     ui_title = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
 
     if word in str(ui_title.text) and definition in str(ui_title.text):
@@ -37,7 +53,15 @@ def check_timout(word: str, definition: str, data: dict):
         return True
 
 
-def wait_reload(word1: str, word2: str):
+def wait_reload(word1: str, word2: str) -> None:
+    """
+    Wait for the page to reload with new words.
+
+    :param word1: The first word to wait for.
+    :param word2: The second word to wait for.
+    :return: None
+    """
+
     while True:
         if word1 == str(driver.find_element(By.XPATH, f"// p[@id='{form_element}']").text).split('\n')[0] and word2 == str(driver.find_element(By.XPATH, f"// p[@id='{stimuli_element}']").text):
             time.sleep(.5)
@@ -46,12 +70,21 @@ def wait_reload(word1: str, word2: str):
             break
 
 
-def solver():
+def solver() -> None:
+    """
+    Automatically solve timed morphology questions on a web page.
+
+    This function automates the process of answering timed morphology questions on a web page. It retrieves information
+    about the current question, checks if it's already present in the dictionary, and submits an answer accordingly.
+
+    :return: None
+    """
+    
     word = str(driver.find_element(By.XPATH, f"// p[@id='{form_element}']").text).split('\n')[0]
     definition = str(driver.find_element(By.XPATH, f"// p[@id='{stimuli_element}']").text)
 
     #This is honestly only for windows
-    file_name = encodeFilename(str(word))
+    file_name = encode_file_name(str(word))
 
     if not os.path.exists(f'.{subDirectory}data{subDirectory}{morphology_dictionary}{subDirectory}{file_name}.json'):
         print(f'{word} not found, creating entry.', end='\r')

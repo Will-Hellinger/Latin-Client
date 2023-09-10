@@ -3,7 +3,6 @@ try:
     import time
     import pynput
     import sys
-    import playsound
     import threading
     import random
     import glob
@@ -23,7 +22,13 @@ except Exception as error:
 update = True
 login_skip = False
 
-def spoofer():
+def spoofer() -> None:
+    """
+    Function to spoof activity by changing the web page activity periodically.
+
+    :return: None
+    """
+    
     while True:
         delay = random.randint(1000, 1500)/100
 
@@ -31,7 +36,13 @@ def spoofer():
         time.sleep(delay)
 
 
-def debugger_tool():
+def debugger_tool() -> None:
+    """
+    Function to launch the debugger tool for various tasks such as injecting tokens and reloading modules.
+
+    :return: None
+    """
+
     spoof_active = False
     node_active = False
     module_strings = ['infinitive_morphology', 'noun_adj', 'synopsis', 'timed_morphology', 'timed_vocabulary', 'readings', 'compositions', 'catullus']
@@ -129,7 +140,18 @@ except Exception as error:
 print(f'[+] Starting Client v{version}')
 
 
-def wait_till(by=None, type=None, keys="", click=False, get_link=""):
+def wait_till(by=None, type=None, keys: str = "", click: bool = False, get_link: str = "") -> None:
+    """
+    Function to wait for a web element to appear and optionally perform actions like clicking or entering keys.
+
+    :param by: The type of search to be used (e.g., By.ID, By.CLASS_NAME).
+    :param type: The value of the search (e.g., 'edit-mail').
+    :param keys: Keys to be sent if specified.
+    :param click: Whether to click on the element if it's found.
+    :param get_link: URL link to navigate to if specified.
+    :return: None
+    """
+
     while True:
         try:
             if get_link != "":
@@ -147,7 +169,13 @@ def wait_till(by=None, type=None, keys="", click=False, get_link=""):
             time.sleep(.1)
 
 
-def get_token():
+def get_token() -> str:
+    """
+    Function to retrieve the token from cookies.
+
+    :return: The token value as a string.
+    """
+
     token = None
     
     cookies = driver.get_cookies()
@@ -157,7 +185,13 @@ def get_token():
     return token
 
 
-def on_press(key):
+def on_press(key) -> None:
+    """
+    Function to handle keypress events.
+
+    :param key: The key that was pressed.
+    """
+
     global doAction, actionButton, enterKey
     try:
         if key == pynput.keyboard.Key.enter:
@@ -174,10 +208,12 @@ listener.start()
 
 # ---------->SETUP END<----------
 
-def heheHA():
-    playsound.playsound(f'.{subDirectory}data{subDirectory}sounds{subDirectory}test.mp3')
+def heheHA() -> None:
+    playsound.playsound(f'.{subDirectory}data{subDirectory}sounds{subDirectory}kitty.mp3')
 
 try:
+    import playsound
+    
     if int(random.randint(1,50)) == 1 and funnySound == True:
         threading.Thread(target=heheHA).start()
 except:
