@@ -468,3 +468,4 @@ try:
 
 except:
     setup()
+    load_settings()
