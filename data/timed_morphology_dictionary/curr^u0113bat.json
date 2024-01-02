@@ -7,5 +7,10 @@
     "3rd person": true,
     "deponent": false,
     "not deponent": true,
-    "perfect": false
+    "perfect": false,
+    "1st person": true,
+    "2nd person": true,
+    "past": true,
+    "future": true,
+    "present": true
 }

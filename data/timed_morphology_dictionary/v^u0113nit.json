@@ -17,5 +17,6 @@
     "semi-deponent": false,
     "future": false,
     "imperfect": false,
-    "pluperfect": false
+    "pluperfect": false,
+    "past": true
 }

@@ -1,6 +1,6 @@
 {
     "ablative": true,
-    "plural": false,
+    "plural": true,
     "neuter": true,
     "nominative": false,
     "dative": false,

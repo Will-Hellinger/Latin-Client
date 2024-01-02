@@ -7,5 +7,9 @@
     "1st person": false,
     "subjunctive": false,
     "plural": true,
-    "passive": true
+    "passive": true,
+    "perfect": true,
+    "2nd person": false,
+    "past": false,
+    "future": false
 }

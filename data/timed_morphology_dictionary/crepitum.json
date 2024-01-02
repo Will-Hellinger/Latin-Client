@@ -1,0 +1,13 @@
+{
+    "accusative": true,
+    "plural": true,
+    "feminine": false,
+    "masculine": false,
+    "2nd person": false,
+    "3rd person": false,
+    "past": false,
+    "future": false,
+    "nominative": false,
+    "dative": false,
+    "ablative": false
+}

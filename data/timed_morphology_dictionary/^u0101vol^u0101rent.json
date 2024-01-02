@@ -4,5 +4,9 @@
     "3rd person": true,
     "2nd person": false,
     "plural": true,
-    "deponent": false
+    "deponent": false,
+    "active": false,
+    "1st person": true,
+    "past": true,
+    "future": true
 }

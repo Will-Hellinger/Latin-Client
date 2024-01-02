@@ -5,5 +5,8 @@
     "semi-deponent": false,
     "subjunctive": true,
     "1st person": false,
-    "imperative": false
+    "imperative": false,
+    "2nd person": false,
+    "past": false,
+    "future": false
 }

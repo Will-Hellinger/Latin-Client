@@ -5,9 +5,11 @@ This is a Python script designed to aid and or automate certain tasks in LTHS La
 ## <u>Setup</u>
 
 1. Clone the repository onto your local machine.
-2. Install the required packages by running `pip install -r requirements.txt`.
-3. Configure the `settings.json` file with your Schoology username, password, and the link to your Latin Schoology course (should be in the data folder).
-4. Run the script using `python main.py` or `python3 main.py`.
+2. Open a terminal in the project directory and create a virtual environment by running: `python -m venv venv`
+3. Enter the Virtual Environment via `source venv/bin/activate`. On Windows use `venv\Scripts\activate`. (Each time you run the project you need to run this command in the terminal)
+4. Install the requireements via `pip install -r requirements.txt`
+5. Configure the `settings.json` file with your Schoology username, password, and the link to your Latin Schoology course (should be in the data folder).
+6. Run the script using `python main.py` or `python3 main.py`. (Remember to run the source command to enter the project first each time)
 
 ## <u>Features</u>
 

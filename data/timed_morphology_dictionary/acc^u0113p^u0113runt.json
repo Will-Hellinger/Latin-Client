@@ -6,5 +6,7 @@
     "2nd person": false,
     "perfect": true,
     "plural": true,
-    "singular": false
+    "singular": false,
+    "past": false,
+    "future": false
 }

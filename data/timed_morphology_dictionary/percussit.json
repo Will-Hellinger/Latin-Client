@@ -2,5 +2,10 @@
     "imperative": false,
     "singular": true,
     "3rd person": true,
-    "deponent": false
+    "deponent": false,
+    "active": false,
+    "1st person": true,
+    "2nd person": true,
+    "past": true,
+    "future": true
 }

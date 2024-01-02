@@ -1,0 +1,102 @@
+{
+    "singular": {
+        "inverse": ["plural"],
+        "markers": ["us", "a", "um", "o", "e"]
+    },
+    "plural": {
+        "inverse": ["singular"],
+        "markers": ["i", "ae", "a", "os", "es"]
+    },
+    "feminine": {
+        "inverse": ["masculine", "neuter"],
+        "markers": ["a", "ae"]
+    },
+    "masculine": {
+        "inverse": ["feminine", "neuter"],
+        "markers": ["us", "i"]
+    },
+    "neuter": {
+        "inverse": ["feminine", "masculine"],
+        "markers": ["um", "a"]
+    },
+    "1st person": {
+        "inverse": ["2nd person", "3rd person"],
+        "markers": ["o", "m", "i"]
+    },
+    "2nd person": {
+        "inverse": ["1st person", "3rd person"],
+        "markers": ["s", "tis"]
+    },
+    "3rd person": {
+        "inverse": ["1st person", "2nd person"],
+        "markers": ["t", "nt"]
+    },
+    "present": {
+        "inverse": ["past", "future"],
+        "markers": ["o", "m", "s", "t", "mus", "tis", "nt"]
+    },
+    "past": {
+        "inverse": ["present", "future"],
+        "markers": ["bam", "bas", "bat", "bamus", "batis", "bant"]
+    },
+    "future": {
+        "inverse": ["present", "past"],
+        "markers": ["bo", "bis", "bit", "bimus", "bitis", "bunt"]
+    },
+    "nominative": {
+        "inverse": ["accusative", "genitive", "dative"],
+        "markers": []
+    },
+    "accusative": {
+        "inverse": ["nominative", "genitive", "dative"],
+        "markers": []
+    },
+    "genitive": {
+        "inverse": ["nominative", "accusative", "dative"],
+        "markers": ["i", "orum", "arum", "um"]
+    },
+    "dative": {
+        "inverse": ["nominative", "accusative", "genitive"],
+        "markers": ["o", "is"]
+    },
+    "positive": {
+        "inverse": ["comparative", "superlative"],
+        "markers": []
+    },
+    "comparative": {
+        "inverse": ["positive", "superlative"],
+        "markers": ["ior", "ius"]
+    },
+    "superlative": {
+        "inverse": ["positive", "comparative"],
+        "markers": ["issimus", "issima", "issimum"]
+    },
+    "perfective": {
+        "inverse": ["imperfective", "progressive"],
+        "markers": []
+    },
+    "imperfective": {
+        "inverse": ["perfective", "progressive"],
+        "markers": []
+    },
+    "active": {
+        "inverse": ["passive"],
+        "markers": []
+    },
+    "passive": {
+        "inverse": ["active"],
+        "markers": []
+    },
+    "indicative": {
+        "inverse": ["subjunctive", "imperative"],
+        "markers": []
+    },
+    "subjunctive": {
+        "inverse": ["indicative", "imperative"],
+        "markers": []
+    },
+    "imperative": {
+        "inverse": ["indicative", "subjunctive"],
+        "markers": []
+    }
+}

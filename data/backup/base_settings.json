@@ -7,11 +7,13 @@
         "browser-type" : "Chrome",
         "timeout-delay" : "5",
 	    "fake-human" : false,
+        "noun-adjective-chart" : "default",
         "google-trans-timed_vocab-fallback" : false,
-        "google-trans-compositions-fallback" : false,
+        "google-trans-compositions-fallback" : true,
         "openai-catullus" : false,
         "tracking" : false,
-        "synonyms-compositions-fallback" : false
+        "synonyms-compositions-fallback" : false,
+        "prediction-based-morphology" : true
     },
     "schoology": {
         "latin-link": "none",

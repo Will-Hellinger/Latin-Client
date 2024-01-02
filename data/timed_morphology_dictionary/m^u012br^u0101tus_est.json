@@ -8,5 +8,8 @@
     "not deponent": false,
     "deponent": true,
     "3rd person": true,
-    "plural": false
+    "plural": false,
+    "2nd person": false,
+    "past": false,
+    "future": false
 }

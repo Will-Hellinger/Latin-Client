@@ -3,5 +3,10 @@
     "masculine": false,
     "singular": false,
     "genitive": false,
-    "ablative": true
+    "ablative": true,
+    "neuter": false,
+    "1st person": true,
+    "3rd person": true,
+    "past": true,
+    "future": true
 }

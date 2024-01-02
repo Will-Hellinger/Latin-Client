@@ -11,8 +11,8 @@ try:
     import updater
     import node
     from info import *
-    from discord_rpc import *
     from web_driver import *
+    from discord_rpc import *
 
     import infinitive_morphology, noun_adj, synopsis, timed_morphology, timed_vocabulary, readings, compositions, catullus #custom modules
 except Exception as error:
@@ -329,10 +329,10 @@ while True:
                 case 'noun-adj':
                     noun_adj.solver()
             
-                case 'timed_morphology':
+                case 'timed morphology':
                     timed_morphology.solver()
             
-                case 'timed_vocabulary':
+                case 'timed vocabulary':
                     timed_vocabulary.solver()
             
                 case 'synopsis':
@@ -358,6 +358,5 @@ while True:
     except Exception as error:
         print(f'error: {error}')
 
-    
     time.sleep(.1)
 driver.close()

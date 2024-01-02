@@ -17,5 +17,6 @@
     "1st person": false,
     "subjunctive": false,
     "present": false,
-    "future perfect": false
+    "future perfect": false,
+    "past": true
 }

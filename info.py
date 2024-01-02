@@ -18,7 +18,7 @@ try:
 except:
     nltk_usable = False
 
-version = 3.2
+version = 3.3
 user = 'none'
 server_url = 'http://localhost:3000'
 
@@ -115,9 +115,9 @@ def load_settings() -> None:
 
     global human_mode, discord_rpc, funnySound
     global latinLink, schoologyUser, schoologyPass, delay, webbrowserType, actionButton, tracking
-    global compositions_fallback, timed_vocab_fallback, openai_enabled, openai_token, openai_model, compositions_synonyms_enabled
+    global compositions_fallback, timed_vocab_fallback, openai_enabled, openai_token, openai_model, compositions_synonyms_enabled, prediction_based_morphology, noun_adj_chart_name
 
-    settings = json.load(open(f'{path}settings.json', mode='r'))
+    settings: dict = json.load(open(f'{path}settings.json', mode='r'))
 
     actionButton = settings['configuration'].get('action-button')
     if actionButton == None:
@@ -126,11 +126,13 @@ def load_settings() -> None:
     webbrowserType = settings['configuration'].get('browser-type')
     delay = settings['configuration'].get('timeout-delay')
     human_mode = settings['configuration'].get('fake-human')
+    noun_adj_chart_name = settings['configuration'].get('noun-adjective-chart')
     timed_vocab_fallback = settings['configuration'].get('google-trans-timed_vocab-fallback')
     compositions_fallback = settings['configuration'].get('google-trans-compositions-fallback')
     compositions_synonyms_enabled = settings['configuration'].get('synonyms-compositions-fallback') #do NOT recomend turning on, it helps improve points by little amounts and quadruples the inputs, but still an option
+    prediction_based_morphology = settings['configuration'].get('prediction-based-morphology')
 
-    openai_enabled = settings['configuration'].get('')
+    openai_enabled = settings['configuration'].get('openai-catullus')
     openai_token = settings['open-ai'].get('token')
     openai_model = settings['open-ai'].get('model')
 
@@ -151,10 +153,10 @@ def encode_file_name(file_name: str) -> str:
     :return: The encoded file name as a string.
     """
 
-    remove_list = ['\\', '?', '%', '*', ':', '|', '"', '<', '>', ' ']
-    replace_list = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)', '_']
-    for a in range(len(remove_list)):
-        file_name = file_name.replace(str(remove_list[a]), str(replace_list[a]))
+    replace_dict: dict = {'\\': '(bs)', '?': '(qm)', '%': '(ps)', '*': '(a)', ':': '(c)', '|': '(p)', '"': '(qm)', '<': '(fa)', '>': '(ba)', ' ': '_'}
+
+    for key, value in replace_dict.items():
+        file_name = file_name.replace(key, value)
     
     file_name = file_name.encode('unicode-escape')
     file_name = file_name.decode('utf-8')
@@ -171,10 +173,10 @@ def decode_file_name(file_name: str) -> str:
     :return: The decoded file name as a string.
     """
 
-    remove_list = ['\\', '?', '%', '*', ':', '|', '"', '<', '>', ' ']
-    replace_list = ['(bs)', '(qm)', '(ps)', '(a)', '(c)', '(p)', '(qm)', '(fa)', '(ba)', '_']
-    for a in range(len(remove_list)):
-        file_name = file_name.replace(str(replace_list[a]), str(remove_list[a]))
+    replace_dict: dict = {'\\': '(bs)', '?': '(qm)', '%': '(ps)', '*': '(a)', ':': '(c)', '|': '(p)', '"': '(qm)', '<': '(fa)', '>': '(ba)', ' ': '_'}
+
+    for key, value in replace_dict.items():
+        file_name = file_name.replace(value, key)
     
     file_name = file_name.replace('^', '\\')
     file_name = file_name.encode('utf-8')
@@ -327,7 +329,7 @@ def get_browser_type() -> str:
     """
 
     while True:
-        browser_types = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera', 'Safari']
+        browser_types = ['Chrome', 'Chromium', 'Brave', 'Firefox', 'Internet Explorer', 'Edge', 'Opera']
 
         print('Browser Types:\n------------')
         for a, browser_type in enumerate(browser_types):

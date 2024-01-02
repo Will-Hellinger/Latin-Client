@@ -2,6 +2,7 @@ from web_driver import *
 import time, json
 from info import *
 
+
 try:
     from googletrans import Translator
     translator = Translator()
@@ -30,6 +31,7 @@ true_element = 'timed_vocab_answer_true'
 timer_element = 'timed_vocab_timer'
 vocab_dictionary = 'timed_vocabulary_dictionary'
 
+
 def check_true() -> bool:
     """
     Check if the current question is marked as true (correct).
@@ -49,6 +51,7 @@ def check_true() -> bool:
         return True
     else:
         return False
+
 
 def check_timout(word: str, definition: str, data: dict) -> bool:
     """

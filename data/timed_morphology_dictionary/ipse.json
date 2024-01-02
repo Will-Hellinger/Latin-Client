@@ -1,3 +1,6 @@
 {
-    "adverb": false
+    "adverb": false,
+    "dative": false,
+    "plural": true,
+    "masculine": true
 }

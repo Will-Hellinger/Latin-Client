@@ -2,7 +2,6 @@ from web_driver import *
 from info import *
 import json
 import pyinflect
-import unicodedata
 import re
 
 
@@ -25,9 +24,10 @@ def showHiddenDropdowns() -> None:
     nontoucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-content ui-body-inherit ui-collapsible-content-collapsed']")
     toucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-heading ui-collapsible-content-collapsed']")
     dropDowns = nontoucheddropDowns + toucheddropDowns
-    for a in range(len(dropDowns)):
+
+    for dropdown in dropDowns:
         newClass = 'ui-collapsible-heading'
-        driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropDowns[a])
+        driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropdown)
 
 
 def hideShownDropdowns() -> None:
@@ -42,9 +42,10 @@ def hideShownDropdowns() -> None:
     toucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-content ui-body-inherit']")
     nontoucheddropDowns = driver.find_elements(By.XPATH, f"// div[@class='ui-collapsible-heading']")
     dropDowns = nontoucheddropDowns + toucheddropDowns
-    for a in range(len(dropDowns)):
+
+    for dropdown in dropDowns:
         newClass = 'ui-collapsible-heading ui-collapsible-content-collapsed'
-        driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropDowns[a])
+        driver.execute_script(f"arguments[0].setAttribute('class','{newClass}')", dropdown)
 
 
 def find_word(element_list: list) -> str:
@@ -55,9 +56,10 @@ def find_word(element_list: list) -> str:
     :return: The text content of the first non-empty element in the list, or an empty string if none is found.
     """
 
-    for a in range(len(element_list)):
-        if str(element_list[a].text) != '':
-            return str(element_list[a].text)
+    for element in element_list:
+        if str(element.text) != '':
+            return str(element.text)
+
     return ''
 
 

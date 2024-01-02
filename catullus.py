@@ -34,7 +34,6 @@ def solve() -> None:
     for requirement in requirements:
         question += f'{requirement}\n'
 
-
     response = openai.ChatCompletion.create(model=openai_model, messages=[{"role": "user", "content": question}])
 
     thesis_input.clear()

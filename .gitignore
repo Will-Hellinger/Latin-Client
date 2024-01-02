@@ -5,3 +5,4 @@ data/settings.json
 data/timed_dictionary/.DS_Store
 data/cache
 data/misc_etc
+venv/

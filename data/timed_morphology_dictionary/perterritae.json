@@ -1,3 +1,8 @@
 {
-    "dative": true
+    "dative": true,
+    "passive": true,
+    "plural": false,
+    "singular": false,
+    "masculine": false,
+    "neuter": false
 }

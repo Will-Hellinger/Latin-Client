@@ -8,5 +8,9 @@
     "singular": true,
     "ablative": false,
     "neuter": false,
-    "nominative": false
+    "nominative": false,
+    "1st person": true,
+    "3rd person": true,
+    "past": true,
+    "future": true
 }

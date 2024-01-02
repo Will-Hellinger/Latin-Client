@@ -14,5 +14,6 @@
     "plural": false,
     "passive": false,
     "imperative": false,
-    "present": false
+    "present": false,
+    "past": true
 }

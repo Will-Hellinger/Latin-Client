@@ -7,5 +7,10 @@
     "passive": false,
     "future perfect": false,
     "indicative": false,
-    "imperative": false
+    "imperative": false,
+    "not deponent": true,
+    "1st person": false,
+    "2nd person": false,
+    "past": false,
+    "future": false
 }

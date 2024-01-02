@@ -7,5 +7,9 @@
     "3rd person": true,
     "passive": false,
     "1st person": false,
-    "semi-deponent": false
+    "semi-deponent": false,
+    "2nd person": false,
+    "past": false,
+    "future": false,
+    "present": false
 }

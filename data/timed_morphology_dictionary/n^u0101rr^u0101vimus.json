@@ -5,5 +5,13 @@
     "imperative": false,
     "2nd person": false,
     "semi-deponent": false,
-    "active": true
+    "active": true,
+    "pluperfect": false,
+    "plural": true,
+    "feminine": true,
+    "neuter": true,
+    "3rd person": true,
+    "past": true,
+    "future": true,
+    "indicative": true
 }

@@ -4,5 +4,11 @@
     "singular": false,
     "ablative": true,
     "plural": true,
-    "genitive": false
+    "genitive": false,
+    "feminine": false,
+    "neuter": false,
+    "1st person": false,
+    "3rd person": false,
+    "past": false,
+    "future": false
 }

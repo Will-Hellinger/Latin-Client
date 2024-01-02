@@ -1,3 +1,10 @@
 {
-    "comparative": false
+    "comparative": false,
+    "accusative": false,
+    "1st person": true,
+    "3rd person": true,
+    "past": true,
+    "future": true,
+    "nominative": true,
+    "genitive": true
 }

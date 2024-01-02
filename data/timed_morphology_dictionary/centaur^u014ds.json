@@ -4,5 +4,9 @@
     "masculine": true,
     "singular": false,
     "ablative": false,
-    "plural": true
+    "plural": true,
+    "1st person": false,
+    "3rd person": false,
+    "past": false,
+    "future": false
 }

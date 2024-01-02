@@ -5,5 +5,6 @@
     "3rd person": true,
     "semi-deponent": false,
     "present": true,
-    "passive": true
+    "passive": true,
+    "future perfect": false
 }

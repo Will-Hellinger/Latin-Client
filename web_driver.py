@@ -5,42 +5,50 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+from webdriver_manager.chrome import ChromeDriverManager
+
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
+
+from selenium.webdriver.ie.service import Service as IEService
+from selenium.webdriver.edge.service import Service as EdgeService
+from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManager
+
+from selenium.webdriver.chrome import service
+from webdriver_manager.opera import OperaDriverManager
+
+from webdriver_manager.core.os_manager import ChromeType
+from selenium.webdriver.chrome.service import Service as ChromeService
+
+options = webdriver.ChromeOptions()
+options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
+options.add_experimental_option('prefs', {"credentials_enable_service": False, "profile.password_manager_enabled": False})
 
 try:
-    if webbrowserType == 'Chrome' or webbrowserType == 'Chromium' or webbrowserType == 'Brave':
-        from webdriver_manager.chrome import ChromeDriverManager
-        from selenium.webdriver.chrome.options import Options
-        from webdriver_manager.core.utils import ChromeType
-        options = Options()
-        options.add_experimental_option('excludeSwitches', ['enable-logging', 'enable-automation'])
-        options.add_experimental_option('prefs', {"credentials_enable_service": False, "profile.password_manager_enabled": False})
-        if webbrowserType == 'Chrome':
-            driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
-        elif webbrowserType == 'Chromium':
+    match webbrowserType:
+        case 'Chrome':
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+        case 'Chromium':
             driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.CHROMIUM).install(), options=options)
-        elif webbrowserType == 'Brave':
+        case 'Brave':
             driver = webdriver.Chrome(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install(), options=options)
-    elif webbrowserType == 'Firefox':
-        from webdriver_manager.firefox import GeckoDriverManager
-        driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-    elif webbrowserType == 'Internet Explorer':
-        from webdriver_manager.microsoft import IEDriverManager
-        driver = webdriver.Ie(IEDriverManager().install())
+        case 'Firefox':
+            driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+        case 'Internet Explorer':
+            driver = webdriver.Ie(service=IEService(IEDriverManager().install()))
+        case 'Edge':
+            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+        case 'Opera':
+            webdriver_service = service.Service(OperaDriverManager().install())
+            webdriver_service.start()
 
-    elif webbrowserType == 'Edge':
-        from webdriver_manager.microsoft import EdgeChromiumDriverManager
-        driver = webdriver.Edge(EdgeChromiumDriverManager().install())
-
-    elif webbrowserType == 'Opera':
-        from webdriver_manager.opera import OperaDriverManager
-        driver = webdriver.Opera(OperaDriverManager().install())
-    elif webbrowserType == 'Safari':
-        driver = webdriver.Safari()
-    else:
-        raise ValueError(f'Unsupported browser: {webbrowserType}')
+            driver = webdriver.Remote(webdriver_service.service_url, options=options)
+        case _:
+            raise ValueError(f'Unsupported browser: {webbrowserType}')
 except Exception as error:
     input(f'\033[1;31;40m[-] Failed to Start Client error: {error}')
     exit()
+
 
 def loadWait(by: type, type: str) -> bool:
     """

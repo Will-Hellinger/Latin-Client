@@ -4,7 +4,12 @@
     "singular": true,
     "nominative": false,
     "neuter": false,
-    "plural": false,
+    "plural": true,
     "accusative": true,
-    "dative": false
+    "dative": false,
+    "feminine": true,
+    "2nd person": true,
+    "3rd person": true,
+    "past": true,
+    "future": true
 }
