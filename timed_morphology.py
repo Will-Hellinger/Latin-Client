@@ -3,6 +3,7 @@ import time
 import json
 from info import *
 
+
 form_element = 'timedMorph_form'
 stimuli_element = 'timedMorph_stimulus'
 false_element = 'timed_morphology_answer_false'
@@ -12,6 +13,7 @@ morphology_dictionary = 'timed_morphology_dictionary'
 
 morphology_relations_chart = f'.{subDirectory}data{subDirectory}morphology_relations.json'
 morphology_relations = json.load(open(morphology_relations_chart, mode='r', encoding='utf-8'))
+
 
 def check_true() -> bool:
     """

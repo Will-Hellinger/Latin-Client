@@ -5,6 +5,7 @@ import json
 import sys
 import time
 from bs4 import BeautifulSoup
+import argparse
 
 #This is here to verify that this is not a github page lol
 
@@ -314,27 +315,30 @@ def build_chksm() -> None:
     print(f'[+] Building chksms: {server_chksm} -> {chksm}')
 
 
-for build_command in build_commands:
-    if build_command in (sys.argv):
+def main(args):
+    parser = argparse.ArgumentParser(description='Latin Client Updater')
+    parser.add_argument('-b', '--build', action='store_true', help='Build checksum files')
+    parser.add_argument('-r', '--run', action='store_true', help='Check for updates and update if available')
+    parser.add_argument('-c', '--check', action='store_true', help='Check for updates')
+
+    args = parser.parse_args(args)
+
+    if args.build:
         start_time = time.time()
         build_chksm()
         scan_lthslatin_files(update_list=True)
 
         print(f'finished in {time.time() - start_time}')
-        break
-
-for run_command in run_commands:
-    if run_commands in (sys.argv):
+    
+    if args.run:
         if check_update() == True:
             update()
-        
-        break
-        
-for check_update_command in check_update_commands:
-    if check_update_command in (sys.argv):
+    
+    if args.check:
         if check_update(True) == True:
             print('Update found!')
         else:
             print('No updates found')
-        
-        break
+
+if __name__ == '__main__':
+    main(sys.argv[1:])

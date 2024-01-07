@@ -67,7 +67,6 @@ def solver() -> None:
         except:
             print(f'unable to scroll to element {a}')
 
-
         if 'noun' not in str(driver.title).lower():
             break
 

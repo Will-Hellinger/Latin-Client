@@ -80,23 +80,27 @@ def find_details() -> dict:
     chartFound = False
 
     latinWords = []
-    for a in range(len(blocks)):
+
+    for block in blocks:
         try:
-            latinWords.append(find_word(driver.find_elements(By.XPATH, f"// span[@class='ui-body ui-body-{str(blocks[a])} latin']")))
+            latinWords.append(find_word(driver.find_elements(By.XPATH, f"// span[@class='ui-body ui-body-{block} latin']")))
         except:
-            latinWords.append(f'unable to get word {a}')
+            latinWords.append(f'unable to get word {block}')
 
     for a in range(len(totalConjugations)):
         tempchartFound = True
         count = 0
+
         for b in range(len(totalConjugations[a])):
             if latinWords[b].endswith(totalConjugations[a][b]):
                 count += 1
             elif not latinWords[b].endswith(totalConjugations[a][b]):
                 tempchartFound = False
+
         if tempchartFound == True:
             chart = conjugationNames[a]
             chartFound = True
+
         chartBackup.append(count)
     
     if chartFound == False:

@@ -1,6 +1,7 @@
 # ---------->SETUP START<----------
 try:
     import time
+    import argparse
     import pynput
     import sys
     import threading
@@ -21,6 +22,44 @@ except Exception as error:
 
 update = True
 login_skip = False
+parser = argparse.ArgumentParser(description='LTHS Latin Client')
+
+
+def parse_args(args: list) -> None:
+    """
+    Function to parse command line arguments.
+
+    :param args: The command line arguments to be parsed.
+    :return: None
+    """
+
+    global update
+    global login_skip
+
+    parser.add_argument('--login', action='store_true', help='skip login')
+    parser.add_argument('--debugger', action='store_true', help='launch debugger')
+
+    args = parser.parse_args(args)
+
+    if args.login:
+        login_skip = True
+
+        driver.get("https://lthslatin.org/")
+        driver.execute_script(f'document.cookie = "PHPSESSID={str(sys.argv[sys.argv.index("--login") + 1])}"')
+        driver.get("https://lthslatin.org/")
+        
+    if args.debugger:
+        update = False
+
+        start_time = time.time()
+        updater.build_chksm()
+        print(f'finished in {time.time() - start_time}')
+
+        try:
+            threading.Thread(target=debugger_tool).start()
+        except Exception as error:
+            print(f'unable to launch debugger due to {error}')
+
 
 def spoofer() -> None:
     """
@@ -42,6 +81,9 @@ def debugger_tool() -> None:
 
     :return: None
     """
+
+    import PySimpleGUI as sg
+    import importlib
 
     spoof_active = False
     node_active = False
@@ -108,28 +150,8 @@ def debugger_tool() -> None:
                 break
     window.close()
 
-## DEV TOOL
-if '--debugger' in (sys.argv):
-    update = False
-        
-    start_time = time.time()
-    updater.build_chksm()
-    print(f'finished in {time.time() - start_time}')
 
-    try:
-        import PySimpleGUI as sg
-        import importlib
-        threading.Thread(target=debugger_tool).start()
-    except Exception as error:
-        print(f'unable to launch debugger due to {error}')
-    
-if '--login' in (sys.argv):
-    login_skip = True
-
-    driver.get("https://lthslatin.org/")
-    driver.execute_script(f'document.cookie = "PHPSESSID={str(sys.argv[sys.argv.index("--login") + 1])}"')
-    driver.get("https://lthslatin.org/")
-
+parse_args(sys.argv[1:])
 
 try:
     if updater.check_update() and update == True:
@@ -237,6 +259,7 @@ while True:
         print('[-] Failed to load LTHS Latin, retying')
 
 user = None
+
 if loadWait(By.CLASS_NAME, 'ui-title'):
     user = str(driver.find_element(By.CLASS_NAME, 'ui-title').text)
     user = user.split("'s")[0]
@@ -245,6 +268,7 @@ if loadWait(By.CLASS_NAME, 'ui-title'):
     print(f'[+] Located user: {user}')
 else:
     print('[-] Unable to Find User')
+
 ping_server(user, get_token()) #submits tickets and etc
 mode = 'launchpad'
 assignment = 'Latin Launchpad'
@@ -284,11 +308,13 @@ while True:
                 try:
                     if available_mode in str(element.text).lower():
                         assignment = str(element.text).lower().replace(f"{user.lower()}'s ", "")
+
                         if available_mode != mode:
                             mode = available_mode
                         
                         if discord_found:
                             update_rpc(mode, assignment)
+
                         break #once it's found the mode it immediately stops to continue with the rest of the while loop, make sure to order modes correctly if they're name dependent
                 except:
                     pass
@@ -296,14 +322,16 @@ while True:
         if 'latin' not in str(driver.title):
             break
     
-    for a in range(len(plugins)):
-        if mode == plugins[a][0]:
-            driver.execute_script(plugins[a][1])
+    for plugin in plugins:
+        if mode == plugin[0]:
+            try:
+                driver.execute_script(plugin[1])
+            except:
+                print(f'[-] plugin {plugin[0]} failed to execute')
 
     if mode == 'launchpad':
         doAction = False
         enterKey = False
-    
 
     try:
         if doAction == True:

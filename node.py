@@ -117,6 +117,7 @@ def stop_server() -> None:
     while (server_running == True):
         run_server = False
         time.sleep(.5)
+        
     run_server = True
     
 
@@ -139,8 +140,10 @@ def connect_to_peer(peer_host, peer_port, message: dict) -> None:
 
     while True:
         chunk = peer_sock.recv(message_size)
+
         if not chunk:
             break
+
         response += chunk
 
     print(f"Received response: {response.decode()}")
@@ -163,5 +166,6 @@ def get_local_ip() -> str:
         sock.close()
         
         return ip_address
+    
     except socket.error:
         return None

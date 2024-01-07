@@ -64,4 +64,5 @@ def loadWait(by: type, type: str) -> bool:
         return True
     except:
         print(f'unable to load element: {type}')
-        return False
+    
+    return False

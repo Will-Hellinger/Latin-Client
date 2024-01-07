@@ -132,10 +132,7 @@ def solve() -> None:
         print('google trans disabled')
     
     for a in range(0, len(english_texts)):
-        english_texts[a] = english_texts[a].text
-        english_texts[a] = english_texts[a].lower()
-        english_texts[a] = english_texts[a].replace(',', '')
-        english_texts[a] = english_texts[a].replace('.', '')
+        english_texts[a] = (english_texts[a].text).lower().replace(',', '').replace('.', '')
 
     for english_text in english_texts:
         if compositions_fallback == True and translator is not None:
@@ -216,25 +213,21 @@ def solve() -> None:
         span_texts = latin_input.find_elements(By.TAG_NAME, 'span')
         text = latin_input.text
 
-        if default_color == 'green' and len(span_texts) == 0:
+        if default_color == 'green':
+            if len(span_texts) != 0:
+                for span_text in span_texts:
+                    if 'red' in str(span_text.get_attribute('style')):
+                        text.replace(span_text.text, '')
+                        
             text = text.lower()
             answers.extend(text.split(' '))
 
-        elif default_color == 'green' and len(span_texts) != 0:
-            for span_text in span_texts:
-                if 'red' in str(span_text.get_attribute('style')):
-                    text.replace(span_text.text, '')
-            
-            text = text.lower()
-            
-            answers.extend(text.split(' '))
-        
         elif default_color == 'red' and len(span_texts) != 0:
             temp_answers = []
             for span_text in span_texts:
                 if 'green' in str(span_text.get_attribute('style')) or 'rgb(255,255,255)' in str(span_text.get_attribute('style')).replace(' ', ''):
                     temp_answers.append(str(span_text.text).lower())
-                
+
             answers.extend(temp_answers)
 
         all_answers.append(answers)
@@ -313,6 +306,7 @@ def solve() -> None:
                 latin_inputs[a].send_keys(' ')
             
             used_words.append(all_answers[a][b])
+
         latin_inputs[a].send_keys(Keys.ENTER)
 
     cache_file.close()

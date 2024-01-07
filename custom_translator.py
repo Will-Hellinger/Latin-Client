@@ -18,67 +18,46 @@ def get_dictionary() -> dict:
 
     :return: A dictionary containing Latin and English word mappings with morphology information.
     """
-
     dictionary = {}
     latin_dictionary = {}
     english_dictionary = {}
 
-    file_list = []
-
     dictionary_directory_names = ['latin_dictionary', 'timed_vocabulary_dictionary']
     morphology_directory_names = ['timed_morphology_dictionary']
 
-    for dictionary_name in dictionary_directory_names:
-        file_list.extend(glob.glob(f'{dict_path}{dictionary_name}{subDirectory}*.json'))
+    file_list = [file for dictionary_name in dictionary_directory_names for file in glob.glob(f'{dict_path}{dictionary_name}{subDirectory}*.json')]
 
     for file in file_list:
-        temp_data = json.load(open(file, mode='r', encoding='utf-8'))
-        english_words = []
-        morph_values = []
+        with open(file, mode='r', encoding='utf-8') as f:
+            temp_data = json.load(f)
+        english_words = [item for item in temp_data if temp_data[item]]
 
-        for item in temp_data:
-            if temp_data[item] == True:
-                english_words.append(item)
-        
-        latin_word = file.split(subDirectory)
-        latin_word = latin_word[len(latin_word) - 1]
+        latin_word = file.split(subDirectory)[-1]
 
         for dictionary_name in morphology_directory_names:
             morph_dict = {}
-
+            
             try:
-                if os.path.exists(f'{dict_path}{dictionary_name}{subDirectory}{latin_word.lower()}'):
-                    morph_dict = json.load(open(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}', mode='r', encoding='utf-8'))
+                morph_file_path = f'{dict_path}{dictionary_name}{subDirectory}{latin_word.lower()}'
 
-                if os.path.exists(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}'):
-                    morph_dict = json.load(open(f'{dict_path}{dictionary_name}{subDirectory}{latin_word}', mode='r', encoding='utf-8'))
+                if os.path.exists(morph_file_path):
+                    with open(morph_file_path, mode='r', encoding='utf-8') as f:
+                        morph_dict = json.load(f)
 
-                for morph_value in morph_dict:
-                    if morph_dict[morph_value] == True:
-                        morph_values.append(morph_value)
+                morph_values = [morph_value for morph_value in morph_dict if morph_dict[morph_value]]
             except:
                 morph_dict = {} # just in case file is broken
 
-        latin_word = decode_file_name(latin_word).replace('.json', '')
-        latin_word = latin_word.replace(',', '') #just in case
-
-        latin_word = latin_word.lower()
+        latin_word = decode_file_name(latin_word).replace('.json', '').replace(',', '').lower()
 
         latin_dictionary[latin_word] = {"english" : english_words, "morphology" : morph_values}
 
         for english_word in english_words:
             english_word = english_word.lower()
+            english_dictionary.setdefault(english_word, [])
 
-            if english_dictionary.get(english_word) == None:
-                english_dictionary[english_word] = [latin_word]
-            
-            elif item not in english_dictionary.get(english_word):
-                latin_words = list(english_dictionary[english_word])
-
-                if latin_word not in latin_words:
-                    latin_words.append(latin_word)
-
-                english_dictionary[english_word] = latin_words
+            if latin_word not in english_dictionary[english_word]:
+                english_dictionary[english_word].append(latin_word)
     
     dictionary['english'] = english_dictionary
     dictionary['latin'] = latin_dictionary
@@ -96,39 +75,27 @@ def convert_to_base(word: str) -> str:
     :param word: The English word to be converted.
     :return: The base form of the English word.
     """
+    p = inflect.engine()
+    words = word.split(' ')
+    base_words = []
 
-    if len(word.split(' ')) >= 2:
-        word = word.split(' ')
-    else:
-        word = [word, '']
-        
-    temp = ''
-    for a in range(len(word)):
-        if word[a] == '':
+    for word in words:
+        if word == '':
             continue
-        
-        backup = word[a]
-            
+
         try:
-            word_type = nltk.pos_tag(nltk.word_tokenize(word[a]))[0][1]
-            p = inflect.engine()
+            word_type = nltk.pos_tag(nltk.word_tokenize(word))[0][1]
 
-            if word_type.startswith("N") and p.singular_noun(word[a]) != False:
-                word[a] = p.singular_noun(word[a])
-            elif word_type.startswith("V") and pyinflect.getInflection(word[a], 'VB')[0] != False:
-                word[a] = pyinflect.getInflection(word[a], 'VB')[0]
+            if word_type.startswith("N") and p.singular_noun(word) is not False:
+                word = p.singular_noun(word)
+            elif word_type.startswith("V") and pyinflect.getInflection(word, 'VB')[0] is not False:
+                word = pyinflect.getInflection(word, 'VB')[0]
 
-            if a != 0:
-                temp += ' '
-            
-            temp += word[a]
+            base_words.append(word)
         except:
-            if a != 0:
-                temp += ' '
-            
-            temp += backup
+            base_words.append(word)
 
-    return temp
+    return ' '.join(base_words)
 
 
 def translate(word: str, language: str, dictionary: dict = get_dictionary(), use_base: bool = False) -> list:
@@ -139,7 +106,7 @@ def translate(word: str, language: str, dictionary: dict = get_dictionary(), use
     improved translation accuracy.
 
     :param word: The word to be translated.
-    :param language: The target language ('latin' or 'english') for translation.
+    :param language: The starting language ('latin' or 'english') for translation.
     :param dictionary: The Latin-English dictionary.
     :param use_base: Whether to use the base form of English words for translation.
     :return: A list of translations for the input word in the target language.

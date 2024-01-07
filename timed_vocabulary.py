@@ -11,7 +11,7 @@ try:
     translator.translate('le tit', src='fr', dest='en')
     translater_delay = time.time() - translater_delay
 
-    if translater_delay < 0: #disabled for now cause im lazy
+    if translater_delay < 2: #disabled for now cause im lazy
         runPrediction = True
         import nltk
         nltk.download('wordnet')
@@ -19,6 +19,7 @@ try:
         from nltk.corpus import wordnet
     else:
         runPrediction = False
+        print('prediction mode disabled')
     
 except:
     runPrediction = False
@@ -41,12 +42,16 @@ def check_true() -> bool:
     """
 
     ui_title = driver.find_element(By.XPATH, f"// h3[@class='showScore ui-title']")
+
     if 'freak' in str(ui_title.text).lower():
         return True
+    
     if 'This question has expired due to inactivity or it has an invalid security label.' == str(ui_title.text):
         return None
+    
     response = str(ui_title.text).split('\n')[1]
     score = int(str(driver.find_element(By.XPATH, f"// p[@id='laststreak']").text).split(': ')[1])
+
     if (response.endswith((str(score + 1) + '.')) and 'current streak is' in response.lower()):
         return True
     else:
@@ -139,7 +144,6 @@ def solver() -> None:
             elif check_true() == None:
                 print('Inactivity or invalid security label')
                 
-
         elif definition not in items:
             print(f'no entry for {definition} within {word}', end='\r')
 
